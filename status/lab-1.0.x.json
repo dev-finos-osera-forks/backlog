@@ -1,0 +1,34 @@
+{
+  "line": "lab-1.0.x",
+  "book_version": "v2026.09.16",
+  "as_of": "2026-09-09T16:29:29Z",
+  "status": "partially remediated",
+  "in_scope": 11,
+  "fixed": [
+    {
+      "cve": "CVE-2022-25647",
+      "coordinates": [
+        "com.google.code.gson:gson@2.8.8+osera-patch.001"
+      ],
+      "set_id": "gson-2.8.8+osera-patch.001",
+      "at": "2026-09-09T16:30:00Z"
+    }
+  ],
+  "in_progress": [],
+  "open": [
+    "CVE-2016-1000031",
+    "CVE-2018-21234",
+    "CVE-2021-42392",
+    "CVE-2022-23221",
+    "CVE-2022-40151",
+    "CVE-2022-41966",
+    "CVE-2022-45868",
+    "CVE-2023-24998",
+    "CVE-2024-47072",
+    "CVE-2025-48976"
+  ],
+  "not_remediable": [],
+  "new_since_book": [],
+  "outside_book": [],
+  "severity_source": "NVD CVSS 3.1 base score as recorded at NVD; GitHub's advisory word (CRITICAL 9, HIGH 7, MODERATE 4, LOW 0.1) only where NVD has no score yet"
+}

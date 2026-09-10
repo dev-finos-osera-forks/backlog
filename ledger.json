@@ -1,0 +1,13 @@
+{
+  "events": [
+    {
+      "type": "promoted",
+      "line": "lab-1.0.x",
+      "set_id": "gson-2.8.8+osera-patch.001",
+      "coordinates": ["com.google.code.gson:gson@2.8.8+osera-patch.001"],
+      "cves": ["CVE-2022-25647"],
+      "producer": "d1gital-f playground producer",
+      "at": "2026-09-09T16:30:00Z"
+    }
+  ]
+}

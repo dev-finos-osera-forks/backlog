@@ -1,0 +1,4 @@
+line_id,framework_version,boot_version,security_version,scope,source,remediation_status,book_version,as_of,in_scope,fixed,in_progress,open,not_remediable,new_since_book,outside_book
+spring-framework-5.3.x,5.3.39,2.7.18,5.7.11,wave-1,Board 19 Aug 2026 and risk-navigator #7 (Dov's curated list applied 3 Sept),partially remediated,v2026.09.16,2026-09-09T16:29:29Z,121,0,26,95,0,0,0
+demo-0.1.x,,,,lab,"OSERA lab demo project: jackson-core 2.14.2 and snakeyaml 1.33 (in the book), commons-io 2.11.0, commons-text 1.10.0",partially remediated,v2026.09.16,2026-09-09T16:29:29Z,3,0,1,2,0,0,0
+lab-1.0.x,,,,lab,"OSERA lab line: gson 2.8.8, xstream 1.4.19, commons-fileupload 1.3.2, h2 2.0.204, jodd-json 5.0.3, velocity-engine-core 2.2. Fixed through the Exchange, one patch at a time",partially remediated,v2026.09.16,2026-09-09T16:29:29Z,11,1,0,10,0,0,0
