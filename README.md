@@ -1,31 +1,41 @@
 # OSERA backlog
 
-The CVEs OSERA fixes on the lines it supports, in priority order, one GitHub issue each. Says what must be fixed, in what order and why. Never how: how a CVE gets fixed is the producer's call.
+**DEV ONLY.** This is `dev-finos-osera-forks/backlog`, the dev organisation's copy of the OSERA backlog, where the line manager is built and rehearsed. The real one is `finos-osera-forks/backlog`. Two things exist only here: the `dev-1.0.x` line and `advisories/dev.json`.
 
-| File | What it holds |
-|---|---|
-| `supported-lines.csv` | The lines OSERA supports, one row each: Framework, Boot and Security versions, status, where the decision came from |
-| `cve-backlog.json` | The order book. One entry per CVE and library at the version the line uses. Scores are the CVSS 3.1 base score as recorded at NVD (OSV where NVD has nothing, `cvss_version` says which). Priority and rules are the Risk Navigator's, quoted on every row. Order: CISA KEV first, then the priority band, then the score, then EPSS |
-| `cve-backlog.md` | The same book as a readable table |
-| `coordinates.csv` | Every library and version each supported line resolves to, the book's entries are the subset with a qualifying CVE. Read by the line manager to watch the whole line |
-| `schema/` | What one entry must look like |
-| `.github/ISSUE_TEMPLATE/cve.md` | The issue template, a person can use it by hand for a CVE that is not in the book yet |
+The vulnerabilities (CVEs) OSERA fixes on the lines it supports, in priority order, one GitHub issue each. The backlog says what to fix, why, and where each one stands. How a CVE gets fixed is the producer's decision.
 
-## How the book moves
+## Files
 
-1. **A pull request.** ControlPlane rebuilds the book from the supported lines, the advisories, the scores and the Risk Navigator rules, and opens a pull request with the new `cve-backlog.json`. The `validate` check runs on it: every entry matches the schema, every line named is a supported line.
-2. **A review and a merge.** Main is protected, the pull request needs approval.
-3. **A tag.** An admin tags the merge commit with the book version, `v2026.09.09`. The tag is the act of publishing the book. Merging is not.
-4. **One issue per CVE.** The `open-issues` workflow runs on the tag. For every CVE in the book it looks for an issue with that CVE id in the title anywhere in this organisation. If none is found: it opens one from the template, labelled with the priority band and the lines. If one is found: it leaves it alone, and comments if the priority changed. A CVE that left the book gets a comment on its open issue, never a close. The workflow never closes, reopens, assigns or deletes anything, and running it twice changes nothing.
-5. **The producer takes the issue.** The producer moves it into the patch repository for that project (a fork under this organisation), and tracks the work there. The org project board follows the issue.
-6. **The gate closes it.** When the patched release is published through the OSERA Exchange, the gate closes the issue with the published coordinates.
+| File | Written by | What it holds |
+|---|---|---|
+| `supported-lines.csv` | people, then the line manager | One row per supported line. People declare `line_id`, `ecosystem` (maven, pypi, npm), `anchor` (the artifact whose version fixes every package in the line, for Java the Spring Boot dependency list), `components` (the parts people recognise, as `coordinates@version`), `scope`, `source`. The line manager fills `status` (not fixed, in progress, fixed), `book_version`, `as_of`, the five counts and `consume`, the OSERA BOM a bank imports |
+| `rules/prioritisation.yaml` | people | The Risk Navigator rules the line manager applies: the score bands, the signals, which CVEs are in, which priority each gets, the curated list |
+| `cve-backlog.json` | the line manager | The backlog. One entry per CVE and library and line, entry schema 0.6.0, with a `status` per entry. CVSS 3.1 score from NVD, priority and rules from the Risk Navigator |
+| `cve-excluded.json` | the line manager | Every CVE the scan found that the rules left out, with the reason |
+| `cve-backlog.md` | the line manager | The backlog as a table |
+| `graphs/<line_id>/` | the line manager | The dependency graph of the line, CycloneDX, one file per resolver |
+| `bom/<line_id>/pom.xml` | the line manager | The OSERA BOM of the line, the same file it publishes in the release repository |
+| `status/<line_id>.json` | the line manager | The lists behind the counts of the line row |
+| `schema/` | people | What an entry must look like |
+| `advisories/dev.json` | people, dev only | Advisories in OSV's shape the line manager reads next to OSV here, to invent a CVE on a dev line |
+| `.github/ISSUE_TEMPLATE/cve.md` | people | The issue template |
+
+## How it works
+
+1. **Members approve the line.** A line is one row in `supported-lines.csv`. Two approvers approve the pull request that adds it. They approve the line, and not each CVE.
+2. **The line manager builds the backlog.** From the line's graph, the advisories, the scores and the rules file, it writes `cve-backlog.json` and opens a pull request. The `validate` check confirms every entry matches the schema and names a supported line. The line manager merges its own pull request when the check is green. Nobody approves the backlog.
+3. **The line manager tags.** It tags the merge commit, `v2026.09.16` style. Merging alone publishes nothing.
+4. **The tag opens the issues.** The `open-issues` workflow opens one issue per CVE, labelled with the priority band and the line. A CVE that already has an issue anywhere in the organisation is left alone, with a comment if its priority changed. The workflow never closes or deletes anything.
+5. **Producers fix, the line manager closes.** A producer moves the issue into the patch repository and works there. When the fixed release is promoted into the release repository, the line manager marks the entry fixed, publishes the BOM, and closes the issue with the published coordinates and the BOM version.
+
+Never in this repository: how a CVE gets fixed, which member asked for what, anything a member chose not to fix.
 
 ## Labels
 
-`cve` on every issue from the book, `P0 / Act`, `P1 / Attend`, `P2 / Investigate` for the Risk Navigator priority, `kev` when the CVE is on the CISA Known Exploited Vulnerabilities list, and one label per supported line. The workflow creates them here. A patch repository that wants to keep them on a transferred issue needs the same labels.
+`cve` on every issue, `P0 / Act`, `P1 / Attend`, `P2 / Investigate` for the priority, `kev` for the CISA Known Exploited Vulnerabilities list, one label per line.
 
-## Where the rules come from
+## Sources
 
-- The supported lines and the Wave 1 scope: the OSERA Board and https://github.com/finos-osera/risk-navigator/issues/7
-- The prioritisation rules and the priority bands: https://github.com/finos-osera/risk-navigator/issues/7
-- The end to end flow: https://github.com/finos-osera/operations-taskforce/issues/23
+- Lines and Wave 1 scope: the OSERA Board and https://github.com/finos-osera/risk-navigator/issues/7
+- Prioritisation rules: https://github.com/finos-osera/risk-navigator/issues/7
+- The flow: https://github.com/finos-osera/operations-taskforce/issues/23

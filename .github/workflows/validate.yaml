@@ -33,6 +33,11 @@ jobs:
       - name: The book names its schema
         run: |
           set -euo pipefail
+          if [ ! -f "$BOOK" ]
+          then
+            echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
+            exit 0
+          fi
           SCHEMA="schema/$(jq -r '.entry_schema' "$BOOK")"
           if [ -f "$SCHEMA" ]
           then
@@ -47,6 +52,11 @@ jobs:
       - name: Every entry matches the schema
         run: |
           set -euo pipefail
+          if [ ! -f "$BOOK" ]
+          then
+            echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
+            exit 0
+          fi
           mkdir -p entries
           COUNT="$(jq '.entries | length' "$BOOK")"
           for I in $(seq 0 $((COUNT - 1)))
@@ -61,6 +71,11 @@ jobs:
       - name: Every line is a supported line
         run: |
           set -euo pipefail
+          if [ ! -f "$BOOK" ]
+          then
+            echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
+            exit 0
+          fi
           KNOWN="$(tail -n +2 "$LINES" | cut -d, -f1 | sort -u)"
           USED="$(jq -r '[.entries[].lines[]] | unique | .[]' "$BOOK")"
           UNKNOWN="$(comm -13 <(echo "$KNOWN") <(echo "$USED"))"
@@ -75,6 +90,11 @@ jobs:
       - name: No duplicate entry
         run: |
           set -euo pipefail
+          if [ ! -f "$BOOK" ]
+          then
+            echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
+            exit 0
+          fi
           DUPLICATES="$(jq -r '[.entries[] | .cve + " " + .library] | group_by(.) | map(select(length > 1) | .[0]) | .[]' "$BOOK")"
           if [ -n "$DUPLICATES" ]
           then
