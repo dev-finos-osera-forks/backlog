@@ -1,0 +1,26 @@
+{
+  "line": "dev-1.0.x",
+  "book_version": "",
+  "as_of": "2026-09-14T15:13:12Z",
+  "status": "not fixed",
+  "in_scope": 3,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2022-1471",
+      "library": "org.yaml:snakeyaml"
+    },
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "GHSA-r7wm-3cxj-wff9",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [],
+  "consume": ""
+}
