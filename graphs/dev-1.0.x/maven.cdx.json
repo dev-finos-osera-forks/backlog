@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:ddbdf7af-60b4-4bec-84b2-49e2dc4d86a5",
+ "serialNumber": "urn:uuid:ff7a9748-835b-4c43-aa84-5f731e300d45",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-09-14T15:36:25Z",
+  "timestamp": "2026-09-14T19:58:33Z",
   "tools": {
    "components": [
     {
@@ -27,6 +27,22 @@
     {
      "name": "osera:line",
      "value": "dev-1.0.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "groups:com.fasterxml.jackson.core,com.google.code.gson,commons-io,org.apache.commons,org.finos.osera.dev,org.yaml"
+    },
+    {
+     "name": "osera:components",
+     "value": "com.fasterxml.jackson.core:jackson-core@2.14.2 org.yaml:snakeyaml@1.33 org.apache.commons:commons-text@1.10.0 commons-io:commons-io@2.11.0 com.google.code.gson:gson@2.8.8"
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
     }
    ]
   }
