@@ -86,7 +86,7 @@ jobs:
           fi
           echo "every line is supported"
 
-      # 4. No CVE twice for the same library.
+      # 4. No CVE twice for the same library on the same line (a CVE on two lines is two entries).
       - name: No duplicate entry
         run: |
           set -euo pipefail
@@ -95,10 +95,10 @@ jobs:
             echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
             exit 0
           fi
-          DUPLICATES="$(jq -r '[.entries[] | .cve + " " + .library] | group_by(.) | map(select(length > 1) | .[0]) | .[]' "$BOOK")"
+          DUPLICATES="$(jq -r '[.entries[] | .cve + " " + .library + " on " + (.lines | join(","))] | group_by(.) | map(select(length > 1) | .[0]) | .[]' "$BOOK")"
           if [ -n "$DUPLICATES" ]
           then
             echo "duplicate entries: $DUPLICATES"
             exit 1
           fi
-          echo "$(jq '.entries | length' "$BOOK") entries, $(jq '[.entries[].cve] | unique | length' "$BOOK") CVEs, no duplicate"
+          echo "$(jq '.entries | length' "$BOOK") entries, $(jq '[.entries[].cve] | unique | length' "$BOOK") CVEs, no duplicate on a line"
