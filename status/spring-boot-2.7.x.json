@@ -1,67 +1,15 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.14.2",
-  "as_of": "2026-09-14T18:37:57Z",
+  "as_of": "2026-09-14T19:57:50Z",
   "status": "not fixed",
-  "in_scope": 158,
+  "in_scope": 135,
   "fixed": [],
   "in_progress": [],
   "open": [
     {
-      "cve": "CVE-2015-2156",
-      "library": "io.netty:netty"
-    },
-    {
       "cve": "CVE-2016-1000027",
       "library": "org.springframework:spring-web"
-    },
-    {
-      "cve": "CVE-2019-16869",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2019-16869",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2019-20444",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2019-20444",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2019-20445",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2019-20445",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2021-37136",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2021-37136",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2021-37137",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2021-37137",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2021-43797",
-      "library": "io.netty:netty"
-    },
-    {
-      "cve": "CVE-2021-43797",
-      "library": "io.netty:netty"
     },
     {
       "cve": "CVE-2022-1471",
@@ -88,10 +36,6 @@
       "library": "org.yaml:snakeyaml"
     },
     {
-      "cve": "CVE-2023-34040",
-      "library": "org.springframework.kafka:spring-kafka"
-    },
-    {
       "cve": "CVE-2023-6378",
       "library": "ch.qos.logback:logback-classic"
     },
@@ -108,20 +52,8 @@
       "library": "org.eclipse.jetty:jetty-server"
     },
     {
-      "cve": "CVE-2024-22243",
-      "library": "org.springframework:spring-web"
-    },
-    {
       "cve": "CVE-2024-22257",
       "library": "org.springframework.security:spring-security-core"
-    },
-    {
-      "cve": "CVE-2024-22259",
-      "library": "org.springframework:spring-web"
-    },
-    {
-      "cve": "CVE-2024-22262",
-      "library": "org.springframework:spring-web"
     },
     {
       "cve": "CVE-2024-23672",
@@ -236,10 +168,6 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
-      "cve": "CVE-2025-5115",
-      "library": "org.eclipse.jetty.http2:http2-common"
-    },
-    {
       "cve": "CVE-2025-52434",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -332,16 +260,8 @@
       "library": "io.netty:netty-codec-http2"
     },
     {
-      "cve": "CVE-2026-34479",
-      "library": "org.apache.logging.log4j:log4j-1.2-api"
-    },
-    {
       "cve": "CVE-2026-34480",
       "library": "org.apache.logging.log4j:log4j-core"
-    },
-    {
-      "cve": "CVE-2026-34481",
-      "library": "org.apache.logging.log4j:log4j-layout-template-json"
     },
     {
       "cve": "CVE-2026-34483",
@@ -360,8 +280,8 @@
       "library": "org.springframework.boot:spring-boot"
     },
     {
-      "cve": "CVE-2026-40994",
-      "library": "org.springframework.ws:spring-ws-security"
+      "cve": "CVE-2026-40988",
+      "library": "org.springframework.security:spring-security-saml2-service-provider"
     },
     {
       "cve": "CVE-2026-40998",
@@ -412,24 +332,12 @@
       "library": "org.springframework.ldap:spring-ldap-core"
     },
     {
-      "cve": "CVE-2026-41726",
-      "library": "org.springframework.kafka:spring-kafka"
-    },
-    {
-      "cve": "CVE-2026-41727",
-      "library": "org.springframework.kafka:spring-kafka"
-    },
-    {
       "cve": "CVE-2026-41728",
       "library": "org.springframework.data:spring-data-rest-core"
     },
     {
       "cve": "CVE-2026-41729",
       "library": "org.springframework.data:spring-data-rest-core"
-    },
-    {
-      "cve": "CVE-2026-41731",
-      "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2026-41838",
