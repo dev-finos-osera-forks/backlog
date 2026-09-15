@@ -98,9 +98,13 @@ jobs:
           gh issue list --repo "$ORG/$REPO" --state all --limit 2000 \
             --json number,title,state,url,labels \
             --jq '.[] | {title, state, url, labels: [.labels[].name], repo: env.REPO}' > existing.jsonl
-          gh search issues --owner "$ORG" "CVE-" --match title --limit 1000 \
-            --json title,state,url,repository,labels \
-            --jq '.[] | {title, state, url, labels: [.labels[].name], repo: .repository.name}' >> existing.jsonl
+          # a CVE id or a GitHub advisory id, both are what an entry can be named by
+          for PREFIX in "CVE-" "GHSA-"
+          do
+            gh search issues --owner "$ORG" "$PREFIX" --match title --limit 1000 \
+              --json title,state,url,repository,labels \
+              --jq '.[] | {title, state, url, labels: [.labels[].name], repo: .repository.name}' >> existing.jsonl
+          done
           jq -s 'unique_by(.url)' existing.jsonl > existing.json
           echo "$(jq length existing.json) issue(s) with a CVE in the title found in $ORG"
 
