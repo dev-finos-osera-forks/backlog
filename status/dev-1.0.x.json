@@ -1,8 +1,8 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.15.11",
-  "as_of": "2026-09-15T13:01:31Z",
-  "status": "in progress",
+  "as_of": "2026-09-15T13:09:31Z",
+  "status": "fixed",
   "in_scope": 4,
   "fixed": [
     {
@@ -15,26 +15,28 @@
     {
       "cve": "CVE-2025-52999",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001",
-      "patch": "00001",
-      "at": "2026-09-15T12:38:19Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002",
+      "patch": "00002",
+      "at": "2026-09-15T13:09:31Z"
+    },
+    {
+      "cve": "CVE-2026-90001",
+      "library": "com.fasterxml.jackson.core:jackson-core",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002",
+      "patch": "00002",
+      "at": "2026-09-15T13:09:31Z"
     },
     {
       "cve": "GHSA-r7wm-3cxj-wff9",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001",
-      "patch": "00001",
-      "at": "2026-09-15T12:38:19Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002",
+      "patch": "00002",
+      "at": "2026-09-15T13:09:31Z"
     }
   ],
-  "in_progress": [
-    {
-      "cve": "CVE-2026-90001",
-      "library": "com.fasterxml.jackson.core:jackson-core"
-    }
-  ],
+  "in_progress": [],
   "open": [],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.15"
+  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.15.2"
 }

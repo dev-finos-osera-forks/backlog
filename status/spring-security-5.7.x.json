@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.09.15.11",
-  "as_of": "2026-09-15T13:01:31Z",
+  "as_of": "2026-09-15T13:09:31Z",
   "status": "not fixed",
   "in_scope": 27,
   "fixed": [],
@@ -121,7 +121,8 @@
   "discrepancies": [
     "issue #3 for CVE-2025-52999 is closed in patch-jackson-core while the entry on com.fasterxml.jackson.core:jackson-core is in progress",
     "issue #4 for GHSA-r7wm-3cxj-wff9 is closed in patch-jackson-core while the entry on com.fasterxml.jackson.core:jackson-core is in progress",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0"
+    "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0"
   ],
   "consume": ""
 }
