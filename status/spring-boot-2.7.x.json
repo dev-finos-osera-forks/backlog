@@ -1,28 +1,19 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.15.6",
-  "as_of": "2026-09-15T10:54:09Z",
+  "as_of": "2026-09-15T11:36:34Z",
   "status": "not fixed",
   "in_scope": 135,
   "fixed": [],
-  "in_progress": [
-    {
-      "cve": "CVE-2022-1471",
-      "library": "org.yaml:snakeyaml"
-    },
-    {
-      "cve": "CVE-2025-52999",
-      "library": "com.fasterxml.jackson.core:jackson-core"
-    },
-    {
-      "cve": "GHSA-r7wm-3cxj-wff9",
-      "library": "com.fasterxml.jackson.core:jackson-core"
-    }
-  ],
+  "in_progress": [],
   "open": [
     {
       "cve": "CVE-2016-1000027",
       "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2022-1471",
+      "library": "org.yaml:snakeyaml"
     },
     {
       "cve": "CVE-2022-25857",
@@ -183,6 +174,10 @@
     {
       "cve": "CVE-2025-52520",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
       "cve": "CVE-2025-53506",
@@ -547,14 +542,15 @@
     {
       "cve": "CVE-2026-75595",
       "library": "io.netty:netty-handler"
+    },
+    {
+      "cve": "GHSA-r7wm-3cxj-wff9",
+      "library": "com.fasterxml.jackson.core:jackson-core"
     }
   ],
   "not_remediable": [],
   "discrepancies": [
-    "issue #1 for CVE-2022-1471 is closed in patch-snakeyaml while the entry on org.yaml:snakeyaml is in progress",
-    "issue #2 for GHSA-r7wm-3cxj-wff9 is closed in patch-jackson-core while the entry on com.fasterxml.jackson.core:jackson-core is in progress",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.14.2+osera-patch.001 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
-    "promoted org.yaml:snakeyaml@1.33+osera-patch.001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
+    "issue #166 for GHSA-r7wm-3cxj-wff9 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open"
   ],
   "consume": ""
 }
