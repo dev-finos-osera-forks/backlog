@@ -1,20 +1,11 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.09.15.13",
-  "as_of": "2026-09-15T14:22:31Z",
+  "as_of": "2026-09-15T15:14:05Z",
   "status": "not fixed",
   "in_scope": 27,
   "fixed": [],
-  "in_progress": [
-    {
-      "cve": "CVE-2025-52999",
-      "library": "com.fasterxml.jackson.core:jackson-core"
-    },
-    {
-      "cve": "GHSA-r7wm-3cxj-wff9",
-      "library": "com.fasterxml.jackson.core:jackson-core"
-    }
-  ],
+  "in_progress": [],
   "open": [
     {
       "cve": "CVE-2016-1000027",
@@ -63,6 +54,10 @@
     {
       "cve": "CVE-2025-41249",
       "library": "org.springframework:spring-core"
+    },
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
       "cve": "CVE-2026-22732",
@@ -115,12 +110,14 @@
     {
       "cve": "CVE-2026-54513",
       "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "GHSA-r7wm-3cxj-wff9",
+      "library": "com.fasterxml.jackson.core:jackson-core"
     }
   ],
   "not_remediable": [],
   "discrepancies": [
-    "issue #3 for CVE-2025-52999 is closed in patch-jackson-core while the entry on com.fasterxml.jackson.core:jackson-core is in progress",
-    "issue #4 for GHSA-r7wm-3cxj-wff9 is closed in patch-jackson-core while the entry on com.fasterxml.jackson.core:jackson-core is in progress",
     "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0"
   ],
