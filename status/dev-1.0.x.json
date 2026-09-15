@@ -1,7 +1,7 @@
 {
   "line": "dev-1.0.x",
-  "book_version": "v2026.09.15.6",
-  "as_of": "2026-09-15T11:36:34Z",
+  "book_version": "v2026.09.15.7",
+  "as_of": "2026-09-15T11:46:34Z",
   "status": "not fixed",
   "in_scope": 3,
   "fixed": [],
@@ -21,8 +21,6 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [
-    "issue #166 for GHSA-r7wm-3cxj-wff9 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open"
-  ],
+  "discrepancies": [],
   "consume": ""
 }
