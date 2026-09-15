@@ -1,12 +1,11 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.15.4",
-  "as_of": "2026-09-15T09:46:05Z",
+  "as_of": "2026-09-15T10:46:20Z",
   "status": "not fixed",
   "in_scope": 3,
   "fixed": [],
-  "in_progress": [],
-  "open": [
+  "in_progress": [
     {
       "cve": "CVE-2022-1471",
       "library": "org.yaml:snakeyaml"
@@ -20,7 +19,11 @@
       "library": "com.fasterxml.jackson.core:jackson-core"
     }
   ],
+  "open": [],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "promoted com.fasterxml.jackson.core:jackson-core@2.14.2+osera-patch.001 has no evidence file next to it, it fixes nothing",
+    "promoted org.yaml:snakeyaml@1.33+osera-patch.001 has no evidence file next to it, it fixes nothing"
+  ],
   "consume": ""
 }
