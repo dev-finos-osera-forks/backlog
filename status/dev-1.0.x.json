@@ -1,7 +1,7 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.15.10",
-  "as_of": "2026-09-15T12:46:31Z",
+  "as_of": "2026-09-15T13:00:31Z",
   "status": "in progress",
   "in_scope": 4,
   "fixed": [
@@ -27,13 +27,13 @@
       "at": "2026-09-15T12:38:19Z"
     }
   ],
-  "in_progress": [],
-  "open": [
+  "in_progress": [
     {
       "cve": "CVE-2026-90001",
       "library": "com.fasterxml.jackson.core:jackson-core"
     }
   ],
+  "open": [],
   "not_remediable": [],
   "discrepancies": [],
   "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.15"
