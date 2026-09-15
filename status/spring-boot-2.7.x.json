@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.15.5",
-  "as_of": "2026-09-15T10:50:31Z",
+  "book_version": "v2026.09.15.6",
+  "as_of": "2026-09-15T10:54:09Z",
   "status": "not fixed",
   "in_scope": 135,
   "fixed": [],
@@ -551,6 +551,8 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "issue #1 for CVE-2022-1471 is closed in patch-snakeyaml while the entry on org.yaml:snakeyaml is in progress",
+    "issue #2 for GHSA-r7wm-3cxj-wff9 is closed in patch-jackson-core while the entry on com.fasterxml.jackson.core:jackson-core is in progress",
     "promoted com.fasterxml.jackson.core:jackson-core@2.14.2+osera-patch.001 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted org.yaml:snakeyaml@1.33+osera-patch.001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
