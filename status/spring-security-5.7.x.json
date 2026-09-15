@@ -1,11 +1,20 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.09.15.7",
-  "as_of": "2026-09-15T11:46:34Z",
+  "as_of": "2026-09-15T12:28:19Z",
   "status": "not fixed",
   "in_scope": 27,
   "fixed": [],
-  "in_progress": [],
+  "in_progress": [
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "GHSA-r7wm-3cxj-wff9",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    }
+  ],
   "open": [
     {
       "cve": "CVE-2016-1000027",
@@ -54,10 +63,6 @@
     {
       "cve": "CVE-2025-41249",
       "library": "org.springframework:spring-core"
-    },
-    {
-      "cve": "CVE-2025-52999",
-      "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
       "cve": "CVE-2026-22732",
@@ -110,10 +115,6 @@
     {
       "cve": "CVE-2026-54513",
       "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "GHSA-r7wm-3cxj-wff9",
-      "library": "com.fasterxml.jackson.core:jackson-core"
     }
   ],
   "not_remediable": [],
