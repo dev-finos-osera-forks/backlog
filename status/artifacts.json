@@ -314,27 +314,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T14:35:05Z"
+          "checked_at": "2026-09-16T15:35:05Z"
         },
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to netty-3.10.6.Final-osera-00001.jar",
-          "checked_at": "2026-09-16T14:35:05Z"
+          "checked_at": "2026-09-16T15:35:05Z"
         },
         "signatures": {
-          "state": "not checked",
-          "reason": "signatures not required on this exchange yet",
-          "checked_at": "2026-09-16T14:35:05Z"
+          "state": "failed",
+          "reason": "no signature next to the jar (netty-3.10.6.Final-osera-00001.jar.asc)",
+          "checked_at": "2026-09-16T15:35:05Z"
         },
         "producer": {
           "state": "missing",
           "reason": "the evidence names no producer",
-          "checked_at": "2026-09-16T14:35:05Z"
+          "checked_at": "2026-09-16T15:35:05Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 3.10.6.Final-osera-00001 in osera-releases-raw-01",
-          "checked_at": "2026-09-16T14:35:05Z"
+          "checked_at": "2026-09-16T15:35:05Z"
         },
         "fork": {
           "state": "missing",
@@ -344,17 +344,17 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T14:35:05Z"
+          "checked_at": "2026-09-16T15:35:05Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-09-16T14:35:05Z"
+          "checked_at": "2026-09-16T15:35:05Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-09-16T14:35:05Z"
+          "checked_at": "2026-09-16T15:35:05Z"
         }
       },
       "chain": "failed",
