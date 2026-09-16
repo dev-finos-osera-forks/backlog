@@ -1,7 +1,7 @@
 {
   "line": "dev-1.0.x",
-  "book_version": "v2026.09.16.2",
-  "as_of": "2026-09-16T10:36:39Z",
+  "book_version": "v2026.09.16.3",
+  "as_of": "2026-09-16T10:37:37Z",
   "status": "in progress",
   "in_scope": 7,
   "fixed": [
@@ -50,6 +50,11 @@
   ],
   "open": [],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "CVE-2022-1471 on snakeyaml 1.33 is patched, the evidence chain is broken: the fork patch-snakeyaml is missing",
+    "CVE-2025-52999 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing",
+    "CVE-2026-90001 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing",
+    "GHSA-r7wm-3cxj-wff9 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing"
+  ],
   "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.15.2"
 }

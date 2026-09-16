@@ -1,0 +1,140 @@
+{
+  "artifacts": [
+    {
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001",
+      "producer": "controlplane-dev",
+      "fork": "patch-jackson-core",
+      "tag": "v2.14.2.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-jackson-core is missing",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "no read access to osera-releases-raw-01",
+          "checked_at": "2026-09-16T10:37:40Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002",
+      "producer": "controlplane-dev",
+      "fork": "patch-jackson-core",
+      "tag": "v2.14.2.2-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-jackson-core is missing",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "no read access to osera-releases-raw-01",
+          "checked_at": "2026-09-16T10:37:40Z"
+        }
+      },
+      "chain": "broken",
+      "lines": [
+        "dev-1.0.x"
+      ]
+    },
+    {
+      "coordinate": "io.netty:netty@3.10.6.Final-osera-00001",
+      "fork": "patch-netty",
+      "tag": "v3.10.6.Final-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "evidence": {
+          "state": "missing",
+          "reason": "no evidence file next to netty-3.10.6.Final-osera-00001.jar",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-netty is missing",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "no read access to osera-releases-raw-01",
+          "checked_at": "2026-09-16T10:37:40Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
+      "producer": "controlplane-dev",
+      "fork": "patch-snakeyaml",
+      "tag": "v1.33.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-snakeyaml is missing",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-16T10:37:40Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "no read access to osera-releases-raw-01",
+          "checked_at": "2026-09-16T10:37:40Z"
+        }
+      },
+      "chain": "broken",
+      "lines": [
+        "dev-1.0.x"
+      ]
+    }
+  ]
+}
