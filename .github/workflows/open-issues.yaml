@@ -189,7 +189,16 @@ jobs:
 
             # 6c. no issue yet: fill the template and open one
             BODY="$TEMPLATE_BODY"
-            BODY="${BODY//"<CVE id, with the link to the advisory>"/$CVE, https://nvd.nist.gov/vuln/detail/$CVE}"
+            # a CVE id links to NVD, a GHSA id to GitHub's advisory database
+            case "$CVE" in
+              GHSA-*)
+                ADVISORY_URL="https://github.com/advisories/$CVE"
+                ;;
+              *)
+                ADVISORY_URL="https://nvd.nist.gov/vuln/detail/$CVE"
+                ;;
+            esac
+            BODY="${BODY//"<CVE id, with the link to the advisory>"/$CVE, $ADVISORY_URL}"
             BODY="${BODY//"<group:artifact of the jar that holds the affected code>"/$LIBRARIES}"
             BODY="${BODY//"<version>"/$VERSIONS}"
             BODY="${BODY//"<the supported lines this CVE is on>"/$LINES}"
