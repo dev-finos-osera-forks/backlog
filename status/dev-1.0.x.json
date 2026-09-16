@@ -1,8 +1,8 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.16.9",
-  "as_of": "2026-09-16T13:39:58Z",
-  "status": "in progress",
+  "as_of": "2026-09-16T13:40:38Z",
+  "status": "fixed",
   "in_scope": 8,
   "fixed": [
     {
@@ -43,9 +43,16 @@
     {
       "cve": "CVE-2026-90013",
       "library": "com.beust:jcommander",
-      "coordinate": "com.beust:jcommander@1.82.1-osera-00001",
-      "patch": "00001",
-      "at": "2026-09-16T12:07:02Z"
+      "coordinate": "com.beust:jcommander@1.82.2-osera-00002",
+      "patch": "00002",
+      "at": "2026-09-16T13:40:38Z"
+    },
+    {
+      "cve": "CVE-2026-90014",
+      "library": "com.beust:jcommander",
+      "coordinate": "com.beust:jcommander@1.82.2-osera-00002",
+      "patch": "00002",
+      "at": "2026-09-16T13:40:38Z"
     },
     {
       "cve": "GHSA-r7wm-3cxj-wff9",
@@ -55,12 +62,7 @@
       "at": "2026-09-15T13:09:31Z"
     }
   ],
-  "in_progress": [
-    {
-      "cve": "CVE-2026-90014",
-      "library": "com.beust:jcommander"
-    }
-  ],
+  "in_progress": [],
   "open": [],
   "not_remediable": [],
   "discrepancies": [
@@ -69,5 +71,5 @@
     "CVE-2026-90001 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing",
     "GHSA-r7wm-3cxj-wff9 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing"
   ],
-  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.16.3"
+  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.16.4"
 }

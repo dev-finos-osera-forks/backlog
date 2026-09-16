@@ -8,11 +8,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:40Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:40Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "fork": {
           "state": "present",
@@ -40,11 +40,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "fork": {
           "state": "present",
@@ -60,6 +60,36 @@
         }
       },
       "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.beust:jcommander@1.82.2-osera-00002",
+      "producer": "controlplane-dev",
+      "fork": "patch-jcommander",
+      "tag": "v1.82.2-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-16T13:40:40Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-16T13:40:40Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-16T13:05:40Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-16T13:40:40Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-16T13:40:40Z"
+        }
+      },
+      "chain": "complete",
       "lines": [
         "dev-1.0.x"
       ]
@@ -72,26 +102,26 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-16T12:38:40Z"
+          "checked_at": "2026-09-16T13:39:18Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 2.14.2.1-osera-00001 in osera-releases-raw-01",
-          "checked_at": "2026-09-16T12:38:40Z"
+          "checked_at": "2026-09-16T13:39:18Z"
         }
       },
       "chain": "broken",
@@ -105,25 +135,25 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-16T12:38:40Z"
+          "checked_at": "2026-09-16T13:39:18Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-16T12:38:40Z"
+          "checked_at": "2026-09-16T13:39:18Z"
         }
       },
       "chain": "broken",
@@ -138,27 +168,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to netty-3.10.6.Final-osera-00001.jar",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-netty is missing",
-          "checked_at": "2026-09-16T12:38:40Z"
+          "checked_at": "2026-09-16T13:39:18Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 3.10.6.Final-osera-00001 in osera-releases-raw-01",
-          "checked_at": "2026-09-16T12:38:40Z"
+          "checked_at": "2026-09-16T13:39:18Z"
         }
       },
       "chain": "broken",
@@ -172,11 +202,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:40Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:40Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "fork": {
           "state": "present",
@@ -204,25 +234,25 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-snakeyaml is missing",
-          "checked_at": "2026-09-16T12:38:40Z"
+          "checked_at": "2026-09-16T13:39:18Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T13:36:39Z"
+          "checked_at": "2026-09-16T13:40:40Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-16T12:38:40Z"
+          "checked_at": "2026-09-16T13:39:18Z"
         }
       },
       "chain": "broken",
