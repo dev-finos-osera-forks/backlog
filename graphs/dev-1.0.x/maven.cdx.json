@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:9bf31d48-5719-410c-8d1a-daf963349829",
+ "serialNumber": "urn:uuid:8c7c85d4-3458-4d37-9566-00bee688ee4b",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-09-15T08:45:22Z",
+  "timestamp": "2026-09-16T10:25:45Z",
   "tools": {
    "components": [
     {
@@ -18,11 +18,11 @@
   },
   "component": {
    "type": "library",
-   "bom-ref": "pkg:maven/org.finos.osera.dev/dev-bom@1.0.0?type=pom",
+   "bom-ref": "pkg:maven/org.finos.osera.dev/dev-bom@2.0.0?type=pom",
    "group": "org.finos.osera.dev",
    "name": "dev-bom",
-   "version": "1.0.0",
-   "purl": "pkg:maven/org.finos.osera.dev/dev-bom@1.0.0?type=pom",
+   "version": "2.0.0",
+   "purl": "pkg:maven/org.finos.osera.dev/dev-bom@2.0.0?type=pom",
    "properties": [
     {
      "name": "osera:line",
@@ -50,88 +50,48 @@
  "components": [
   {
    "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2",
-   "group": "com.fasterxml.jackson.core",
-   "name": "jackson-core",
-   "version": "2.14.2",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2"
+   "bom-ref": "pkg:maven/args4j/args4j@2.33",
+   "group": "args4j",
+   "name": "args4j",
+   "version": "2.33",
+   "purl": "pkg:maven/args4j/args4j@2.33"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/com.google.code.gson/gson@2.8.8",
-   "group": "com.google.code.gson",
-   "name": "gson",
-   "version": "2.8.8",
-   "purl": "pkg:maven/com.google.code.gson/gson@2.8.8"
+   "bom-ref": "pkg:maven/com.beust/jcommander@1.82",
+   "group": "com.beust",
+   "name": "jcommander",
+   "version": "1.82",
+   "purl": "pkg:maven/com.beust/jcommander@1.82"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/commons-io/commons-io@2.11.0",
-   "group": "commons-io",
-   "name": "commons-io",
-   "version": "2.11.0",
-   "purl": "pkg:maven/commons-io/commons-io@2.11.0"
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
-   "group": "org.apache.commons",
-   "name": "commons-lang3",
-   "version": "3.12.0",
-   "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0"
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.commons/commons-text@1.10.0",
-   "group": "org.apache.commons",
-   "name": "commons-text",
-   "version": "1.10.0",
-   "purl": "pkg:maven/org.apache.commons/commons-text@1.10.0"
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.33",
-   "group": "org.yaml",
-   "name": "snakeyaml",
-   "version": "1.33",
-   "purl": "pkg:maven/org.yaml/snakeyaml@1.33"
+   "bom-ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4",
+   "group": "net.sf.jopt-simple",
+   "name": "jopt-simple",
+   "version": "5.0.4",
+   "purl": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4"
   }
  ],
  "dependencies": [
   {
-   "ref": "pkg:maven/org.finos.osera.dev/dev-bom@1.0.0?type=pom",
+   "ref": "pkg:maven/org.finos.osera.dev/dev-bom@2.0.0?type=pom",
    "dependsOn": [
-    "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2",
-    "pkg:maven/com.google.code.gson/gson@2.8.8",
-    "pkg:maven/commons-io/commons-io@2.11.0",
-    "pkg:maven/org.apache.commons/commons-text@1.10.0",
-    "pkg:maven/org.yaml/snakeyaml@1.33"
+    "pkg:maven/args4j/args4j@2.33",
+    "pkg:maven/com.beust/jcommander@1.82",
+    "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4"
    ]
   },
   {
-   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2",
+   "ref": "pkg:maven/args4j/args4j@2.33",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/com.google.code.gson/gson@2.8.8",
+   "ref": "pkg:maven/com.beust/jcommander@1.82",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/commons-io/commons-io@2.11.0",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.commons/commons-text@1.10.0",
-   "dependsOn": [
-    "pkg:maven/org.apache.commons/commons-lang3@3.12.0"
-   ]
-  },
-  {
-   "ref": "pkg:maven/org.yaml/snakeyaml@1.33",
+   "ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4",
    "dependsOn": []
   }
  ]
