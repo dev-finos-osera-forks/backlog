@@ -8,11 +8,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "fork": {
           "state": "present",
@@ -40,11 +40,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "fork": {
           "state": "present",
@@ -72,11 +72,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "fork": {
           "state": "missing",
@@ -86,7 +86,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "verdict": {
           "state": "missing",
@@ -105,11 +105,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "fork": {
           "state": "missing",
@@ -119,7 +119,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "verdict": {
           "state": "present",
@@ -138,12 +138,12 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to netty-3.10.6.Final-osera-00001.jar",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "fork": {
           "state": "missing",
@@ -153,12 +153,42 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 3.10.6.Final-osera-00001 in osera-releases-raw-01",
           "checked_at": "2026-09-16T12:38:40Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002",
+      "fork": "patch-jopt-simple",
+      "tag": "v5.0.4.2-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-16T12:50:52Z"
+        },
+        "evidence": {
+          "state": "missing",
+          "reason": "no evidence file next to jopt-simple-5.0.4.2-osera-00002.jar",
+          "checked_at": "2026-09-16T12:50:52Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-16T12:50:52Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-16T12:50:52Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-16T12:50:52Z"
         }
       },
       "chain": "broken",
@@ -172,11 +202,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "fork": {
           "state": "missing",
@@ -186,7 +216,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:50:09Z"
+          "checked_at": "2026-09-16T12:50:52Z"
         },
         "verdict": {
           "state": "present",
