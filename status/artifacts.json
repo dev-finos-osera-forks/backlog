@@ -8,11 +8,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "fork": {
           "state": "present",
@@ -28,9 +28,7 @@
         }
       },
       "chain": "complete",
-      "lines": [
-        "dev-1.0.x"
-      ]
+      "lines": []
     },
     {
       "coordinate": "com.beust:jcommander@1.82.1-osera-00001",
@@ -40,29 +38,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-16T12:04:54Z"
+          "checked_at": "2026-09-16T13:05:40Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-16T12:04:55Z"
+          "checked_at": "2026-09-16T13:05:40Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-16T12:04:55Z"
+          "checked_at": "2026-09-16T13:05:40Z"
         }
       },
       "chain": "complete",
-      "lines": [
-        "dev-1.0.x"
-      ]
+      "lines": []
     },
     {
       "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001",
@@ -72,11 +68,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "fork": {
           "state": "missing",
@@ -86,7 +82,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "verdict": {
           "state": "missing",
@@ -105,11 +101,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "fork": {
           "state": "missing",
@@ -119,7 +115,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "verdict": {
           "state": "present",
@@ -127,9 +123,7 @@
         }
       },
       "chain": "broken",
-      "lines": [
-        "dev-1.0.x"
-      ]
+      "lines": []
     },
     {
       "coordinate": "io.netty:netty@3.10.6.Final-osera-00001",
@@ -138,12 +132,12 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to netty-3.10.6.Final-osera-00001.jar",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "fork": {
           "state": "missing",
@@ -153,7 +147,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "verdict": {
           "state": "missing",
@@ -172,11 +166,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "fork": {
           "state": "present",
@@ -192,9 +186,7 @@
         }
       },
       "chain": "complete",
-      "lines": [
-        "dev-1.0.x"
-      ]
+      "lines": []
     },
     {
       "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
@@ -204,11 +196,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "fork": {
           "state": "missing",
@@ -218,7 +210,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:53:17Z"
+          "checked_at": "2026-09-16T13:32:12Z"
         },
         "verdict": {
           "state": "present",
@@ -226,9 +218,7 @@
         }
       },
       "chain": "broken",
-      "lines": [
-        "dev-1.0.x"
-      ]
+      "lines": []
     }
   ]
 }
