@@ -1,7 +1,7 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.16.3",
-  "as_of": "2026-09-16T12:04:52Z",
+  "as_of": "2026-09-16T12:07:02Z",
   "status": "in progress",
   "in_scope": 7,
   "fixed": [
@@ -27,6 +27,13 @@
       "at": "2026-09-15T13:09:31Z"
     },
     {
+      "cve": "CVE-2026-90013",
+      "library": "com.beust:jcommander",
+      "coordinate": "com.beust:jcommander@1.82.1-osera-00001",
+      "patch": "00001",
+      "at": "2026-09-16T12:07:02Z"
+    },
+    {
       "cve": "GHSA-r7wm-3cxj-wff9",
       "library": "com.fasterxml.jackson.core:jackson-core",
       "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002",
@@ -42,20 +49,15 @@
     {
       "cve": "CVE-2026-90012",
       "library": "net.sf.jopt-simple:jopt-simple"
-    },
-    {
-      "cve": "CVE-2026-90013",
-      "library": "com.beust:jcommander"
     }
   ],
   "open": [],
   "not_remediable": [],
   "discrepancies": [
-    "promoted com.beust:jcommander@1.82.1-osera-00001 has no evidence file next to it, it fixes nothing",
     "CVE-2022-1471 on snakeyaml 1.33 is patched, the evidence chain is broken: the fork patch-snakeyaml is missing",
     "CVE-2025-52999 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing",
     "CVE-2026-90001 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing",
     "GHSA-r7wm-3cxj-wff9 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing"
   ],
-  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.15.2"
+  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.16"
 }
