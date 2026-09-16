@@ -28,7 +28,13 @@ The vulnerabilities (CVEs) OSERA fixes on the lines it supports, in priority ord
 4. **The tag opens the issues.** The `open-issues` workflow opens one issue per CVE, labelled with the priority band and the line. A CVE that already has an issue anywhere in the organisation is left alone, with a comment if its priority changed. The workflow never closes or deletes anything.
 5. **Producers fix, the line manager closes.** A producer moves the issue into the patch repository and works there. When the fixed release is promoted into the release repository, the line manager marks the entry fixed, publishes the BOM, and closes the issue with the published coordinates and the BOM version.
 
+6. **A CVE can leave the backlog.** The line manager scans every line again each day. A CVE that two scans in a row no longer find (its score fell under the bar, the rules changed, the library left the line's graph) is removed from `cve-backlog.json` and written to `cve-excluded.json` with the reason and the dates. Its issue is closed with the same words. Found again later, it comes back as open and its issue reopens. A CVE leaving the backlog is never a fix.
+
 Never in this repository: how a CVE gets fixed, which member asked for what, anything a member chose not to fix.
+
+## Known limits
+
+- An issue title names the artifact and the version, `snakeyaml 1.33`, not the group. The line manager pairs a CVE with its issue by CVE, artifact and version. Two libraries with the same artifact name in different groups, at the same version, with the same CVE, would share one issue. Rare, known, left as it is.
 
 ## Labels
 
