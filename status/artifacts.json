@@ -28,7 +28,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-16T14:37:09Z"
+          "checked_at": "2026-09-16T15:38:05Z"
         },
         "tag": {
           "state": "present",
@@ -77,7 +77,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-16T15:06:09Z"
+          "checked_at": "2026-09-16T16:06:12Z"
         },
         "tag": {
           "state": "present",
@@ -126,7 +126,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-16T15:06:09Z"
+          "checked_at": "2026-09-16T16:06:12Z"
         },
         "tag": {
           "state": "present",
@@ -155,41 +155,40 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T15:12:11Z"
+          "checked_at": "2026-09-16T16:13:11Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T15:12:11Z"
+          "checked_at": "2026-09-16T16:13:11Z"
         },
         "signatures": {
-          "state": "not checked",
-          "reason": "signatures not required on this exchange yet",
-          "checked_at": "2026-09-16T15:12:11Z"
+          "state": "present",
+          "checked_at": "2026-09-16T16:13:12Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-16T15:12:11Z"
+          "checked_at": "2026-09-16T16:13:11Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-16T15:12:11Z"
+          "checked_at": "2026-09-16T16:13:11Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-16T15:06:09Z"
+          "checked_at": "2026-09-16T16:06:12Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-16T15:12:12Z"
+          "checked_at": "2026-09-16T16:13:13Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-16T15:12:12Z"
+          "checked_at": "2026-09-16T16:13:13Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-16T15:12:12Z"
+          "checked_at": "2026-09-16T16:13:13Z"
         }
       },
       "chain": "complete",
@@ -228,7 +227,7 @@
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-16T14:40:09Z"
+          "checked_at": "2026-09-16T15:41:05Z"
         },
         "tag": {
           "state": "not checked",
@@ -280,7 +279,7 @@
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-16T14:40:09Z"
+          "checked_at": "2026-09-16T15:41:05Z"
         },
         "tag": {
           "state": "not checked",
@@ -335,7 +334,7 @@
         "fork": {
           "state": "missing",
           "reason": "the fork patch-netty is missing",
-          "checked_at": "2026-09-16T14:40:08Z"
+          "checked_at": "2026-09-16T15:41:05Z"
         },
         "tag": {
           "state": "not checked",
@@ -384,7 +383,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-16T14:51:09Z"
+          "checked_at": "2026-09-16T15:51:11Z"
         },
         "tag": {
           "state": "present",
@@ -434,7 +433,7 @@
         "fork": {
           "state": "missing",
           "reason": "the fork patch-snakeyaml is missing",
-          "checked_at": "2026-09-16T14:40:09Z"
+          "checked_at": "2026-09-16T15:41:05Z"
         },
         "tag": {
           "state": "not checked",
