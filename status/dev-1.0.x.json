@@ -1,7 +1,7 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.16.2",
-  "as_of": "2026-09-16T10:31:35Z",
+  "as_of": "2026-09-16T10:36:39Z",
   "status": "in progress",
   "in_scope": 7,
   "fixed": [
@@ -34,8 +34,7 @@
       "at": "2026-09-15T13:09:31Z"
     }
   ],
-  "in_progress": [],
-  "open": [
+  "in_progress": [
     {
       "cve": "CVE-2026-90011",
       "library": "args4j:args4j"
@@ -49,6 +48,7 @@
       "library": "com.beust:jcommander"
     }
   ],
+  "open": [],
   "not_remediable": [],
   "discrepancies": [],
   "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.15.2"
