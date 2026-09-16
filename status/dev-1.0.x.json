@@ -1,7 +1,7 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.16.3",
-  "as_of": "2026-09-16T10:37:37Z",
+  "as_of": "2026-09-16T12:04:52Z",
   "status": "in progress",
   "in_scope": 7,
   "fixed": [
@@ -51,6 +51,7 @@
   "open": [],
   "not_remediable": [],
   "discrepancies": [
+    "promoted com.beust:jcommander@1.82.1-osera-00001 has no evidence file next to it, it fixes nothing",
     "CVE-2022-1471 on snakeyaml 1.33 is patched, the evidence chain is broken: the fork patch-snakeyaml is missing",
     "CVE-2025-52999 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing",
     "CVE-2026-90001 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing",
