@@ -1,7 +1,7 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.16.10",
-  "as_of": "2026-09-16T14:35:03Z",
+  "as_of": "2026-09-16T15:12:09Z",
   "status": "fixed",
   "in_scope": 8,
   "fixed": [
@@ -43,16 +43,16 @@
     {
       "cve": "CVE-2026-90013",
       "library": "com.beust:jcommander",
-      "coordinate": "com.beust:jcommander@1.82.2-osera-00002",
-      "patch": "00002",
-      "at": "2026-09-16T13:40:38Z"
+      "coordinate": "com.beust:jcommander@1.82.3-osera-00003",
+      "patch": "00003",
+      "at": "2026-09-16T15:12:09Z"
     },
     {
       "cve": "CVE-2026-90014",
       "library": "com.beust:jcommander",
-      "coordinate": "com.beust:jcommander@1.82.2-osera-00002",
-      "patch": "00002",
-      "at": "2026-09-16T13:40:38Z"
+      "coordinate": "com.beust:jcommander@1.82.3-osera-00003",
+      "patch": "00003",
+      "at": "2026-09-16T15:12:09Z"
     },
     {
       "cve": "GHSA-r7wm-3cxj-wff9",
@@ -73,5 +73,5 @@
     "CVE-2026-90001 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing, uploaded by local-dev, the registry says fbeltramini for producer controlplane-dev",
     "GHSA-r7wm-3cxj-wff9 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing, uploaded by local-dev, the registry says fbeltramini for producer controlplane-dev"
   ],
-  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.16.4"
+  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.16.5"
 }
