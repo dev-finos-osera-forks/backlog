@@ -1,7 +1,7 @@
 {
   "line": "dev-1.0.x",
-  "book_version": "v2026.09.16.4",
-  "as_of": "2026-09-16T12:50:08Z",
+  "book_version": "v2026.09.16.5",
+  "as_of": "2026-09-16T12:50:50Z",
   "status": "in progress",
   "in_scope": 7,
   "fixed": [
@@ -57,6 +57,7 @@
   "open": [],
   "not_remediable": [],
   "discrepancies": [
+    "promoted net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002 has no evidence file next to it, it fixes nothing",
     "CVE-2022-1471 on snakeyaml 1.33 is patched, the evidence chain is broken: the fork patch-snakeyaml is missing",
     "CVE-2025-52999 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing",
     "CVE-2026-90001 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing",
