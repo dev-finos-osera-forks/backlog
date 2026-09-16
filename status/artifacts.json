@@ -8,26 +8,26 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "verdict": {
-          "state": "not checked",
-          "reason": "no read access to osera-releases-raw-01",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "state": "missing",
+          "reason": "no verdict for 2.14.2.1-osera-00001 in osera-releases-raw-01",
+          "checked_at": "2026-09-16T11:38:40Z"
         }
       },
       "chain": "broken",
@@ -41,26 +41,25 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "verdict": {
-          "state": "not checked",
-          "reason": "no read access to osera-releases-raw-01",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "state": "present",
+          "checked_at": "2026-09-16T11:38:40Z"
         }
       },
       "chain": "broken",
@@ -75,27 +74,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:39Z"
         },
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to netty-3.10.6.Final-osera-00001.jar",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:39Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-netty is missing",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:39Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:39Z"
         },
         "verdict": {
-          "state": "not checked",
-          "reason": "no read access to osera-releases-raw-01",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "state": "missing",
+          "reason": "no verdict for 3.10.6.Final-osera-00001 in osera-releases-raw-01",
+          "checked_at": "2026-09-16T11:38:39Z"
         }
       },
       "chain": "broken",
@@ -109,26 +108,25 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-snakeyaml is missing",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "checked_at": "2026-09-16T11:38:40Z"
         },
         "verdict": {
-          "state": "not checked",
-          "reason": "no read access to osera-releases-raw-01",
-          "checked_at": "2026-09-16T10:37:40Z"
+          "state": "present",
+          "checked_at": "2026-09-16T11:38:40Z"
         }
       },
       "chain": "broken",
