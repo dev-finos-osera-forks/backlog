@@ -28,5 +28,5 @@ priority:                   # first rule that fires, in this order
   - P3 / Track:       score >= 6.0 and score < 7.0
   - P4 / Exclude:     otherwise
 curated_list:
-  groups: [org.apache.logging.log4j, ch.qos.logback, org.slf4j, io.netty, io.projectreactor.netty, org.yaml]
+  groups: [org.apache.logging.log4j, ch.qos.logback, org.slf4j, io.netty, io.projectreactor.netty, org.yaml, args4j, net.sf.jopt-simple, com.beust]  # the last three DEV ONLY: the dev line's libraries
   prefixes: [org.springframework, com.fasterxml.jackson, org.apache.tomcat, org.eclipse.jetty, org.hibernate]
