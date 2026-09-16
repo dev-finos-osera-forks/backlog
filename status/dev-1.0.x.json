@@ -1,9 +1,9 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.16",
-  "as_of": "2026-09-16T10:26:49Z",
-  "status": "fixed",
-  "in_scope": 4,
+  "as_of": "2026-09-16T10:30:35Z",
+  "status": "in progress",
+  "in_scope": 7,
   "fixed": [
     {
       "cve": "CVE-2022-1471",
@@ -35,7 +35,20 @@
     }
   ],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2026-90011",
+      "library": "args4j:args4j"
+    },
+    {
+      "cve": "CVE-2026-90012",
+      "library": "net.sf.jopt-simple:jopt-simple"
+    },
+    {
+      "cve": "CVE-2026-90013",
+      "library": "com.beust:jcommander"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [],
   "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.15.2"
