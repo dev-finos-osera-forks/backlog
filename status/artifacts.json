@@ -1,6 +1,36 @@
 {
   "artifacts": [
     {
+      "coordinate": "args4j:args4j@2.33.2-osera-00002",
+      "fork": "patch-args4j",
+      "tag": "v2.33.2-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-16T12:33:02Z"
+        },
+        "evidence": {
+          "state": "missing",
+          "reason": "no evidence file next to args4j-2.33.2-osera-00002.jar",
+          "checked_at": "2026-09-16T12:33:02Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-16T12:33:02Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-16T12:33:02Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-16T12:33:02Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "com.beust:jcommander@1.82.1-osera-00001",
       "producer": "controlplane-dev",
       "fork": "patch-jcommander",
@@ -8,11 +38,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "fork": {
           "state": "present",
@@ -40,11 +70,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "fork": {
           "state": "missing",
@@ -54,7 +84,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "verdict": {
           "state": "missing",
@@ -73,11 +103,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "fork": {
           "state": "missing",
@@ -87,7 +117,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "verdict": {
           "state": "present",
@@ -106,12 +136,12 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to netty-3.10.6.Final-osera-00001.jar",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "fork": {
           "state": "missing",
@@ -121,7 +151,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "verdict": {
           "state": "missing",
@@ -140,11 +170,11 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "fork": {
           "state": "missing",
@@ -154,7 +184,7 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-16T12:07:04Z"
+          "checked_at": "2026-09-16T12:33:02Z"
         },
         "verdict": {
           "state": "present",
