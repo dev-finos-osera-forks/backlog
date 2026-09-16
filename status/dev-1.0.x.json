@@ -1,9 +1,9 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.16.6",
-  "as_of": "2026-09-16T12:53:59Z",
-  "status": "fixed",
-  "in_scope": 7,
+  "as_of": "2026-09-16T13:32:50Z",
+  "status": "in progress",
+  "in_scope": 8,
   "fixed": [
     {
       "cve": "CVE-2022-1471",
@@ -56,7 +56,12 @@
     }
   ],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2026-90014",
+      "library": "com.beust:jcommander"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [
     "CVE-2022-1471 on snakeyaml 1.33 is patched, the evidence chain is broken: the fork patch-snakeyaml is missing",
