@@ -60,6 +60,26 @@
       "database_specific": {
         "severity": "CRITICAL"
       }
+    },
+    {
+      "id": "CVE-2026-90014",
+      "aliases": [],
+      "summary": "DEV ONLY, invented on 16 Sept 2026: a second made up flaw in jcommander 1.82, to watch a fixed line reopen and the gate publish the evidence itself",
+      "details": "DEV ONLY, invented on 16 Sept 2026: a second made up flaw in jcommander 1.82, to watch a fixed line reopen and the gate publish the evidence itself. Not a real vulnerability.",
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "Maven",
+            "name": "com.beust:jcommander"
+          },
+          "versions": [
+            "1.82"
+          ]
+        }
+      ],
+      "database_specific": {
+        "severity": "CRITICAL"
+      }
     }
   ]
 }
