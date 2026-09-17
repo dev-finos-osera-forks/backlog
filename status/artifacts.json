@@ -32,7 +32,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T13:42:25Z"
+          "checked_at": "2026-09-17T14:42:34Z"
         },
         "tag": {
           "state": "present",
@@ -61,27 +61,29 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T13:42:25Z"
+          "checked_at": "2026-09-17T14:42:33Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T13:42:25Z"
+          "checked_at": "2026-09-17T14:42:33Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T13:42:25Z"
+          "checked_at": "2026-09-17T14:42:34Z"
         },
         "document": {
-          "state": ""
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (jcommander-1.82.1-osera-00001-cyclonedx.json)",
+          "checked_at": "2026-09-17T14:42:34Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T13:42:25Z"
+          "checked_at": "2026-09-17T14:42:33Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T13:42:25Z"
+          "checked_at": "2026-09-17T14:42:33Z"
         },
         "fork": {
           "state": "present",
@@ -89,19 +91,19 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T13:42:25Z"
+          "checked_at": "2026-09-17T14:42:34Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T13:42:25Z"
+          "checked_at": "2026-09-17T14:42:34Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T13:42:25Z"
+          "checked_at": "2026-09-17T14:42:34Z"
         }
       },
-      "chain": "complete",
+      "chain": "broken",
       "lines": [
         "dev-1.0.x"
       ]
