@@ -28,7 +28,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T10:41:23Z"
+          "checked_at": "2026-09-17T11:41:32Z"
         },
         "tag": {
           "state": "present",
@@ -57,23 +57,24 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T10:41:22Z"
+          "checked_at": "2026-09-17T11:41:32Z"
         },
         "evidence": {
-          "state": "present",
-          "checked_at": "2026-09-17T10:41:22Z"
+          "state": "not checked",
+          "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
+          "checked_at": "2026-09-17T11:41:32Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T10:41:22Z"
+          "checked_at": "2026-09-17T11:41:32Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T10:41:22Z"
+          "checked_at": "2026-09-17T11:41:32Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T10:41:22Z"
+          "checked_at": "2026-09-17T11:41:32Z"
         },
         "fork": {
           "state": "present",
@@ -81,16 +82,16 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T10:41:22Z"
+          "checked_at": "2026-09-17T11:41:32Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T10:41:22Z"
+          "checked_at": "2026-09-17T11:41:32Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T10:41:22Z"
+          "checked_at": "2026-09-17T11:41:32Z"
         }
       },
       "chain": "complete",
