@@ -266,6 +266,60 @@
       ]
     },
     {
+      "coordinate": "com.beust:jcommander@1.82.5-osera-00005",
+      "producer": "controlplane-dev",
+      "fork": "patch-jcommander",
+      "tag": "v1.82.5-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T14:47:14Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T14:47:14Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "no signature next to the jar (jcommander-1.82.5-osera-00005.jar.asc)",
+          "checked_at": "2026-09-17T14:47:14Z"
+        },
+        "document": {
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (jcommander-1.82.5-osera-00005-cyclonedx.json)",
+          "checked_at": "2026-09-17T14:47:14Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T14:47:14Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T14:47:14Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T14:10:47Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T14:47:14Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T14:47:14Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T14:47:14Z"
+        }
+      },
+      "chain": "broken",
+      "lines": [
+        "dev-1.0.x"
+      ]
+    },
+    {
       "coordinate": "com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001",
       "producer": "controlplane-dev",
       "fork": "patch-jackson-core",
