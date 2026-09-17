@@ -208,6 +208,56 @@
       "lines": []
     },
     {
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-logback",
+      "tag": "v1.2.13.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:25:19Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:25:19Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:25:19Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:25:19Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:25:19Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:25:19Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:25:20Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:25:20Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:25:20Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "ch.qos.logback:logback-parent@1.2.13.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-logback",
