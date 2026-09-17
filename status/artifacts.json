@@ -411,6 +411,57 @@
       "lines": []
     },
     {
+      "coordinate": "ch.qos.logback:logback-parent@1.2.13.1-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-logback",
+      "tag": "v1.2.13.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:28:11Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:28:11Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:28:11Z"
+        },
+        "document": {
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (logback-parent-1.2.13.1-osera-00002-cyclonedx.json)",
+          "checked_at": "2026-09-17T17:28:11Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:28:11Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:28:11Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:28:12Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:28:12Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:28:12Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "com.beust:jcommander@1.82.1-osera-00001",
       "producer": "controlplane-dev",
       "fork": "patch-jcommander",
