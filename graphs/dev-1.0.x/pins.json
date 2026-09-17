@@ -1,0 +1,39 @@
+{
+  "line": "dev-1.0.x",
+  "anchor": "org.finos.osera.dev:dev-bom@2.0.0",
+  "files": [
+    {
+      "coordinate": "org.finos.osera.dev:dev-bom@2.0.0",
+      "url": "http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/org/finos/osera/dev/dev-bom/2.0.0/dev-bom-2.0.0.pom",
+      "sha256": "2d3e5f8475617deeeb2cb2f2345f47a522e0fb806620d8cf522c8beaed8867ef",
+      "packaging": "pom",
+      "role": "anchor"
+    }
+  ],
+  "entries": [
+    {
+      "group": "args4j",
+      "artifact": "args4j",
+      "version_as_written": "2.33",
+      "version": "2.33",
+      "kind": "library",
+      "file": "org.finos.osera.dev:dev-bom@2.0.0"
+    },
+    {
+      "group": "net.sf.jopt-simple",
+      "artifact": "jopt-simple",
+      "version_as_written": "5.0.4",
+      "version": "5.0.4",
+      "kind": "library",
+      "file": "org.finos.osera.dev:dev-bom@2.0.0"
+    },
+    {
+      "group": "com.beust",
+      "artifact": "jcommander",
+      "version_as_written": "1.82",
+      "version": "1.82",
+      "kind": "library",
+      "file": "org.finos.osera.dev:dev-bom@2.0.0"
+    }
+  ]
+}
