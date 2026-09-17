@@ -19,6 +19,9 @@
           "state": "present",
           "checked_at": "2026-09-17T13:47:49Z"
         },
+        "document": {
+          "state": ""
+        },
         "producer": {
           "state": "present",
           "checked_at": "2026-09-17T13:47:49Z"
@@ -69,6 +72,9 @@
           "state": "present",
           "checked_at": "2026-09-17T13:42:25Z"
         },
+        "document": {
+          "state": ""
+        },
         "producer": {
           "state": "present",
           "checked_at": "2026-09-17T13:42:25Z"
@@ -79,7 +85,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T13:09:49Z"
+          "checked_at": "2026-09-17T14:10:47Z"
         },
         "tag": {
           "state": "present",
@@ -118,6 +124,9 @@
           "state": "present",
           "checked_at": "2026-09-17T13:51:49Z"
         },
+        "document": {
+          "state": ""
+        },
         "producer": {
           "state": "present",
           "checked_at": "2026-09-17T13:51:49Z"
@@ -128,7 +137,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T13:09:49Z"
+          "checked_at": "2026-09-17T14:10:47Z"
         },
         "tag": {
           "state": "present",
@@ -157,40 +166,43 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T13:23:49Z"
+          "checked_at": "2026-09-17T14:24:47Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T13:23:49Z"
+          "checked_at": "2026-09-17T14:24:47Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T13:23:49Z"
+          "checked_at": "2026-09-17T14:24:48Z"
+        },
+        "document": {
+          "state": ""
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T13:23:49Z"
+          "checked_at": "2026-09-17T14:24:47Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T13:23:49Z"
+          "checked_at": "2026-09-17T14:24:47Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T13:09:49Z"
+          "checked_at": "2026-09-17T14:10:47Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T13:23:50Z"
+          "checked_at": "2026-09-17T14:24:48Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T13:23:50Z"
+          "checked_at": "2026-09-17T14:24:48Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T13:23:50Z"
+          "checked_at": "2026-09-17T14:24:48Z"
         }
       },
       "chain": "complete",
@@ -217,6 +229,9 @@
           "reason": "no signature next to the jar (jcommander-1.82.4-osera-00004.jar.asc)",
           "checked_at": "2026-09-17T14:03:17Z"
         },
+        "document": {
+          "state": ""
+        },
         "producer": {
           "state": "present",
           "checked_at": "2026-09-17T14:03:17Z"
@@ -227,7 +242,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T13:09:49Z"
+          "checked_at": "2026-09-17T14:10:47Z"
         },
         "tag": {
           "state": "present",
@@ -255,25 +270,28 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "signatures": {
           "state": "failed",
           "reason": "no signature next to the jar (jackson-core-2.14.2.1-osera-00001.jar.asc)",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
+        },
+        "document": {
+          "state": ""
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 2.14.2.1-osera-00001 in osera-releases-raw-01",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "fork": {
           "state": "missing",
@@ -283,17 +301,17 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         }
       },
       "chain": "failed",
@@ -307,24 +325,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
+        },
+        "document": {
+          "state": ""
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "fork": {
           "state": "missing",
@@ -334,17 +355,17 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "upload": {
           "state": "failed",
           "reason": "uploaded by local-dev, the registry says fbeltramini for producer controlplane-dev",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         }
       },
       "chain": "broken",
@@ -357,27 +378,30 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to netty-3.10.6.Final-osera-00001",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "signatures": {
           "state": "failed",
           "reason": "no signature next to the jar (netty-3.10.6.Final-osera-00001.jar.asc)",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
+        },
+        "document": {
+          "state": ""
         },
         "producer": {
           "state": "missing",
           "reason": "the evidence names no producer",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 3.10.6.Final-osera-00001 in osera-releases-raw-01",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "fork": {
           "state": "missing",
@@ -387,17 +411,17 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         }
       },
       "chain": "failed",
@@ -421,6 +445,9 @@
         "signatures": {
           "state": "present",
           "checked_at": "2026-09-17T13:48:49Z"
+        },
+        "document": {
+          "state": ""
         },
         "producer": {
           "state": "present",
@@ -461,24 +488,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
+        },
+        "document": {
+          "state": ""
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "fork": {
           "state": "missing",
@@ -488,17 +518,17 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "upload": {
           "state": "failed",
           "reason": "uploaded by local-dev, the registry says fbeltramini for producer controlplane-dev",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T13:40:00Z"
+          "checked_at": "2026-09-17T14:40:47Z"
         }
       },
       "chain": "broken",
