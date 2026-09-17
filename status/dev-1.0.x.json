@@ -1,9 +1,9 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.17.3",
-  "as_of": "2026-09-17T14:03:58Z",
+  "as_of": "2026-09-17T14:46:30Z",
   "status": "fixed",
-  "chain": "broken: 1 artifact",
+  "chain": "complete",
   "in_scope": 4,
   "fixed": [
     {
@@ -43,9 +43,7 @@
   "open": [],
   "not_remediable": [],
   "discrepancies": [
-    "CVE-2026-90013 on jcommander 1.82: the fix is named by patch 00001 (com.beust:jcommander@1.82.1-osera-00001), the line pins the later patch 00004 (com.beust:jcommander@1.82.4-osera-00004) whose evidence does not name this CVE; nothing proves the later patch still contains the earlier fix, the entry is counted as fixed all the same",
-    "CVE-2026-90013 on jcommander 1.82 is patched, the evidence chain is broken: no signature next to the jar (jcommander-1.82.4-osera-00004.jar.asc)",
-    "CVE-2026-90014 on jcommander 1.82 is patched, the evidence chain is broken: no signature next to the jar (jcommander-1.82.4-osera-00004.jar.asc)"
+    "CVE-2026-90013 on jcommander 1.82: the fix is named by patch 00001 (com.beust:jcommander@1.82.1-osera-00001), the line pins the later patch 00004 (com.beust:jcommander@1.82.4-osera-00004) whose evidence does not name this CVE; nothing proves the later patch still contains the earlier fix, the entry is counted as fixed all the same"
   ],
   "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.17.2"
 }

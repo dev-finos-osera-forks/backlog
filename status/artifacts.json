@@ -220,27 +220,28 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T14:03:17Z"
+          "checked_at": "2026-09-17T14:46:32Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T14:03:17Z"
+          "checked_at": "2026-09-17T14:46:32Z"
         },
         "signatures": {
-          "state": "failed",
-          "reason": "no signature next to the jar (jcommander-1.82.4-osera-00004.jar.asc)",
-          "checked_at": "2026-09-17T14:03:17Z"
+          "state": "present",
+          "checked_at": "2026-09-17T14:46:32Z"
         },
         "document": {
-          "state": ""
+          "state": "present",
+          "reason": "the digest was not compared with the verdict's: the verdict records no vulnerability document",
+          "checked_at": "2026-09-17T14:46:32Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T14:03:17Z"
+          "checked_at": "2026-09-17T14:46:32Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T14:03:17Z"
+          "checked_at": "2026-09-17T14:46:32Z"
         },
         "fork": {
           "state": "present",
@@ -248,18 +249,18 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T14:03:18Z"
+          "checked_at": "2026-09-17T14:46:33Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T14:03:18Z"
+          "checked_at": "2026-09-17T14:46:33Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-17T14:03:18Z"
+          "checked_at": "2026-09-17T14:46:33Z"
         }
       },
-      "chain": "broken",
+      "chain": "complete",
       "lines": [
         "dev-1.0.x"
       ]
@@ -298,7 +299,7 @@
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-17T13:43:49Z"
+          "checked_at": "2026-09-17T14:44:34Z"
         },
         "tag": {
           "state": "not checked",
@@ -352,7 +353,7 @@
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-17T13:43:49Z"
+          "checked_at": "2026-09-17T14:44:34Z"
         },
         "tag": {
           "state": "not checked",
@@ -408,7 +409,7 @@
         "fork": {
           "state": "missing",
           "reason": "the fork patch-netty is missing",
-          "checked_at": "2026-09-17T13:43:49Z"
+          "checked_at": "2026-09-17T14:44:34Z"
         },
         "tag": {
           "state": "not checked",
@@ -515,7 +516,7 @@
         "fork": {
           "state": "missing",
           "reason": "the fork patch-snakeyaml is missing",
-          "checked_at": "2026-09-17T13:44:49Z"
+          "checked_at": "2026-09-17T14:45:34Z"
         },
         "tag": {
           "state": "not checked",
