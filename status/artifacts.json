@@ -493,27 +493,29 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T13:48:49Z"
+          "checked_at": "2026-09-17T14:49:18Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T13:48:49Z"
+          "checked_at": "2026-09-17T14:49:18Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T13:48:49Z"
+          "checked_at": "2026-09-17T14:49:18Z"
         },
         "document": {
-          "state": ""
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)",
+          "checked_at": "2026-09-17T14:49:18Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T13:48:49Z"
+          "checked_at": "2026-09-17T14:49:18Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T13:48:49Z"
+          "checked_at": "2026-09-17T14:49:18Z"
         },
         "fork": {
           "state": "present",
@@ -521,19 +523,19 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T13:48:49Z"
+          "checked_at": "2026-09-17T14:49:19Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T13:48:49Z"
+          "checked_at": "2026-09-17T14:49:19Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T13:48:49Z"
+          "checked_at": "2026-09-17T14:49:19Z"
         }
       },
-      "chain": "complete",
+      "chain": "broken",
       "lines": [
         "dev-1.0.x"
       ]
