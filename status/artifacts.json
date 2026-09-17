@@ -332,29 +332,28 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T17:03:11Z"
+          "checked_at": "2026-09-17T17:03:51Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T17:03:11Z"
+          "checked_at": "2026-09-17T17:03:51Z"
         },
         "signatures": {
-          "state": "failed",
-          "reason": "no signature next to the jar (jcommander-1.82.6-osera-00006.jar.asc)",
-          "checked_at": "2026-09-17T17:03:11Z"
+          "state": "present",
+          "checked_at": "2026-09-17T17:03:51Z"
         },
         "document": {
-          "state": "failed",
-          "reason": "no signature next to the vulnerability document (jcommander-1.82.6-osera-00006-cyclonedx.json.asc)",
-          "checked_at": "2026-09-17T17:03:11Z"
+          "state": "present",
+          "reason": "the digest was not compared with the verdict's: the verdict records no vulnerability document",
+          "checked_at": "2026-09-17T17:03:51Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T17:03:11Z"
+          "checked_at": "2026-09-17T17:03:51Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T17:03:11Z"
+          "checked_at": "2026-09-17T17:03:51Z"
         },
         "fork": {
           "state": "present",
@@ -362,18 +361,18 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T17:03:11Z"
+          "checked_at": "2026-09-17T17:03:51Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T17:03:11Z"
+          "checked_at": "2026-09-17T17:03:51Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-17T17:03:11Z"
+          "checked_at": "2026-09-17T17:03:51Z"
         }
       },
-      "chain": "broken",
+      "chain": "complete",
       "lines": [
         "dev-1.0.x"
       ]
