@@ -332,29 +332,29 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T17:02:05Z"
+          "checked_at": "2026-09-17T17:03:11Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T17:02:05Z"
+          "checked_at": "2026-09-17T17:03:11Z"
         },
         "signatures": {
           "state": "failed",
           "reason": "no signature next to the jar (jcommander-1.82.6-osera-00006.jar.asc)",
-          "checked_at": "2026-09-17T17:02:05Z"
+          "checked_at": "2026-09-17T17:03:11Z"
         },
         "document": {
-          "state": "missing",
-          "reason": "no vulnerability document next to the pom (jcommander-1.82.6-osera-00006-cyclonedx.json)",
-          "checked_at": "2026-09-17T17:02:05Z"
+          "state": "failed",
+          "reason": "no signature next to the vulnerability document (jcommander-1.82.6-osera-00006-cyclonedx.json.asc)",
+          "checked_at": "2026-09-17T17:03:11Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T17:02:05Z"
+          "checked_at": "2026-09-17T17:03:11Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T17:02:05Z"
+          "checked_at": "2026-09-17T17:03:11Z"
         },
         "fork": {
           "state": "present",
@@ -362,15 +362,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T17:02:05Z"
+          "checked_at": "2026-09-17T17:03:11Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T17:02:05Z"
+          "checked_at": "2026-09-17T17:03:11Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-17T17:02:05Z"
+          "checked_at": "2026-09-17T17:03:11Z"
         }
       },
       "chain": "broken",
