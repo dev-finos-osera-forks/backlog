@@ -158,6 +158,57 @@
       "lines": []
     },
     {
+      "coordinate": "ch.qos.logback:logback-classic@1.2.13.1-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-logback",
+      "tag": "v1.2.13.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:26:27Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:26:27Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:26:27Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2024-12801, CVE-2025-11226 and the vulnerability document names none; in the evidence and not in the document: CVE-2024-12801, CVE-2025-11226; in the document and not in the evidence: none",
+          "checked_at": "2026-09-17T17:26:27Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:26:27Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:26:27Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:26:27Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:26:27Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:26:27Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-logback",
@@ -425,28 +476,28 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T16:25:33Z"
+          "checked_at": "2026-09-17T17:25:59Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T16:25:33Z"
+          "checked_at": "2026-09-17T17:25:59Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T16:25:33Z"
+          "checked_at": "2026-09-17T17:25:59Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (jcommander-1.82.3-osera-00003-cyclonedx.json)",
-          "checked_at": "2026-09-17T16:25:33Z"
+          "checked_at": "2026-09-17T17:25:59Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T16:25:33Z"
+          "checked_at": "2026-09-17T17:25:59Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T16:25:33Z"
+          "checked_at": "2026-09-17T17:25:59Z"
         },
         "fork": {
           "state": "present",
@@ -454,16 +505,16 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T16:25:34Z"
+          "checked_at": "2026-09-17T17:26:00Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T16:25:34Z"
+          "checked_at": "2026-09-17T17:26:00Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T16:25:34Z"
+          "checked_at": "2026-09-17T17:26:00Z"
         }
       },
       "chain": "broken",
