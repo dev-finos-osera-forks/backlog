@@ -1,7 +1,7 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.16.11",
-  "as_of": "2026-09-17T11:22:30Z",
+  "as_of": "2026-09-17T12:50:47Z",
   "status": "fixed",
   "chain": "broken: 2 artifacts",
   "in_scope": 8,
@@ -75,9 +75,9 @@
   "open": [],
   "not_remediable": [],
   "discrepancies": [
-    "CVE-2025-52999 on jackson-core 2.14.2: promoted artifact com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001 refused: no signature next to the jar (jackson-core-2.14.2.1-osera-00001.jar.asc), no verdict for 2.14.2.1-osera-00001 in osera-releases-raw-01",
+    "CVE-2025-52999 on jackson-core 2.14.2: promoted artifact com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001 refused: no verdict for 2.14.2.1-osera-00001 in osera-releases-raw-01",
     "CVE-2026-90013 on jcommander 1.82: the fix is named by patch 00001 (com.beust:jcommander@1.82.1-osera-00001), the line pins the later patch 00003 (com.beust:jcommander@1.82.3-osera-00003) whose evidence does not name this CVE; nothing proves the later patch still contains the earlier fix, the entry is counted as fixed all the same",
-    "GHSA-r7wm-3cxj-wff9 on jackson-core 2.14.2: promoted artifact com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001 refused: no signature next to the jar (jackson-core-2.14.2.1-osera-00001.jar.asc), no verdict for 2.14.2.1-osera-00001 in osera-releases-raw-01",
+    "GHSA-r7wm-3cxj-wff9 on jackson-core 2.14.2: promoted artifact com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001 refused: no verdict for 2.14.2.1-osera-00001 in osera-releases-raw-01",
     "CVE-2022-1471 on snakeyaml 1.33 is patched, the evidence chain is broken: the fork patch-snakeyaml is missing, uploaded by local-dev, the registry says fbeltramini for producer controlplane-dev",
     "CVE-2025-52999 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing, uploaded by local-dev, the registry says fbeltramini for producer controlplane-dev",
     "CVE-2026-90001 on jackson-core 2.14.2 is patched, the evidence chain is broken: the fork patch-jackson-core is missing, uploaded by local-dev, the registry says fbeltramini for producer controlplane-dev",
