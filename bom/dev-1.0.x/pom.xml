@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the dev-1.0.x line, built 2026-09-16T15:12:12Z by the line manager.
+  The OSERA BOM of the dev-1.0.x line, built 2026-09-17T13:40:00Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-dev-1.0.x</artifactId>
-  <version>2026.09.16.5</version>
+  <version>2026.09.17</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for dev-1.0.x</name>
   <dependencyManagement>
@@ -23,19 +23,9 @@
         <version>1.82.3-osera-00003</version>
       </dependency>
       <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-core</artifactId>
-        <version>2.14.2.2-osera-00002</version>
-      </dependency>
-      <dependency>
         <groupId>net.sf.jopt-simple</groupId>
         <artifactId>jopt-simple</artifactId>
         <version>5.0.4.2-osera-00002</version>
-      </dependency>
-      <dependency>
-        <groupId>org.yaml</groupId>
-        <artifactId>snakeyaml</artifactId>
-        <version>1.33.1-osera-00001</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
