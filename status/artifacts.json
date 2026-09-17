@@ -107,6 +107,57 @@
       "lines": []
     },
     {
+      "coordinate": "ch.qos.logback:logback-access@1.2.13.1-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-logback",
+      "tag": "v1.2.13.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:27:32Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:27:32Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:27:32Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2024-12801, CVE-2025-11226 and the vulnerability document names none; in the evidence and not in the document: CVE-2024-12801, CVE-2025-11226; in the document and not in the evidence: none",
+          "checked_at": "2026-09-17T17:27:32Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:27:32Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:27:32Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:27:32Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:27:32Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:27:32Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "ch.qos.logback:logback-classic@1.2.13.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-logback",
