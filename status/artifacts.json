@@ -89,7 +89,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T14:10:47Z"
+          "checked_at": "2026-09-17T15:11:34Z"
         },
         "tag": {
           "state": "present",
@@ -143,7 +143,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T14:10:47Z"
+          "checked_at": "2026-09-17T15:11:34Z"
         },
         "tag": {
           "state": "present",
@@ -172,46 +172,48 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T14:24:47Z"
+          "checked_at": "2026-09-17T15:25:33Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T14:24:47Z"
+          "checked_at": "2026-09-17T15:25:33Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T14:24:48Z"
+          "checked_at": "2026-09-17T15:25:33Z"
         },
         "document": {
-          "state": ""
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (jcommander-1.82.3-osera-00003-cyclonedx.json)",
+          "checked_at": "2026-09-17T15:25:33Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T14:24:47Z"
+          "checked_at": "2026-09-17T15:25:33Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T14:24:47Z"
+          "checked_at": "2026-09-17T15:25:33Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T14:10:47Z"
+          "checked_at": "2026-09-17T15:11:34Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T14:24:48Z"
+          "checked_at": "2026-09-17T15:25:33Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T14:24:48Z"
+          "checked_at": "2026-09-17T15:25:33Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T14:24:48Z"
+          "checked_at": "2026-09-17T15:25:33Z"
         }
       },
-      "chain": "complete",
+      "chain": "broken",
       "lines": [
         "dev-1.0.x"
       ]
@@ -249,7 +251,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T14:10:47Z"
+          "checked_at": "2026-09-17T15:11:34Z"
         },
         "tag": {
           "state": "present",
@@ -302,7 +304,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T14:10:47Z"
+          "checked_at": "2026-09-17T15:11:34Z"
         },
         "tag": {
           "state": "present",
@@ -521,7 +523,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T13:55:49Z"
+          "checked_at": "2026-09-17T14:56:33Z"
         },
         "tag": {
           "state": "present",
