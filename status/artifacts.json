@@ -8,27 +8,29 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T13:47:49Z"
+          "checked_at": "2026-09-17T14:47:57Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T13:47:49Z"
+          "checked_at": "2026-09-17T14:47:57Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T13:47:49Z"
+          "checked_at": "2026-09-17T14:47:57Z"
         },
         "document": {
-          "state": ""
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (args4j-2.33.2-osera-00002-cyclonedx.json)",
+          "checked_at": "2026-09-17T14:47:57Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T13:47:49Z"
+          "checked_at": "2026-09-17T14:47:56Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T13:47:49Z"
+          "checked_at": "2026-09-17T14:47:56Z"
         },
         "fork": {
           "state": "present",
@@ -36,19 +38,19 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T13:47:49Z"
+          "checked_at": "2026-09-17T14:47:57Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T13:47:49Z"
+          "checked_at": "2026-09-17T14:47:57Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T13:47:49Z"
+          "checked_at": "2026-09-17T14:47:57Z"
         }
       },
-      "chain": "complete",
+      "chain": "broken",
       "lines": [
         "dev-1.0.x"
       ]
