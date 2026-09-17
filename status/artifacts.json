@@ -56,6 +56,57 @@
       ]
     },
     {
+      "coordinate": "ch.qos.logback:logback-classic@1.2.13.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-logback",
+      "tag": "v1.2.13.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:12:35Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:12:35Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:12:35Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2024-12801 and the vulnerability document names none; in the evidence and not in the document: CVE-2024-12801; in the document and not in the evidence: none",
+          "checked_at": "2026-09-17T17:12:35Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:12:35Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:12:35Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:12:35Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:12:35Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:12:35Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-logback",
@@ -139,7 +190,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T16:12:33Z"
+          "checked_at": "2026-09-17T17:12:35Z"
         },
         "tag": {
           "state": "present",
@@ -193,7 +244,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T16:12:33Z"
+          "checked_at": "2026-09-17T17:12:35Z"
         },
         "tag": {
           "state": "present",
@@ -247,7 +298,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T16:12:33Z"
+          "checked_at": "2026-09-17T17:12:35Z"
         },
         "tag": {
           "state": "present",
@@ -301,7 +352,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T16:12:33Z"
+          "checked_at": "2026-09-17T17:12:35Z"
         },
         "tag": {
           "state": "present",
@@ -354,7 +405,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T16:12:33Z"
+          "checked_at": "2026-09-17T17:12:35Z"
         },
         "tag": {
           "state": "present",
@@ -407,7 +458,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T16:12:33Z"
+          "checked_at": "2026-09-17T17:12:35Z"
         },
         "tag": {
           "state": "present",
