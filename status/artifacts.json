@@ -275,29 +275,28 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:14Z"
+          "checked_at": "2026-09-17T14:48:37Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:14Z"
+          "checked_at": "2026-09-17T14:48:37Z"
         },
         "signatures": {
-          "state": "failed",
-          "reason": "no signature next to the jar (jcommander-1.82.5-osera-00005.jar.asc)",
-          "checked_at": "2026-09-17T14:47:14Z"
+          "state": "present",
+          "checked_at": "2026-09-17T14:48:37Z"
         },
         "document": {
-          "state": "missing",
-          "reason": "no vulnerability document next to the pom (jcommander-1.82.5-osera-00005-cyclonedx.json)",
-          "checked_at": "2026-09-17T14:47:14Z"
+          "state": "present",
+          "reason": "the digest was not compared with the verdict's: the verdict records no vulnerability document",
+          "checked_at": "2026-09-17T14:48:37Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:14Z"
+          "checked_at": "2026-09-17T14:48:37Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:14Z"
+          "checked_at": "2026-09-17T14:48:37Z"
         },
         "fork": {
           "state": "present",
@@ -305,18 +304,18 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:14Z"
+          "checked_at": "2026-09-17T14:48:37Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:14Z"
+          "checked_at": "2026-09-17T14:48:37Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:14Z"
+          "checked_at": "2026-09-17T14:48:37Z"
         }
       },
-      "chain": "broken",
+      "chain": "complete",
       "lines": [
         "dev-1.0.x"
       ]
