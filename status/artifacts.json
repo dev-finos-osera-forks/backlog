@@ -56,6 +56,56 @@
       ]
     },
     {
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-logback",
+      "tag": "v1.2.13.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:54Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:54Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:54Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:54Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:54Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:54Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "com.beust:jcommander@1.82.1-osera-00001",
       "producer": "controlplane-dev",
       "fork": "patch-jcommander",

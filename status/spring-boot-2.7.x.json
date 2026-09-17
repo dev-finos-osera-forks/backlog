@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.17.5",
-  "as_of": "2026-09-17T17:02:29Z",
+  "as_of": "2026-09-17T17:11:52Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 135,
@@ -551,6 +551,7 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
     "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
