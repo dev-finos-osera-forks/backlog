@@ -56,6 +56,57 @@
       ]
     },
     {
+      "coordinate": "ch.qos.logback:logback-access@1.2.13.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-logback",
+      "tag": "v1.2.13.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:16Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:16Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:16Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2024-12801 and the vulnerability document names none; in the evidence and not in the document: CVE-2024-12801; in the document and not in the evidence: none",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:16Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:16Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "ch.qos.logback:logback-classic@1.2.13.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-logback",
@@ -154,6 +205,57 @@
         }
       },
       "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "ch.qos.logback:logback-parent@1.2.13.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-logback",
+      "tag": "v1.2.13.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "document": {
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (logback-parent-1.2.13.1-osera-00001-cyclonedx.json)",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:11:55Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:13:17Z"
+        }
+      },
+      "chain": "broken",
       "lines": []
     },
     {
