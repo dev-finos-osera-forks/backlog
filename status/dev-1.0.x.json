@@ -1,9 +1,9 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.17.2",
-  "as_of": "2026-09-17T13:41:43Z",
+  "as_of": "2026-09-17T14:03:15Z",
   "status": "fixed",
-  "chain": "complete",
+  "chain": "broken: 1 artifact",
   "in_scope": 4,
   "fixed": [
     {
@@ -25,25 +25,27 @@
     {
       "cve": "CVE-2026-90013",
       "library": "com.beust:jcommander",
-      "coordinate": "com.beust:jcommander@1.82.3-osera-00003",
-      "patch": "00003",
+      "coordinate": "com.beust:jcommander@1.82.4-osera-00004",
+      "patch": "00004",
       "named_by": "com.beust:jcommander@1.82.1-osera-00001",
-      "at": "2026-09-16T15:12:09Z"
+      "at": "2026-09-17T14:03:15Z"
     },
     {
       "cve": "CVE-2026-90014",
       "library": "com.beust:jcommander",
-      "coordinate": "com.beust:jcommander@1.82.3-osera-00003",
-      "patch": "00003",
-      "named_by": "com.beust:jcommander@1.82.3-osera-00003",
-      "at": "2026-09-16T15:12:09Z"
+      "coordinate": "com.beust:jcommander@1.82.4-osera-00004",
+      "patch": "00004",
+      "named_by": "com.beust:jcommander@1.82.4-osera-00004",
+      "at": "2026-09-17T14:03:15Z"
     }
   ],
   "in_progress": [],
   "open": [],
   "not_remediable": [],
   "discrepancies": [
-    "CVE-2026-90013 on jcommander 1.82: the fix is named by patch 00001 (com.beust:jcommander@1.82.1-osera-00001), the line pins the later patch 00003 (com.beust:jcommander@1.82.3-osera-00003) whose evidence does not name this CVE; nothing proves the later patch still contains the earlier fix, the entry is counted as fixed all the same"
+    "CVE-2026-90013 on jcommander 1.82: the fix is named by patch 00001 (com.beust:jcommander@1.82.1-osera-00001), the line pins the later patch 00004 (com.beust:jcommander@1.82.4-osera-00004) whose evidence does not name this CVE; nothing proves the later patch still contains the earlier fix, the entry is counted as fixed all the same",
+    "CVE-2026-90013 on jcommander 1.82 is patched, the evidence chain is broken: no signature next to the jar (jcommander-1.82.4-osera-00004.jar.asc)",
+    "CVE-2026-90014 on jcommander 1.82 is patched, the evidence chain is broken: no signature next to the jar (jcommander-1.82.4-osera-00004.jar.asc)"
   ],
-  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.17"
+  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.17.2"
 }
