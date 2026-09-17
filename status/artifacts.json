@@ -118,26 +118,28 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T13:51:49Z"
+          "checked_at": "2026-09-17T14:52:33Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T13:51:49Z"
+          "checked_at": "2026-09-17T14:52:33Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T13:51:49Z"
+          "checked_at": "2026-09-17T14:52:33Z"
         },
         "document": {
-          "state": ""
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (jcommander-1.82.2-osera-00002-cyclonedx.json)",
+          "checked_at": "2026-09-17T14:52:33Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T13:51:49Z"
+          "checked_at": "2026-09-17T14:52:33Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T13:51:49Z"
+          "checked_at": "2026-09-17T14:52:33Z"
         },
         "fork": {
           "state": "present",
@@ -145,19 +147,19 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T13:51:50Z"
+          "checked_at": "2026-09-17T14:52:33Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T13:51:50Z"
+          "checked_at": "2026-09-17T14:52:33Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T13:51:50Z"
+          "checked_at": "2026-09-17T14:52:33Z"
         }
       },
-      "chain": "complete",
+      "chain": "broken",
       "lines": [
         "dev-1.0.x"
       ]
