@@ -1,9 +1,9 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.17.4",
-  "as_of": "2026-09-17T14:49:15Z",
+  "as_of": "2026-09-17T17:02:02Z",
   "status": "fixed",
-  "chain": "broken: 2 artifacts",
+  "chain": "broken: 3 artifacts",
   "in_scope": 4,
   "fixed": [
     {
@@ -25,27 +25,29 @@
     {
       "cve": "CVE-2026-90013",
       "library": "com.beust:jcommander",
-      "coordinate": "com.beust:jcommander@1.82.5-osera-00005",
-      "patch": "00005",
+      "coordinate": "com.beust:jcommander@1.82.6-osera-00006",
+      "patch": "00006",
       "named_by": "com.beust:jcommander@1.82.1-osera-00001",
-      "at": "2026-09-17T14:47:12Z"
+      "at": "2026-09-17T17:02:02Z"
     },
     {
       "cve": "CVE-2026-90014",
       "library": "com.beust:jcommander",
-      "coordinate": "com.beust:jcommander@1.82.5-osera-00005",
-      "patch": "00005",
-      "named_by": "com.beust:jcommander@1.82.5-osera-00005",
-      "at": "2026-09-17T14:47:12Z"
+      "coordinate": "com.beust:jcommander@1.82.6-osera-00006",
+      "patch": "00006",
+      "named_by": "com.beust:jcommander@1.82.6-osera-00006",
+      "at": "2026-09-17T17:02:02Z"
     }
   ],
   "in_progress": [],
   "open": [],
   "not_remediable": [],
   "discrepancies": [
-    "CVE-2026-90013 on jcommander 1.82: the fix is named by patch 00001 (com.beust:jcommander@1.82.1-osera-00001), the line pins the later patch 00005 (com.beust:jcommander@1.82.5-osera-00005) whose evidence does not name this CVE; nothing proves the later patch still contains the earlier fix, the entry is counted as fixed all the same",
+    "CVE-2026-90013 on jcommander 1.82: the fix is named by patch 00001 (com.beust:jcommander@1.82.1-osera-00001), the line pins the later patch 00006 (com.beust:jcommander@1.82.6-osera-00006) whose evidence does not name this CVE; nothing proves the later patch still contains the earlier fix, the entry is counted as fixed all the same",
     "CVE-2026-90011 on args4j 2.33 is patched, the evidence chain is broken: no vulnerability document next to the pom (args4j-2.33.2-osera-00002-cyclonedx.json)",
-    "CVE-2026-90012 on jopt-simple 5.0.4 is patched, the evidence chain is broken: no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)"
+    "CVE-2026-90012 on jopt-simple 5.0.4 is patched, the evidence chain is broken: no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)",
+    "CVE-2026-90013 on jcommander 1.82 is patched, the evidence chain is broken: no signature next to the jar (jcommander-1.82.6-osera-00006.jar.asc), no vulnerability document next to the pom (jcommander-1.82.6-osera-00006-cyclonedx.json)",
+    "CVE-2026-90014 on jcommander 1.82 is patched, the evidence chain is broken: no signature next to the jar (jcommander-1.82.6-osera-00006.jar.asc), no vulnerability document next to the pom (jcommander-1.82.6-osera-00006-cyclonedx.json)"
   ],
-  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.17.3"
+  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.17.4"
 }

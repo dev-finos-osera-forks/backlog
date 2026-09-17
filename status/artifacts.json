@@ -8,46 +8,46 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:57Z"
+          "checked_at": "2026-09-17T16:49:31Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T14:47:57Z"
+          "checked_at": "2026-09-17T16:49:31Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:57Z"
+          "checked_at": "2026-09-17T16:49:31Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (args4j-2.33.2-osera-00002-cyclonedx.json)",
-          "checked_at": "2026-09-17T14:47:57Z"
+          "checked_at": "2026-09-17T16:49:31Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:56Z"
+          "checked_at": "2026-09-17T16:49:31Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:56Z"
+          "checked_at": "2026-09-17T16:49:31Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T14:42:34Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:57Z"
+          "checked_at": "2026-09-17T16:49:32Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T14:47:57Z"
+          "checked_at": "2026-09-17T16:49:32Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T14:47:57Z"
+          "checked_at": "2026-09-17T16:49:32Z"
         }
       },
       "chain": "broken",
@@ -63,46 +63,46 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T14:42:33Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T14:42:33Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T14:42:34Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (jcommander-1.82.1-osera-00001-cyclonedx.json)",
-          "checked_at": "2026-09-17T14:42:34Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T14:42:33Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T14:42:33Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T15:11:34Z"
+          "checked_at": "2026-09-17T16:12:33Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T14:42:34Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T14:42:34Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T14:42:34Z"
+          "checked_at": "2026-09-17T16:44:32Z"
         }
       },
       "chain": "broken",
@@ -118,45 +118,45 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T14:52:33Z"
+          "checked_at": "2026-09-17T16:53:31Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T14:52:33Z"
+          "checked_at": "2026-09-17T16:53:31Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T14:52:33Z"
+          "checked_at": "2026-09-17T16:53:31Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (jcommander-1.82.2-osera-00002-cyclonedx.json)",
-          "checked_at": "2026-09-17T14:52:33Z"
+          "checked_at": "2026-09-17T16:53:31Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T14:52:33Z"
+          "checked_at": "2026-09-17T16:53:31Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T14:52:33Z"
+          "checked_at": "2026-09-17T16:53:31Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T15:11:34Z"
+          "checked_at": "2026-09-17T16:12:33Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T14:52:33Z"
+          "checked_at": "2026-09-17T16:53:31Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T14:52:33Z"
+          "checked_at": "2026-09-17T16:53:31Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T14:52:33Z"
+          "checked_at": "2026-09-17T16:53:31Z"
         }
       },
       "chain": "broken",
@@ -172,45 +172,45 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T15:25:33Z"
+          "checked_at": "2026-09-17T16:25:33Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T15:25:33Z"
+          "checked_at": "2026-09-17T16:25:33Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T15:25:33Z"
+          "checked_at": "2026-09-17T16:25:33Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (jcommander-1.82.3-osera-00003-cyclonedx.json)",
-          "checked_at": "2026-09-17T15:25:33Z"
+          "checked_at": "2026-09-17T16:25:33Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T15:25:33Z"
+          "checked_at": "2026-09-17T16:25:33Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T15:25:33Z"
+          "checked_at": "2026-09-17T16:25:33Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T15:11:34Z"
+          "checked_at": "2026-09-17T16:12:33Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T15:25:33Z"
+          "checked_at": "2026-09-17T16:25:34Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T15:25:33Z"
+          "checked_at": "2026-09-17T16:25:34Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T15:25:33Z"
+          "checked_at": "2026-09-17T16:25:34Z"
         }
       },
       "chain": "broken",
@@ -226,44 +226,44 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T14:46:32Z"
+          "checked_at": "2026-09-17T16:47:32Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T14:46:32Z"
+          "checked_at": "2026-09-17T16:47:32Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T14:46:32Z"
+          "checked_at": "2026-09-17T16:47:32Z"
         },
         "document": {
           "state": "present",
           "reason": "the digest was not compared with the verdict's: the verdict records no vulnerability document",
-          "checked_at": "2026-09-17T14:46:32Z"
+          "checked_at": "2026-09-17T16:47:32Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T14:46:32Z"
+          "checked_at": "2026-09-17T16:47:32Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T14:46:32Z"
+          "checked_at": "2026-09-17T16:47:32Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T15:11:34Z"
+          "checked_at": "2026-09-17T16:12:33Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T14:46:33Z"
+          "checked_at": "2026-09-17T16:47:32Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T14:46:33Z"
+          "checked_at": "2026-09-17T16:47:32Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-17T14:46:33Z"
+          "checked_at": "2026-09-17T16:47:32Z"
         }
       },
       "chain": "complete",
@@ -279,47 +279,101 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T14:48:37Z"
+          "checked_at": "2026-09-17T16:50:32Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T14:48:37Z"
+          "checked_at": "2026-09-17T16:50:32Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T14:48:37Z"
+          "checked_at": "2026-09-17T16:50:32Z"
         },
         "document": {
           "state": "present",
           "reason": "the digest was not compared with the verdict's: the verdict records no vulnerability document",
-          "checked_at": "2026-09-17T14:48:37Z"
+          "checked_at": "2026-09-17T16:50:32Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T14:48:37Z"
+          "checked_at": "2026-09-17T16:50:32Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T14:48:37Z"
+          "checked_at": "2026-09-17T16:50:32Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T15:11:34Z"
+          "checked_at": "2026-09-17T16:12:33Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T14:48:37Z"
+          "checked_at": "2026-09-17T16:50:33Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T14:48:37Z"
+          "checked_at": "2026-09-17T16:50:33Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-17T14:48:37Z"
+          "checked_at": "2026-09-17T16:50:33Z"
         }
       },
       "chain": "complete",
+      "lines": [
+        "dev-1.0.x"
+      ]
+    },
+    {
+      "coordinate": "com.beust:jcommander@1.82.6-osera-00006",
+      "producer": "controlplane-dev",
+      "fork": "patch-jcommander",
+      "tag": "v1.82.6-osera-00006",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:02:05Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:02:05Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "no signature next to the jar (jcommander-1.82.6-osera-00006.jar.asc)",
+          "checked_at": "2026-09-17T17:02:05Z"
+        },
+        "document": {
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (jcommander-1.82.6-osera-00006-cyclonedx.json)",
+          "checked_at": "2026-09-17T17:02:05Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:02:05Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:02:05Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-17T16:12:33Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:02:05Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:02:05Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-17T17:02:05Z"
+        }
+      },
+      "chain": "broken",
       "lines": [
         "dev-1.0.x"
       ]
@@ -332,50 +386,50 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "signatures": {
           "state": "failed",
           "reason": "no signature next to the jar (jackson-core-2.14.2.1-osera-00001.jar.asc)",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (jackson-core-2.14.2.1-osera-00001-cyclonedx.json)",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 2.14.2.1-osera-00001 in osera-releases-raw-01",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-17T14:44:34Z"
+          "checked_at": "2026-09-17T16:46:31Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         }
       },
       "chain": "failed",
@@ -389,49 +443,49 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (jackson-core-2.14.2.2-osera-00002-cyclonedx.json)",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-jackson-core is missing",
-          "checked_at": "2026-09-17T14:44:34Z"
+          "checked_at": "2026-09-17T16:46:31Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "upload": {
           "state": "failed",
           "reason": "uploaded by local-dev, the registry says fbeltramini for producer controlplane-dev",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         }
       },
       "chain": "broken",
@@ -444,52 +498,52 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to netty-3.10.6.Final-osera-00001",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "signatures": {
           "state": "failed",
           "reason": "no signature next to the jar (netty-3.10.6.Final-osera-00001.jar.asc)",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (netty-3.10.6.Final-osera-00001-cyclonedx.json)",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "producer": {
           "state": "missing",
           "reason": "the evidence names no producer",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 3.10.6.Final-osera-00001 in osera-releases-raw-01",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-netty is missing",
-          "checked_at": "2026-09-17T14:44:34Z"
+          "checked_at": "2026-09-17T16:46:31Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         }
       },
       "chain": "failed",
@@ -503,46 +557,46 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T14:49:18Z"
+          "checked_at": "2026-09-17T16:50:31Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T14:49:18Z"
+          "checked_at": "2026-09-17T16:50:31Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T14:49:18Z"
+          "checked_at": "2026-09-17T16:50:31Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)",
-          "checked_at": "2026-09-17T14:49:18Z"
+          "checked_at": "2026-09-17T16:50:31Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T14:49:18Z"
+          "checked_at": "2026-09-17T16:50:31Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T14:49:18Z"
+          "checked_at": "2026-09-17T16:50:31Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-17T14:56:33Z"
+          "checked_at": "2026-09-17T16:57:32Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-17T14:49:19Z"
+          "checked_at": "2026-09-17T16:50:32Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-17T14:49:19Z"
+          "checked_at": "2026-09-17T16:50:32Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T14:49:19Z"
+          "checked_at": "2026-09-17T16:50:32Z"
         }
       },
       "chain": "broken",
@@ -558,49 +612,49 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (snakeyaml-1.33.1-osera-00001-cyclonedx.json)",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:31Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-snakeyaml is missing",
-          "checked_at": "2026-09-17T14:45:34Z"
+          "checked_at": "2026-09-17T16:46:31Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork was not found",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "upload": {
           "state": "failed",
           "reason": "uploaded by local-dev, the registry says fbeltramini for producer controlplane-dev",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-17T15:41:33Z"
+          "checked_at": "2026-09-17T16:42:32Z"
         }
       },
       "chain": "broken",
