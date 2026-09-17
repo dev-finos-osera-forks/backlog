@@ -1,0 +1,38 @@
+{
+  "lines": {
+    "dev-1.0.x": {
+      "remediated": true,
+      "since": "2026-09-17T11:22:30Z",
+      "editions": [
+        {
+          "at": "2026-09-17T11:22:30Z",
+          "anchor": "org.finos.osera.dev:dev-bom@2.0.0.1-osera-00001",
+          "lists": [
+            "org.finos.osera.dev:dev-bom@2.0.0.1-osera-00001"
+          ],
+          "patched": [
+            "args4j:args4j@2.33.2-osera-00002",
+            "com.beust:jcommander@1.82.3-osera-00003",
+            "com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002",
+            "net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002",
+            "org.yaml:snakeyaml@1.33.1-osera-00001"
+          ]
+        }
+      ]
+    }
+  },
+  "lists": {
+    "org.finos.osera.dev:dev-bom@2.0.0": {
+      "last": 1,
+      "editions": [
+        {
+          "number": 1,
+          "version": "2.0.0.1-osera-00001",
+          "sha256": "2396082995746a60544f088489f8a0a46863e0d242fba9dddbab3b3eaed3bbc7",
+          "line": "dev-1.0.x",
+          "at": "2026-09-17T11:22:30Z"
+        }
+      ]
+    }
+  }
+}
