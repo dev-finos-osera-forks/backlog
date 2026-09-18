@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T23:01:51Z. Written by the line manager reconciler.
+Generated 2026-09-18T23:02:46Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -68,7 +68,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 3 | 1 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework:spring-web | 5.3.29 | spring-security-5.7.x | open | 4 | 2 | 0 | 0 | 4 | 0 |  |  | not claimed |
-| org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 5.3.39.1-osera-00002 | complete | ready |
+| org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 5.3.39.1-osera-00003 | complete | ready |
 | org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 5 | 10 | 0 | 1 | 4 | 0 | 5.3.39.1-osera-00002 | complete | ready |
 | org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 6 | 9 | 0 | 1 | 5 | 0 | 5.3.39.1-osera-00002 | complete | ready |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 1 | 1 | 0 | 0 | 1 | 0 |  |  | not claimed |
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-204 libraries, 811 patched version(s).
+204 libraries, 813 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -272,8 +272,8 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.security:spring-security-oauth2-core | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | broken; broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
 | org.springframework.security:spring-security-oauth2-jose | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | broken; broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
 | org.springframework.security:spring-security-oauth2-resource-server | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | broken; broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
-| org.springframework.security:spring-security-openid | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 | broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
-| org.springframework.security:spring-security-remoting | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 | broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
+| org.springframework.security:spring-security-openid | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | broken; broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
+| org.springframework.security:spring-security-remoting | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | broken; broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
 | org.springframework.security:spring-security-rsocket | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 | broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
 | org.springframework.security:spring-security-saml2-service-provider | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 | broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
 | org.springframework.security:spring-security-taglibs | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 | broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
