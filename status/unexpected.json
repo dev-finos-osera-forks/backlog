@@ -790,6 +790,17 @@
       "first_seen": "2026-09-18T14:31:20Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-afterburner@2.13.5.1-osera-00002",
+      "library": "com.fasterxml.jackson.module:jackson-module-afterburner",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-afterburner@2.13.5.1-osera-00002: the library com.fasterxml.jackson.module:jackson-module-afterburner is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:45:11Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-blackbird@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-blackbird",
       "base": "2.13.5",
@@ -799,6 +810,17 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-blackbird@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-blackbird is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:31:20Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-blackbird@2.13.5.1-osera-00002",
+      "library": "com.fasterxml.jackson.module:jackson-module-blackbird",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-blackbird@2.13.5.1-osera-00002: the library com.fasterxml.jackson.module:jackson-module-blackbird is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:45:11Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-guice@2.13.5.1-osera-00001",
@@ -812,6 +834,17 @@
       "first_seen": "2026-09-18T14:31:20Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-guice@2.13.5.1-osera-00002",
+      "library": "com.fasterxml.jackson.module:jackson-module-guice",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-guice@2.13.5.1-osera-00002: the library com.fasterxml.jackson.module:jackson-module-guice is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:45:11Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations",
       "base": "2.13.5",
@@ -821,6 +854,17 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00002",
+      "library": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00002: the library com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:45:11Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00001",
