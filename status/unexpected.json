@@ -3590,6 +3590,22 @@
       "first_seen": "2026-09-18T21:20:40Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00002",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00002: the library com.fasterxml.jackson:jackson-bom is on no supported line",
+      "first_seen": "2026-09-18T21:21:55Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00003: the library com.fasterxml.jackson:jackson-bom is on no supported line",
+      "first_seen": "2026-09-18T21:21:55Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-adapter",
       "base": "3.4.11",
@@ -6792,6 +6808,30 @@
       ],
       "words": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00002: the library org.springframework.data:spring-data-bom is on no supported line; other artifacts of org.springframework.data are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T21:20:40Z"
+    },
+    {
+      "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00003",
+      "library": "org.springframework.data:spring-data-bom",
+      "base": "2021.2.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00003: the library org.springframework.data:spring-data-bom is on no supported line; other artifacts of org.springframework.data are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T21:21:55Z"
+    },
+    {
+      "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00004",
+      "library": "org.springframework.data:spring-data-bom",
+      "base": "2021.2.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00004: the library org.springframework.data:spring-data-bom is on no supported line; other artifacts of org.springframework.data are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T21:21:55Z"
     },
     {
       "coordinate": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00001",
