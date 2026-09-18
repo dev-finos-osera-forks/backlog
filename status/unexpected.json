@@ -8664,6 +8664,19 @@
       ],
       "words": "org.springframework:spring-framework-bom@5.3.39.1-osera-00006: the library org.springframework:spring-framework-bom is on no supported line; other artifacts of org.springframework are on spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T23:50:02Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00007",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-framework-5.3.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework:spring-framework-bom@5.3.39.1-osera-00007: the library org.springframework:spring-framework-bom is on no supported line; other artifacts of org.springframework are on spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T23:58:05Z"
     }
   ]
 }
