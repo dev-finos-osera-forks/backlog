@@ -23,6 +23,41 @@
       "first_seen": "2026-09-18T13:08:54Z"
     },
     {
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00001",
+      "library": "ch.qos.logback:logback-core",
+      "base": "1.2.13",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "ch.qos.logback:logback-core@1.2.13.1-osera-00001: the library ch.qos.logback:logback-core is on spring-boot-2.7.x at another version, no supported line has it at 1.2.13",
+      "first_seen": "2026-09-18T13:09:53Z"
+    },
+    {
+      "coordinate": "io.projectreactor:reactor-test@3.4.41.1-osera-00001",
+      "library": "io.projectreactor:reactor-test",
+      "base": "3.4.41",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-framework-5.3.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "io.projectreactor:reactor-test@3.4.41.1-osera-00001: the library io.projectreactor:reactor-test is on no supported line; other artifacts of io.projectreactor are on spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:09:53Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
+      "library": "org.apache.logging.log4j:log4j-1.2-api",
+      "base": "2.17.2",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j-1.2-api is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:09:53Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:apache-jsp",
       "base": "9.4.58.v20250814",
@@ -32,6 +67,28 @@
       ],
       "words": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:apache-jsp is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:08:54Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:apache-jstl",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:apache-jstl is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:09:53Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:infinispan-common",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:infinispan-common is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:09:53Z"
     },
     {
       "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
@@ -103,6 +160,40 @@
       ],
       "words": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001: the library org.springframework.ldap:spring-ldap-test is on no supported line; other artifacts of org.springframework.ldap are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:08:02Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00001",
+      "library": "org.springframework.security:spring-security-acl",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-acl is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T13:09:53Z"
+    },
+    {
+      "coordinate": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
+      "library": "org.springframework.ws:spring-ws-security",
+      "base": "3.1.8",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001: the library org.springframework.ws:spring-ws-security is on no supported line; other artifacts of org.springframework.ws are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:09:53Z"
+    },
+    {
+      "coordinate": "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00001",
+      "library": "org.springframework.ws:spring-ws-support",
+      "base": "3.1.8",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00001: the library org.springframework.ws:spring-ws-support is on no supported line; other artifacts of org.springframework.ws are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:09:53Z"
     },
     {
       "coordinate": "org.springframework.ws:spring-ws@3.1.8.1-osera-00001",

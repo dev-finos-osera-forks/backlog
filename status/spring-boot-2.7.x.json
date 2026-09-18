@@ -1,11 +1,19 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.18.2",
-  "as_of": "2026-09-18T13:08:54Z",
+  "book_version": "v2026.09.18.3",
+  "as_of": "2026-09-18T13:09:53Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
   "fixed": [
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001",
+      "at": "2026-09-18T13:09:53Z"
+    },
     {
       "cve": "CVE-2026-0603",
       "library": "org.hibernate:hibernate-core",
@@ -196,10 +204,6 @@
     {
       "cve": "CVE-2025-52520",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
-    },
-    {
-      "cve": "CVE-2025-52999",
-      "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
       "cve": "CVE-2025-53506",
@@ -569,7 +573,8 @@
   "not_remediable": [],
   "discrepancies": [
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
+    "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
     "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.2"
 }
