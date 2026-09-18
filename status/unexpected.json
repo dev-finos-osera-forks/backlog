@@ -1813,6 +1813,17 @@
       "first_seen": "2026-09-18T14:32:21Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:apache-jsp",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:apache-jsp is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:26:32Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:apache-jstl",
       "base": "9.4.58.v20250814",
@@ -1833,6 +1844,17 @@
       ],
       "words": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:apache-jstl is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:apache-jstl",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:apache-jstl is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:26:32Z"
     },
     {
       "coordinate": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00001",
@@ -1857,6 +1879,17 @@
       "first_seen": "2026-09-18T14:33:24Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:infinispan-common",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:infinispan-common is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:26:32Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:infinispan-embedded-query",
       "base": "9.4.58.v20250814",
@@ -1877,6 +1910,17 @@
       ],
       "words": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:infinispan-embedded-query is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:infinispan-embedded-query",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:infinispan-embedded-query is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:26:32Z"
     },
     {
       "coordinate": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00001",
@@ -1901,6 +1945,17 @@
       "first_seen": "2026-09-18T14:33:24Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:infinispan-remote-query",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:infinispan-remote-query is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:26:32Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-client",
       "base": "9.4.58.v20250814",
@@ -1921,6 +1976,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-alpn-client is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-alpn-client",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-alpn-client is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:26:32Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-client@9.4.58.v20250814-osera-00001",
