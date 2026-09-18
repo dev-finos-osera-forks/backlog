@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T16:06:55Z. Written by the line manager reconciler.
+Generated 2026-09-18T16:07:43Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-196 libraries, 590 patched version(s).
+196 libraries, 592 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -128,8 +128,8 @@ Every library and version the exchange maintains, ordered by library and then by
 | com.fasterxml.jackson.module:jackson-module-kotlin | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.module:jackson-module-mrbean | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.module:jackson-module-no-ctor-deser | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
-| com.fasterxml.jackson.module:jackson-module-osgi | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
-| com.fasterxml.jackson.module:jackson-module-paranamer | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
+| com.fasterxml.jackson.module:jackson-module-osgi | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
+| com.fasterxml.jackson.module:jackson-module-paranamer | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.module:jackson-module-scala_2.11 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
 | com.fasterxml.jackson.module:jackson-module-scala_2.12 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
 | com.fasterxml.jackson.module:jackson-module-scala_2.13 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
