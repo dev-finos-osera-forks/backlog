@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T17:18:59Z. Written by the line manager reconciler.
+Generated 2026-09-18T19:05:50Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-196 libraries, 696 patched version(s).
+197 libraries, 697 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -154,6 +154,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.apache.logging.log4j:log4j-flume-ng | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-iostreams | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-jcl | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
+| org.apache.logging.log4j:log4j-jmx-gui | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-jpa | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-jpl | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-kubernetes | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
