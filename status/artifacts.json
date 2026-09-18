@@ -1069,6 +1069,58 @@
       ]
     },
     {
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
+      "producer": "moderne",
+      "fork": "patch-jackson-core",
+      "tag": "v2.13.5.1-osera-00007",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:03Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:03Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:03Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:03Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:02Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:02Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:11:44Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:03Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:03Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:03Z"
+        }
+      },
+      "chain": "complete",
+      "lines": [
+        "spring-boot-2.7.x"
+      ]
+    },
+    {
       "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-jackson-databind",
@@ -1373,6 +1425,58 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T16:10:53Z"
+        }
+      },
+      "chain": "complete",
+      "lines": [
+        "spring-boot-2.7.x"
+      ]
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+      "producer": "moderne",
+      "fork": "patch-jackson-databind",
+      "tag": "v2.13.5.1-osera-00007",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:04Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:04Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:04Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:05Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:03Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:03Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:12:44Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:05Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:05Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:24:05Z"
         }
       },
       "chain": "complete",

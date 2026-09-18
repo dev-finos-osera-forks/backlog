@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T16:22:19Z. Written by the line manager reconciler.
+Generated 2026-09-18T16:23:58Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -24,9 +24,9 @@ Every library and version the exchange maintains, ordered by library and then by
 | ch.qos.logback:logback-core | 1.2.12 | spring-boot-2.7.x | open | 3 | 5 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | com.beust:jcommander | 1.82 | dev-1.0.x | in progress | 2 | 0 | 2 | 0 | 0 | 0 |  |  | patch in progress |
 | com.fasterxml.jackson.core:jackson-core | 2.13.0 | spring-security-5.7.x | open | 2 | 0 | 0 | 0 | 2 | 0 |  |  | not claimed |
-| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | fixed | 2 | 0 | 0 | 2 | 0 | 0 | 2.13.5.1-osera-00006 | complete | ready |
+| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | fixed | 2 | 0 | 0 | 2 | 0 | 0 | 2.13.5.1-osera-00007 | complete | ready |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.0 | spring-security-5.7.x | open | 7 | 2 | 0 | 0 | 7 | 0 |  |  | not claimed |
-| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | fixed | 3 | 2 | 0 | 3 | 0 | 0 | 2.13.5.1-osera-00006 | complete | ready |
+| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | fixed | 3 | 2 | 0 | 3 | 0 | 0 | 2.13.5.1-osera-00007 | complete | ready |
 | io.netty:netty-codec | 4.1.101.Final | spring-boot-2.7.x | open | 3 | 0 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | io.netty:netty-codec-dns | 4.1.101.Final | spring-boot-2.7.x | open | 1 | 1 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | io.netty:netty-codec-http | 4.1.101.Final | spring-boot-2.7.x | open | 16 | 3 | 0 | 0 | 16 | 0 |  |  | not claimed |
