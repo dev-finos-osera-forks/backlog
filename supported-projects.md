@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T19:26:20Z. Written by the line manager reconciler.
+Generated 2026-09-18T19:26:57Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -49,7 +49,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework.boot:spring-boot-starter-actuator | 2.7.18 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework.data:spring-data-commons | 2.7.14 | spring-security-5.7.x | open | 1 | 2 | 0 | 0 | 1 | 0 |  |  | not claimed |
-| org.springframework.data:spring-data-commons | 2.7.18 | spring-boot-2.7.x | fixed | 1 | 2 | 0 | 1 | 0 | 0 | 2.7.18.1-osera-00005 | complete | ready |
+| org.springframework.data:spring-data-commons | 2.7.18 | spring-boot-2.7.x | fixed | 1 | 2 | 0 | 1 | 0 | 0 | 2.7.18.1-osera-00006 | complete | ready |
 | org.springframework.data:spring-data-keyvalue | 2.7.18 | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 2.7.18.1-osera-00005 | complete | ready |
 | org.springframework.data:spring-data-mongodb | 3.4.18 | spring-boot-2.7.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 3.4.18.1-osera-00005 | complete | ready |
 | org.springframework.data:spring-data-rest-core | 3.7.18 | spring-boot-2.7.x | fixed | 2 | 2 | 0 | 2 | 0 | 0 | 3.7.18.1-osera-00005 | complete | ready |
