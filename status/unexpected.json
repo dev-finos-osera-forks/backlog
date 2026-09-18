@@ -89,6 +89,17 @@
       "first_seen": "2026-09-18T14:18:21Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate4@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate4",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate4@2.13.5.1-osera-00001: the library com.fasterxml.jackson.datatype:jackson-datatype-hibernate4 is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:24:30Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-extra",
       "base": "3.4.11",
@@ -297,6 +308,28 @@
       ],
       "words": "org.apache.logging.log4j:log4j-liquibase@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j-liquibase is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:18:21Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-mongodb3@2.17.2.1-osera-00001",
+      "library": "org.apache.logging.log4j:log4j-mongodb3",
+      "base": "2.17.2",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-mongodb3@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j-mongodb3 is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:24:30Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-mongodb4@2.17.2.1-osera-00001",
+      "library": "org.apache.logging.log4j:log4j-mongodb4",
+      "base": "2.17.2",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-mongodb4@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j-mongodb4 is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:24:30Z"
     },
     {
       "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00001",
@@ -517,6 +550,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-hazelcast is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:18:21Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-http-spi@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-http-spi",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-http-spi@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-http-spi is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:24:30Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001",
@@ -878,6 +922,30 @@
       ],
       "words": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-openid is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T14:18:21Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00001",
+      "library": "org.springframework.security:spring-security-remoting",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-remoting is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T14:24:30Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00001",
+      "library": "org.springframework.security:spring-security-rsocket",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-rsocket is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T14:24:30Z"
     },
     {
       "coordinate": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
