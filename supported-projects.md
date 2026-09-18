@@ -2,6 +2,8 @@
 
 Generated 2026-09-18T14:18:21Z. Written by the line manager reconciler.
 
+Availability last confirmed 2026-09-18T14:18:21Z. It has not been confirmed since 2026-09-18T14:19:21Z.
+
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
 ## Lines
