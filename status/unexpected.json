@@ -244,6 +244,17 @@
       "first_seen": "2026-09-18T13:46:50Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-alpn-java-server",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-alpn-java-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:48:34Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-c3p0",
       "base": "5.6.15.Final",
@@ -416,6 +427,18 @@
       ],
       "words": "org.springframework.security:spring-security-core@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-core is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T13:46:50Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001",
+      "library": "org.springframework.security:spring-security-crypto",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-crypto is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T13:48:34Z"
     },
     {
       "coordinate": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
