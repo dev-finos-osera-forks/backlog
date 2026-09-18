@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T19:05:50Z. Written by the line manager reconciler.
+Generated 2026-09-18T19:06:34Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-197 libraries, 697 patched version(s).
+198 libraries, 698 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -164,6 +164,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.apache.logging.log4j:log4j-mongodb4 | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-slf4j18-impl | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-spring-boot | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
+| org.apache.logging.log4j:log4j-spring-cloud-config-client | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-taglib | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-web | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.eclipse.jetty.fcgi:fcgi-client | 9.4.58.v20250814 | library on no supported line |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
