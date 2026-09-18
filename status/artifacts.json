@@ -21588,6 +21588,57 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00004",
+      "producer": "moderne",
+      "fork": "patch-jackson-bom",
+      "tag": "v2.13.5.1-osera-00004",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:38Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:38Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:38Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names none and the vulnerability document names CVE-2025-52999, CVE-2026-54512, CVE-2026-54513, GHSA-R7WM-3CXJ-WFF9; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2025-52999, CVE-2026-54512, CVE-2026-54513, GHSA-R7WM-3CXJ-WFF9",
+          "checked_at": "2026-09-18T21:23:39Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:38Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:38Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:21:15Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:39Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:39Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:39Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-reactor-addons",
@@ -37317,6 +37368,108 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-spring-data-bom",
+      "tag": "v2021.2.18.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:37Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:37Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:37Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names none and the vulnerability document names CVE-2026-41716, CVE-2026-41717, CVE-2026-41719, CVE-2026-41728, CVE-2026-41729; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2026-41716, CVE-2026-41717, CVE-2026-41719, CVE-2026-41728, CVE-2026-41729",
+          "checked_at": "2026-09-18T21:23:38Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:37Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:37Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:01Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:38Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:38Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:38Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00006",
+      "producer": "moderne",
+      "fork": "patch-spring-data-bom",
+      "tag": "v2021.2.18.1-osera-00006",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:39Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:39Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:39Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names none and the vulnerability document names CVE-2026-41696, CVE-2026-41716, CVE-2026-41717, CVE-2026-41719, CVE-2026-41728, CVE-2026-41729; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2026-41696, CVE-2026-41716, CVE-2026-41717, CVE-2026-41719, CVE-2026-41728, CVE-2026-41729",
+          "checked_at": "2026-09-18T21:23:40Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:39Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:39Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:01Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:40Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:40Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:23:40Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-data-commons",
@@ -39706,27 +39859,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "document": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "fork": {
           "state": "present",
@@ -39734,15 +39887,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         }
       },
       "chain": "complete",
@@ -40012,27 +40165,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:02Z"
+          "checked_at": "2026-09-18T21:23:34Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:34Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:34Z"
         },
         "document": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:34Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:02Z"
+          "checked_at": "2026-09-18T21:23:34Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:02Z"
+          "checked_at": "2026-09-18T21:23:34Z"
         },
         "fork": {
           "state": "present",
@@ -40040,15 +40193,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:34Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:34Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:03Z"
+          "checked_at": "2026-09-18T21:23:34Z"
         }
       },
       "chain": "complete",
@@ -40618,27 +40771,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "document": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:04Z"
+          "checked_at": "2026-09-18T21:23:35Z"
         },
         "fork": {
           "state": "present",
@@ -40646,15 +40799,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         }
       },
       "chain": "complete",
@@ -40924,27 +41077,27 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:37Z"
         },
         "document": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:37Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:36Z"
         },
         "fork": {
           "state": "present",
@@ -40952,15 +41105,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:37Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:37Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T20:23:05Z"
+          "checked_at": "2026-09-18T21:23:37Z"
         }
       },
       "chain": "complete",
