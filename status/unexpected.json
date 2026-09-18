@@ -1,6 +1,40 @@
 {
   "artifacts": [
     {
+      "coordinate": "ch.qos.logback:logback-access@1.2.13.1-osera-00001",
+      "library": "ch.qos.logback:logback-access",
+      "base": "1.2.13",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "ch.qos.logback:logback-access@1.2.13.1-osera-00001: the library ch.qos.logback:logback-access is on no supported line; other artifacts of ch.qos.logback are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:08:02Z"
+    },
+    {
+      "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
+      "library": "org.hibernate:hibernate-c3p0",
+      "base": "5.6.15.Final",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001: the library org.hibernate:hibernate-c3p0 is on no supported line; other artifacts of org.hibernate are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:08:02Z"
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
+      "library": "org.springframework.ldap:spring-ldap-core-tiger",
+      "base": "2.4.4",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001: the library org.springframework.ldap:spring-ldap-core-tiger is on no supported line; other artifacts of org.springframework.ldap are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:08:02Z"
+    },
+    {
       "coordinate": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
       "library": "org.springframework.ldap:spring-ldap-core",
       "base": "2.4.4",
@@ -11,6 +45,53 @@
       ],
       "words": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001: the library org.springframework.ldap:spring-ldap-core is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 2.4.4",
       "first_seen": "2026-09-18T13:07:21Z"
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001",
+      "library": "org.springframework.ldap:spring-ldap-ldif-core",
+      "base": "2.4.4",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001: the library org.springframework.ldap:spring-ldap-ldif-core is on no supported line; other artifacts of org.springframework.ldap are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:08:02Z"
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00001",
+      "library": "org.springframework.ldap:spring-ldap-odm",
+      "base": "2.4.4",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00001: the library org.springframework.ldap:spring-ldap-odm is on no supported line; other artifacts of org.springframework.ldap are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:08:02Z"
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001",
+      "library": "org.springframework.ldap:spring-ldap-test",
+      "base": "2.4.4",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001: the library org.springframework.ldap:spring-ldap-test is on no supported line; other artifacts of org.springframework.ldap are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:08:02Z"
+    },
+    {
+      "coordinate": "org.springframework.ws:spring-ws@3.1.8.1-osera-00001",
+      "library": "org.springframework.ws:spring-ws",
+      "base": "3.1.8",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws@3.1.8.1-osera-00001: the library org.springframework.ws:spring-ws is on no supported line; other artifacts of org.springframework.ws are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:08:02Z"
     }
   ]
 }
