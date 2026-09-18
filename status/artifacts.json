@@ -12377,6 +12377,56 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:14Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:14Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:14Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:14Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:13Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:13Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:32:42Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:15Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:15Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:15Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.13.5.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-jackson-modules-base",
@@ -12571,6 +12621,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T15:51:13Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.13.5.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:16Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:16Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:16Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:16Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:15Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:15Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:32:42Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:16Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:16Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:06:16Z"
         }
       },
       "chain": "complete",
