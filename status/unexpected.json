@@ -6977,6 +6977,18 @@
       "first_seen": "2026-09-18T19:26:20Z"
     },
     {
+      "coordinate": "org.springframework.data:spring-data-rest-hal-explorer@3.7.18.1-osera-00006",
+      "library": "org.springframework.data:spring-data-rest-hal-explorer",
+      "base": "3.7.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.data:spring-data-rest-hal-explorer@3.7.18.1-osera-00006: the library org.springframework.data:spring-data-rest-hal-explorer is on no supported line; other artifacts of org.springframework.data are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T19:30:20Z"
+    },
+    {
       "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
       "library": "org.springframework.ldap:spring-ldap-core-tiger",
       "base": "2.4.4",
