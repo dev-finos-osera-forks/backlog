@@ -2368,6 +2368,506 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:26Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:26Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:27Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:27Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:26Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:26Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:31:36Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:27Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:27Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:27Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:28Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:28Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:28Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:28Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:27Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:27Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:31:36Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:29Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:29Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:29Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-module-jsonSchema",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:30Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:30Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:30Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:30Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:29Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:29Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:30Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:30Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:30Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:30Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-module-kotlin",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:31Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:31Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:31Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:32Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:31Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:31Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:32Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:32Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:32Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:32Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:33Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:33Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:33Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:34Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:32Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:32Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:31:36Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:34Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:34Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:34Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:35Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:35Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:35Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:35Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:34Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:34Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:31:36Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:35Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:35Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:35Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-osgi@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:37Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:37Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:37Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:37Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:36Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:36Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:31:36Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:37Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:37Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:37Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-parameter-names@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-java8",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:38Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:38Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:38Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:39Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:37Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:37Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:26:44Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:39Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:39Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:39Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-paranamer@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:40Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:40Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:40Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:40Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:39Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:39Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:31:36Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:41Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:41Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:41Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-module-scala",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:43Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:43Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:44Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:44Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:43Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:43Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:44Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:44Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:44Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:44Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-reactor-addons",
@@ -4933,6 +5433,56 @@
       "lines": []
     },
     {
+      "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:42Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:42Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:42Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:42Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:41Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:41Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:42Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:42Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:42Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00001",
       "producer": "moderne",
       "fork": "patch-jetty.project",
@@ -4977,6 +5527,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T14:10:19Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:45Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:45Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:46Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:46Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:44Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:44Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:46Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:46Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:32:46Z"
         }
       },
       "chain": "complete",
