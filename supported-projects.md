@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T15:58:23Z. Written by the line manager reconciler.
+Generated 2026-09-18T15:59:11Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -24,7 +24,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | ch.qos.logback:logback-core | 1.2.12 | spring-boot-2.7.x | open | 3 | 5 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | com.beust:jcommander | 1.82 | dev-1.0.x | in progress | 2 | 0 | 2 | 0 | 0 | 0 |  |  | patch in progress |
 | com.fasterxml.jackson.core:jackson-core | 2.13.0 | spring-security-5.7.x | open | 2 | 0 | 0 | 0 | 2 | 0 |  |  | not claimed |
-| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | fixed | 2 | 0 | 0 | 2 | 0 | 0 | 2.13.5.1-osera-00004 | complete | ready |
+| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | fixed | 2 | 0 | 0 | 2 | 0 | 0 | 2.13.5.1-osera-00005 | complete | ready |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.0 | spring-security-5.7.x | open | 7 | 2 | 0 | 0 | 7 | 0 |  |  | not claimed |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | fixed | 3 | 2 | 0 | 3 | 0 | 0 | 2.13.5.1-osera-00005 | complete | ready |
 | io.netty:netty-codec | 4.1.101.Final | spring-boot-2.7.x | open | 3 | 0 | 0 | 0 | 3 | 0 |  |  | not claimed |
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-196 libraries, 557 patched version(s).
+196 libraries, 560 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -95,9 +95,9 @@ Every library and version the exchange maintains, ordered by library and then by
 | com.fasterxml.jackson.datatype:jackson-datatype-hibernate4 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.datatype:jackson-datatype-hibernate5 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
-| com.fasterxml.jackson.datatype:jackson-datatype-hppc | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
-| com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
-| com.fasterxml.jackson.datatype:jackson-datatype-jaxrs | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
+| com.fasterxml.jackson.datatype:jackson-datatype-hppc | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
+| com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
+| com.fasterxml.jackson.datatype:jackson-datatype-jaxrs | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.datatype:jackson-datatype-joda | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
 | com.fasterxml.jackson.datatype:jackson-datatype-joda-money | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
 | com.fasterxml.jackson.datatype:jackson-datatype-json-org | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |

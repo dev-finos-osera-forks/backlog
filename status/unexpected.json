@@ -738,6 +738,17 @@
       "first_seen": "2026-09-18T15:44:58Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-hppc",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00005: the library com.fasterxml.jackson.datatype:jackson-datatype-hppc is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:59:11Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp",
       "base": "2.13.5",
@@ -782,6 +793,17 @@
       "first_seen": "2026-09-18T15:44:58Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00005: the library com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:59:11Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs",
       "base": "2.13.5",
@@ -824,6 +846,17 @@
       ],
       "words": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.13.5.1-osera-00004: the library com.fasterxml.jackson.datatype:jackson-datatype-jaxrs is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T15:44:58Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.13.5.1-osera-00005: the library com.fasterxml.jackson.datatype:jackson-datatype-jaxrs is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:59:11Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00001",
