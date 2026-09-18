@@ -408,6 +408,17 @@
       "first_seen": "2026-09-18T14:39:56Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta@2.13.5.1-osera-00003: the library com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5",
       "base": "2.13.5",
@@ -428,6 +439,17 @@
       ],
       "words": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5@2.13.5.1-osera-00002: the library com.fasterxml.jackson.datatype:jackson-datatype-hibernate5 is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:39:56Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5@2.13.5.1-osera-00003: the library com.fasterxml.jackson.datatype:jackson-datatype-hibernate5 is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00001",
@@ -452,6 +474,17 @@
       "first_seen": "2026-09-18T14:39:56Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-hppc",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00003: the library com.fasterxml.jackson.datatype:jackson-datatype-hppc is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp",
       "base": "2.13.5",
@@ -474,6 +507,17 @@
       "first_seen": "2026-09-18T14:39:56Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00003: the library com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs",
       "base": "2.13.5",
@@ -494,6 +538,17 @@
       ],
       "words": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.13.5.1-osera-00002: the library com.fasterxml.jackson.datatype:jackson-datatype-jaxrs is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:39:56Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.13.5.1-osera-00003: the library com.fasterxml.jackson.datatype:jackson-datatype-jaxrs is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00001",
@@ -538,6 +593,17 @@
       ],
       "words": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00002: the library com.fasterxml.jackson.datatype:jackson-datatype-joda is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:40:56Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-joda",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00003: the library com.fasterxml.jackson.datatype:jackson-datatype-joda is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00001",
@@ -2836,6 +2902,17 @@
       "first_seen": "2026-09-18T14:36:59Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-openid@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-openid",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-openid@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-openid is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-plus@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-plus",
       "base": "9.4.58.v20250814",
@@ -2856,6 +2933,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-plus@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-plus is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
       "first_seen": "2026-09-18T14:36:59Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-plus@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-plus",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-plus@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-plus is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:31:11Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00001",
@@ -2880,6 +2968,17 @@
       "first_seen": "2026-09-18T14:36:59Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-project",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-project is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-proxy@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-proxy",
       "base": "9.4.58.v20250814",
@@ -2900,6 +2999,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-proxy@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-proxy is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:36:59Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-proxy@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-proxy",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-proxy@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-proxy is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-quickstart@9.4.58.v20250814-osera-00001",
@@ -2924,6 +3034,17 @@
       "first_seen": "2026-09-18T14:36:59Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-quickstart@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-quickstart",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-quickstart@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-quickstart is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-rewrite@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-rewrite",
       "base": "9.4.58.v20250814",
@@ -2944,6 +3065,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-rewrite@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-rewrite is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:36:59Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-rewrite@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-rewrite",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-rewrite@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-rewrite is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:31:11Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00001",
@@ -2968,6 +3100,17 @@
       "first_seen": "2026-09-18T14:38:04Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-security",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-security is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:31:11Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-server",
       "base": "9.4.58.v20250814",
@@ -2990,6 +3133,17 @@
       "first_seen": "2026-09-18T14:38:04Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-server",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-server is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:31:11Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-servlet@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-servlet",
       "base": "9.4.58.v20250814",
@@ -3010,6 +3164,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-servlet@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-servlet is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
       "first_seen": "2026-09-18T14:38:04Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-servlet@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-servlet",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-servlet@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-servlet is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:31:11Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00001",
