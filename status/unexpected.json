@@ -8292,6 +8292,18 @@
       "first_seen": "2026-09-18T22:52:03Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005",
+      "library": "org.springframework.security:spring-security-saml2-service-provider",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005: the library org.springframework.security:spring-security-saml2-service-provider is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T23:05:11Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-taglibs",
       "base": "5.7.14",
@@ -8338,6 +8350,18 @@
       ],
       "words": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00004: the library org.springframework.security:spring-security-taglibs is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T22:52:03Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00005",
+      "library": "org.springframework.security:spring-security-taglibs",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00005: the library org.springframework.security:spring-security-taglibs is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T23:05:11Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-test@5.7.14.1-osera-00001",
