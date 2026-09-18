@@ -1672,6 +1672,108 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-security",
+      "tag": "v5.7.14.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:46Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:46Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:46Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-22732 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-22732; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T05:43:46Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:46Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:46Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:38:38Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-security",
+      "tag": "v5.7.14.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-22732 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-22732; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:38:38Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:43:47Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
       "producer": "controlplane-dev",
       "fork": "patch-snakeyaml",
