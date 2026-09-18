@@ -900,6 +900,14 @@
       "first_seen": "2026-09-18T14:42:39Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider@2.13.5.1-osera-00003: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider is on no supported line",
+      "first_seen": "2026-09-18T15:35:29Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider",
       "base": "2.13.5",
@@ -914,6 +922,14 @@
       "kind": "library on no supported line",
       "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.13.5.1-osera-00002: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider is on no supported line",
       "first_seen": "2026-09-18T14:43:26Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.13.5.1-osera-00003: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider is on no supported line",
+      "first_seen": "2026-09-18T15:35:29Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.13.5.1-osera-00001",
@@ -932,6 +948,14 @@
       "first_seen": "2026-09-18T14:43:26Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.13.5.1-osera-00003: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider is on no supported line",
+      "first_seen": "2026-09-18T15:35:29Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider",
       "base": "2.13.5",
@@ -946,6 +970,14 @@
       "kind": "library on no supported line",
       "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.13.5.1-osera-00002: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider is on no supported line",
       "first_seen": "2026-09-18T14:43:26Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.13.5.1-osera-00003: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider is on no supported line",
+      "first_seen": "2026-09-18T15:35:29Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.13.5.1-osera-00001",
@@ -964,6 +996,14 @@
       "first_seen": "2026-09-18T14:43:26Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.13.5.1-osera-00003: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider is on no supported line",
+      "first_seen": "2026-09-18T15:35:29Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.jr:jackson-jr-all",
       "base": "2.13.5",
@@ -978,6 +1018,14 @@
       "kind": "library on no supported line",
       "words": "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00002: the library com.fasterxml.jackson.jr:jackson-jr-all is on no supported line",
       "first_seen": "2026-09-18T14:44:16Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00003",
+      "library": "com.fasterxml.jackson.jr:jackson-jr-all",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00003: the library com.fasterxml.jackson.jr:jackson-jr-all is on no supported line",
+      "first_seen": "2026-09-18T15:35:29Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.jr:jackson-jr-annotation-support@2.13.5.1-osera-00001",
@@ -2028,6 +2076,17 @@
       "first_seen": "2026-09-18T14:40:56Z"
     },
     {
+      "coordinate": "org.eclipse.jetty.websocket:javax-websocket-client-impl@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty.websocket:javax-websocket-client-impl",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty.websocket:javax-websocket-client-impl@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty.websocket:javax-websocket-client-impl is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:35:29Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty.websocket:javax-websocket-server-impl@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty.websocket:javax-websocket-server-impl",
       "base": "9.4.58.v20250814",
@@ -2048,6 +2107,17 @@
       ],
       "words": "org.eclipse.jetty.websocket:javax-websocket-server-impl@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty.websocket:javax-websocket-server-impl is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
       "first_seen": "2026-09-18T14:40:56Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty.websocket:javax-websocket-server-impl@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty.websocket:javax-websocket-server-impl",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty.websocket:javax-websocket-server-impl@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty.websocket:javax-websocket-server-impl is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:35:29Z"
     },
     {
       "coordinate": "org.eclipse.jetty.websocket:websocket-api@9.4.58.v20250814-osera-00001",
@@ -2072,6 +2142,17 @@
       "first_seen": "2026-09-18T14:40:56Z"
     },
     {
+      "coordinate": "org.eclipse.jetty.websocket:websocket-api@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty.websocket:websocket-api",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty.websocket:websocket-api@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty.websocket:websocket-api is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:35:29Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty.websocket:websocket-client@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty.websocket:websocket-client",
       "base": "9.4.58.v20250814",
@@ -2092,6 +2173,17 @@
       ],
       "words": "org.eclipse.jetty.websocket:websocket-client@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty.websocket:websocket-client is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
       "first_seen": "2026-09-18T14:41:58Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty.websocket:websocket-client@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty.websocket:websocket-client",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty.websocket:websocket-client@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty.websocket:websocket-client is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:35:29Z"
     },
     {
       "coordinate": "org.eclipse.jetty.websocket:websocket-common@9.4.58.v20250814-osera-00001",
@@ -2116,6 +2208,17 @@
       "first_seen": "2026-09-18T14:41:58Z"
     },
     {
+      "coordinate": "org.eclipse.jetty.websocket:websocket-common@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty.websocket:websocket-common",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty.websocket:websocket-common@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty.websocket:websocket-common is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:35:29Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty.websocket:websocket-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty.websocket:websocket-server",
       "base": "9.4.58.v20250814",
@@ -2138,6 +2241,17 @@
       "first_seen": "2026-09-18T14:41:58Z"
     },
     {
+      "coordinate": "org.eclipse.jetty.websocket:websocket-server@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty.websocket:websocket-server",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty.websocket:websocket-server@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty.websocket:websocket-server is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:35:29Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty.websocket:websocket-servlet@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty.websocket:websocket-servlet",
       "base": "9.4.58.v20250814",
@@ -2158,6 +2272,17 @@
       ],
       "words": "org.eclipse.jetty.websocket:websocket-servlet@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty.websocket:websocket-servlet is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
       "first_seen": "2026-09-18T14:41:58Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty.websocket:websocket-servlet@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty.websocket:websocket-servlet",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty.websocket:websocket-servlet@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty.websocket:websocket-servlet is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:35:29Z"
     },
     {
       "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00001",
