@@ -1010,6 +1010,57 @@
       ]
     },
     {
+      "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-ldap",
+      "tag": "v2.4.4.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-41720 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-41720; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:07Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-ldap",
@@ -1057,6 +1108,159 @@
         }
       },
       "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-ldap",
+      "tag": "v2.4.4.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-41720 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-41720; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:07Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-ldap",
+      "tag": "v2.4.4.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-41720 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-41720; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:07Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-ldap",
+      "tag": "v2.4.4.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-41720 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-41720; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:07Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:55:47Z"
+        }
+      },
+      "chain": "broken",
       "lines": []
     },
     {
