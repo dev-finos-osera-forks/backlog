@@ -137,6 +137,17 @@
       "first_seen": "2026-09-18T13:10:59Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:infinispan-remote-query",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:infinispan-remote-query is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:45:13Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-c3p0",
       "base": "5.6.15.Final",

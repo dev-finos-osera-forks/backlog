@@ -858,6 +858,56 @@
       "lines": []
     },
     {
+      "coordinate": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:45:17Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:45:17Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:45:17Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:45:17Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:45:16Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:45:16Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:09:06Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:45:18Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:45:18Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:45:18Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
       "producer": "moderne",
       "fork": "patch-hibernate-orm",
