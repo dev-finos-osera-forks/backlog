@@ -379,6 +379,94 @@
       "first_seen": "2026-09-18T14:31:20Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-jsonSchema",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-jsonSchema is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-kotlin",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-kotlin is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-mrbean",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-mrbean is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-no-ctor-deser is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-osgi@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-osgi",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-osgi@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-osgi is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-paranamer@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-paranamer",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-paranamer@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-paranamer is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.11",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-scala_2.11 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-extra",
       "base": "3.4.11",
@@ -847,6 +935,17 @@
       "first_seen": "2026-09-18T13:08:54Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:apache-jsp",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:apache-jsp is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:apache-jstl",
       "base": "9.4.58.v20250814",
@@ -856,6 +955,17 @@
       ],
       "words": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:apache-jstl is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:09:53Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:apache-jstl",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:apache-jstl is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:32:21Z"
     },
     {
       "coordinate": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00001",
