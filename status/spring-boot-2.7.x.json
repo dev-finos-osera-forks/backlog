@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.18.5",
-  "as_of": "2026-09-18T13:48:34Z",
+  "as_of": "2026-09-18T14:16:45Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
@@ -37,6 +37,14 @@
       "patch": "00002",
       "named_by": "org.springframework.ws:spring-ws-core@3.1.8.1-osera-00002",
       "at": "2026-09-18T13:46:50Z"
+    },
+    {
+      "cve": "CVE-2026-41717",
+      "library": "org.springframework.data:spring-data-mongodb",
+      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00001",
+      "at": "2026-09-18T14:16:45Z"
     }
   ],
   "in_progress": [],
@@ -342,10 +350,6 @@
       "library": "org.springframework.data:spring-data-commons"
     },
     {
-      "cve": "CVE-2026-41717",
-      "library": "org.springframework.data:spring-data-mongodb"
-    },
-    {
       "cve": "CVE-2026-41719",
       "library": "org.springframework.data:spring-data-keyvalue"
     },
@@ -584,9 +588,10 @@
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00001",
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
     "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
+    "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.3"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.4"
 }
