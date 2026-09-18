@@ -8377,6 +8377,56 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider@2.13.5.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-jackson-jakarta-rs-providers",
+      "tag": "v2.13.5.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:02:30Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:02:30Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:02:30Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:02:30Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:02:29Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:02:29Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:28:51Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:02:30Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:02:30Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:02:30Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider@2.13.5.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-jackson-jakarta-rs-providers",
