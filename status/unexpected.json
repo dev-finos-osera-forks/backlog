@@ -3902,6 +3902,17 @@
       "first_seen": "2026-09-18T14:25:24Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-spring-cloud-config-client@2.17.2.1-osera-00001",
+      "library": "org.apache.logging.log4j:log4j-spring-cloud-config-client",
+      "base": "2.17.2",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-spring-cloud-config-client@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j-spring-cloud-config-client is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T19:06:34Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-taglib@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-taglib",
       "base": "2.17.2",
