@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.18.16",
-  "as_of": "2026-09-18T19:15:00Z",
+  "as_of": "2026-09-18T19:15:56Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
@@ -49,18 +49,18 @@
     {
       "cve": "CVE-2026-41717",
       "library": "org.springframework.data:spring-data-mongodb",
-      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00002",
-      "at": "2026-09-18T19:12:09Z"
+      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00003",
+      "at": "2026-09-18T19:15:56Z"
     },
     {
       "cve": "CVE-2026-41729",
       "library": "org.springframework.data:spring-data-rest-core",
-      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00002",
-      "at": "2026-09-18T19:12:58Z"
+      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00003",
+      "at": "2026-09-18T19:15:56Z"
     },
     {
       "cve": "CVE-2026-50193",
@@ -615,6 +615,8 @@
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-xml@3.1.8.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-xml@3.1.8.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41716 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00003",
+    "fixed, not in the backlog: CVE-2026-41716 on org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00003",
+    "fixed, not in the backlog: CVE-2026-41716 on org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00001",
@@ -622,10 +624,12 @@
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
@@ -677,5 +681,5 @@
     "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.14"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.15"
 }
