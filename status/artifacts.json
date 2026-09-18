@@ -8,44 +8,44 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:15Z"
+          "checked_at": "2026-09-18T14:08:30Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:15Z"
+          "checked_at": "2026-09-18T14:08:30Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:15Z"
+          "checked_at": "2026-09-18T14:08:30Z"
         },
         "document": {
           "state": "failed",
           "reason": "the evidence names CVE-2024-12801 and the vulnerability document names none; in the evidence and not in the document: CVE-2024-12801; in the document and not in the evidence: none",
-          "checked_at": "2026-09-18T13:08:16Z"
+          "checked_at": "2026-09-18T14:08:30Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:30Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:30Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:16Z"
+          "checked_at": "2026-09-18T14:08:30Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:16Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:16Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:16Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         }
       },
       "chain": "broken",
@@ -84,7 +84,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:16Z"
+          "checked_at": "2026-09-18T14:08:30Z"
         },
         "tag": {
           "state": "present",
@@ -134,7 +134,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:16Z"
+          "checked_at": "2026-09-18T14:08:30Z"
         },
         "tag": {
           "state": "present",
@@ -1466,44 +1466,44 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:13Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:13Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:13Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "document": {
           "state": "failed",
           "reason": "the evidence names CVE-2026-0603 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-0603; in the document and not in the evidence: none",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:12Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:12Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         }
       },
       "chain": "broken",
@@ -1541,7 +1541,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "tag": {
           "state": "present",
@@ -1593,7 +1593,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "tag": {
           "state": "present",
@@ -1643,7 +1643,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "tag": {
           "state": "present",
@@ -1693,7 +1693,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "tag": {
           "state": "present",
@@ -1743,7 +1743,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "tag": {
           "state": "present",
@@ -1793,7 +1793,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:14Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "tag": {
           "state": "present",
@@ -2073,44 +2073,44 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:05Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:05Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:06Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         },
         "document": {
           "state": "failed",
           "reason": "the evidence names CVE-2026-41720 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-41720; in the document and not in the evidence: none",
-          "checked_at": "2026-09-18T13:08:06Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:04Z"
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:04Z"
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:06Z"
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:06Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:06Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:06Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         }
       },
       "chain": "broken",
@@ -2119,57 +2119,51 @@
     {
       "coordinate": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
       "producer": "moderne",
-      "fork": "patch-spring-ldap-core",
+      "fork": "patch-spring-ldap",
       "tag": "v2.4.4.1-osera-00001",
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T13:07:23Z"
+          "checked_at": "2026-09-18T14:08:24Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T13:07:23Z"
+          "checked_at": "2026-09-18T14:08:24Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T13:07:24Z"
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "document": {
           "state": "present",
-          "reason": "the digest was not compared with the verdict's: no verdict to read it from",
-          "checked_at": "2026-09-18T13:07:24Z"
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T13:07:23Z"
+          "checked_at": "2026-09-18T14:08:24Z"
         },
         "verdict": {
-          "state": "missing",
-          "reason": "no verdict for 2.4.4.1-osera-00001 in osera-releases-raw-01",
-          "checked_at": "2026-09-18T13:07:23Z"
+          "state": "present",
+          "checked_at": "2026-09-18T14:08:24Z"
         },
         "fork": {
-          "state": "missing",
-          "reason": "the fork patch-spring-ldap-core is missing",
-          "checked_at": "2026-09-18T13:07:25Z"
+          "state": "present",
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "tag": {
-          "state": "not checked",
-          "reason": "the fork was not found",
-          "checked_at": "2026-09-18T13:07:25Z"
+          "state": "present",
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "upload": {
-          "state": "not checked",
-          "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-09-18T13:07:25Z"
+          "state": "present",
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "tagger": {
-          "state": "not checked",
-          "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-09-18T13:07:25Z"
+          "state": "present",
+          "checked_at": "2026-09-18T14:08:25Z"
         }
       },
-      "chain": "failed",
+      "chain": "complete",
       "lines": []
     },
     {
@@ -2180,44 +2174,44 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:07Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:08Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:08Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "document": {
           "state": "failed",
           "reason": "the evidence names CVE-2026-41720 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-41720; in the document and not in the evidence: none",
-          "checked_at": "2026-09-18T13:08:08Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:07Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:07Z"
+          "checked_at": "2026-09-18T14:08:26Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:06Z"
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:08Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:08Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:08Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         }
       },
       "chain": "broken",
@@ -2231,44 +2225,44 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:09Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:10Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:10Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "document": {
           "state": "failed",
           "reason": "the evidence names CVE-2026-41720 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-41720; in the document and not in the evidence: none",
-          "checked_at": "2026-09-18T13:08:10Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:08Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:08Z"
+          "checked_at": "2026-09-18T14:08:27Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:06Z"
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:10Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:10Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:10Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         }
       },
       "chain": "broken",
@@ -2282,44 +2276,44 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:11Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:11Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:12Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         },
         "document": {
           "state": "failed",
           "reason": "the evidence names CVE-2026-41720 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-41720; in the document and not in the evidence: none",
-          "checked_at": "2026-09-18T13:08:12Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:10Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:10Z"
+          "checked_at": "2026-09-18T14:08:28Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:06Z"
+          "checked_at": "2026-09-18T14:08:25Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:12Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:12Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:12Z"
+          "checked_at": "2026-09-18T14:08:29Z"
         }
       },
       "chain": "broken",
@@ -2612,7 +2606,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -2664,7 +2658,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -2716,7 +2710,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -2766,7 +2760,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -2816,7 +2810,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -2866,7 +2860,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -2916,7 +2910,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -2966,7 +2960,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -2992,44 +2986,44 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (spring-ws-3.1.8.1-osera-00001-cyclonedx.json)",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:16Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:16Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         }
       },
       "chain": "broken",
@@ -3068,7 +3062,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -3118,7 +3112,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
@@ -3170,7 +3164,7 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-18T13:08:17Z"
+          "checked_at": "2026-09-18T14:08:31Z"
         },
         "tag": {
           "state": "present",
