@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T19:15:56Z. Written by the line manager reconciler.
+Generated 2026-09-18T19:19:34Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_out_of_scope | CVE_in_progress | CVE_fixed | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 11 | 126 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 12 | 125 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 19 | 24 | 0 | 0 | 19 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 27 | 41 | 0 | 0 | 27 | 0 |
 | dev-1.0.x | maven | `org.finos.osera.dev:dev-bom@2.0.0` | in progress | 4 | 4 | 4 | 0 | 0 | 0 |
@@ -49,7 +49,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework.boot:spring-boot-starter-actuator | 2.7.18 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework.data:spring-data-commons | 2.7.14 | spring-security-5.7.x | open | 1 | 2 | 0 | 0 | 1 | 0 |  |  | not claimed |
-| org.springframework.data:spring-data-commons | 2.7.18 | spring-boot-2.7.x | open | 1 | 2 | 0 | 0 | 1 | 0 |  |  | not claimed |
+| org.springframework.data:spring-data-commons | 2.7.18 | spring-boot-2.7.x | fixed | 1 | 2 | 0 | 1 | 0 | 0 | 2.7.18.1-osera-00003 | complete | ready |
 | org.springframework.data:spring-data-keyvalue | 2.7.18 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework.data:spring-data-mongodb | 3.4.18 | spring-boot-2.7.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 3.4.18.1-osera-00003 | complete | ready |
 | org.springframework.data:spring-data-rest-core | 3.7.18 | spring-boot-2.7.x | open | 2 | 2 | 0 | 1 | 1 | 0 | 3.7.18.1-osera-00003 | complete | ready |
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-198 libraries, 703 patched version(s).
+198 libraries, 704 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -244,7 +244,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.hibernate:hibernate-spatial | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | complete | ready |
 | org.hibernate:hibernate-testing | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | complete | ready |
 | org.hibernate:hibernate-vibur | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | complete | ready |
-| org.springframework.data:spring-data-envers | 2.7.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 | complete; complete | ready; ready |
+| org.springframework.data:spring-data-envers | 2.7.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 | complete; complete; complete | ready; ready; ready |
 | org.springframework.data:spring-data-geode | 2.7.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 | complete; complete; complete | ready; ready; ready |
 | org.springframework.data:spring-data-mongodb-parent | 3.4.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 3.4.18.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.data:spring-data-rest-hal-explorer | 3.7.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 3.7.18.1-osera-00001 3.7.18.1-osera-00002 3.7.18.1-osera-00003 | complete; complete; complete | ready; ready; ready |
