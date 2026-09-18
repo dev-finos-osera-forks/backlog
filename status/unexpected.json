@@ -7692,6 +7692,18 @@
       "first_seen": "2026-09-18T14:26:22Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-test@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-test",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-test@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-test is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:27:21Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-web",
       "base": "5.7.14",
@@ -7702,6 +7714,18 @@
       ],
       "words": "org.springframework.security:spring-security-web@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-web is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T14:26:22Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-web",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-web@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-web is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:27:21Z"
     },
     {
       "coordinate": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
