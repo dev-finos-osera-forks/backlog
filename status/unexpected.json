@@ -7452,6 +7452,18 @@
       "first_seen": "2026-09-18T14:16:45Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-messaging@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-messaging",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-messaging@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-messaging is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:24:50Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-oauth2-client",
       "base": "5.7.14",
@@ -7462,6 +7474,18 @@
       ],
       "words": "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-oauth2-client is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T14:16:45Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-oauth2-client",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-oauth2-client is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:24:50Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00001",
@@ -7476,6 +7500,18 @@
       "first_seen": "2026-09-18T14:18:21Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-oauth2-core",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-oauth2-core is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:24:50Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-oauth2-jose@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-oauth2-jose",
       "base": "5.7.14",
@@ -7488,6 +7524,18 @@
       "first_seen": "2026-09-18T14:18:21Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-oauth2-jose@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-oauth2-jose",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-oauth2-jose@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-oauth2-jose is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:24:50Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-oauth2-resource-server",
       "base": "5.7.14",
@@ -7498,6 +7546,18 @@
       ],
       "words": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-oauth2-resource-server is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T14:18:21Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-oauth2-resource-server",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-oauth2-resource-server is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:24:50Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00001",
@@ -7670,6 +7730,19 @@
       ],
       "words": "org.springframework.ws:spring-ws@3.1.8.1-osera-00002: the library org.springframework.ws:spring-ws is on no supported line; other artifacts of org.springframework.ws are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:45:57Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00001",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-framework-5.3.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework:spring-framework-bom@5.3.39.1-osera-00001: the library org.springframework:spring-framework-bom is on no supported line; other artifacts of org.springframework are on spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T22:24:50Z"
     }
   ]
 }
