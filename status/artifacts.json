@@ -7877,6 +7877,56 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider@2.13.5.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-jackson-jakarta-rs-providers",
+      "tag": "v2.13.5.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:46Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:46Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:46Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:46Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:45Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:45Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:28:51Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:46Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:46Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:46Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider@2.13.5.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-jackson-jakarta-rs-providers",
@@ -8071,6 +8121,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T15:47:45Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider@2.13.5.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-jackson-jakarta-rs-providers",
+      "tag": "v2.13.5.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:47Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:47Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:47Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:48Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:46Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:46Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:28:51Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:48Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:48Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:01:48Z"
         }
       },
       "chain": "complete",
