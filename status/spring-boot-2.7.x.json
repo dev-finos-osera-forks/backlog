@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.18.33",
-  "as_of": "2026-09-18T23:03:37Z",
+  "as_of": "2026-09-18T23:05:11Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
@@ -17,10 +17,10 @@
     {
       "cve": "CVE-2024-38816",
       "library": "org.springframework:spring-webflux",
-      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00002",
-      "at": "2026-09-18T22:48:09Z"
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00003",
+      "at": "2026-09-18T23:05:11Z"
     },
     {
       "cve": "CVE-2024-38816",
@@ -29,6 +29,14 @@
       "patch": "00002",
       "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00002",
       "at": "2026-09-18T22:49:29Z"
+    },
+    {
+      "cve": "CVE-2024-38819",
+      "library": "org.springframework:spring-webflux",
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00003",
+      "at": "2026-09-18T23:05:11Z"
     },
     {
       "cve": "CVE-2025-52999",
@@ -224,10 +232,6 @@
     {
       "cve": "CVE-2024-38807",
       "library": "org.springframework.boot:spring-boot-loader"
-    },
-    {
-      "cve": "CVE-2024-38819",
-      "library": "org.springframework:spring-webflux"
     },
     {
       "cve": "CVE-2024-38819",
@@ -647,6 +651,7 @@
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-jms@5.3.39.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00002",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-websocket@5.3.39.1-osera-00001",
@@ -798,10 +803,11 @@
     "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
     "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
     "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
+    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.31"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.32"
 }
