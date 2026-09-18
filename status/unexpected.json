@@ -949,6 +949,14 @@
       "first_seen": "2026-09-18T15:32:34Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base@2.13.5.1-osera-00004: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base is on no supported line",
+      "first_seen": "2026-09-18T15:47:21Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider",
       "base": "2.13.5",
@@ -971,6 +979,14 @@
       "kind": "library on no supported line",
       "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider@2.13.5.1-osera-00003: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider is on no supported line",
       "first_seen": "2026-09-18T15:32:34Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider@2.13.5.1-osera-00004: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider is on no supported line",
+      "first_seen": "2026-09-18T15:47:21Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider@2.13.5.1-osera-00001",
@@ -997,6 +1013,14 @@
       "first_seen": "2026-09-18T15:34:06Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider@2.13.5.1-osera-00004: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider is on no supported line",
+      "first_seen": "2026-09-18T15:47:21Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider",
       "base": "2.13.5",
@@ -1019,6 +1043,14 @@
       "kind": "library on no supported line",
       "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider@2.13.5.1-osera-00003: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider is on no supported line",
       "first_seen": "2026-09-18T15:34:06Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider@2.13.5.1-osera-00004: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider is on no supported line",
+      "first_seen": "2026-09-18T15:47:21Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider@2.13.5.1-osera-00001",
@@ -1045,6 +1077,14 @@
       "first_seen": "2026-09-18T15:34:06Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider@2.13.5.1-osera-00004: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider is on no supported line",
+      "first_seen": "2026-09-18T15:47:21Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider",
       "base": "2.13.5",
@@ -1067,6 +1107,14 @@
       "kind": "library on no supported line",
       "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider@2.13.5.1-osera-00003: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider is on no supported line",
       "first_seen": "2026-09-18T15:34:06Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider@2.13.5.1-osera-00004: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider is on no supported line",
+      "first_seen": "2026-09-18T15:47:21Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.13.5.1-osera-00001",
