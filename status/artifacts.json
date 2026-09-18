@@ -557,6 +557,165 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-dataformat-xml",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:03Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:03Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:03Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:03Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:02Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:02Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:03Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:03Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:03Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:03Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-dataformats-text",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:12Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:12Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "document": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.5.1-osera-00001/jackson-dataformat-yaml-2.13.5.1-osera-00001-cyclonedx.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:12Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:12Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T13:47:08Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "GitHub answered: reading tag v2.13.5.1-osera-00001 in dev-finos-osera-forks/patch-jackson-dataformats-text: Get \"https://api.github.com/repos/dev-finos-osera-forks/patch-jackson-dataformats-text/git/ref/tags/v2.13.5.1-osera-00001\": context canceled",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jackson-datatype-eclipse-collections",
+      "tag": "v2.13.5.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "signatures": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00001/jackson-datatype-eclipse-collections-2.13.5.1-osera-00001.jar\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "document": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00001/jackson-datatype-eclipse-collections-2.13.5.1-osera-00001-cyclonedx.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "the raw repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00001/verdict.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "fork": {
+          "state": "not checked",
+          "reason": "GitHub answered: reading repository dev-finos-osera-forks/patch-jackson-datatype-eclipse-collections: Get \"https://api.github.com/repos/dev-finos-osera-forks/patch-jackson-datatype-eclipse-collections\": context canceled",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no verdict to read the upload account from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no verdict to read the tag pusher from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-reactor-addons",
@@ -1408,6 +1567,270 @@
       "lines": []
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-jpl@2.17.2.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-logging-log4j2",
+      "tag": "v2.17.2.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:00Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:00Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:00Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:00Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:17:59Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:17:59Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:10:17Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:01Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:01Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:01Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-jul@2.17.2.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-logging-log4j2",
+      "tag": "v2.17.2.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:09Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:09Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:10Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:10Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:09Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:09Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:10:17Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:10Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:10Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:10Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-kubernetes@2.17.2.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-log4j-kubernetes",
+      "tag": "v2.17.2.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "signatures": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/org/apache/logging/log4j/log4j-kubernetes/2.17.2.1-osera-00001/log4j-kubernetes-2.17.2.1-osera-00001.jar\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "document": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/org/apache/logging/log4j/log4j-kubernetes/2.17.2.1-osera-00001/log4j-kubernetes-2.17.2.1-osera-00001-cyclonedx.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "the raw repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/apache/logging/log4j/log4j-kubernetes/2.17.2.1-osera-00001/verdict.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "fork": {
+          "state": "not checked",
+          "reason": "GitHub answered: reading repository dev-finos-osera-forks/patch-log4j-kubernetes: Get \"https://api.github.com/repos/dev-finos-osera-forks/patch-log4j-kubernetes\": context canceled",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no verdict to read the upload account from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no verdict to read the tag pusher from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-log4j-layout-template-json",
+      "tag": "v2.17.2.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "signatures": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/org/apache/logging/log4j/log4j-layout-template-json/2.17.2.1-osera-00001/log4j-layout-template-json-2.17.2.1-osera-00001.jar\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "document": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/org/apache/logging/log4j/log4j-layout-template-json/2.17.2.1-osera-00001/log4j-layout-template-json-2.17.2.1-osera-00001-cyclonedx.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "the raw repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/apache/logging/log4j/log4j-layout-template-json/2.17.2.1-osera-00001/verdict.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "fork": {
+          "state": "not checked",
+          "reason": "GitHub answered: reading repository dev-finos-osera-forks/patch-log4j-layout-template-json: Get \"https://api.github.com/repos/dev-finos-osera-forks/patch-log4j-layout-template-json\": context canceled",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no verdict to read the upload account from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no verdict to read the tag pusher from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-liquibase@2.17.2.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-logging-log4j2",
+      "tag": "v2.17.2.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:29Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:29Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:29Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:29Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:28Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:28Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:10:17Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:30Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:30Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:30Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00001",
       "producer": "moderne",
       "fork": "patch-jetty.project",
@@ -2158,6 +2581,266 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T14:17:10Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-bom@9.4.58.v20250814-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:01Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:01Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:01Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:01Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:01Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:01Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:02Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:02Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:02Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-client@9.4.58.v20250814-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:04Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:04Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:05Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-2332 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-2332; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T14:18:05Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:04Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:04Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:05Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:05Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:05Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-continuation@9.4.58.v20250814-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:11Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:11Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:11Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-2332 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-2332; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T14:18:11Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:10Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:10Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:12Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:12Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:12Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-deploy@9.4.58.v20250814-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jetty-deploy",
+      "tag": "v9.4.58.v20250814-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "signatures": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/org/eclipse/jetty/jetty-deploy/9.4.58.v20250814-osera-00001/jetty-deploy-9.4.58.v20250814-osera-00001.jar\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "document": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/org/eclipse/jetty/jetty-deploy/9.4.58.v20250814-osera-00001/jetty-deploy-9.4.58.v20250814-osera-00001-cyclonedx.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "the raw repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/eclipse/jetty/jetty-deploy/9.4.58.v20250814-osera-00001/verdict.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "fork": {
+          "state": "not checked",
+          "reason": "GitHub answered: reading repository dev-finos-osera-forks/patch-jetty-deploy: Get \"https://api.github.com/repos/dev-finos-osera-forks/patch-jetty-deploy\": context canceled",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no verdict to read the upload account from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no verdict to read the tag pusher from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:28Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:28Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:28Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-2332 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-2332; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T14:18:28Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:27Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:27Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:28Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:28Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:28Z"
         }
       },
       "chain": "broken",
@@ -3124,6 +3807,56 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework.data:spring-data-rest-hal-explorer@3.7.18.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-data-rest",
+      "tag": "v3.7.18.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:08Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:08Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:08Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:08Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:07Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:07Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:08Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:08Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:08Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:08Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-ldap",
@@ -3834,6 +4567,221 @@
         }
       },
       "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-security",
+      "tag": "v5.7.14.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:06Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:06Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:06Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-22732 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-22732; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T14:18:06Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:05Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:05Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:10:24Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:07Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:07Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:07Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-oauth2-jose@5.7.14.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-security-oauth2-jose",
+      "tag": "v5.7.14.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "signatures": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/org/springframework/security/spring-security-oauth2-jose/5.7.14.1-osera-00001/spring-security-oauth2-jose-5.7.14.1-osera-00001.jar\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "document": {
+          "state": "not checked",
+          "reason": "the release repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-maven-01/org/springframework/security/spring-security-oauth2-jose/5.7.14.1-osera-00001/spring-security-oauth2-jose-5.7.14.1-osera-00001-cyclonedx.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "the raw repository answered: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/security/spring-security-oauth2-jose/5.7.14.1-osera-00001/verdict.json\": terminated signal received",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "fork": {
+          "state": "not checked",
+          "reason": "GitHub answered: reading repository dev-finos-osera-forks/patch-spring-security-oauth2-jose: Get \"https://api.github.com/repos/dev-finos-osera-forks/patch-spring-security-oauth2-jose\": context canceled",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no verdict to read the upload account from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no verdict to read the tag pusher from",
+          "checked_at": "2026-09-18T14:18:13Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-security",
+      "tag": "v5.7.14.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:26Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:26Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:26Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-22732 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-22732; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T14:18:27Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:25Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:25Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:10:24Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:27Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:27Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:27Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-security-openid",
+      "tag": "v5.7.14.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:30Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:30Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:30Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-22732 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-22732; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T14:18:30Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:30Z"
+        },
+        "verdict": {
+          "state": "missing",
+          "reason": "no verdict for 5.7.14.1-osera-00001 in osera-releases-raw-01",
+          "checked_at": "2026-09-18T14:18:30Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-spring-security-openid is missing",
+          "checked_at": "2026-09-18T14:18:31Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T14:18:31Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no verdict to read the upload account from",
+          "checked_at": "2026-09-18T14:18:31Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no verdict to read the tag pusher from",
+          "checked_at": "2026-09-18T14:18:31Z"
+        }
+      },
+      "chain": "failed",
       "lines": []
     },
     {
