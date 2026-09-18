@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.18.9",
-  "as_of": "2026-09-18T15:28:44Z",
+  "as_of": "2026-09-18T15:29:58Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
@@ -610,6 +610,7 @@
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
