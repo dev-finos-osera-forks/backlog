@@ -7142,6 +7142,17 @@
       "first_seen": "2026-09-18T21:14:15Z"
     },
     {
+      "coordinate": "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00001",
+      "library": "org.springframework.graphql:spring-graphql-test",
+      "base": "1.0.6",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00001: the library org.springframework.graphql:spring-graphql-test is on no supported line; other artifacts of org.springframework.graphql are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T22:20:48Z"
+    },
+    {
       "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
       "library": "org.springframework.ldap:spring-ldap-core-tiger",
       "base": "2.4.4",
