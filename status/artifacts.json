@@ -37117,6 +37117,58 @@
       ]
     },
     {
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-spring-data-commons",
+      "tag": "v2.7.18.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:32Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:32Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:32Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:33Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:31Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:31Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:14:05Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:33Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:33Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:33Z"
+        }
+      },
+      "chain": "complete",
+      "lines": [
+        "spring-boot-2.7.x"
+      ]
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-data-envers",
@@ -37317,6 +37369,56 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-spring-data-envers",
+      "tag": "v2.7.18.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:34Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:34Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:34Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:34Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:33Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:33Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T18:36:29Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:34Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:34Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:34Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-geode@2.7.18.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-data-geode",
@@ -37511,6 +37613,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T19:21:48Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.data:spring-data-geode@2.7.18.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-spring-data-geode",
+      "tag": "v2.7.18.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:37Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:37Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:37Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:37Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:36Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:36Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T18:37:15Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:37Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:37Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:37Z"
         }
       },
       "chain": "complete",
@@ -39028,6 +39180,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T19:20:59Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.data:spring-data-relational@2.4.18.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-spring-data-relational",
+      "tag": "v2.4.18.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:35Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:35Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:35Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:35Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:34Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:34Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:11:31Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:36Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:36Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:24:36Z"
         }
       },
       "chain": "complete",
