@@ -3622,6 +3622,14 @@
       "first_seen": "2026-09-18T21:24:54Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00006",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00006: the library com.fasterxml.jackson:jackson-bom is on no supported line",
+      "first_seen": "2026-09-18T21:26:07Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-adapter",
       "base": "3.4.11",
