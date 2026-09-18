@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.09.17.5",
-  "as_of": "2026-09-18T05:45:03Z",
+  "as_of": "2026-09-18T05:45:44Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 27,
@@ -123,7 +123,8 @@
     "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
-    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11"
+    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
+    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
   "consume": ""
 }
