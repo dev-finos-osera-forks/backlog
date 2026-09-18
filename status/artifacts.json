@@ -8,29 +8,29 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:56:53Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:56:53Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:56:53Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (args4j-2.33.2-osera-00002-cyclonedx.json)",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:56:53Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:56:53Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:56:53Z"
         },
         "fork": {
           "state": "present",
@@ -38,16 +38,16 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:56:53Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:56:53Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:56:53Z"
         }
       },
       "chain": "broken",
@@ -685,28 +685,28 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "document": {
           "state": "present",
           "reason": "the digest was not compared with the verdict's: the verdict records no vulnerability document",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "fork": {
           "state": "present",
@@ -714,15 +714,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         }
       },
       "chain": "complete",
@@ -962,29 +962,29 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "evidence": {
           "state": "not checked",
           "reason": "the verdict records no evidence digest, it was written before the gate recorded one",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:53Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "fork": {
           "state": "present",
@@ -992,22 +992,73 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict records no tag pusher",
-          "checked_at": "2026-09-18T04:56:54Z"
+          "checked_at": "2026-09-18T05:57:04Z"
         }
       },
       "chain": "broken",
       "lines": [
         "dev-1.0.x"
       ]
+    },
+    {
+      "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-hibernate-orm",
+      "tag": "v5.6.15.Final-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:57:04Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:57:04Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:57:04Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names CVE-2026-0603 and the vulnerability document names none; in the evidence and not in the document: CVE-2026-0603; in the document and not in the evidence: none",
+          "checked_at": "2026-09-18T05:57:04Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:57:04Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:57:04Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:57:05Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:57:05Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:57:05Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T05:57:05Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
     },
     {
       "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
