@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T15:18:59Z. Written by the line manager reconciler.
+Generated 2026-09-18T15:25:40Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -226,7 +226,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.eclipse.jetty:jetty-spring | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
 | org.eclipse.jetty:jetty-unixsocket | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
 | org.eclipse.jetty:jetty-util | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-util-ajax | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; failed | ready; not ready, artifact missing |
+| org.eclipse.jetty:jetty-util-ajax | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
 | org.eclipse.jetty:jetty-webapp | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
 | org.eclipse.jetty:jetty-xml | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
 | org.hibernate:hibernate-c3p0 | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
