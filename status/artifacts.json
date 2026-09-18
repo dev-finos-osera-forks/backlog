@@ -43541,6 +43541,58 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework.security:spring-security-ldap@5.7.14.1-osera-00003",
+      "producer": "moderne",
+      "fork": "patch-spring-security",
+      "tag": "v5.7.14.1-osera-00003",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:55Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:55Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:55Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:56Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:54Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:54Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-spring-security is missing",
+          "checked_at": "2026-09-18T22:15:12Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T22:41:56Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:56Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:56Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-messaging@5.7.14.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-security",
@@ -43640,6 +43692,58 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T22:25:07Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-messaging@5.7.14.1-osera-00003",
+      "producer": "moderne",
+      "fork": "patch-spring-security",
+      "tag": "v5.7.14.1-osera-00003",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:56Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:57Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:57Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:57Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:56Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:56Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-spring-security is missing",
+          "checked_at": "2026-09-18T22:15:12Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T22:41:57Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:57Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:57Z"
         }
       },
       "chain": "broken",
@@ -43751,6 +43855,58 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00003",
+      "producer": "moderne",
+      "fork": "patch-spring-security",
+      "tag": "v5.7.14.1-osera-00003",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:58Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:58Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:58Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:58Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:57Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:57Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-spring-security is missing",
+          "checked_at": "2026-09-18T22:15:12Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T22:41:58Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:58Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:58Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-security",
@@ -43850,6 +44006,58 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T22:25:13Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00003",
+      "producer": "moderne",
+      "fork": "patch-spring-security",
+      "tag": "v5.7.14.1-osera-00003",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:59Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:59Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:59Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:00Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:58Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:41:58Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-spring-security is missing",
+          "checked_at": "2026-09-18T22:15:12Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T22:42:00Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:00Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:00Z"
         }
       },
       "chain": "broken",
@@ -45459,6 +45667,56 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework:spring-aop@5.3.39.1-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:01Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:01Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:01Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:01Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:00Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:00Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:23:56Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:01Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:01Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:01Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework:spring-aspects@5.3.39.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-framework",
@@ -45503,6 +45761,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T22:24:00Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-aspects@5.3.39.1-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:02Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:02Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:02Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:03Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:01Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:01Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:23:56Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:03Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:03Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T22:42:03Z"
         }
       },
       "chain": "complete",
