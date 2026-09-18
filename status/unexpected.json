@@ -2408,6 +2408,17 @@
       "first_seen": "2026-09-18T15:52:44Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.11",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00005: the library com.fasterxml.jackson.module:jackson-module-scala_2.11 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:08:29Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-scala_2.12",
       "base": "2.13.5",
@@ -2450,6 +2461,17 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00004: the library com.fasterxml.jackson.module:jackson-module-scala_2.12 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T15:52:44Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.12",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00005: the library com.fasterxml.jackson.module:jackson-module-scala_2.12 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:08:29Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00001",
@@ -2496,6 +2518,17 @@
       "first_seen": "2026-09-18T15:52:44Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.13",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00005: the library com.fasterxml.jackson.module:jackson-module-scala_2.13 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:08:29Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-scala_3",
       "base": "2.13.5",
@@ -2538,6 +2571,17 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00004: the library com.fasterxml.jackson.module:jackson-module-scala_3 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T15:53:45Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_3",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00005: the library com.fasterxml.jackson.module:jackson-module-scala_3 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:08:29Z"
     },
     {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
