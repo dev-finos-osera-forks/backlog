@@ -282,6 +282,54 @@
       "first_seen": "2026-09-18T14:29:21Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jr:jackson-jr-all",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jr:jackson-jr-all is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jr:jackson-jr-annotation-support@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jr:jackson-jr-annotation-support",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jr:jackson-jr-annotation-support@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jr:jackson-jr-annotation-support is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jr:jackson-jr-objects@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jr:jackson-jr-objects",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jr:jackson-jr-objects@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jr:jackson-jr-objects is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-extra",
       "base": "3.4.11",
@@ -612,6 +660,54 @@
       "kind": "library on no supported line",
       "words": "org.eclipse.jetty.http2:http2-http-client-transport@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty.http2:http2-http-client-transport is on no supported line",
       "first_seen": "2026-09-18T14:29:21Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty.http2:http2-server@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty.http2:http2-server",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "words": "org.eclipse.jetty.http2:http2-server@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty.http2:http2-server is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty.memcached:jetty-memcached-sessions@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty.memcached:jetty-memcached-sessions",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "words": "org.eclipse.jetty.memcached:jetty-memcached-sessions@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty.memcached:jetty-memcached-sessions is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty.osgi:jetty-httpservice@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty.osgi:jetty-httpservice",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "words": "org.eclipse.jetty.osgi:jetty-httpservice@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty.osgi:jetty-httpservice is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty.osgi:jetty-osgi-boot-jsp@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty.osgi:jetty-osgi-boot-jsp",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "words": "org.eclipse.jetty.osgi:jetty-osgi-boot-jsp@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty.osgi:jetty-osgi-boot-jsp is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty.osgi:jetty-osgi-boot-warurl@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty.osgi:jetty-osgi-boot-warurl",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "words": "org.eclipse.jetty.osgi:jetty-osgi-boot-warurl@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty.osgi:jetty-osgi-boot-warurl is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty.osgi:jetty-osgi-boot@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty.osgi:jetty-osgi-boot",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "words": "org.eclipse.jetty.osgi:jetty-osgi-boot@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty.osgi:jetty-osgi-boot is on no supported line",
+      "first_seen": "2026-09-18T14:30:20Z"
     },
     {
       "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00001",
