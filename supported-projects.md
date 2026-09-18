@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T21:14:15Z. Written by the line manager reconciler.
+Generated 2026-09-18T21:19:11Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-199 libraries, 715 patched version(s).
+200 libraries, 716 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -142,6 +142,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | io.projectreactor.netty:reactor-netty-core | 1.0.48 | base version on no supported line | spring-boot-2.7.x | 1.0.48.1-osera-00001 | complete | ready |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | base version on no supported line | spring-boot-2.7.x | 1.0.48.1-osera-00001 | complete | ready |
 | io.projectreactor.netty:reactor-netty-http-brave | 1.0.48 | library on no supported line | spring-boot-2.7.x | 1.0.48.1-osera-00001 | complete | ready |
+| io.projectreactor:reactor-bom | 2020.0.47 | library on no supported line | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | 2020.0.47.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | io.projectreactor:reactor-test | 3.4.41 | library on no supported line | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | 3.4.41.1-osera-00001 | complete | ready |
 | io.projectreactor:reactor-tools | 3.4.41 | library on no supported line | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | 3.4.41.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
