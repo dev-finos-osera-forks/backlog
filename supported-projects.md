@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T21:23:29Z. Written by the line manager reconciler.
+Generated 2026-09-18T21:24:54Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-202 libraries, 726 patched version(s).
+202 libraries, 727 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -134,7 +134,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | com.fasterxml.jackson.module:jackson-module-scala_2.12 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | complete; complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.module:jackson-module-scala_2.13 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | complete; complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.module:jackson-module-scala_3 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | complete; complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready; ready |
-| com.fasterxml.jackson:jackson-bom | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document |
+| com.fasterxml.jackson:jackson-bom | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | broken; broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document |
 | io.projectreactor.addons:reactor-adapter | 3.4.11 | library on no supported line | spring-boot-2.7.x | 3.4.11.1-osera-00001 | complete | ready |
 | io.projectreactor.addons:reactor-extra | 3.4.11 | library on no supported line | spring-boot-2.7.x | 3.4.11.1-osera-00001 | complete | ready |
 | io.projectreactor.addons:reactor-pool | 0.2.13 | base version on no supported line | spring-boot-2.7.x | 0.2.13.1-osera-00001 | complete | ready |
