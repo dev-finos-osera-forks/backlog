@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.09.18.36",
-  "as_of": "2026-09-18T23:27:32Z",
+  "as_of": "2026-09-18T23:30:16Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 19,
@@ -9,18 +9,18 @@
     {
       "cve": "CVE-2016-1000027",
       "library": "org.springframework:spring-web",
-      "coordinate": "org.springframework:spring-web@5.3.39.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.springframework:spring-web@5.3.39.1-osera-00003",
-      "at": "2026-09-18T23:02:46Z"
+      "coordinate": "org.springframework:spring-web@5.3.39.1-osera-00004",
+      "patch": "00004",
+      "named_by": "org.springframework:spring-web@5.3.39.1-osera-00004",
+      "at": "2026-09-18T23:30:16Z"
     },
     {
       "cve": "CVE-2024-38816",
       "library": "org.springframework:spring-webflux",
-      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00003",
-      "at": "2026-09-18T23:05:11Z"
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00004",
+      "patch": "00004",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00004",
+      "at": "2026-09-18T23:30:16Z"
     },
     {
       "cve": "CVE-2024-38816",
@@ -33,10 +33,10 @@
     {
       "cve": "CVE-2024-38819",
       "library": "org.springframework:spring-webflux",
-      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00003",
-      "at": "2026-09-18T23:05:11Z"
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00004",
+      "patch": "00004",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00004",
+      "at": "2026-09-18T23:30:16Z"
     },
     {
       "cve": "CVE-2024-38819",
@@ -127,6 +127,7 @@
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00003",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00004",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00003",
@@ -144,6 +145,7 @@
     "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-jms@5.3.39.1-osera-00004",
     "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-web@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-web@5.3.39.1-osera-00003",
+    "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-web@5.3.39.1-osera-00004",
     "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-websocket@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-websocket@5.3.39.1-osera-00003",
     "fixed, not in the backlog: CVE-2024-38819 on org.springframework:spring-core@5.3.39.1-osera-00003",
@@ -153,9 +155,12 @@
     "fixed, not in the backlog: CVE-2024-38819 on org.springframework:spring-jms@5.3.39.1-osera-00003",
     "fixed, not in the backlog: CVE-2024-38819 on org.springframework:spring-jms@5.3.39.1-osera-00004",
     "fixed, not in the backlog: CVE-2024-38819 on org.springframework:spring-web@5.3.39.1-osera-00003",
+    "fixed, not in the backlog: CVE-2024-38819 on org.springframework:spring-web@5.3.39.1-osera-00004",
     "fixed, not in the backlog: CVE-2024-38819 on org.springframework:spring-websocket@5.3.39.1-osera-00003",
     "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-expression@5.3.39.1-osera-00004",
-    "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-jms@5.3.39.1-osera-00004"
+    "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-jms@5.3.39.1-osera-00004",
+    "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-web@5.3.39.1-osera-00004",
+    "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-webflux@5.3.39.1-osera-00004"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.09.18.7"
+  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.09.18.8"
 }
