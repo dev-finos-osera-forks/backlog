@@ -7272,6 +7272,18 @@
       "first_seen": "2026-09-18T22:22:12Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00003",
+      "library": "org.springframework.security:spring-security-aspects",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-aspects is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:32:18Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-bom@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-bom",
       "base": "5.7.14",

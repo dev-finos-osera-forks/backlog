@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T22:27:21Z. Written by the line manager reconciler.
+Generated 2026-09-18T22:32:18Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-204 libraries, 753 patched version(s).
+204 libraries, 754 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -259,7 +259,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.ldap:spring-ldap-odm | 2.4.4 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.4.4.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.ldap:spring-ldap-test | 2.4.4 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.4.4.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-acl | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 | broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork |
-| org.springframework.security:spring-security-aspects | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 | broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork |
+| org.springframework.security:spring-security-aspects | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 | broken; broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: fork |
 | org.springframework.security:spring-security-bom | 5.7.14 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 | broken; broken | not ready, evidence chain incomplete: fork; not ready, evidence chain incomplete: VEX document, fork |
 | org.springframework.security:spring-security-cas | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 | broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork |
 | org.springframework.security:spring-security-config | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 | broken; broken | not ready, evidence chain incomplete: VEX document, fork; not ready, evidence chain incomplete: fork |
