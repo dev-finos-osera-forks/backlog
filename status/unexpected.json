@@ -519,6 +519,17 @@
       "first_seen": "2026-09-18T14:18:21Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-http",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-http is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T14:23:50Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-c3p0",
       "base": "5.6.15.Final",

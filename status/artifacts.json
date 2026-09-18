@@ -2847,6 +2847,64 @@
       "lines": []
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001",
+      "fork": "patch-jetty-http",
+      "tag": "v9.4.58.v20250814-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:23:52Z"
+        },
+        "evidence": {
+          "state": "missing",
+          "reason": "no evidence file next to jetty-http-9.4.58.v20250814-osera-00001",
+          "checked_at": "2026-09-18T14:23:52Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "no registry entry to take the signing key from",
+          "checked_at": "2026-09-18T14:23:52Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's signature: no registry entry to take the signing key from",
+          "checked_at": "2026-09-18T14:23:52Z"
+        },
+        "producer": {
+          "state": "missing",
+          "reason": "the evidence names no producer",
+          "checked_at": "2026-09-18T14:23:52Z"
+        },
+        "verdict": {
+          "state": "missing",
+          "reason": "no verdict for 9.4.58.v20250814-osera-00001 in osera-releases-raw-01",
+          "checked_at": "2026-09-18T14:23:52Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-jetty-http is missing",
+          "checked_at": "2026-09-18T14:23:53Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T14:23:53Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no verdict to read the upload account from",
+          "checked_at": "2026-09-18T14:23:53Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no verdict to read the tag pusher from",
+          "checked_at": "2026-09-18T14:23:53Z"
+        }
+      },
+      "chain": "failed",
+      "lines": []
+    },
+    {
       "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
       "producer": "moderne",
       "fork": "patch-hibernate-orm",
