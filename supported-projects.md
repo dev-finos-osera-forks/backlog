@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T15:55:56Z. Written by the line manager reconciler.
+Generated 2026-09-18T15:56:46Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-196 libraries, 547 patched version(s).
+196 libraries, 550 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -85,9 +85,9 @@ Every library and version the exchange maintains, ordered by library and then by
 | ch.qos.logback:logback-core | 1.2.13 | base version on no supported line | spring-boot-2.7.x | 1.2.13.1-osera-00001 1.2.13.1-osera-00002 | complete; complete | ready; ready |
 | ch.qos.logback:logback-parent | 1.2.13 | library on no supported line | spring-boot-2.7.x | 1.2.13.1-osera-00001 1.2.13.1-osera-00002 | broken; broken | not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-avro | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
-| com.fasterxml.jackson.dataformat:jackson-dataformat-csv | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
-| com.fasterxml.jackson.dataformat:jackson-dataformat-properties | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
-| com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
+| com.fasterxml.jackson.dataformat:jackson-dataformat-csv | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
+| com.fasterxml.jackson.dataformat:jackson-dataformat-properties | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
+| com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 | complete; complete; complete; complete; complete | ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-xml | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
 | com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
@@ -265,7 +265,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.security:spring-security-oauth2-core | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-oauth2-jose | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-oauth2-resource-server | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
-| org.springframework.security:spring-security-openid | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | failed | not ready, evidence chain incomplete: verdict, VEX document, fork |
+| org.springframework.security:spring-security-openid | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-remoting | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-rsocket | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-saml2-service-provider | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
