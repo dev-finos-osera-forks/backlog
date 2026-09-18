@@ -7752,6 +7752,18 @@
       "first_seen": "2026-09-18T22:26:01Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00003",
+      "library": "org.springframework.security:spring-security-openid",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-openid is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:44:00Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-remoting",
       "base": "5.7.14",
@@ -7774,6 +7786,18 @@
       ],
       "words": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-remoting is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T22:26:01Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00003",
+      "library": "org.springframework.security:spring-security-remoting",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-remoting is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:44:00Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00001",
@@ -7800,6 +7824,18 @@
       "first_seen": "2026-09-18T22:26:01Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00003",
+      "library": "org.springframework.security:spring-security-rsocket",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-rsocket is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:44:00Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-saml2-service-provider",
       "base": "5.7.14",
@@ -7822,6 +7858,18 @@
       ],
       "words": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-saml2-service-provider is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T22:26:01Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00003",
+      "library": "org.springframework.security:spring-security-saml2-service-provider",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-saml2-service-provider is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:44:00Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00001",
@@ -7848,6 +7896,18 @@
       "first_seen": "2026-09-18T22:26:01Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00003",
+      "library": "org.springframework.security:spring-security-taglibs",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-taglibs is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:44:00Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-test@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-test",
       "base": "5.7.14",
@@ -7870,6 +7930,18 @@
       ],
       "words": "org.springframework.security:spring-security-test@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-test is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T22:27:21Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-test@5.7.14.1-osera-00003",
+      "library": "org.springframework.security:spring-security-test",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-test@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-test is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:44:00Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00001",
@@ -7995,6 +8067,19 @@
       ],
       "words": "org.springframework:spring-framework-bom@5.3.39.1-osera-00001: the library org.springframework:spring-framework-bom is on no supported line; other artifacts of org.springframework are on spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T22:24:50Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00002",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-framework-5.3.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework:spring-framework-bom@5.3.39.1-osera-00002: the library org.springframework:spring-framework-bom is on no supported line; other artifacts of org.springframework are on spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T22:44:00Z"
     }
   ]
 }
