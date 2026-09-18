@@ -3792,6 +3792,17 @@
       "first_seen": "2026-09-18T14:16:45Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-jmx-gui@2.17.2.1-osera-00001",
+      "library": "org.apache.logging.log4j:log4j-jmx-gui",
+      "base": "2.17.2",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-jmx-gui@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j-jmx-gui is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T19:05:50Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-jpa@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-jpa",
       "base": "2.17.2",
