@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T23:36:12Z. Written by the line manager reconciler.
+Generated 2026-09-18T23:39:59Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -63,7 +63,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 3.1.8.1-osera-00002 | complete | ready |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 3.1.8.1-osera-00002 | complete | ready |
 | org.springframework:spring-core | 5.3.29 | spring-security-5.7.x | open | 2 | 0 | 0 | 0 | 2 | 0 |  |  | not claimed |
-| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 2 | 0 | 0 | 1 | 1 | 0 | 5.3.39.1-osera-00004 | complete | ready |
+| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 2 | 0 | 0 | 1 | 1 | 0 | 5.3.39.1-osera-00005 | complete | ready |
 | org.springframework:spring-expression | 5.3.29 | spring-security-5.7.x | open | 3 | 2 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 3 | 1 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
