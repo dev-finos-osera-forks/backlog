@@ -2011,6 +2011,17 @@
       "first_seen": "2026-09-18T14:33:24Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-client@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-alpn-conscrypt-client",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-conscrypt-client@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-alpn-conscrypt-client is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:27:34Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-conscrypt-server",
       "base": "9.4.58.v20250814",
@@ -2031,6 +2042,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-alpn-conscrypt-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-alpn-conscrypt-server",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-alpn-conscrypt-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:27:34Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-java-client@9.4.58.v20250814-osera-00001",
@@ -2055,6 +2077,17 @@
       "first_seen": "2026-09-18T14:33:24Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-java-client@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-alpn-java-client",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-java-client@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-alpn-java-client is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:27:34Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-java-server",
       "base": "9.4.58.v20250814",
@@ -2075,6 +2108,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-alpn-java-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-alpn-java-server",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-alpn-java-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:27:34Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-openjdk8-client@9.4.58.v20250814-osera-00001",
@@ -2099,6 +2143,17 @@
       "first_seen": "2026-09-18T14:34:34Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-openjdk8-client@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-alpn-openjdk8-client",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-openjdk8-client@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-alpn-openjdk8-client is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:27:34Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-openjdk8-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-openjdk8-server",
       "base": "9.4.58.v20250814",
@@ -2119,6 +2174,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-openjdk8-server@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-alpn-openjdk8-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:34:34Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-openjdk8-server@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-alpn-openjdk8-server",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-openjdk8-server@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-alpn-openjdk8-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:27:34Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-server@9.4.58.v20250814-osera-00001",

@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T15:26:32Z. Written by the line manager reconciler.
+Generated 2026-09-18T15:27:34Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_out_of_scope | CVE_in_progress | CVE_fixed | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 7 | 130 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 8 | 129 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 19 | 24 | 0 | 0 | 19 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 27 | 41 | 0 | 0 | 27 | 0 |
 | dev-1.0.x | maven | `org.finos.osera.dev:dev-bom@2.0.0` | in progress | 4 | 4 | 4 | 0 | 0 | 0 |
@@ -24,9 +24,9 @@ Every library and version the exchange maintains, ordered by library and then by
 | ch.qos.logback:logback-core | 1.2.12 | spring-boot-2.7.x | open | 3 | 5 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | com.beust:jcommander | 1.82 | dev-1.0.x | in progress | 2 | 0 | 2 | 0 | 0 | 0 |  |  | patch in progress |
 | com.fasterxml.jackson.core:jackson-core | 2.13.0 | spring-security-5.7.x | open | 2 | 0 | 0 | 0 | 2 | 0 |  |  | not claimed |
-| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | fixed | 2 | 0 | 0 | 2 | 0 | 0 | 2.13.5.1-osera-00002 | complete | ready |
+| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | fixed | 2 | 0 | 0 | 2 | 0 | 0 | 2.13.5.1-osera-00003 | complete | ready |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.0 | spring-security-5.7.x | open | 7 | 2 | 0 | 0 | 7 | 0 |  |  | not claimed |
-| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | open | 3 | 2 | 0 | 0 | 3 | 0 |  |  | not claimed |
+| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | open | 3 | 2 | 0 | 1 | 2 | 0 | 2.13.5.1-osera-00003 | complete | ready |
 | io.netty:netty-codec | 4.1.101.Final | spring-boot-2.7.x | open | 3 | 0 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | io.netty:netty-codec-dns | 4.1.101.Final | spring-boot-2.7.x | open | 1 | 1 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | io.netty:netty-codec-http | 4.1.101.Final | spring-boot-2.7.x | open | 16 | 3 | 0 | 0 | 16 | 0 |  |  | not claimed |
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-196 libraries, 324 patched version(s).
+196 libraries, 330 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -191,12 +191,12 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.eclipse.jetty:infinispan-embedded-query | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
 | org.eclipse.jetty:infinispan-remote-query | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
 | org.eclipse.jetty:jetty-alpn-client | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; failed | ready; ready; not ready, artifact missing |
-| org.eclipse.jetty:jetty-alpn-conscrypt-client | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-alpn-conscrypt-server | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
-| org.eclipse.jetty:jetty-alpn-java-client | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-alpn-java-server | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-alpn-openjdk8-client | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
-| org.eclipse.jetty:jetty-alpn-openjdk8-server | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
+| org.eclipse.jetty:jetty-alpn-conscrypt-client | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty:jetty-alpn-conscrypt-server | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | broken; complete; complete | not ready, evidence chain incomplete: VEX document; ready; ready |
+| org.eclipse.jetty:jetty-alpn-java-client | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty:jetty-alpn-java-server | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty:jetty-alpn-openjdk8-client | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | broken; complete; complete | not ready, evidence chain incomplete: VEX document; ready; ready |
+| org.eclipse.jetty:jetty-alpn-openjdk8-server | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | broken; complete; failed | not ready, evidence chain incomplete: VEX document; ready; not ready, artifact missing |
 | org.eclipse.jetty:jetty-alpn-server | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
 | org.eclipse.jetty:jetty-annotations | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
 | org.eclipse.jetty:jetty-ant | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
