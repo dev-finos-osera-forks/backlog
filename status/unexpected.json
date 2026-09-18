@@ -2874,6 +2874,17 @@
       "first_seen": "2026-09-18T16:08:29Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00006",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.11",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00006: the library com.fasterxml.jackson.module:jackson-module-scala_2.11 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:21:31Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-scala_2.12",
       "base": "2.13.5",
@@ -2929,6 +2940,17 @@
       "first_seen": "2026-09-18T16:08:29Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00006",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.12",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00006: the library com.fasterxml.jackson.module:jackson-module-scala_2.12 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:21:31Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-scala_2.13",
       "base": "2.13.5",
@@ -2982,6 +3004,17 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00005: the library com.fasterxml.jackson.module:jackson-module-scala_2.13 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T16:08:29Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00006",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.13",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00006: the library com.fasterxml.jackson.module:jackson-module-scala_2.13 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:21:31Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00001",
