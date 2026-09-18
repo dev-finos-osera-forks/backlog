@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T15:02:59Z. Written by the line manager reconciler.
+Generated 2026-09-18T15:18:59Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -203,7 +203,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.eclipse.jetty:jetty-bom | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; broken | ready; not ready, evidence chain incomplete: VEX document |
 | org.eclipse.jetty:jetty-client | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
 | org.eclipse.jetty:jetty-continuation | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
-| org.eclipse.jetty:jetty-deploy | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
+| org.eclipse.jetty:jetty-deploy | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
 | org.eclipse.jetty:jetty-hazelcast | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | broken; complete | not ready, evidence chain incomplete: VEX document; ready |
 | org.eclipse.jetty:jetty-http | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
 | org.eclipse.jetty:jetty-http-spi | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
@@ -263,7 +263,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.security:spring-security-messaging | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-oauth2-client | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-oauth2-core | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
-| org.springframework.security:spring-security-oauth2-jose | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | complete | ready |
+| org.springframework.security:spring-security-oauth2-jose | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-oauth2-resource-server | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.security:spring-security-openid | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | failed | not ready, evidence chain incomplete: verdict, VEX document, fork |
 | org.springframework.security:spring-security-remoting | 5.7.14 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 5.7.14.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
