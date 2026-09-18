@@ -1465,6 +1465,56 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-jackson-dataformat-xml",
+      "tag": "v2.13.5.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:09Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:09Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:09Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:10Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:08Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:08Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:18:03Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:10Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:10Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:10Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.13.5.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-jackson-dataformats-text",
@@ -1514,6 +1564,65 @@
         }
       },
       "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.13.5.1-osera-00002",
+      "fork": "patch-jackson-dataformat-yaml",
+      "tag": "v2.13.5.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "missing",
+          "reason": "jackson-dataformat-yaml-2.13.5.1-osera-00002.pom, jackson-dataformat-yaml-2.13.5.1-osera-00002.jar.sha1, jackson-dataformat-yaml-2.13.5.1-osera-00002.pom.sha1 missing in the release repository",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "evidence": {
+          "state": "missing",
+          "reason": "no evidence file next to jackson-dataformat-yaml-2.13.5.1-osera-00002",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "no signature next to the jar (jackson-dataformat-yaml-2.13.5.1-osera-00002.jar.asc)",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "document": {
+          "state": "missing",
+          "reason": "no vulnerability document next to the pom (jackson-dataformat-yaml-2.13.5.1-osera-00002-cyclonedx.json)",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "producer": {
+          "state": "missing",
+          "reason": "the evidence names no producer",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "verdict": {
+          "state": "missing",
+          "reason": "no verdict for 2.13.5.1-osera-00002 in osera-releases-raw-01",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-jackson-dataformat-yaml is missing",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no verdict to read the upload account from",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no verdict to read the tag pusher from",
+          "checked_at": "2026-09-18T14:39:12Z"
+        }
+      },
+      "chain": "failed",
       "lines": []
     },
     {
@@ -5894,6 +6003,56 @@
       "lines": []
     },
     {
+      "coordinate": "org.eclipse.jetty.fcgi:fcgi-server@9.4.58.v20250814-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:16Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:16Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:16Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:16Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:15Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:15Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:16Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:16Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:16Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.eclipse.jetty.gcloud:jetty-gcloud-session-manager@9.4.58.v20250814-osera-00001",
       "producer": "moderne",
       "fork": "patch-jetty.project",
@@ -5938,6 +6097,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T14:29:33Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.eclipse.jetty.gcloud:jetty-gcloud-session-manager@9.4.58.v20250814-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:17Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:17Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:17Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:18Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:17Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:17Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:18Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:18Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:18Z"
         }
       },
       "chain": "complete",
@@ -10863,6 +11072,65 @@
       "lines": []
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-util-ajax@9.4.58.v20250814-osera-00002",
+      "fork": "patch-jetty-util-ajax",
+      "tag": "v9.4.58.v20250814-osera-00002",
+      "links": {
+        "files": {
+          "state": "missing",
+          "reason": "jetty-util-ajax-9.4.58.v20250814-osera-00002.jar.sha1, jetty-util-ajax-9.4.58.v20250814-osera-00002.pom.sha1 missing in the release repository",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "evidence": {
+          "state": "missing",
+          "reason": "no evidence file next to jetty-util-ajax-9.4.58.v20250814-osera-00002",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "no signature next to the jar (jetty-util-ajax-9.4.58.v20250814-osera-00002.jar.asc)",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "no signature next to the vulnerability document (jetty-util-ajax-9.4.58.v20250814-osera-00002-cyclonedx.json.asc)",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "producer": {
+          "state": "missing",
+          "reason": "the evidence names no producer",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "verdict": {
+          "state": "missing",
+          "reason": "no verdict for 9.4.58.v20250814-osera-00002 in osera-releases-raw-01",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-jetty-util-ajax is missing",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork was not found",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no verdict to read the upload account from",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no verdict to read the tag pusher from",
+          "checked_at": "2026-09-18T14:39:12Z"
+        }
+      },
+      "chain": "failed",
+      "lines": []
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-util@9.4.58.v20250814-osera-00001",
       "producer": "moderne",
       "fork": "patch-jetty.project",
@@ -10907,6 +11175,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T14:28:36Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-util@9.4.58.v20250814-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:10Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:10Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:11Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:11Z"
         }
       },
       "chain": "complete",
@@ -10963,6 +11281,56 @@
       "lines": []
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:13Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:13Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:13Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:13Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:12Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:13Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:13Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:13Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00001",
       "producer": "moderne",
       "fork": "patch-jetty.project",
@@ -11007,6 +11375,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T14:28:44Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-jetty.project",
+      "tag": "v9.4.58.v20250814-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:14Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:14Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:14Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:15Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:14Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:14Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:09:22Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:15Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:15Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T14:39:15Z"
         }
       },
       "chain": "complete",
