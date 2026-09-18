@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T15:31:11Z. Written by the line manager reconciler.
+Generated 2026-09-18T15:32:34Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-196 libraries, 370 patched version(s).
+196 libraries, 385 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -99,12 +99,12 @@ Every library and version the exchange maintains, ordered by library and then by
 | com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 | complete; complete; complete | ready; ready; ready |
 | com.fasterxml.jackson.datatype:jackson-datatype-jaxrs | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 | complete; complete; complete | ready; ready; ready |
 | com.fasterxml.jackson.datatype:jackson-datatype-joda | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 | complete; complete; complete | ready; ready; ready |
-| com.fasterxml.jackson.datatype:jackson-datatype-joda-money | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
-| com.fasterxml.jackson.datatype:jackson-datatype-json-org | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
-| com.fasterxml.jackson.datatype:jackson-datatype-jsr353 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
-| com.fasterxml.jackson.datatype:jackson-datatype-pcollections | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
-| com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
-| com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
+| com.fasterxml.jackson.datatype:jackson-datatype-joda-money | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 | complete; complete; complete | ready; ready; ready |
+| com.fasterxml.jackson.datatype:jackson-datatype-json-org | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 | complete; complete; complete | ready; ready; ready |
+| com.fasterxml.jackson.datatype:jackson-datatype-jsr353 | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 | complete; complete; complete | ready; ready; ready |
+| com.fasterxml.jackson.datatype:jackson-datatype-pcollections | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 | complete; complete; complete | ready; ready; ready |
+| com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 | complete; complete; complete | ready; ready; ready |
+| com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 | complete; complete; complete | ready; ready; ready |
 | com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
 | com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
 | com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
@@ -122,7 +122,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | com.fasterxml.jackson.jr:jackson-jr-stree | 2.13.5 | library on no supported line |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
 | com.fasterxml.jackson.module:jackson-module-afterburner | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
 | com.fasterxml.jackson.module:jackson-module-blackbird | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
-| com.fasterxml.jackson.module:jackson-module-guice | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | failed; complete | not ready, artifact missing; ready |
+| com.fasterxml.jackson.module:jackson-module-guice | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
 | com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
 | com.fasterxml.jackson.module:jackson-module-jsonSchema | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
 | com.fasterxml.jackson.module:jackson-module-kotlin | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 | complete; complete | ready; ready |
@@ -165,8 +165,8 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.apache.logging.log4j:log4j-spring-boot | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-taglib | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.logging.log4j:log4j-web | 2.17.2 | library on no supported line | spring-boot-2.7.x | 2.17.2.1-osera-00001 | complete | ready |
-| org.eclipse.jetty.fcgi:fcgi-client | 9.4.58.v20250814 | library on no supported line |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty.fcgi:fcgi-server | 9.4.58.v20250814 | library on no supported line |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
+| org.eclipse.jetty.fcgi:fcgi-client | 9.4.58.v20250814 | library on no supported line |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty.fcgi:fcgi-server | 9.4.58.v20250814 | library on no supported line |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
 | org.eclipse.jetty.gcloud:jetty-gcloud-session-manager | 9.4.58.v20250814 | library on no supported line |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
 | org.eclipse.jetty.http2:http2-client | 9.4.58.v20250814 | library on no supported line |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
 | org.eclipse.jetty.http2:http2-common | 9.4.58.v20250814 | library on no supported line |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
@@ -222,13 +222,13 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.eclipse.jetty:jetty-security | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
 | org.eclipse.jetty:jetty-server | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
 | org.eclipse.jetty:jetty-servlet | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
-| org.eclipse.jetty:jetty-servlets | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-spring | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-unixsocket | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-util | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-util-ajax | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-webapp | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
-| org.eclipse.jetty:jetty-xml | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | complete; complete | ready; ready |
+| org.eclipse.jetty:jetty-servlets | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty:jetty-spring | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty:jetty-unixsocket | 9.4.58.v20250814 | library on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty:jetty-util | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty:jetty-util-ajax | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty:jetty-webapp | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.eclipse.jetty:jetty-xml | 9.4.58.v20250814 | base version on no supported line | spring-boot-2.7.x | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 | complete; complete; complete | ready; ready; ready |
 | org.hibernate:hibernate-c3p0 | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.hibernate:hibernate-ehcache | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | complete | ready |
 | org.hibernate:hibernate-entitymanager | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | complete | ready |
