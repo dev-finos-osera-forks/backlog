@@ -12,6 +12,28 @@
       "first_seen": "2026-09-18T13:08:02Z"
     },
     {
+      "coordinate": "ch.qos.logback:logback-classic@1.2.13.1-osera-00001",
+      "library": "ch.qos.logback:logback-classic",
+      "base": "1.2.13",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "ch.qos.logback:logback-classic@1.2.13.1-osera-00001: the library ch.qos.logback:logback-classic is on spring-boot-2.7.x at another version, no supported line has it at 1.2.13",
+      "first_seen": "2026-09-18T13:08:54Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:apache-jsp",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:apache-jsp is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T13:08:54Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-c3p0",
       "base": "5.6.15.Final",
