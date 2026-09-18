@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.17.5",
-  "as_of": "2026-09-18T05:41:06Z",
+  "as_of": "2026-09-18T05:41:46Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 135,
@@ -558,6 +558,7 @@
     "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.1-osera-00001 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-core@2.14.2.2-osera-00002 is on base 2.14.2, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
+    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
   "consume": ""
