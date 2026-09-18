@@ -36960,6 +36960,57 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-data-bom",
+      "tag": "v2021.2.18.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:00Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:00Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:00Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names none and the vulnerability document names CVE-2026-41717; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2026-41717",
+          "checked_at": "2026-09-18T21:20:01Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:00Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:00Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:01Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:01Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:01Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T21:20:01Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-data-commons",
