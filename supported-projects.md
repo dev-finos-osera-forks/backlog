@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T14:21:21Z. Written by the line manager reconciler.
+Generated 2026-09-18T14:34:34Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_out_of_scope | CVE_in_progress | CVE_fixed | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 5 | 132 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 6 | 131 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 19 | 24 | 0 | 0 | 19 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 27 | 41 | 0 | 0 | 27 | 0 |
 | dev-1.0.x | maven | `org.finos.osera.dev:dev-bom@2.0.0` | in progress | 4 | 4 | 4 | 0 | 0 | 0 |
@@ -36,7 +36,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | io.netty:netty-resolver-dns | 4.1.101.Final | spring-boot-2.7.x | open | 3 | 0 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | io.projectreactor.netty:reactor-netty-http | 1.0.39 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | net.sf.jopt-simple:jopt-simple | 5.0.4 | dev-1.0.x | in progress | 1 | 0 | 1 | 0 | 0 | 0 |  |  | patch in progress |
-| org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | open | 1 | 2 | 0 | 0 | 1 | 0 |  |  | not claimed |
+| org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | fixed | 1 | 2 | 0 | 1 | 0 | 0 | 2.17.2.1-osera-00001 | complete | ready |
 | org.apache.tomcat.embed:tomcat-embed-core | 9.0.83 | spring-boot-2.7.x | open | 34 | 2 | 0 | 0 | 34 | 0 |  |  | not claimed |
 | org.apache.tomcat.embed:tomcat-embed-websocket | 9.0.83 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.eclipse.jetty:jetty-http | 9.4.53.v20231009 | spring-boot-2.7.x | open | 2 | 1 | 0 | 0 | 2 | 0 |  |  | not claimed |
