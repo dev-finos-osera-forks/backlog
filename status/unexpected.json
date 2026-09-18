@@ -7153,6 +7153,17 @@
       "first_seen": "2026-09-18T22:20:48Z"
     },
     {
+      "coordinate": "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00002",
+      "library": "org.springframework.graphql:spring-graphql-test",
+      "base": "1.0.6",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00002: the library org.springframework.graphql:spring-graphql-test is on no supported line; other artifacts of org.springframework.graphql are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T22:22:12Z"
+    },
+    {
       "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
       "library": "org.springframework.ldap:spring-ldap-core-tiger",
       "base": "2.4.4",
@@ -7225,6 +7236,18 @@
       "first_seen": "2026-09-18T13:09:53Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-acl",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-acl is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:22:12Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-aspects",
       "base": "5.7.14",
@@ -7235,6 +7258,18 @@
       ],
       "words": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-aspects is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T13:10:59Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-aspects",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-aspects is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:22:12Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-bom@5.7.14.1-osera-00001",
@@ -7249,6 +7284,18 @@
       "first_seen": "2026-09-18T14:33:24Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-bom@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-bom",
+      "base": "5.7.14",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-bom@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-bom is on no supported line; other artifacts of org.springframework.security are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T22:22:12Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-cas@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-cas",
       "base": "5.7.14",
@@ -7259,6 +7306,18 @@
       ],
       "words": "org.springframework.security:spring-security-cas@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-cas is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T14:34:34Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-cas@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-cas",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-cas@5.7.14.1-osera-00002: the library org.springframework.security:spring-security-cas is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:22:12Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-config@5.7.14.1-osera-00001",
