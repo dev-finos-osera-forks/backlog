@@ -7884,6 +7884,18 @@
       "first_seen": "2026-09-18T22:42:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-oauth2-resource-server",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00004: the library org.springframework.security:spring-security-oauth2-resource-server is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:51:00Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-openid",
       "base": "5.7.14",
@@ -7918,6 +7930,18 @@
       ],
       "words": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-openid is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T22:44:00Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-openid",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00004: the library org.springframework.security:spring-security-openid is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:51:00Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00001",
@@ -7956,6 +7980,18 @@
       "first_seen": "2026-09-18T22:44:00Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-remoting",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00004: the library org.springframework.security:spring-security-remoting is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:51:00Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-rsocket",
       "base": "5.7.14",
@@ -7990,6 +8026,18 @@
       ],
       "words": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-rsocket is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T22:44:00Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-rsocket",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00004: the library org.springframework.security:spring-security-rsocket is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:51:00Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001",
