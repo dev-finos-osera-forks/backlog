@@ -6905,6 +6905,18 @@
       "first_seen": "2026-09-18T14:16:45Z"
     },
     {
+      "coordinate": "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00006",
+      "library": "org.springframework.data:spring-data-mongodb-parent",
+      "base": "3.4.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00006: the library org.springframework.data:spring-data-mongodb-parent is on no supported line; other artifacts of org.springframework.data are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T19:28:43Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-rest-hal-explorer@3.7.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-rest-hal-explorer",
       "base": "3.7.18",
