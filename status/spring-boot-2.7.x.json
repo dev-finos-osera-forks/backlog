@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.18.27",
-  "as_of": "2026-09-18T22:20:48Z",
+  "book_version": "v2026.09.18.28",
+  "as_of": "2026-09-18T22:22:12Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
@@ -49,10 +49,10 @@
     {
       "cve": "CVE-2026-41700",
       "library": "org.springframework.graphql:spring-graphql",
-      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00001",
-      "at": "2026-09-18T22:20:48Z"
+      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
+      "at": "2026-09-18T22:22:12Z"
     },
     {
       "cve": "CVE-2026-41716",
@@ -93,6 +93,14 @@
       "patch": "00006",
       "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00006",
       "at": "2026-09-18T19:30:20Z"
+    },
+    {
+      "cve": "CVE-2026-41856",
+      "library": "org.springframework.graphql:spring-graphql",
+      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
+      "at": "2026-09-18T22:22:12Z"
     },
     {
       "cve": "CVE-2026-50193",
@@ -470,10 +478,6 @@
       "library": "org.springframework:spring-jms"
     },
     {
-      "cve": "CVE-2026-41856",
-      "library": "org.springframework.graphql:spring-graphql"
-    },
-    {
       "cve": "CVE-2026-42498",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -745,5 +749,5 @@
     "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.26"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.27"
 }
