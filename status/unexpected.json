@@ -199,6 +199,49 @@
       "first_seen": "2026-09-18T14:27:23Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-pcollections",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00001: the library com.fasterxml.jackson.datatype:jackson-datatype-pcollections is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base is on no supported line",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider is on no supported line",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider is on no supported line",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "words": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider@2.13.5.1-osera-00001: the library com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider is on no supported line",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-extra",
       "base": "3.4.11",
@@ -880,6 +923,83 @@
       ],
       "words": "org.eclipse.jetty:jetty-servlet@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-servlet is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
       "first_seen": "2026-09-18T14:27:23Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-servlets",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-servlets is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-spring@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-spring",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-spring@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-spring is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-unixsocket@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-unixsocket",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-unixsocket@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-unixsocket is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-util-ajax@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-util-ajax",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-util-ajax@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-util-ajax is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-util@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-util",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-util@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-util is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-webapp",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-webapp is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T14:28:22Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00001",
+      "library": "org.eclipse.jetty:jetty-xml",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-xml is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T14:28:22Z"
     },
     {
       "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00001",
