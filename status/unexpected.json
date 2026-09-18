@@ -903,6 +903,17 @@
       "first_seen": "2026-09-18T15:46:12Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-joda-money",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00005: the library com.fasterxml.jackson.datatype:jackson-datatype-joda-money is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:00:05Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.datatype:jackson-datatype-joda",
       "base": "2.13.5",
@@ -947,6 +958,17 @@
       "first_seen": "2026-09-18T15:46:12Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-joda",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00005: the library com.fasterxml.jackson.datatype:jackson-datatype-joda is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:00:05Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.datatype:jackson-datatype-json-org",
       "base": "2.13.5",
@@ -989,6 +1011,17 @@
       ],
       "words": "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00004: the library com.fasterxml.jackson.datatype:jackson-datatype-json-org is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T15:46:12Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00005",
+      "library": "com.fasterxml.jackson.datatype:jackson-datatype-json-org",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00005: the library com.fasterxml.jackson.datatype:jackson-datatype-json-org is on no supported line; other artifacts of com.fasterxml.jackson.datatype are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:00:05Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00001",
