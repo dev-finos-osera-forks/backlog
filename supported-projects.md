@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T23:15:59Z. Written by the line manager reconciler.
+Generated 2026-09-18T23:26:22Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,8 +8,8 @@ Every library and version the exchange maintains, ordered by library and then by
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_out_of_scope | CVE_in_progress | CVE_fixed | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 21 | 116 | 0 |
-| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 24 | 0 | 5 | 14 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 22 | 115 | 0 |
+| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 24 | 0 | 6 | 13 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 27 | 41 | 0 | 0 | 27 | 0 |
 | dev-1.0.x | maven | `org.finos.osera.dev:dev-bom@2.0.0` | in progress | 4 | 4 | 4 | 0 | 0 | 0 |
 
@@ -63,7 +63,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 3.1.8.1-osera-00002 | complete | ready |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 3.1.8.1-osera-00002 | complete | ready |
 | org.springframework:spring-core | 5.3.29 | spring-security-5.7.x | open | 2 | 0 | 0 | 0 | 2 | 0 |  |  | not claimed |
-| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 2 | 0 | 0 | 0 | 2 | 0 |  |  | not claimed |
+| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 2 | 0 | 0 | 1 | 1 | 0 | 5.3.39.1-osera-00004 | complete | ready |
 | org.springframework:spring-expression | 5.3.29 | spring-security-5.7.x | open | 3 | 2 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 3 | 1 | 0 | 0 | 3 | 0 |  |  | not claimed |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-204 libraries, 818 patched version(s).
+206 libraries, 821 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -138,11 +138,13 @@ Every library and version the exchange maintains, ordered by library and then by
 | io.projectreactor.addons:reactor-adapter | 3.4.11 | library on no supported line | spring-boot-2.7.x | 3.4.11.1-osera-00001 | complete | ready |
 | io.projectreactor.addons:reactor-extra | 3.4.11 | library on no supported line | spring-boot-2.7.x | 3.4.11.1-osera-00001 | complete | ready |
 | io.projectreactor.addons:reactor-pool | 0.2.13 | base version on no supported line | spring-boot-2.7.x | 0.2.13.1-osera-00001 | complete | ready |
+| io.projectreactor.kafka:reactor-kafka | 1.3.23 | library on no supported line |  | 1.3.23.1-osera-00001 | complete | ready |
 | io.projectreactor.kotlin:reactor-kotlin-extensions | 1.1.11 | library on no supported line |  | 1.1.11.1-osera-00001 | complete | ready |
 | io.projectreactor.netty:reactor-netty | 1.0.48 | library on no supported line | spring-boot-2.7.x | 1.0.48.1-osera-00001 | complete | ready |
 | io.projectreactor.netty:reactor-netty-core | 1.0.48 | base version on no supported line | spring-boot-2.7.x | 1.0.48.1-osera-00001 | complete | ready |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | base version on no supported line | spring-boot-2.7.x | 1.0.48.1-osera-00001 | complete | ready |
 | io.projectreactor.netty:reactor-netty-http-brave | 1.0.48 | library on no supported line | spring-boot-2.7.x | 1.0.48.1-osera-00001 | complete | ready |
+| io.projectreactor.rabbitmq:reactor-rabbitmq | 1.5.6 | library on no supported line |  | 1.5.6.1-osera-00001 | complete | ready |
 | io.projectreactor:reactor-bom | 2020.0.47 | library on no supported line | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | 2020.0.47.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | io.projectreactor:reactor-test | 3.4.41 | library on no supported line | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | 3.4.41.1-osera-00001 | complete | ready |
 | io.projectreactor:reactor-tools | 3.4.41 | library on no supported line | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | 3.4.41.1-osera-00001 | complete | ready |
@@ -283,4 +285,4 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.ws:spring-ws-security | 3.1.8 | library on no supported line | spring-boot-2.7.x | 3.1.8.1-osera-00001 3.1.8.1-osera-00002 | complete; complete | ready; ready |
 | org.springframework.ws:spring-ws-support | 3.1.8 | library on no supported line | spring-boot-2.7.x | 3.1.8.1-osera-00001 3.1.8.1-osera-00002 | complete; complete | ready; ready |
 | org.springframework.ws:spring-ws-test | 3.1.8 | library on no supported line | spring-boot-2.7.x | 3.1.8.1-osera-00001 3.1.8.1-osera-00002 | complete; complete | ready; ready |
-| org.springframework:spring-framework-bom | 5.3.39 | library on no supported line | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 5.3.39.1-osera-00003 | broken; broken; broken | not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document |
+| org.springframework:spring-framework-bom | 5.3.39 | library on no supported line | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 5.3.39.1-osera-00003 5.3.39.1-osera-00004 | broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document |
