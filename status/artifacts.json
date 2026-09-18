@@ -37720,6 +37720,58 @@
       ]
     },
     {
+      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-spring-data-mongodb",
+      "tag": "v3.4.18.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:16Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:16Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:16Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:16Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:15Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:15Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T18:18:14Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:17Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:17Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:17Z"
+        }
+      },
+      "chain": "complete",
+      "lines": [
+        "spring-boot-2.7.x"
+      ]
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-redis@2.7.18.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-data-redis",
@@ -37764,6 +37816,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T18:18:04Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.data:spring-data-redis@2.7.18.1-osera-00002",
+      "producer": "moderne",
+      "fork": "patch-spring-data-redis",
+      "tag": "v2.7.18.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:14Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:14Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:14Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:15Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:13Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:13Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T18:17:05Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:15Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:15Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T19:12:15Z"
         }
       },
       "chain": "complete",
