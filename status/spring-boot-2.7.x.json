@@ -1,11 +1,19 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.18.29",
-  "as_of": "2026-09-18T22:32:18Z",
+  "as_of": "2026-09-18T22:34:36Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
   "fixed": [
+    {
+      "cve": "CVE-2016-1000027",
+      "library": "org.springframework:spring-web",
+      "coordinate": "org.springframework:spring-web@5.3.39.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework:spring-web@5.3.39.1-osera-00001",
+      "at": "2026-09-18T22:34:36Z"
+    },
     {
       "cve": "CVE-2025-52999",
       "library": "com.fasterxml.jackson.core:jackson-core",
@@ -137,10 +145,6 @@
   ],
   "in_progress": [],
   "open": [
-    {
-      "cve": "CVE-2016-1000027",
-      "library": "org.springframework:spring-web"
-    },
     {
       "cve": "CVE-2022-1471",
       "library": "org.yaml:snakeyaml"
@@ -757,5 +761,5 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.27"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.28"
 }
