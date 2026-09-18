@@ -1518,6 +1518,17 @@
       "first_seen": "2026-09-18T14:18:21Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-deploy@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-deploy",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-deploy@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-deploy is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:35:59Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-hazelcast",
       "base": "9.4.58.v20250814",
@@ -1527,6 +1538,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-hazelcast is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:18:21Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-hazelcast",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-hazelcast is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:35:59Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-http-spi@9.4.58.v20250814-osera-00001",
@@ -1540,6 +1562,17 @@
       "first_seen": "2026-09-18T14:24:30Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-http-spi@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-http-spi",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-http-spi@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-http-spi is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:35:59Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-http",
       "base": "9.4.58.v20250814",
@@ -1549,6 +1582,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-http is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
       "first_seen": "2026-09-18T14:23:50Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-http",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-http is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T14:35:59Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-io@9.4.58.v20250814-osera-00001",
@@ -1562,6 +1606,17 @@
       "first_seen": "2026-09-18T14:25:24Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-io@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-io",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-io@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-io is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T14:35:59Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-jaas@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-jaas",
       "base": "9.4.58.v20250814",
@@ -1571,6 +1626,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-jaas@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-jaas is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:25:24Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-jaas@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-jaas",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-jaas@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-jaas is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:35:59Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00001",
@@ -1584,6 +1650,17 @@
       "first_seen": "2026-09-18T14:25:24Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-jaspi",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-jaspi is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:35:59Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-jmx@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-jmx",
       "base": "9.4.58.v20250814",
@@ -1595,6 +1672,17 @@
       "first_seen": "2026-09-18T14:25:24Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-jmx@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-jmx",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-jmx@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-jmx is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:35:59Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-jndi@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-jndi",
       "base": "9.4.58.v20250814",
@@ -1604,6 +1692,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-jndi@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-jndi is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:26:22Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-jndi@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-jndi",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-jndi@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-jndi is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:35:59Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-nosql@9.4.58.v20250814-osera-00001",
