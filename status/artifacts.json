@@ -14784,6 +14784,56 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00006",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00006",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:12Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:12Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:12Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:12Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:11Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:11Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:32:42Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:12Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:12Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:12Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.13.5.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-jackson-modules-base",
@@ -15028,6 +15078,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T16:06:16Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.13.5.1-osera-00006",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00006",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:13Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:13Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:14Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:14Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:12Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:12Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:32:42Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:14Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:14Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:14Z"
         }
       },
       "chain": "complete",
@@ -15284,6 +15384,56 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00006",
+      "producer": "moderne",
+      "fork": "patch-jackson-module-jsonSchema",
+      "tag": "v2.13.5.1-osera-00006",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:15Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:15Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:15Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:15Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:14Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:14Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:32:51Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:16Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:16Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:16Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-jackson-module-kotlin",
@@ -15534,6 +15684,56 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00006",
+      "producer": "moderne",
+      "fork": "patch-jackson-module-kotlin",
+      "tag": "v2.13.5.1-osera-00006",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:16Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:17Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:17Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:17Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:16Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:16Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:32:52Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:17Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:17Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:17Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-jackson-modules-base",
@@ -15778,6 +15978,56 @@
         "tagger": {
           "state": "present",
           "checked_at": "2026-09-18T16:07:03Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00006",
+      "producer": "moderne",
+      "fork": "patch-jackson-modules-base",
+      "tag": "v2.13.5.1-osera-00006",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:18Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:18Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:18Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:19Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:17Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:17Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:32:42Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:19Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:19Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T16:20:19Z"
         }
       },
       "chain": "complete",

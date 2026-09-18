@@ -2412,6 +2412,17 @@
       "first_seen": "2026-09-18T16:06:09Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00006",
+      "library": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00006: the library com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:20:07Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-jsonSchema",
       "base": "2.13.5",
@@ -2465,6 +2476,17 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00005: the library com.fasterxml.jackson.module:jackson-module-jsonSchema is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T16:06:55Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00006",
+      "library": "com.fasterxml.jackson.module:jackson-module-jsonSchema",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00006: the library com.fasterxml.jackson.module:jackson-module-jsonSchema is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:20:07Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00001",
@@ -2522,6 +2544,17 @@
       "first_seen": "2026-09-18T16:06:55Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00006",
+      "library": "com.fasterxml.jackson.module:jackson-module-kotlin",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00006: the library com.fasterxml.jackson.module:jackson-module-kotlin is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:20:07Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-mrbean",
       "base": "2.13.5",
@@ -2575,6 +2608,17 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00005: the library com.fasterxml.jackson.module:jackson-module-mrbean is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T16:06:55Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00006",
+      "library": "com.fasterxml.jackson.module:jackson-module-mrbean",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00006: the library com.fasterxml.jackson.module:jackson-module-mrbean is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T16:20:07Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser@2.13.5.1-osera-00001",
