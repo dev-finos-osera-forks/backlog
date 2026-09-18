@@ -34,6 +34,17 @@
       "first_seen": "2026-09-18T13:09:53Z"
     },
     {
+      "coordinate": "ch.qos.logback:logback-parent@1.2.13.1-osera-00001",
+      "library": "ch.qos.logback:logback-parent",
+      "base": "1.2.13",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "ch.qos.logback:logback-parent@1.2.13.1-osera-00001: the library ch.qos.logback:logback-parent is on no supported line; other artifacts of ch.qos.logback are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv",
       "base": "2.13.5",
@@ -467,6 +478,39 @@
       "first_seen": "2026-09-18T14:32:21Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.12",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-scala_2.12 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.13",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-scala_2.13 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00001",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_3",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00001: the library com.fasterxml.jackson.module:jackson-module-scala_3 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-extra",
       "base": "3.4.11",
@@ -476,6 +520,17 @@
       ],
       "words": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001: the library io.projectreactor.addons:reactor-extra is on no supported line; other artifacts of io.projectreactor.addons are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:46:50Z"
+    },
+    {
+      "coordinate": "io.projectreactor.addons:reactor-pool@0.2.13.1-osera-00001",
+      "library": "io.projectreactor.addons:reactor-pool",
+      "base": "0.2.13",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.projectreactor.addons:reactor-pool@0.2.13.1-osera-00001: the library io.projectreactor.addons:reactor-pool is on spring-boot-2.7.x at another version, no supported line has it at 0.2.13",
+      "first_seen": "2026-09-18T14:33:24Z"
     },
     {
       "coordinate": "io.projectreactor.kotlin:reactor-kotlin-extensions@1.1.11.1-osera-00001",
@@ -576,6 +631,17 @@
       ],
       "words": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j-bom is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:10:59Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-cassandra@2.17.2.1-osera-00001",
+      "library": "org.apache.logging.log4j:log4j-cassandra",
+      "base": "2.17.2",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-cassandra@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j-cassandra is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-couchdb@2.17.2.1-osera-00001",
@@ -741,6 +807,17 @@
       ],
       "words": "org.apache.logging.log4j:log4j-web@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j-web is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:26:22Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00001",
+      "library": "org.apache.logging.log4j:log4j",
+      "base": "2.17.2",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00001: the library org.apache.logging.log4j:log4j is on no supported line; other artifacts of org.apache.logging.log4j are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
     },
     {
       "coordinate": "org.eclipse.jetty.fcgi:fcgi-client@9.4.58.v20250814-osera-00001",
@@ -979,6 +1056,17 @@
       "first_seen": "2026-09-18T13:09:53Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:infinispan-common",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:infinispan-common is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:infinispan-embedded-query",
       "base": "9.4.58.v20250814",
@@ -988,6 +1076,17 @@
       ],
       "words": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:infinispan-embedded-query is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:10:59Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:infinispan-embedded-query",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:infinispan-embedded-query is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
     },
     {
       "coordinate": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00001",
@@ -1001,6 +1100,17 @@
       "first_seen": "2026-09-18T13:45:13Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:infinispan-remote-query",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:infinispan-remote-query is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-client",
       "base": "9.4.58.v20250814",
@@ -1010,6 +1120,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-alpn-client is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:45:57Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-alpn-client",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-alpn-client is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-client@9.4.58.v20250814-osera-00001",
@@ -1023,6 +1144,17 @@
       "first_seen": "2026-09-18T13:45:57Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-client@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-alpn-conscrypt-client",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-conscrypt-client@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-alpn-conscrypt-client is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-conscrypt-server",
       "base": "9.4.58.v20250814",
@@ -1032,6 +1164,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-alpn-conscrypt-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:46:50Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-alpn-conscrypt-server",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-alpn-conscrypt-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-java-client@9.4.58.v20250814-osera-00001",
@@ -1045,6 +1188,17 @@
       "first_seen": "2026-09-18T13:46:50Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-java-client@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-alpn-java-client",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-java-client@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-alpn-java-client is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-java-server",
       "base": "9.4.58.v20250814",
@@ -1054,6 +1208,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00001: the library org.eclipse.jetty:jetty-alpn-java-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T13:48:34Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-alpn-java-server",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00002: the library org.eclipse.jetty:jetty-alpn-java-server is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-openjdk8-client@9.4.58.v20250814-osera-00001",
@@ -1463,6 +1628,17 @@
       "first_seen": "2026-09-18T13:10:59Z"
     },
     {
+      "coordinate": "org.hibernate:hibernate-envers@5.6.15.Final-osera-00001",
+      "library": "org.hibernate:hibernate-envers",
+      "base": "5.6.15.Final",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-envers@5.6.15.Final-osera-00001: the library org.hibernate:hibernate-envers is on no supported line; other artifacts of org.hibernate are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-java8@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-java8",
       "base": "5.6.15.Final",
@@ -1538,6 +1714,18 @@
       ],
       "words": "org.hibernate:hibernate-vibur@5.6.15.Final-osera-00001: the library org.hibernate:hibernate-vibur is on no supported line; other artifacts of org.hibernate are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T14:16:45Z"
+    },
+    {
+      "coordinate": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00001",
+      "library": "org.springframework.data:spring-data-envers",
+      "base": "2.7.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00001: the library org.springframework.data:spring-data-envers is on no supported line; other artifacts of org.springframework.data are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
     },
     {
       "coordinate": "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00001",
@@ -1646,6 +1834,18 @@
       ],
       "words": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-aspects is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T13:10:59Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-bom@5.7.14.1-osera-00001",
+      "library": "org.springframework.security:spring-security-bom",
+      "base": "5.7.14",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-bom@5.7.14.1-osera-00001: the library org.springframework.security:spring-security-bom is on no supported line; other artifacts of org.springframework.security are on spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T14:33:24Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-config@5.7.14.1-osera-00001",
