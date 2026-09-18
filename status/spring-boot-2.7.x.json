@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.18.30",
-  "as_of": "2026-09-18T22:44:00Z",
+  "as_of": "2026-09-18T22:45:56Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
@@ -633,11 +633,13 @@
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-expression@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-expression@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-jms@5.3.39.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-jms@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-websocket@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-core@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-expression@5.3.39.1-osera-00002",
+    "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-jms@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00001",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00002",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00003",
@@ -768,7 +770,8 @@
     "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
     "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
-    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
+    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
+    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
   "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.18.28"
 }
