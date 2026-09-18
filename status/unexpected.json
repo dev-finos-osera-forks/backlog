@@ -166,6 +166,17 @@
       "first_seen": "2026-09-18T15:28:44Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.13.5.1-osera-00004: the library com.fasterxml.jackson.dataformat:jackson-dataformat-csv is on no supported line; other artifacts of com.fasterxml.jackson.dataformat are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:42:41Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties",
       "base": "2.13.5",
@@ -199,6 +210,17 @@
       "first_seen": "2026-09-18T15:28:44Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.13.5.1-osera-00004: the library com.fasterxml.jackson.dataformat:jackson-dataformat-properties is on no supported line; other artifacts of com.fasterxml.jackson.dataformat are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:42:41Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf",
       "base": "2.13.5",
@@ -230,6 +252,17 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00003: the library com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf is on no supported line; other artifacts of com.fasterxml.jackson.dataformat are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T15:28:44Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00004: the library com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf is on no supported line; other artifacts of com.fasterxml.jackson.dataformat are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:42:41Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00001",
@@ -4099,6 +4132,17 @@
       "first_seen": "2026-09-18T15:31:11Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-servlet@9.4.58.v20250814-osera-00004",
+      "library": "org.eclipse.jetty:jetty-servlet",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-servlet@9.4.58.v20250814-osera-00004: the library org.eclipse.jetty:jetty-servlet is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:42:41Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-servlets",
       "base": "9.4.58.v20250814",
@@ -4130,6 +4174,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-servlets is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
       "first_seen": "2026-09-18T15:32:34Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00004",
+      "library": "org.eclipse.jetty:jetty-servlets",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00004: the library org.eclipse.jetty:jetty-servlets is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:42:41Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-spring@9.4.58.v20250814-osera-00001",
@@ -4165,6 +4220,17 @@
       "first_seen": "2026-09-18T15:32:34Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-spring@9.4.58.v20250814-osera-00004",
+      "library": "org.eclipse.jetty:jetty-spring",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-spring@9.4.58.v20250814-osera-00004: the library org.eclipse.jetty:jetty-spring is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:42:41Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-unixsocket@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-unixsocket",
       "base": "9.4.58.v20250814",
@@ -4196,6 +4262,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-unixsocket@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-unixsocket is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-18T15:32:34Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-unixsocket@9.4.58.v20250814-osera-00004",
+      "library": "org.eclipse.jetty:jetty-unixsocket",
+      "base": "9.4.58.v20250814",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-unixsocket@9.4.58.v20250814-osera-00004: the library org.eclipse.jetty:jetty-unixsocket is on no supported line; other artifacts of org.eclipse.jetty are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:42:41Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-util-ajax@9.4.58.v20250814-osera-00001",
@@ -4231,6 +4308,17 @@
       "first_seen": "2026-09-18T15:32:34Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-util-ajax@9.4.58.v20250814-osera-00004",
+      "library": "org.eclipse.jetty:jetty-util-ajax",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-util-ajax@9.4.58.v20250814-osera-00004: the library org.eclipse.jetty:jetty-util-ajax is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:42:41Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-util@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-util",
       "base": "9.4.58.v20250814",
@@ -4262,6 +4350,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-util@9.4.58.v20250814-osera-00003: the library org.eclipse.jetty:jetty-util is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
       "first_seen": "2026-09-18T15:32:34Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-util@9.4.58.v20250814-osera-00004",
+      "library": "org.eclipse.jetty:jetty-util",
+      "base": "9.4.58.v20250814",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-util@9.4.58.v20250814-osera-00004: the library org.eclipse.jetty:jetty-util is on spring-boot-2.7.x at another version, no supported line has it at 9.4.58.v20250814",
+      "first_seen": "2026-09-18T15:42:41Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00001",
