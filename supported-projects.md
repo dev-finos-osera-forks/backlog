@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-18T19:30:20Z. Written by the line manager reconciler.
+Generated 2026-09-18T21:14:15Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-198 libraries, 714 patched version(s).
+199 libraries, 715 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -248,6 +248,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.data:spring-data-geode | 2.7.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 | complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready |
 | org.springframework.data:spring-data-mongodb-parent | 3.4.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 3.4.18.1-osera-00001 3.4.18.1-osera-00006 | broken; broken | not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document |
 | org.springframework.data:spring-data-rest-hal-explorer | 3.7.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 3.7.18.1-osera-00001 3.7.18.1-osera-00002 3.7.18.1-osera-00003 3.7.18.1-osera-00004 3.7.18.1-osera-00005 3.7.18.1-osera-00006 | complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready |
+| org.springframework.data:spring-data-rest-parent | 3.7.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 3.7.18.1-osera-00002 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.ldap:spring-ldap-core | 2.4.4 | base version on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.4.4.1-osera-00001 | complete | ready |
 | org.springframework.ldap:spring-ldap-core-tiger | 2.4.4 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.4.4.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.ldap:spring-ldap-ldif-core | 2.4.4 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.4.4.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
