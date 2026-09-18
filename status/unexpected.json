@@ -2047,6 +2047,17 @@
       "first_seen": "2026-09-18T15:40:32Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00004",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_3",
+      "base": "2.13.5",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00004: the library com.fasterxml.jackson.module:jackson-module-scala_3 is on no supported line; other artifacts of com.fasterxml.jackson.module are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-18T15:53:45Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-adapter",
       "base": "3.4.11",

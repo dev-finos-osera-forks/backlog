@@ -12223,6 +12223,56 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00004",
+      "producer": "moderne",
+      "fork": "patch-jackson-module-scala",
+      "tag": "v2.13.5.1-osera-00004",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:53:49Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:53:49Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:53:49Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:53:50Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:53:48Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:53:48Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:32:58Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:53:50Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:53:50Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:53:50Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-reactor-addons",
