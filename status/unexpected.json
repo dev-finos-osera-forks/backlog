@@ -7500,6 +7500,18 @@
       "first_seen": "2026-09-18T22:38:56Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-core@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-core",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-core@5.7.14.1-osera-00004: the library org.springframework.security:spring-security-core is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:48:09Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-crypto",
       "base": "5.7.14",
@@ -7536,6 +7548,18 @@
       "first_seen": "2026-09-18T22:38:56Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-crypto",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00004: the library org.springframework.security:spring-security-crypto is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:48:09Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-data@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-data",
       "base": "5.7.14",
@@ -7570,6 +7594,18 @@
       ],
       "words": "org.springframework.security:spring-security-data@5.7.14.1-osera-00003: the library org.springframework.security:spring-security-data is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
       "first_seen": "2026-09-18T22:38:56Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-data@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-data",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-data@5.7.14.1-osera-00004: the library org.springframework.security:spring-security-data is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T22:48:09Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-ldap@5.7.14.1-osera-00001",
