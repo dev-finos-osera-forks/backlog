@@ -607,6 +607,56 @@
       "lines": []
     },
     {
+      "coordinate": "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-jackson-annotations",
+      "tag": "v2.13.5.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:55:17Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:55:17Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:55:17Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:55:18Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:55:16Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:55:16Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:10:06Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:55:18Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:55:18Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-18T15:55:18Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-jackson-core",
