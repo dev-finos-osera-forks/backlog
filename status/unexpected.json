@@ -8232,6 +8232,18 @@
       "first_seen": "2026-09-18T22:51:00Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00005",
+      "library": "org.springframework.security:spring-security-rsocket",
+      "base": "5.7.14",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00005: the library org.springframework.security:spring-security-rsocket is on spring-boot-2.7.x, spring-security-5.7.x at another version, no supported line has it at 5.7.14",
+      "first_seen": "2026-09-18T23:04:19Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-saml2-service-provider",
       "base": "5.7.14",
