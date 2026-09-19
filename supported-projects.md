@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-19T00:31:42Z. Written by the line manager reconciler.
+Generated 2026-09-19T00:33:14Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,8 +8,8 @@ Every library and version the exchange maintains, ordered by library and then by
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_out_of_scope | CVE_in_progress | CVE_fixed | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 32 | 105 | 0 |
-| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 24 | 0 | 16 | 3 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 137 | 152 | 0 | 33 | 104 | 0 |
+| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 24 | 0 | 17 | 2 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 27 | 41 | 0 | 0 | 27 | 0 |
 | dev-1.0.x | maven | `org.finos.osera.dev:dev-bom@2.0.0` | in progress | 4 | 4 | 4 | 0 | 0 | 0 |
 
@@ -70,8 +70,8 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework:spring-web | 5.3.29 | spring-security-5.7.x | open | 4 | 2 | 0 | 0 | 4 | 0 |  |  | not claimed |
 | org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 5.3.39.1-osera-00011 | complete | ready |
 | org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | fixed | 5 | 10 | 0 | 5 | 0 | 0 | 5.3.39.1-osera-00011 | complete | ready |
-| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 6 | 9 | 0 | 4 | 2 | 0 | 5.3.39.1-osera-00010 | complete | ready |
-| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 5.3.39.1-osera-00010 | complete | ready |
+| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 6 | 9 | 0 | 5 | 1 | 0 | 5.3.39.1-osera-00011 | complete | ready |
+| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 5.3.39.1-osera-00011 | complete | ready |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | open | 6 | 1 | 0 | 0 | 6 | 0 |  |  | not claimed |
 
 ## Promoted, not in the backlog
