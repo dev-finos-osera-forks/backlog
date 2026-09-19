@@ -49815,6 +49815,56 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework:spring-aop@5.3.39.1-osera-00010",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00010",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-19T00:18:38Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-19T00:18:38Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-19T00:18:39Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-19T00:18:39Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-19T00:18:38Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-19T00:18:38Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-18T23:24:31Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-19T00:18:39Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-19T00:18:39Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-19T00:18:39Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework:spring-aspects@5.3.39.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-framework",
