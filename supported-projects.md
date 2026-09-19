@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-19T07:21:42Z. Written by the line manager reconciler.
+Generated 2026-09-19T07:23:56Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-211 libraries, 847 patched version(s).
+211 libraries, 848 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -251,7 +251,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.boot:org.springframework.boot.gradle.plugin | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
 | org.springframework.boot:spring-boot-dependencies | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 | broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document |
 | org.springframework.boot:spring-boot-gradle-plugin | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
-| org.springframework.boot:spring-boot-maven-plugin | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 | complete; complete; complete | ready; ready; ready |
+| org.springframework.boot:spring-boot-maven-plugin | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
 | org.springframework.boot:spring-boot-starter-parent | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 | complete; complete; complete | ready; ready; ready |
 | org.springframework.data:spring-data-bom | 2021.2.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2021.2.18.1-osera-00001 2021.2.18.1-osera-00002 2021.2.18.1-osera-00003 2021.2.18.1-osera-00004 2021.2.18.1-osera-00005 2021.2.18.1-osera-00006 | broken; broken; broken; broken; broken; broken | not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document |
 | org.springframework.data:spring-data-envers | 2.7.18 | library on no supported line | spring-boot-2.7.x, spring-security-5.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 | complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready |
