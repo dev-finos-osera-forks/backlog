@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-19T05:45:33Z. Written by the line manager reconciler.
+Generated 2026-09-19T05:52:23Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-211 libraries, 834 patched version(s).
+211 libraries, 835 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -248,7 +248,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.hibernate:hibernate-spatial | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | complete | ready |
 | org.hibernate:hibernate-testing | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | complete | ready |
 | org.hibernate:hibernate-vibur | 5.6.15.Final | library on no supported line | spring-boot-2.7.x | 5.6.15.Final-osera-00001 | complete | ready |
-| org.springframework.boot:org.springframework.boot.gradle.plugin | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 | complete | ready |
+| org.springframework.boot:org.springframework.boot.gradle.plugin | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 | complete; complete | ready; ready |
 | org.springframework.boot:spring-boot-dependencies | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 | broken | not ready, evidence chain incomplete: VEX document |
 | org.springframework.boot:spring-boot-gradle-plugin | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 | complete | ready |
 | org.springframework.boot:spring-boot-maven-plugin | 2.7.18 | library on no supported line | spring-boot-2.7.x | 2.7.18.1-osera-00001 | complete | ready |
