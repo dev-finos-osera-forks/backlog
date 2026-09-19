@@ -7098,6 +7098,17 @@
       "first_seen": "2026-09-19T07:27:02Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00005",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00005: the library org.springframework.boot:spring-boot-starter-parent is on no supported line; other artifacts of org.springframework.boot are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-19T14:45:27Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-bom",
       "base": "2021.2.18",
