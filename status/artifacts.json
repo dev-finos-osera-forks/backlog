@@ -37717,6 +37717,157 @@
       "lines": []
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-configuration-metadata@2.7.18.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-boot",
+      "tag": "v2.7.18.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:53Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:53Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:53Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:54Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:52Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:52Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:48:16Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:54Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:54Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:54Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-configuration-processor@2.7.18.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-boot",
+      "tag": "v2.7.18.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:55Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:55Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:55Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:55Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:54Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:54Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:48:16Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:55Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:55Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:55Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-boot",
+      "tag": "v2.7.18.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:56Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:56Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:56Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the evidence names none and the vulnerability document names CVE-2016-1000027; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2016-1000027",
+          "checked_at": "2026-09-19T03:51:56Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:56Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:56Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:48:16Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:56Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:56Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-19T03:51:56Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-boot",
