@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.19.20",
-  "as_of": "2026-09-19T05:57:55Z",
+  "as_of": "2026-09-19T06:58:09Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
@@ -47,6 +47,14 @@
       "at": "2026-09-19T00:44:44Z"
     },
     {
+      "cve": "CVE-2025-22235",
+      "library": "org.springframework.boot:spring-boot",
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00003",
+      "at": "2026-09-19T06:58:09Z"
+    },
+    {
       "cve": "CVE-2025-41249",
       "library": "org.springframework:spring-core",
       "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00012",
@@ -73,10 +81,10 @@
     {
       "cve": "CVE-2026-22733",
       "library": "org.springframework.boot:spring-boot-starter-actuator",
-      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00002",
-      "at": "2026-09-19T05:56:05Z"
+      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00003",
+      "at": "2026-09-19T06:58:09Z"
     },
     {
       "cve": "CVE-2026-22740",
@@ -406,10 +414,6 @@
       "library": "org.springframework.security:spring-security-crypto"
     },
     {
-      "cve": "CVE-2025-22235",
-      "library": "org.springframework.boot:spring-boot"
-    },
-    {
       "cve": "CVE-2025-24813",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -710,12 +714,16 @@
   "discrepancies": [
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-core@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-core@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-core@5.3.39.1-osera-00003",
@@ -893,6 +901,9 @@
     "fixed, not in the backlog: CVE-2024-38819 on org.springframework:spring-websocket@5.3.39.1-osera-00010",
     "fixed, not in the backlog: CVE-2024-38819 on org.springframework:spring-websocket@5.3.39.1-osera-00011",
     "fixed, not in the backlog: CVE-2024-38819 on org.springframework:spring-websocket@5.3.39.1-osera-00012",
+    "fixed, not in the backlog: CVE-2025-22235 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00003",
+    "fixed, not in the backlog: CVE-2025-22235 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00003",
+    "fixed, not in the backlog: CVE-2025-22235 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-expression@5.3.39.1-osera-00004",
     "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-expression@5.3.39.1-osera-00005",
     "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-expression@5.3.39.1-osera-00006",
@@ -955,8 +966,11 @@
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-core@5.3.39.1-osera-00009",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-core@5.3.39.1-osera-00010",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-core@5.3.39.1-osera-00011",
@@ -1357,5 +1371,5 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.19.20"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.19.21"
 }
