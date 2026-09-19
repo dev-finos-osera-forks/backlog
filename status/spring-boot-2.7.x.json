@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.19.19",
-  "as_of": "2026-09-19T04:48:51Z",
+  "as_of": "2026-09-19T05:07:46Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
@@ -706,6 +706,7 @@
   "discrepancies": [
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-core@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-core@5.3.39.1-osera-00002",
