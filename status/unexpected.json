@@ -7208,6 +7208,17 @@
       "first_seen": "2026-09-19T19:31:14Z"
     },
     {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00036",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00036: the library org.springframework.boot:org.springframework.boot.gradle.plugin is on no supported line; other artifacts of org.springframework.boot are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-19T20:20:13Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-dependencies",
       "base": "2.7.18",
@@ -7580,6 +7591,17 @@
       ],
       "words": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00035: the library org.springframework.boot:spring-boot-dependencies is on no supported line; other artifacts of org.springframework.boot are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-19T19:31:14Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00036",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00036: the library org.springframework.boot:spring-boot-dependencies is on no supported line; other artifacts of org.springframework.boot are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-19T20:20:13Z"
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00001",
@@ -7956,6 +7978,17 @@
       "first_seen": "2026-09-19T19:31:14Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00036",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00036: the library org.springframework.boot:spring-boot-gradle-plugin is on no supported line; other artifacts of org.springframework.boot are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-19T20:20:13Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-maven-plugin",
       "base": "2.7.18",
@@ -8328,6 +8361,17 @@
       ],
       "words": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00035: the library org.springframework.boot:spring-boot-maven-plugin is on no supported line; other artifacts of org.springframework.boot are on spring-boot-2.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-19T19:31:14Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00036",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "library on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00036: the library org.springframework.boot:spring-boot-maven-plugin is on no supported line; other artifacts of org.springframework.boot are on spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-09-19T20:20:13Z"
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00001",
