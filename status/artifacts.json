@@ -69311,37 +69311,33 @@
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-starter-jta-atomikos@2.7.18.1-osera-00014",
+      "producer": "moderne",
       "fork": "patch-spring-boot",
       "tag": "v2.7.18.1-osera-00014",
       "links": {
         "files": {
-          "state": "missing",
-          "reason": "spring-boot-starter-jta-atomikos-2.7.18.1-osera-00014.pom, spring-boot-starter-jta-atomikos-2.7.18.1-osera-00014.jar.sha1, spring-boot-starter-jta-atomikos-2.7.18.1-osera-00014.pom.sha1 missing in the release repository",
-          "checked_at": "2026-09-19T17:06:19Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:06Z"
         },
         "evidence": {
-          "state": "missing",
-          "reason": "no evidence file next to spring-boot-starter-jta-atomikos-2.7.18.1-osera-00014",
-          "checked_at": "2026-09-19T17:06:19Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:06Z"
         },
         "signatures": {
-          "state": "failed",
-          "reason": "no signature next to the jar (spring-boot-starter-jta-atomikos-2.7.18.1-osera-00014.jar.asc)",
-          "checked_at": "2026-09-19T17:06:19Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:07Z"
         },
         "document": {
-          "state": "missing",
-          "reason": "the verdict records a vulnerability document, none is next to the pom (spring-boot-starter-jta-atomikos-2.7.18.1-osera-00014-cyclonedx.json)",
-          "checked_at": "2026-09-19T17:06:19Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:07Z"
         },
         "producer": {
-          "state": "missing",
-          "reason": "the evidence names no producer",
-          "checked_at": "2026-09-19T17:06:19Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:05Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-19T17:06:19Z"
+          "checked_at": "2026-09-19T17:07:05Z"
         },
         "fork": {
           "state": "present",
@@ -69349,20 +69345,18 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-19T17:06:19Z"
+          "checked_at": "2026-09-19T17:07:07Z"
         },
         "upload": {
-          "state": "not checked",
-          "reason": "no registry entry to compare the upload account with",
-          "checked_at": "2026-09-19T17:06:19Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:07Z"
         },
         "tagger": {
-          "state": "not checked",
-          "reason": "no registry entry to compare the tag pusher with",
-          "checked_at": "2026-09-19T17:06:19Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:07Z"
         }
       },
-      "chain": "failed",
+      "chain": "complete",
       "lines": []
     },
     {
@@ -69967,61 +69961,52 @@
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-starter-log4j2@2.7.18.1-osera-00014",
-      "fork": "patch-spring-boot-starter-log4j2",
+      "producer": "moderne",
+      "fork": "patch-spring-boot",
       "tag": "v2.7.18.1-osera-00014",
       "links": {
         "files": {
-          "state": "missing",
-          "reason": "spring-boot-starter-log4j2-2.7.18.1-osera-00014.pom, spring-boot-starter-log4j2-2.7.18.1-osera-00014.jar.sha1, spring-boot-starter-log4j2-2.7.18.1-osera-00014.pom.sha1 missing in the release repository",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:09Z"
         },
         "evidence": {
-          "state": "missing",
-          "reason": "no evidence file next to spring-boot-starter-log4j2-2.7.18.1-osera-00014",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:09Z"
         },
         "signatures": {
-          "state": "failed",
-          "reason": "no signature next to the jar (spring-boot-starter-log4j2-2.7.18.1-osera-00014.jar.asc)",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:09Z"
         },
         "document": {
-          "state": "missing",
-          "reason": "no vulnerability document next to the pom (spring-boot-starter-log4j2-2.7.18.1-osera-00014-cyclonedx.json)",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:09Z"
         },
         "producer": {
-          "state": "missing",
-          "reason": "the evidence names no producer",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:07Z"
         },
         "verdict": {
-          "state": "missing",
-          "reason": "no verdict for 2.7.18.1-osera-00014 in osera-releases-raw-01",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:07Z"
         },
         "fork": {
-          "state": "missing",
-          "reason": "the fork patch-spring-boot-starter-log4j2 is missing",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T16:58:49Z"
         },
         "tag": {
-          "state": "not checked",
-          "reason": "the fork was not found",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:09Z"
         },
         "upload": {
-          "state": "not checked",
-          "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:09Z"
         },
         "tagger": {
-          "state": "not checked",
-          "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-09-19T16:41:57Z"
+          "state": "present",
+          "checked_at": "2026-09-19T17:07:09Z"
         }
       },
-      "chain": "failed",
+      "chain": "complete",
       "lines": []
     },
     {
