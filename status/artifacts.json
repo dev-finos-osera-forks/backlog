@@ -38324,6 +38324,56 @@
       ]
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-starter-amqp@2.7.18.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-boot",
+      "tag": "v2.7.18.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-19T05:08:40Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-19T05:08:40Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-19T05:08:40Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-19T05:08:40Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-19T05:08:39Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-19T05:08:39Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-19T04:48:46Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-19T05:08:40Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-19T05:08:40Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-19T05:08:40Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-starter@2.7.18.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-boot",
