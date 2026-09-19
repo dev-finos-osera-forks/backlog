@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-19T00:08:35Z. Written by the line manager reconciler.
+Generated 2026-09-19T00:09:28Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -70,8 +70,8 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework:spring-web | 5.3.29 | spring-security-5.7.x | open | 4 | 2 | 0 | 0 | 4 | 0 |  |  | not claimed |
 | org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 5.3.39.1-osera-00008 | complete | ready |
 | org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 5 | 10 | 0 | 3 | 2 | 0 | 5.3.39.1-osera-00008 | complete | ready |
-| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 6 | 9 | 0 | 3 | 3 | 0 | 5.3.39.1-osera-00007 | complete | ready |
-| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 5.3.39.1-osera-00007 | complete | ready |
+| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | open | 6 | 9 | 0 | 3 | 3 | 0 | 5.3.39.1-osera-00008 | complete | ready |
+| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | fixed | 1 | 1 | 0 | 1 | 0 | 0 | 5.3.39.1-osera-00008 | complete | ready |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | open | 6 | 1 | 0 | 0 | 6 | 0 |  |  | not claimed |
 
 ## Promoted, not in the backlog
