@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-19T07:20:43Z. Written by the line manager reconciler.
+Generated 2026-09-19T07:21:42Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -47,7 +47,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | open | 2 | 0 | 0 | 1 | 1 | 0 | 2.7.18.1-osera-00004 | complete | ready |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
-| org.springframework.boot:spring-boot-starter-actuator | 2.7.18 | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 2.7.18.1-osera-00003 | complete | ready |
+| org.springframework.boot:spring-boot-starter-actuator | 2.7.18 | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 2.7.18.1-osera-00004 | complete | ready |
 | org.springframework.data:spring-data-commons | 2.7.14 | spring-security-5.7.x | open | 1 | 2 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework.data:spring-data-commons | 2.7.18 | spring-boot-2.7.x | fixed | 1 | 2 | 0 | 1 | 0 | 0 | 2.7.18.1-osera-00006 | complete | ready |
 | org.springframework.data:spring-data-keyvalue | 2.7.18 | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 2.7.18.1-osera-00006 | complete | ready |
