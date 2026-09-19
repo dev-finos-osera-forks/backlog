@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-19T07:18:28Z. Written by the line manager reconciler.
+Generated 2026-09-19T07:19:15Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -44,7 +44,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | org.eclipse.jetty:jetty-server | 9.4.53.v20231009 | spring-boot-2.7.x | open | 2 | 1 | 0 | 0 | 2 | 0 |  |  | not claimed |
 | org.eclipse.jetty:jetty-servlets | 9.4.53.v20231009 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.hibernate:hibernate-core | 5.6.15.Final | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 5.6.15.Final-osera-00001 | complete | ready |
-| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | open | 2 | 0 | 0 | 1 | 1 | 0 | 2.7.18.1-osera-00003 | complete | ready |
+| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | open | 2 | 0 | 0 | 1 | 1 | 0 | 2.7.18.1-osera-00004 | complete | ready |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | open | 1 | 0 | 0 | 0 | 1 | 0 |  |  | not claimed |
 | org.springframework.boot:spring-boot-starter-actuator | 2.7.18 | spring-boot-2.7.x | fixed | 1 | 0 | 0 | 1 | 0 | 0 | 2.7.18.1-osera-00003 | complete | ready |
