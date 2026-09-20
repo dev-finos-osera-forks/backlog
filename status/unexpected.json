@@ -11492,6 +11492,17 @@
       ],
       "words": "org.springframework:spring-framework-bom@5.3.39.1-osera-00012: the library org.springframework:spring-framework-bom is on no supported line; other artifacts of org.springframework are on spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x, so the graph there may have a hole",
       "first_seen": "2026-09-19T00:36:37Z"
+    },
+    {
+      "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
+      "library": "org.yaml:snakeyaml",
+      "base": "1.33",
+      "kind": "base version on no supported line",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.yaml:snakeyaml@1.33.1-osera-00001: the library org.yaml:snakeyaml is on spring-boot-2.7.x at another version, no supported line has it at 1.33",
+      "first_seen": "2026-09-20T03:33:06Z"
     }
   ]
 }
