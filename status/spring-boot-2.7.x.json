@@ -1,9 +1,9 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.21.2",
-  "as_of": "2026-09-21T11:47:32Z",
+  "as_of": "2026-09-21T14:01:41Z",
   "status": "in progress",
-  "chain": "complete",
+  "chain": "broken: 1 artifact",
   "in_scope": 65,
   "fixed": [
     {
@@ -367,6 +367,14 @@
       "at": "2026-09-18T16:23:58Z"
     },
     {
+      "cve": "CVE-2026-90012",
+      "library": "net.sf.jopt-simple:jopt-simple",
+      "coordinate": "net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002",
+      "patch": "00002",
+      "named_by": "net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002",
+      "at": "2026-09-21T14:01:41Z"
+    },
+    {
       "cve": "GHSA-r7wm-3cxj-wff9",
       "library": "com.fasterxml.jackson.core:jackson-core",
       "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
@@ -375,12 +383,7 @@
       "at": "2026-09-18T16:23:58Z"
     }
   ],
-  "in_progress": [
-    {
-      "cve": "CVE-2026-90012",
-      "library": "net.sf.jopt-simple:jopt-simple"
-    }
-  ],
+  "in_progress": [],
   "open": [
     {
       "cve": "CVE-2022-1471",
@@ -21104,7 +21107,6 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00052",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
-    "issue #1 for CVE-2026-90012 is closed in patch-jopt-simple while the entry on net.sf.jopt-simple:jopt-simple is in progress",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
@@ -21133,7 +21135,8 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
-    "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
+    "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30",
+    "CVE-2026-90012 on jopt-simple 5.0.4 is patched, the evidence chain is broken: no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.21.2"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.21.3"
 }
