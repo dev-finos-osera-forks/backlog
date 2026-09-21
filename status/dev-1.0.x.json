@@ -1,36 +1,48 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.21.2",
-  "as_of": "2026-09-21T11:47:32Z",
+  "as_of": "2026-09-21T14:01:41Z",
   "status": "in progress",
-  "chain": "",
+  "chain": "broken: 2 artifacts",
   "in_scope": 4,
-  "fixed": [],
-  "in_progress": [
+  "fixed": [
     {
       "cve": "CVE-2026-90011",
-      "library": "args4j:args4j"
+      "library": "args4j:args4j",
+      "coordinate": "args4j:args4j@2.33.2-osera-00002",
+      "patch": "00002",
+      "named_by": "args4j:args4j@2.33.2-osera-00002",
+      "at": "2026-09-21T14:01:41Z"
     },
     {
       "cve": "CVE-2026-90012",
-      "library": "net.sf.jopt-simple:jopt-simple"
-    },
-    {
-      "cve": "CVE-2026-90013",
-      "library": "com.beust:jcommander"
+      "library": "net.sf.jopt-simple:jopt-simple",
+      "coordinate": "net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002",
+      "patch": "00002",
+      "named_by": "net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002",
+      "at": "2026-09-21T14:01:41Z"
     },
     {
       "cve": "CVE-2026-90014",
+      "library": "com.beust:jcommander",
+      "coordinate": "com.beust:jcommander@1.82.6-osera-00006",
+      "patch": "00006",
+      "named_by": "com.beust:jcommander@1.82.6-osera-00006",
+      "at": "2026-09-21T14:01:41Z"
+    }
+  ],
+  "in_progress": [
+    {
+      "cve": "CVE-2026-90013",
       "library": "com.beust:jcommander"
     }
   ],
   "open": [],
   "not_remediable": [],
   "discrepancies": [
-    "issue #1 for CVE-2026-90011 is closed in patch-args4j while the entry on args4j:args4j is in progress",
-    "issue #1 for CVE-2026-90012 is closed in patch-jopt-simple while the entry on net.sf.jopt-simple:jopt-simple is in progress",
     "issue #1 for CVE-2026-90013 is closed in patch-jcommander while the entry on com.beust:jcommander is in progress",
-    "issue #2 for CVE-2026-90014 is closed in patch-jcommander while the entry on com.beust:jcommander is in progress"
+    "CVE-2026-90011 on args4j 2.33 is patched, the evidence chain is broken: no vulnerability document next to the pom (args4j-2.33.2-osera-00002-cyclonedx.json)",
+    "CVE-2026-90012 on jopt-simple 5.0.4 is patched, the evidence chain is broken: no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)"
   ],
   "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.17.4"
 }
