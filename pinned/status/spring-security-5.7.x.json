@@ -1,0 +1,201 @@
+{
+  "line": "spring-security-5.7.x",
+  "book_version": "v2026.09.20.4",
+  "as_of": "2026-09-21T10:48:42Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 27,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2016-1000027",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2020-36518",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2021-46877",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2022-42003",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2022-42004",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2024-22243",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-22257",
+      "library": "org.springframework.security:spring-security-core"
+    },
+    {
+      "cve": "CVE-2024-22259",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-22262",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-38821",
+      "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2025-22228",
+      "library": "org.springframework.security:spring-security-crypto"
+    },
+    {
+      "cve": "CVE-2025-41249",
+      "library": "org.springframework:spring-core"
+    },
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "CVE-2026-22732",
+      "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-40988",
+      "library": "org.springframework.security:spring-security-saml2-service-provider"
+    },
+    {
+      "cve": "CVE-2026-41706",
+      "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-41716",
+      "library": "org.springframework.data:spring-data-commons"
+    },
+    {
+      "cve": "CVE-2026-41720",
+      "library": "org.springframework.ldap:spring-ldap-core"
+    },
+    {
+      "cve": "CVE-2026-41848",
+      "library": "org.springframework:spring-core"
+    },
+    {
+      "cve": "CVE-2026-41849",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41850",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41851",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-47838",
+      "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-50193",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54512",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54513",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "GHSA-r7wm-3cxj-wff9",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00003 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00004 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00003 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00004 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00005 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
+    "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00001 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
+    "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00002 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
+    "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00003 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
+    "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00004 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
+    "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00005 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
+    "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00006 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
+    "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1",
+    "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
+    "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
+    "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
+    "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
+    "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
+    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
+    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
+    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
+    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
+    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
+    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
+    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
+    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
+    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
+    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
+    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
+    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
+    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
+    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
+    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00004 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00005 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00008 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00009 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00010 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00011 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00012 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00004 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00005 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00008 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00009 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00010 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00011 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00012 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00004 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00005 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00008 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00009 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00010 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00011 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00012 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29"
+  ],
+  "consume": ""
+}

@@ -1,0 +1,106 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:6bcfcc58-4b4b-43d4-ad96-3f5926220cb7",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-09-21T10:58:36Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.finos.osera.dev/dev-bom@2.0.0?type=pom",
+   "group": "org.finos.osera.dev",
+   "name": "dev-bom",
+   "version": "2.0.0",
+   "purl": "pkg:maven/org.finos.osera.dev/dev-bom@2.0.0?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "dev-1.0.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/args4j/args4j@2.33",
+   "group": "args4j",
+   "name": "args4j",
+   "version": "2.33",
+   "purl": "pkg:maven/args4j/args4j@2.33"
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.beust/jcommander@1.82",
+   "group": "com.beust",
+   "name": "jcommander",
+   "version": "1.82",
+   "purl": "pkg:maven/com.beust/jcommander@1.82"
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4",
+   "group": "net.sf.jopt-simple",
+   "name": "jopt-simple",
+   "version": "5.0.4",
+   "purl": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.finos.osera.dev/dev-bom@2.0.0?type=pom",
+   "dependsOn": [
+    "pkg:maven/args4j/args4j@2.33",
+    "pkg:maven/com.beust/jcommander@1.82",
+    "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4"
+   ]
+  },
+  {
+   "ref": "pkg:maven/args4j/args4j@2.33",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/com.beust/jcommander@1.82",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4",
+   "dependsOn": []
+  }
+ ]
+}

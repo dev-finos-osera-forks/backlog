@@ -4,7 +4,7 @@
   "as_of": "2026-09-21T10:48:42Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 138,
+  "in_scope": 137,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -53,22 +53,6 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00012",
       "at": "2026-09-19T00:44:44Z"
-    },
-    {
-      "cve": "CVE-2025-11226",
-      "library": "ch.qos.logback:logback-core",
-      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00002",
-      "patch": "00002",
-      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00002",
-      "at": "2026-09-21T10:48:42Z"
-    },
-    {
-      "cve": "CVE-2025-22227",
-      "library": "io.projectreactor.netty:reactor-netty-http",
-      "coordinate": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001",
-      "patch": "00001",
-      "named_by": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001",
-      "at": "2026-09-21T10:48:42Z"
     },
     {
       "cve": "CVE-2025-22235",
@@ -205,14 +189,6 @@
       "patch": "00006",
       "named_by": "org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00006",
       "at": "2026-09-18T19:27:48Z"
-    },
-    {
-      "cve": "CVE-2026-41720",
-      "library": "org.springframework.ldap:spring-ldap-core",
-      "coordinate": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
-      "at": "2026-09-21T10:48:42Z"
     },
     {
       "cve": "CVE-2026-41728",
@@ -359,12 +335,7 @@
       "at": "2026-09-18T16:23:58Z"
     }
   ],
-  "in_progress": [
-    {
-      "cve": "CVE-2026-90012",
-      "library": "net.sf.jopt-simple:jopt-simple"
-    }
-  ],
+  "in_progress": [],
   "open": [
     {
       "cve": "CVE-2022-1471",
@@ -449,6 +420,14 @@
     {
       "cve": "CVE-2025-11143",
       "library": "org.eclipse.jetty:jetty-http"
+    },
+    {
+      "cve": "CVE-2025-11226",
+      "library": "ch.qos.logback:logback-core"
+    },
+    {
+      "cve": "CVE-2025-22227",
+      "library": "io.projectreactor.netty:reactor-netty-http"
     },
     {
       "cve": "CVE-2025-22228",
@@ -589,6 +568,10 @@
     {
       "cve": "CVE-2026-41706",
       "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-41720",
+      "library": "org.springframework.ldap:spring-ldap-core"
     },
     {
       "cve": "CVE-2026-41855",
@@ -1485,8 +1468,6 @@
     "fixed, not in the backlog: CVE-2023-6481 on org.springframework.boot:spring-boot@2.7.18.1-osera-00052",
     "fixed, not in the backlog: CVE-2023-6481 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: CVE-2023-6481 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
-    "fixed, not in the backlog: CVE-2024-12801 on ch.qos.logback:logback-core@1.2.13.1-osera-00001",
-    "fixed, not in the backlog: CVE-2024-12801 on ch.qos.logback:logback-core@1.2.13.1-osera-00002",
     "fixed, not in the backlog: CVE-2024-12801 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00016",
     "fixed, not in the backlog: CVE-2024-12801 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00017",
     "fixed, not in the backlog: CVE-2024-12801 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00018",
@@ -21377,9 +21358,11 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00052",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
-    "issue #1 for CVE-2026-90012 is closed in patch-jopt-simple while the entry on net.sf.jopt-simple:jopt-simple is in progress",
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00002 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
+    "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
+    "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00002 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
+    "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
@@ -21396,6 +21379,7 @@
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
+    "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
@@ -21418,5 +21402,5 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.21"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.20.3"
 }
