@@ -1,0 +1,36 @@
+{
+  "line": "dev-1.0.x",
+  "book_version": "v2026.09.20.4",
+  "as_of": "2026-09-21T10:48:42Z",
+  "status": "in progress",
+  "chain": "",
+  "in_scope": 4,
+  "fixed": [],
+  "in_progress": [
+    {
+      "cve": "CVE-2026-90011",
+      "library": "args4j:args4j"
+    },
+    {
+      "cve": "CVE-2026-90012",
+      "library": "net.sf.jopt-simple:jopt-simple"
+    },
+    {
+      "cve": "CVE-2026-90013",
+      "library": "com.beust:jcommander"
+    },
+    {
+      "cve": "CVE-2026-90014",
+      "library": "com.beust:jcommander"
+    }
+  ],
+  "open": [],
+  "not_remediable": [],
+  "discrepancies": [
+    "issue #1 for CVE-2026-90011 is closed in patch-args4j while the entry on args4j:args4j is in progress",
+    "issue #1 for CVE-2026-90012 is closed in patch-jopt-simple while the entry on net.sf.jopt-simple:jopt-simple is in progress",
+    "issue #1 for CVE-2026-90013 is closed in patch-jcommander while the entry on com.beust:jcommander is in progress",
+    "issue #2 for CVE-2026-90014 is closed in patch-jcommander while the entry on com.beust:jcommander is in progress"
+  ],
+  "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.17.4"
+}

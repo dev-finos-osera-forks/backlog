@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:cedfcd1f-d7cd-4951-818a-688aeb3339b9",
+ "serialNumber": "urn:uuid:08918ba2-8b68-4a0c-a8c1-f07e558023d6",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-09-21T10:56:13Z",
+  "timestamp": "2026-09-21T10:58:31Z",
   "tools": {
    "components": [
     {
@@ -42,11 +42,11 @@
     },
     {
      "name": "osera:view",
-     "value": "latest_patch"
+     "value": "pinned"
     },
     {
      "name": "osera:latest",
-     "value": "org.reactivestreams:reactive-streams:1.0.3\u003e1.0.4,org.aspectj:aspectjweaver:1.9.7\u003e1.9.25.1"
+     "value": ""
     },
     {
      "name": "osera:method",
@@ -74,19 +74,19 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+   "bom-ref": "pkg:maven/org.aspectj/aspectjweaver@1.9.7",
    "group": "org.aspectj",
    "name": "aspectjweaver",
-   "version": "1.9.25.1",
-   "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1"
+   "version": "1.9.7",
+   "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.7"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+   "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3",
    "group": "org.reactivestreams",
    "name": "reactive-streams",
-   "version": "1.0.4",
-   "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
+   "version": "1.0.3",
+   "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3"
   },
   {
    "type": "library",
@@ -300,15 +300,15 @@
   {
    "ref": "pkg:maven/io.r2dbc/r2dbc-spi@0.8.6.RELEASE",
    "dependsOn": [
-    "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
+    "pkg:maven/org.reactivestreams/reactive-streams@1.0.3"
    ]
   },
   {
-   "ref": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+   "ref": "pkg:maven/org.aspectj/aspectjweaver@1.9.7",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+   "ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3",
    "dependsOn": []
   },
   {
@@ -318,7 +318,7 @@
   {
    "ref": "pkg:maven/org.springframework/spring-aspects@5.3.39",
    "dependsOn": [
-    "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1"
+    "pkg:maven/org.aspectj/aspectjweaver@1.9.7"
    ]
   },
   {
