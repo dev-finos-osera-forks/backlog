@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-20T21:44:35Z. Written by the line manager reconciler.
+Generated 2026-09-21T02:16:25Z. Written by the line manager reconciler.
 
 Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ Every library and version the exchange maintains, ordered by library and then by
 
 ## Promoted, not in the backlog
 
-212 libraries, 1095 patched version(s).
+213 libraries, 1099 patched version(s).
 
 | name | base_version | reason | lines | patched_as | chain | consumption_readiness |
 |---|---|---|---|---|---|---|
@@ -86,6 +86,7 @@ Every library and version the exchange maintains, ordered by library and then by
 | ch.qos.logback:logback-parent | 1.2.13 | library on no supported line | spring-boot-2.7.x | 1.2.13.1-osera-00001 1.2.13.1-osera-00002 | broken; broken | not ready, evidence chain incomplete: VEX document; not ready, evidence chain incomplete: VEX document |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-avro | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | complete; complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-csv | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | complete; complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready; ready |
+| com.fasterxml.jackson.dataformat:jackson-dataformat-ion | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 | complete; complete; complete; complete | ready; ready; ready; ready |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-properties | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | complete; complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | complete; complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready; ready |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | library on no supported line | spring-boot-2.7.x | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | complete; complete; complete; complete; complete; complete; complete | ready; ready; ready; ready; ready; ready; ready |
