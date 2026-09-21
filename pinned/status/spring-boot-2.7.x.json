@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.21.2",
-  "as_of": "2026-09-21T11:47:32Z",
+  "book_version": "v2026.09.21.3",
+  "as_of": "2026-09-21T15:14:54Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 137,
@@ -21475,5 +21475,5 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.21.2"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.21.3"
 }
