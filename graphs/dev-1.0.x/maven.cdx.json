@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:8c7c85d4-3458-4d37-9566-00bee688ee4b",
+ "serialNumber": "urn:uuid:083e40ce-79c0-4d33-a5e1-a578107b2aa8",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-09-16T10:25:45Z",
+  "timestamp": "2026-09-21T19:53:52Z",
   "tools": {
    "components": [
     {
@@ -41,8 +41,20 @@
      "value": ""
     },
     {
+     "name": "osera:view",
+     "value": "latest_patch"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:d1ce5ffe48058b2f, pins.json sha256:5db10e5f65ed729a"
     }
    ]
   }

@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.21.3",
-  "as_of": "2026-09-21T15:14:54Z",
+  "as_of": "2026-09-21T19:53:51Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
-  "in_scope": 65,
+  "in_scope": 72,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -367,6 +367,14 @@
       "at": "2026-09-18T16:23:58Z"
     },
     {
+      "cve": "CVE-2026-5795",
+      "library": "org.eclipse.jetty:jetty-jaspi",
+      "coordinate": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
+      "patch": "00004",
+      "named_by": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
+      "at": "2026-09-21T19:53:51Z"
+    },
+    {
       "cve": "CVE-2026-90012",
       "library": "net.sf.jopt-simple:jopt-simple",
       "coordinate": "net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002",
@@ -410,8 +418,12 @@
       "library": "org.yaml:snakeyaml"
     },
     {
-      "cve": "CVE-2024-13009",
-      "library": "org.eclipse.jetty:jetty-server"
+      "cve": "CVE-2023-34040",
+      "library": "org.springframework.kafka:spring-kafka"
+    },
+    {
+      "cve": "CVE-2023-3894",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml"
     },
     {
       "cve": "CVE-2024-22257",
@@ -422,18 +434,6 @@
       "library": "org.springframework.security:spring-security-web"
     },
     {
-      "cve": "CVE-2024-8184",
-      "library": "org.eclipse.jetty:jetty-server"
-    },
-    {
-      "cve": "CVE-2024-9823",
-      "library": "org.eclipse.jetty:jetty-servlets"
-    },
-    {
-      "cve": "CVE-2025-11143",
-      "library": "org.eclipse.jetty:jetty-http"
-    },
-    {
       "cve": "CVE-2025-22228",
       "library": "org.springframework.security:spring-security-crypto"
     },
@@ -442,12 +442,44 @@
       "library": "org.springframework.security:spring-security-web"
     },
     {
+      "cve": "CVE-2026-34479",
+      "library": "org.apache.logging.log4j:log4j-1.2-api"
+    },
+    {
+      "cve": "CVE-2026-34481",
+      "library": "org.apache.logging.log4j:log4j-layout-template-json"
+    },
+    {
+      "cve": "CVE-2026-40987",
+      "library": "org.springframework.integration:spring-integration-file"
+    },
+    {
       "cve": "CVE-2026-40988",
       "library": "org.springframework.security:spring-security-saml2-service-provider"
     },
     {
+      "cve": "CVE-2026-40994",
+      "library": "org.springframework.ws:spring-ws-security"
+    },
+    {
       "cve": "CVE-2026-41706",
       "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-41715",
+      "library": "io.projectreactor.netty:reactor-netty"
+    },
+    {
+      "cve": "CVE-2026-41726",
+      "library": "org.springframework.kafka:spring-kafka"
+    },
+    {
+      "cve": "CVE-2026-41727",
+      "library": "org.springframework.kafka:spring-kafka"
+    },
+    {
+      "cve": "CVE-2026-41731",
+      "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2026-41855",
@@ -3878,6 +3910,10 @@
     "fixed, not in the backlog: CVE-2024-9823 on org.springframework.boot:spring-boot@2.7.18.1-osera-00052",
     "fixed, not in the backlog: CVE-2024-9823 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: CVE-2024-9823 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2025-11143 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00045",
@@ -4064,6 +4100,7 @@
     "fixed, not in the backlog: CVE-2025-11226 on org.springframework.boot:spring-boot@2.7.18.1-osera-00052",
     "fixed, not in the backlog: CVE-2025-11226 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: CVE-2025-11226 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
+    "fixed, not in the backlog: CVE-2025-22227 on io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001",
     "fixed, not in the backlog: CVE-2025-22227 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00051",
     "fixed, not in the backlog: CVE-2025-22227 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00052",
     "fixed, not in the backlog: CVE-2025-22227 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00053",
@@ -6722,6 +6759,13 @@
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00005",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00001",
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00002",
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00003",
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00004",
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00005",
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2025-52999 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00029",
     "fixed, not in the backlog: CVE-2025-52999 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00030",
     "fixed, not in the backlog: CVE-2025-52999 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00031",
@@ -8773,6 +8817,9 @@
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002",
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004",
+    "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002",
+    "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2026-10050 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00015",
     "fixed, not in the backlog: CVE-2026-10050 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-10050 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00017",
@@ -9401,6 +9448,10 @@
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-websocket@5.3.39.1-osera-00010",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-websocket@5.3.39.1-osera-00011",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-websocket@5.3.39.1-osera-00012",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00001",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00001",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00002",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
@@ -10561,6 +10612,8 @@
     "fixed, not in the backlog: CVE-2026-33871 on org.springframework.boot:spring-boot@2.7.18.1-osera-00052",
     "fixed, not in the backlog: CVE-2026-33871 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: CVE-2026-33871 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
+    "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-34480 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00020",
     "fixed, not in the backlog: CVE-2026-34480 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00021",
     "fixed, not in the backlog: CVE-2026-34480 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00022",
@@ -11197,6 +11250,7 @@
     "fixed, not in the backlog: CVE-2026-40998 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: CVE-2026-40998 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
     "fixed, not in the backlog: CVE-2026-40998 on org.springframework.ws:spring-ws-core@3.1.8.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-40998 on org.springframework.ws:spring-ws-security@3.1.8.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00047",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00048",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00049",
@@ -11229,6 +11283,8 @@
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot@2.7.18.1-osera-00052",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
+    "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-ws-security@3.1.8.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-xml@3.1.8.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-xml@3.1.8.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41006 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00021",
@@ -17948,6 +18004,9 @@
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
+    "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00005",
+    "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-50193 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00033",
     "fixed, not in the backlog: CVE-2026-50193 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00034",
     "fixed, not in the backlog: CVE-2026-50193 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00035",
@@ -18040,6 +18099,10 @@
     "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
+    "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00004",
+    "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00005",
+    "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54512 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00032",
     "fixed, not in the backlog: CVE-2026-54512 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00033",
     "fixed, not in the backlog: CVE-2026-54512 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00034",
@@ -18137,6 +18200,11 @@
     "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
+    "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00003",
+    "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00004",
+    "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00005",
+    "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54513 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00031",
     "fixed, not in the backlog: CVE-2026-54513 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00032",
     "fixed, not in the backlog: CVE-2026-54513 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00033",
@@ -18237,6 +18305,8 @@
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+    "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54514 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00034",
     "fixed, not in the backlog: CVE-2026-54514 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00035",
     "fixed, not in the backlog: CVE-2026-54514 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00036",
@@ -18323,6 +18393,7 @@
     "fixed, not in the backlog: CVE-2026-54514 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+    "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54515 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00035",
     "fixed, not in the backlog: CVE-2026-54515 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00036",
     "fixed, not in the backlog: CVE-2026-54515 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00037",
@@ -21007,6 +21078,12 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00005",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00002",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00003",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00004",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00005",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00030",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00031",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00032",
@@ -21107,14 +21184,6 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00052",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
-    "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
@@ -21138,5 +21207,5 @@
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30",
     "CVE-2026-90012 on jopt-simple 5.0.4 is patched, the evidence chain is broken: no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.21.3"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.21.4"
 }
