@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.21.3",
-  "as_of": "2026-09-21T19:53:51Z",
+  "book_version": "v2026.09.21.4",
+  "as_of": "2026-09-21T19:55:48Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 168,
@@ -21552,6 +21552,7 @@
     "issue #20 for CVE-2023-6378 is closed in backlog while the entry on ch.qos.logback:logback-classic is open",
     "issue #205 for CVE-2026-42587 is closed in backlog while the entry on io.netty:netty-codec-http2 is open",
     "issue #21 for CVE-2023-6481 is closed in backlog while the entry on ch.qos.logback:logback-core is open",
+    "issue #22 for CVE-2024-13009 is closed in backlog while the entry on org.eclipse.jetty:jetty-server is open",
     "issue #24 for CVE-2024-23672 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-websocket is open",
     "issue #25 for CVE-2024-24549 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #26 for CVE-2024-34750 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
@@ -21559,6 +21560,9 @@
     "issue #308 for CVE-2026-75596 is closed in backlog while the entry on io.netty:netty-handler is open",
     "issue #32 for CVE-2024-50379 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #33 for CVE-2024-56337 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
+    "issue #34 for CVE-2024-8184 is closed in backlog while the entry on org.eclipse.jetty:jetty-server is open",
+    "issue #35 for CVE-2024-9823 is closed in backlog while the entry on org.eclipse.jetty:jetty-servlets is open",
+    "issue #36 for CVE-2025-11143 is closed in backlog while the entry on org.eclipse.jetty:jetty-http is open",
     "issue #40 for CVE-2025-24813 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #41 for CVE-2025-24970 is closed in backlog while the entry on io.netty:netty-handler is open",
     "issue #42 for CVE-2025-31650 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
@@ -21641,5 +21645,5 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.21.3"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.21.4"
 }
