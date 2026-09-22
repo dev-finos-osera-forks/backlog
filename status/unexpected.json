@@ -1,81 +1,15 @@
 {
   "artifacts": [
     {
-      "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
-      "library": "io.projectreactor.addons:reactor-adapter",
-      "base": "3.4.11",
-      "reason": "listed by the BOM of spring-boot-2.7.x at 3.4.10, off the curated list",
-      "lines": [
-        "spring-boot-2.7.x"
-      ],
-      "words": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 3.4.10, off the curated list",
-      "first_seen": "2026-09-18T14:34:34Z"
-    },
-    {
-      "coordinate": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001",
-      "library": "io.projectreactor.addons:reactor-extra",
-      "base": "3.4.11",
-      "reason": "listed by the BOM of spring-boot-2.7.x at 3.4.10, off the curated list",
-      "lines": [
-        "spring-boot-2.7.x"
-      ],
-      "words": "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 3.4.10, off the curated list",
-      "first_seen": "2026-09-18T13:46:50Z"
-    },
-    {
       "coordinate": "io.projectreactor.kafka:reactor-kafka@1.3.23.1-osera-00001",
       "library": "io.projectreactor.kafka:reactor-kafka",
       "base": "1.3.23",
-      "reason": "listed by the BOM of spring-boot-2.7.x at 1.3.22, off the curated list",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 1.3.25, uploaded on 1.3.23",
       "lines": [
         "spring-boot-2.7.x"
       ],
-      "words": "io.projectreactor.kafka:reactor-kafka@1.3.23.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.3.22, off the curated list",
+      "words": "io.projectreactor.kafka:reactor-kafka@1.3.23.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 1.3.25, uploaded on 1.3.23",
       "first_seen": "2026-09-18T23:26:22Z"
-    },
-    {
-      "coordinate": "io.projectreactor.kotlin:reactor-kotlin-extensions@1.1.11.1-osera-00001",
-      "library": "io.projectreactor.kotlin:reactor-kotlin-extensions",
-      "base": "1.1.11",
-      "reason": "listed by the BOM of spring-boot-2.7.x at 1.1.10, off the curated list",
-      "lines": [
-        "spring-boot-2.7.x"
-      ],
-      "words": "io.projectreactor.kotlin:reactor-kotlin-extensions@1.1.11.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.1.10, off the curated list",
-      "first_seen": "2026-09-18T13:46:50Z"
-    },
-    {
-      "coordinate": "io.projectreactor.rabbitmq:reactor-rabbitmq@1.5.6.1-osera-00001",
-      "library": "io.projectreactor.rabbitmq:reactor-rabbitmq",
-      "base": "1.5.6",
-      "reason": "listed by the BOM of spring-boot-2.7.x at 1.5.6, off the curated list",
-      "lines": [
-        "spring-boot-2.7.x"
-      ],
-      "words": "io.projectreactor.rabbitmq:reactor-rabbitmq@1.5.6.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.5.6, off the curated list",
-      "first_seen": "2026-09-18T23:26:22Z"
-    },
-    {
-      "coordinate": "io.projectreactor:reactor-test@3.4.41.1-osera-00001",
-      "library": "io.projectreactor:reactor-test",
-      "base": "3.4.41",
-      "reason": "listed by the BOM of spring-boot-2.7.x at 3.4.34, off the curated list",
-      "lines": [
-        "spring-boot-2.7.x"
-      ],
-      "words": "io.projectreactor:reactor-test@3.4.41.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 3.4.34, off the curated list",
-      "first_seen": "2026-09-18T13:09:53Z"
-    },
-    {
-      "coordinate": "io.projectreactor:reactor-tools@3.4.41.1-osera-00001",
-      "library": "io.projectreactor:reactor-tools",
-      "base": "3.4.41",
-      "reason": "listed by the BOM of spring-boot-2.7.x at 3.4.34, off the curated list",
-      "lines": [
-        "spring-boot-2.7.x"
-      ],
-      "words": "io.projectreactor:reactor-tools@3.4.41.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 3.4.34, off the curated list",
-      "first_seen": "2026-09-18T13:10:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00001",
