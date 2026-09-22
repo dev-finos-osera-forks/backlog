@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-21T20:53:03Z. Written by the line manager reconciler.
+Generated 2026-09-22T13:00:42Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -66,17 +66,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-28 libraries, 108 patched version(s).
+22 libraries, 102 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| io.projectreactor.addons:reactor-adapter | 3.4.11 | listed by the BOM of spring-boot-2.7.x at 3.4.10, off the curated list | spring-boot-2.7.x |  | 3.4.11.1-osera-00001 | 3.4.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.projectreactor.addons:reactor-extra | 3.4.11 | listed by the BOM of spring-boot-2.7.x at 3.4.10, off the curated list | spring-boot-2.7.x |  | 3.4.11.1-osera-00001 | 3.4.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.projectreactor.kafka:reactor-kafka | 1.3.23 | listed by the BOM of spring-boot-2.7.x at 1.3.22, off the curated list | spring-boot-2.7.x |  | 1.3.23.1-osera-00001 | 1.3.23.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.projectreactor.kotlin:reactor-kotlin-extensions | 1.1.11 | listed by the BOM of spring-boot-2.7.x at 1.1.10, off the curated list | spring-boot-2.7.x |  | 1.1.11.1-osera-00001 | 1.1.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.projectreactor.rabbitmq:reactor-rabbitmq | 1.5.6 | listed by the BOM of spring-boot-2.7.x at 1.5.6, off the curated list | spring-boot-2.7.x |  | 1.5.6.1-osera-00001 | 1.5.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.projectreactor:reactor-test | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, off the curated list | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 | 3.4.41.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.projectreactor:reactor-tools | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, off the curated list | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 | 3.4.41.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.projectreactor.kafka:reactor-kafka | 1.3.23 | in the dependency graph of spring-boot-2.7.x at 1.3.25, uploaded on 1.3.23 | spring-boot-2.7.x |  | 1.3.23.1-osera-00001 | 1.3.23.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-acl | 5.7.14 | in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x |  | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-aspects | 5.7.14 | in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x |  | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-cas | 5.7.14 | in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x |  | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
