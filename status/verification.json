@@ -1,3 +1,6 @@
 {
-  "state": "verified"
+  "state": "not verified",
+  "since": "2026-09-25T09:25:41Z",
+  "last_verified": "2026-09-24T20:15:49Z",
+  "reason": "reading the release repository: searching osera-releases-maven-01: Get \"http://nexus.nexus.svc.cluster.local:8081/service/rest/v1/search?format=maven2\u0026repository=osera-releases-maven-01\": dial tcp 172.20.101.56:8081: connect: connection refused"
 }
