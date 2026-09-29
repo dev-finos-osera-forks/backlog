@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.29",
-  "as_of": "2026-09-29T12:00:10Z",
+  "as_of": "2026-09-29T13:36:04Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 72,
@@ -383,12 +383,7 @@
       "at": "2026-09-18T16:23:58Z"
     }
   ],
-  "in_progress": [
-    {
-      "cve": "CVE-2026-90012",
-      "library": "net.sf.jopt-simple:jopt-simple"
-    }
-  ],
+  "in_progress": [],
   "open": [
     {
       "cve": "CVE-2022-1471",
@@ -485,12 +480,15 @@
     {
       "cve": "CVE-2026-47838",
       "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-90012",
+      "library": "net.sf.jopt-simple:jopt-simple"
     }
   ],
   "not_remediable": [],
   "discrepancies": [
     "CVE-2026-90012 on jopt-simple 5.0.4: promoted artifact net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002 refused: producer controlplane-dev is not in the approved producers registry",
-    "CVE-2026-90012 on net.sf.jopt-simple:jopt-simple: the issue #1 in patch-jopt-simple was moved there by d1gital-f, not an account of any approved producer; the claim counts all the same, the entry is in progress",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00003",
@@ -21183,7 +21181,6 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00052",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
-    "issue #1 for CVE-2026-90012 is closed in patch-jopt-simple while the entry on net.sf.jopt-simple:jopt-simple is in progress",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",

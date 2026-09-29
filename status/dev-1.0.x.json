@@ -1,12 +1,13 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.29",
-  "as_of": "2026-09-29T12:00:10Z",
-  "status": "in progress",
+  "as_of": "2026-09-29T13:36:04Z",
+  "status": "not fixed",
   "chain": "",
   "in_scope": 4,
   "fixed": [],
-  "in_progress": [
+  "in_progress": [],
+  "open": [
     {
       "cve": "CVE-2026-90011",
       "library": "args4j:args4j"
@@ -24,20 +25,11 @@
       "library": "com.beust:jcommander"
     }
   ],
-  "open": [],
   "not_remediable": [],
   "discrepancies": [
     "CVE-2026-90011 on args4j 2.33: promoted artifact args4j:args4j@2.33.2-osera-00002 refused: producer controlplane-dev is not in the approved producers registry",
-    "CVE-2026-90011 on args4j:args4j: the issue #1 in patch-args4j was moved there by d1gital-f, not an account of any approved producer; the claim counts all the same, the entry is in progress",
     "CVE-2026-90012 on jopt-simple 5.0.4: promoted artifact net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002 refused: producer controlplane-dev is not in the approved producers registry",
-    "CVE-2026-90012 on net.sf.jopt-simple:jopt-simple: the issue #1 in patch-jopt-simple was moved there by d1gital-f, not an account of any approved producer; the claim counts all the same, the entry is in progress",
-    "CVE-2026-90013 on com.beust:jcommander: the issue #1 in patch-jcommander was moved there by d1gital-f, not an account of any approved producer; the claim counts all the same, the entry is in progress",
-    "CVE-2026-90014 on com.beust:jcommander: the issue #2 in patch-jcommander was moved there by d1gital-f, not an account of any approved producer; the claim counts all the same, the entry is in progress",
-    "CVE-2026-90014 on jcommander 1.82: promoted artifact com.beust:jcommander@1.82.6-osera-00006 refused: producer controlplane-dev is not in the approved producers registry",
-    "issue #1 for CVE-2026-90011 is closed in patch-args4j while the entry on args4j:args4j is in progress",
-    "issue #1 for CVE-2026-90012 is closed in patch-jopt-simple while the entry on net.sf.jopt-simple:jopt-simple is in progress",
-    "issue #1 for CVE-2026-90013 is closed in patch-jcommander while the entry on com.beust:jcommander is in progress",
-    "issue #2 for CVE-2026-90014 is closed in patch-jcommander while the entry on com.beust:jcommander is in progress"
+    "CVE-2026-90014 on jcommander 1.82: promoted artifact com.beust:jcommander@1.82.6-osera-00006 refused: producer controlplane-dev is not in the approved producers registry"
   ],
   "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.17.4"
 }
