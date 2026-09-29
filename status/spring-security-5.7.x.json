@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.09.29.3",
-  "as_of": "2026-09-29T14:09:04Z",
+  "as_of": "2026-09-29T14:10:04Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 20,
@@ -91,16 +91,11 @@
   ],
   "not_remediable": [],
   "discrepancies": [
-    "issue #100 for CVE-2026-41851 is closed in backlog while the entry on org.springframework:spring-expression is open",
-    "issue #123 for CVE-2026-50193 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #124 for CVE-2026-54512 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #125 for CVE-2026-54513 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #197 for CVE-2025-52999 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open",
     "issue #210 for GHSA-r7wm-3cxj-wff9 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open",
-    "issue #734 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
-    "issue #97 for CVE-2026-41848 is closed in backlog while the entry on org.springframework:spring-core is open",
-    "issue #98 for CVE-2026-41849 is closed in backlog while the entry on org.springframework:spring-expression is open",
-    "issue #99 for CVE-2026-41850 is closed in backlog while the entry on org.springframework:spring-expression is open"
+    "issue #734 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open"
   ],
   "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.21"
 }
