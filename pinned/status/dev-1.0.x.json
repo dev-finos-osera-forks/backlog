@@ -1,48 +1,43 @@
 {
   "line": "dev-1.0.x",
   "book_version": "v2026.09.28.2",
-  "as_of": "2026-09-28T20:24:09Z",
+  "as_of": "2026-09-29T11:59:04Z",
   "status": "in progress",
-  "chain": "broken: 2 artifacts",
+  "chain": "",
   "in_scope": 4,
-  "fixed": [
+  "fixed": [],
+  "in_progress": [
     {
       "cve": "CVE-2026-90011",
-      "library": "args4j:args4j",
-      "coordinate": "args4j:args4j@2.33.2-osera-00002",
-      "patch": "00002",
-      "named_by": "args4j:args4j@2.33.2-osera-00002",
-      "at": "2026-09-21T14:01:41Z"
+      "library": "args4j:args4j"
     },
     {
       "cve": "CVE-2026-90012",
-      "library": "net.sf.jopt-simple:jopt-simple",
-      "coordinate": "net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002",
-      "patch": "00002",
-      "named_by": "net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002",
-      "at": "2026-09-21T14:01:41Z"
+      "library": "net.sf.jopt-simple:jopt-simple"
+    },
+    {
+      "cve": "CVE-2026-90013",
+      "library": "com.beust:jcommander"
     },
     {
       "cve": "CVE-2026-90014",
-      "library": "com.beust:jcommander",
-      "coordinate": "com.beust:jcommander@1.82.6-osera-00006",
-      "patch": "00006",
-      "named_by": "com.beust:jcommander@1.82.6-osera-00006",
-      "at": "2026-09-21T14:01:41Z"
-    }
-  ],
-  "in_progress": [
-    {
-      "cve": "CVE-2026-90013",
       "library": "com.beust:jcommander"
     }
   ],
   "open": [],
   "not_remediable": [],
   "discrepancies": [
+    "CVE-2026-90011 on args4j 2.33: promoted artifact args4j:args4j@2.33.2-osera-00002 refused: producer controlplane-dev is not in the approved producers registry",
+    "CVE-2026-90011 on args4j:args4j: the issue #1 in patch-args4j was moved there by d1gital-f, not an account of any approved producer; the claim counts all the same, the entry is in progress",
+    "CVE-2026-90012 on jopt-simple 5.0.4: promoted artifact net.sf.jopt-simple:jopt-simple@5.0.4.2-osera-00002 refused: producer controlplane-dev is not in the approved producers registry",
+    "CVE-2026-90012 on net.sf.jopt-simple:jopt-simple: the issue #1 in patch-jopt-simple was moved there by d1gital-f, not an account of any approved producer; the claim counts all the same, the entry is in progress",
+    "CVE-2026-90013 on com.beust:jcommander: the issue #1 in patch-jcommander was moved there by d1gital-f, not an account of any approved producer; the claim counts all the same, the entry is in progress",
+    "CVE-2026-90014 on com.beust:jcommander: the issue #2 in patch-jcommander was moved there by d1gital-f, not an account of any approved producer; the claim counts all the same, the entry is in progress",
+    "CVE-2026-90014 on jcommander 1.82: promoted artifact com.beust:jcommander@1.82.6-osera-00006 refused: producer controlplane-dev is not in the approved producers registry",
+    "issue #1 for CVE-2026-90011 is closed in patch-args4j while the entry on args4j:args4j is in progress",
+    "issue #1 for CVE-2026-90012 is closed in patch-jopt-simple while the entry on net.sf.jopt-simple:jopt-simple is in progress",
     "issue #1 for CVE-2026-90013 is closed in patch-jcommander while the entry on com.beust:jcommander is in progress",
-    "CVE-2026-90011 on args4j 2.33 is patched, the evidence chain is broken: no vulnerability document next to the pom (args4j-2.33.2-osera-00002-cyclonedx.json)",
-    "CVE-2026-90012 on jopt-simple 5.0.4 is patched, the evidence chain is broken: no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)"
+    "issue #2 for CVE-2026-90014 is closed in patch-jcommander while the entry on com.beust:jcommander is in progress"
   ],
   "consume": "org.finos.osera:osera-bom-dev-1.0.x@2026.09.17.4"
 }

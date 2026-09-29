@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-26T13:18:41Z. Written by the line manager reconciler.
+Generated 2026-09-29T11:59:04Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,10 +8,10 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 72 | 48 | 67% | 194 | 0 | 24 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 72 | 47 | 65% | 194 | 1 | 24 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 18 | 95% | 24 | 0 | 1 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 20 | 13 | 65% | 40 | 0 | 7 | 0 |
-| dev-1.0.x | maven | `org.finos.osera.dev:dev-bom@2.0.0` | in progress | 4 | 3 | 75% | 4 | 1 | 0 | 0 |
+| dev-1.0.x | maven | `org.finos.osera.dev:dev-bom@2.0.0` | in progress | 4 | 0 | 0% | 4 | 4 | 0 | 0 |
 
 ## Libraries
 
@@ -19,15 +19,15 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| args4j:args4j | 2.33 | dev-1.0.x | listed by the BOM at 2.33 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.33.2-osera-00002 | 2.33.2-osera-00002 | not ready, evidence chain incomplete: VEX document | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (args4j-2.33.2-osera-00002-cyclonedx.json)) | OK | OK | OK | OK | OK | not checked (the verdict records no tag pusher) |
+| args4j:args4j | 2.33 | dev-1.0.x | listed by the BOM at 2.33 | in progress | 1 | 0 | 0% | 0 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | fixed | 1 | 1 | 100% | 5 | 0 | 0 | 0 | 1.2.13.1-osera-00002 | 1.2.13.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.beust:jcommander | 1.82 | dev-1.0.x | listed by the BOM at 1.82 | in progress | 2 | 1 | 50% | 0 | 1 | 0 | 0 | 1.82.6-osera-00006 | 1.82.6-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.beust:jcommander | 1.82 | dev-1.0.x | listed by the BOM at 1.82 | in progress | 2 | 0 | 0% | 0 | 2 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 2 | 0 | 0 | 0 | 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00001 | 1.0.48.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| net.sf.jopt-simple:jopt-simple | 5.0.4 | dev-1.0.x, spring-boot-2.7.x | listed by the BOM of dev-1.0.x at 5.0.4 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.0.4.2-osera-00002 | 5.0.4.2-osera-00002 | not ready, evidence chain incomplete: VEX document | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (jopt-simple-5.0.4.2-osera-00002-cyclonedx.json)) | OK | OK | OK | OK | OK | not checked (the verdict records no tag pusher) |
+| net.sf.jopt-simple:jopt-simple | 5.0.4 | dev-1.0.x, spring-boot-2.7.x | listed by the BOM of dev-1.0.x at 5.0.4 | in progress | 1 | 0 | 0% | 0 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-1.2-api | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 2 | 0 | 0 | 0 | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -91,7 +91,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.security:spring-security-taglibs | 5.7.14 | in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x |  | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-test | 5.7.14 | in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x |  | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-web | 5.7.14 | in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x |  | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.yaml:snakeyaml | 1.33 | in the dependency graph of spring-boot-2.7.x at 1.30, uploaded on 1.33 | spring-boot-2.7.x |  | 1.33.1-osera-00001 | 1.33.1-osera-00001 | not ready, evidence chain incomplete: verdict, signatures, VEX document, upload account, tag pusher | broken | OK | OK | NOK (the jar's .asc does not verify against key E16FA220A3C9B1753F16724E0839A327D17F282E (producer controlplane-dev): openpgp: signature made by unknown entity) | NOK (the vulnerability document's .asc does not verify against key E16FA220A3C9B1753F16724E0839A327D17F282E (producer controlplane-dev): openpgp: signature made by unknown entity) | OK | NOK (the verdict names producer moderne, the evidence names controlplane-dev) | OK | OK | NOK (uploaded by moderne-deploy, the registry says fbeltramini for producer controlplane-dev) | NOK (the tag was pushed by jkschneider, not one of producer controlplane-dev's accounts) |
+| org.yaml:snakeyaml | 1.33 | in the dependency graph of spring-boot-2.7.x at 1.30, uploaded on 1.33 | spring-boot-2.7.x |  | 1.33.1-osera-00001 | 1.33.1-osera-00001 | not ready, evidence chain incomplete: producer, verdict, signatures, VEX document | broken | OK | OK | NOK (no registry entry to take the signing key from) | NOK (the vulnerability document's signature: no registry entry to take the signing key from) | NOK (producer controlplane-dev is not in the approved producers registry) | NOK (the verdict names producer moderne, the evidence names controlplane-dev) | OK | OK | not checked (no registry entry to compare the upload account with) | not checked (no registry entry to compare the tag pusher with) |
 
 ## Released with the lines
 
