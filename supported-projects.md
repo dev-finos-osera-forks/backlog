@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-29T14:01:04Z. Written by the line manager reconciler.
+Generated 2026-09-29T15:28:16Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -63,3 +63,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 6 | 0 | 0% | 9 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+
+## Libraries promoted, not in the backlog
+
+1 library, 1 patched version(s).
+
+| name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| org.yaml:snakeyaml | 1.33 | in the dependency graph of spring-boot-2.7.x at 1.30, uploaded on 1.33 | spring-boot-2.7.x |  | 1.33.1-osera-00001 | 1.33.1-osera-00001 | not ready, evidence chain incomplete: producer, verdict, signatures, VEX document | broken | OK | OK | NOK (no registry entry to take the signing key from) | NOK (the vulnerability document's signature: no registry entry to take the signing key from) | NOK (producer controlplane-dev is not in the approved producers registry) | NOK (the verdict names producer cp-osera-dev, the evidence names controlplane-dev) | OK | OK | not checked (no registry entry to compare the upload account with) | not checked (no registry entry to compare the tag pusher with) |
