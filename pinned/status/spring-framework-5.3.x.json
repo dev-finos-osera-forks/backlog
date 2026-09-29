@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.09.29.3",
-  "as_of": "2026-09-29T14:09:04Z",
+  "as_of": "2026-09-29T14:10:04Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 19,
@@ -87,19 +87,10 @@
   ],
   "not_remediable": [],
   "discrepancies": [
-    "issue #100 for CVE-2026-41851 is closed in backlog while the entry on org.springframework:spring-expression is open",
     "issue #193 for CVE-2024-38816 is closed in backlog while the entry on org.springframework:spring-webmvc is open",
     "issue #194 for CVE-2024-38819 is closed in backlog while the entry on org.springframework:spring-webmvc is open",
     "issue #199 for CVE-2026-41842 is closed in backlog while the entry on org.springframework:spring-webmvc is open",
-    "issue #200 for CVE-2026-41844 is closed in backlog while the entry on org.springframework:spring-webmvc is open",
-    "issue #92 for CVE-2026-41838 is closed in backlog while the entry on org.springframework:spring-websocket is open",
-    "issue #93 for CVE-2026-41842 is closed in backlog while the entry on org.springframework:spring-webflux is open",
-    "issue #94 for CVE-2026-41844 is closed in backlog while the entry on org.springframework:spring-webflux is open",
-    "issue #95 for CVE-2026-41845 is closed in backlog while the entry on org.springframework:spring-webmvc is open",
-    "issue #96 for CVE-2026-41846 is closed in backlog while the entry on org.springframework:spring-webmvc is open",
-    "issue #97 for CVE-2026-41848 is closed in backlog while the entry on org.springframework:spring-core is open",
-    "issue #98 for CVE-2026-41849 is closed in backlog while the entry on org.springframework:spring-expression is open",
-    "issue #99 for CVE-2026-41850 is closed in backlog while the entry on org.springframework:spring-expression is open"
+    "issue #200 for CVE-2026-41844 is closed in backlog while the entry on org.springframework:spring-webmvc is open"
   ],
   "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.09.19.17"
 }

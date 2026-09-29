@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.29.3",
-  "as_of": "2026-09-29T14:09:04Z",
+  "as_of": "2026-09-29T14:10:04Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 169,
@@ -687,8 +687,6 @@
   ],
   "not_remediable": [],
   "discrepancies": [
-    "issue #100 for CVE-2026-41851 is closed in backlog while the entry on org.springframework:spring-expression is open",
-    "issue #102 for CVE-2026-41856 is closed in backlog while the entry on org.springframework.graphql:spring-graphql is open",
     "issue #103 for CVE-2026-42498 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #104 for CVE-2026-42578 is closed in backlog while the entry on io.netty:netty-handler-proxy is open",
     "issue #105 for CVE-2026-42579 is closed in backlog while the entry on io.netty:netty-codec-dns is open",
@@ -708,7 +706,6 @@
     "issue #119 for CVE-2026-47691 is closed in backlog while the entry on io.netty:netty-resolver-dns is open",
     "issue #121 for CVE-2026-48043 is closed in backlog while the entry on io.netty:netty-codec-http2 is open",
     "issue #122 for CVE-2026-50010 is closed in backlog while the entry on io.netty:netty-handler is open",
-    "issue #123 for CVE-2026-50193 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #124 for CVE-2026-54512 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #125 for CVE-2026-54513 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #126 for CVE-2026-55831 is closed in backlog while the entry on io.netty:netty-codec-http is open",
@@ -779,17 +776,7 @@
     "issue #74 for CVE-2026-34487 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #82 for CVE-2026-41284 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #83 for CVE-2026-41293 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
-    "issue #89 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
-    "issue #90 for CVE-2026-41728 is closed in backlog while the entry on org.springframework.data:spring-data-rest-core is open",
-    "issue #91 for CVE-2026-41729 is closed in backlog while the entry on org.springframework.data:spring-data-rest-core is open",
-    "issue #92 for CVE-2026-41838 is closed in backlog while the entry on org.springframework:spring-websocket is open",
-    "issue #93 for CVE-2026-41842 is closed in backlog while the entry on org.springframework:spring-webflux is open",
-    "issue #94 for CVE-2026-41844 is closed in backlog while the entry on org.springframework:spring-webflux is open",
-    "issue #95 for CVE-2026-41845 is closed in backlog while the entry on org.springframework:spring-webmvc is open",
-    "issue #96 for CVE-2026-41846 is closed in backlog while the entry on org.springframework:spring-webmvc is open",
-    "issue #97 for CVE-2026-41848 is closed in backlog while the entry on org.springframework:spring-core is open",
-    "issue #98 for CVE-2026-41849 is closed in backlog while the entry on org.springframework:spring-expression is open",
-    "issue #99 for CVE-2026-41850 is closed in backlog while the entry on org.springframework:spring-expression is open"
+    "issue #89 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open"
   ],
   "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.29"
 }
