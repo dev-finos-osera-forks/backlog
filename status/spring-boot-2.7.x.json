@@ -1,9 +1,9 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.29.2",
-  "as_of": "2026-09-29T13:45:04Z",
+  "as_of": "2026-09-29T13:53:04Z",
   "status": "in progress",
-  "chain": "broken: 1 artifact",
+  "chain": "broken: 5 artifacts",
   "in_scope": 72,
   "fixed": [
     {
@@ -21202,6 +21202,10 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30",
+    "CVE-2025-11226 on logback-core 1.2.13 is patched, the evidence chain is broken: the fork patch-logback is missing",
+    "CVE-2026-0603 on hibernate-core 5.6.15.Final is patched, the evidence chain is broken: the fork patch-hibernate-orm is missing",
+    "CVE-2026-40998 on spring-xml 3.1.8 is patched, the evidence chain is broken: the fork patch-spring-ws is missing",
+    "CVE-2026-40999 on spring-ws-core 3.1.8 is patched, the evidence chain is broken: the fork patch-spring-ws is missing",
     "CVE-2026-41720 on spring-ldap-core 2.4.4 is patched, the evidence chain is broken: the fork patch-spring-ldap is missing"
   ],
   "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.29"
