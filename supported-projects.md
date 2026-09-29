@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-29T15:28:16Z. Written by the line manager reconciler.
+Generated 2026-09-29T20:25:04Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -10,7 +10,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 |---|---|---|---|---|---|---|---|---|---|---|
 | spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | not fixed | 72 | 0 | 0% | 197 | 0 | 72 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 19 | 0 | 0% | 24 | 0 | 19 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 20 | 0 | 0% | 40 | 0 | 20 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 20 | 0 | 0% | 43 | 0 | 20 | 0 |
 | dev-1.0.x | maven | `org.finos.osera.dev:dev-bom@2.0.0` | not fixed | 4 | 0 | 0% | 4 | 0 | 4 | 0 |
 
 ## Libraries
