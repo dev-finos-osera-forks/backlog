@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.09.30.23",
-  "as_of": "2026-09-30T15:42:59Z",
+  "as_of": "2026-09-30T16:00:39Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 19,
@@ -111,12 +111,13 @@
       "at": "2026-09-30T15:39:57Z"
     }
   ],
-  "in_progress": [],
-  "open": [
+  "in_progress": [
     {
       "cve": "CVE-2026-22740",
       "library": "org.springframework:spring-webflux"
-    },
+    }
+  ],
+  "open": [
     {
       "cve": "CVE-2026-41844",
       "library": "org.springframework:spring-webflux"
