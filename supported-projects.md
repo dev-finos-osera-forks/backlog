@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-30T14:08:39Z. Written by the line manager reconciler.
+Generated 2026-09-30T14:18:51Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -74,8 +74,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-1 component(s), 2 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+1 component(s), 3 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 | 5.3.39.1-osera-00002 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 5.3.39.1-osera-00003 | 5.3.39.1-osera-00003 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
