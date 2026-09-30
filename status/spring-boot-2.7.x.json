@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.30.6",
-  "as_of": "2026-09-30T14:21:37Z",
+  "book_version": "v2026.09.30.7",
+  "as_of": "2026-09-30T14:22:35Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 72,
@@ -47,7 +47,12 @@
       "at": "2026-09-30T14:21:37Z"
     }
   ],
-  "in_progress": [],
+  "in_progress": [
+    {
+      "cve": "CVE-2025-41249",
+      "library": "org.springframework:spring-core"
+    }
+  ],
   "open": [
     {
       "cve": "CVE-2022-1471",
@@ -108,10 +113,6 @@
     {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot"
-    },
-    {
-      "cve": "CVE-2025-41249",
-      "library": "org.springframework:spring-core"
     },
     {
       "cve": "CVE-2025-52999",
