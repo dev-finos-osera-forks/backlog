@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-30T14:46:41Z. Written by the line manager reconciler.
+Generated 2026-09-30T14:47:52Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -58,9 +58,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 5.3.39.1-osera-00005 | 5.3.39.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 3 | 0 | 0% | 1 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00004 | 5.3.39.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 5 | 2 | 40% | 10 | 0 | 3 | 0 | 5.3.39.1-osera-00004 | 5.3.39.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 6 | 2 | 33% | 9 | 0 | 4 | 0 | 5.3.39.1-osera-00004 | 5.3.39.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00005 | 5.3.39.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 5 | 2 | 40% | 10 | 0 | 3 | 0 | 5.3.39.1-osera-00005 | 5.3.39.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 6 | 2 | 33% | 9 | 0 | 4 | 0 | 5.3.39.1-osera-00005 | 5.3.39.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | in progress | 1 | 0 | 0% | 1 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 
