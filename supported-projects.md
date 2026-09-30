@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-29T20:25:04Z. Written by the line manager reconciler.
+Generated 2026-09-30T10:00:37Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -71,3 +71,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | org.yaml:snakeyaml | 1.33 | in the dependency graph of spring-boot-2.7.x at 1.30, uploaded on 1.33 | spring-boot-2.7.x |  | 1.33.1-osera-00001 | 1.33.1-osera-00001 | not ready, evidence chain incomplete: producer, verdict, signatures, VEX document | broken | OK | OK | NOK (no registry entry to take the signing key from) | NOK (the vulnerability document's signature: no registry entry to take the signing key from) | NOK (producer controlplane-dev is not in the approved producers registry) | NOK (the verdict names producer cp-osera-dev, the evidence names controlplane-dev) | OK | OK | not checked (no registry entry to compare the upload account with) | not checked (no registry entry to compare the tag pusher with) |
+
+## Released with the lines
+
+1 component(s), 1 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+
+| name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 | 5.3.39.1-osera-00001 | broken | OK | OK | NOK (the pom's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity) | NOK (the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity) | OK | NOK (the verdict names producer cp-osera-dev, the evidence names moderne) | OK | OK | NOK (uploaded by cp-osera-dev-deploy, the registry says moderne-deploy for producer moderne) | NOK (the tag was pushed by cp-osera-dev-bot, not one of producer moderne's accounts) |
