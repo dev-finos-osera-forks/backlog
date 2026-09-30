@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.09.30.10",
-  "as_of": "2026-09-30T14:34:58Z",
+  "as_of": "2026-09-30T14:38:39Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 19,
@@ -55,15 +55,16 @@
       "at": "2026-09-30T14:32:36Z"
     }
   ],
-  "in_progress": [],
+  "in_progress": [
+    {
+      "cve": "CVE-2026-41838",
+      "library": "org.springframework:spring-websocket"
+    }
+  ],
   "open": [
     {
       "cve": "CVE-2026-22740",
       "library": "org.springframework:spring-webflux"
-    },
-    {
-      "cve": "CVE-2026-41838",
-      "library": "org.springframework:spring-websocket"
     },
     {
       "cve": "CVE-2026-41842",
