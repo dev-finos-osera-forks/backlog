@@ -3,64 +3,450 @@
     {
       "coordinate": "org.springframework:spring-aop@5.3.39.1-osera-00001",
       "producer": "moderne",
-      "fork": "patch-spring-aop",
+      "fork": "patch-spring-framework",
       "tag": "v5.3.39.1-osera-00001",
       "links": {
         "files": {
-          "state": "not checked",
-          "reason": "spring-aop-5.3.39.1-osera-00001.jar.sha1, spring-aop-5.3.39.1-osera-00001.pom.sha1 not there yet: the last file landed 1s ago and the gate copies the checksums after the jar and the pom",
-          "unanswered": true,
-          "checked_at": "2026-09-30T09:59:02Z"
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "checked_at": "2026-09-30T09:59:46Z"
         },
         "signatures": {
           "state": "failed",
-          "reason": "no signature next to the jar (spring-aop-5.3.39.1-osera-00001.jar.asc)",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "reason": "the jar's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:46Z"
         },
         "document": {
           "state": "failed",
           "reason": "the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "checked_at": "2026-09-30T09:59:46Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "checked_at": "2026-09-30T09:59:45Z"
         },
         "verdict": {
-          "state": "not checked",
-          "reason": "no verdict yet: the last file landed 1s ago and the gate writes the verdict last",
-          "unanswered": true,
-          "checked_at": "2026-09-30T09:59:02Z"
+          "state": "failed",
+          "reason": "the verdict names producer cp-osera-dev, the evidence names moderne",
+          "checked_at": "2026-09-30T09:59:45Z"
         },
         "fork": {
-          "state": "missing",
-          "reason": "the fork patch-spring-aop is missing",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
         },
         "tag": {
-          "state": "not checked",
-          "reason": "the fork is missing",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
         },
         "upload": {
-          "state": "not checked",
-          "reason": "the verdict could not be read",
-          "unanswered": true,
-          "checked_at": "2026-09-30T09:59:02Z"
+          "state": "failed",
+          "reason": "uploaded by cp-osera-dev-deploy, the registry says moderne-deploy for producer moderne",
+          "checked_at": "2026-09-30T09:59:46Z"
         },
         "tagger": {
-          "state": "not checked",
-          "reason": "the verdict could not be read",
-          "unanswered": true,
-          "checked_at": "2026-09-30T09:59:02Z"
+          "state": "failed",
+          "reason": "the tag was pushed by cp-osera-dev-bot, not one of producer moderne's accounts",
+          "checked_at": "2026-09-30T09:59:46Z"
         }
       },
-      "chain": "broken",
+      "chain": "failed",
       "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-aspects@5.3.39.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:47Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:47Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "the jar's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:48Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:48Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
+        },
+        "verdict": {
+          "state": "failed",
+          "reason": "the verdict names producer cp-osera-dev, the evidence names moderne",
+          "checked_at": "2026-09-30T09:59:46Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:48Z"
+        },
+        "upload": {
+          "state": "failed",
+          "reason": "uploaded by cp-osera-dev-deploy, the registry says moderne-deploy for producer moderne",
+          "checked_at": "2026-09-30T09:59:48Z"
+        },
+        "tagger": {
+          "state": "failed",
+          "reason": "the tag was pushed by cp-osera-dev-bot, not one of producer moderne's accounts",
+          "checked_at": "2026-09-30T09:59:48Z"
+        }
+      },
+      "chain": "failed",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-beans@5.3.39.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:49Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:49Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "the jar's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:49Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:49Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:48Z"
+        },
+        "verdict": {
+          "state": "failed",
+          "reason": "the verdict names producer cp-osera-dev, the evidence names moderne",
+          "checked_at": "2026-09-30T09:59:48Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:49Z"
+        },
+        "upload": {
+          "state": "failed",
+          "reason": "uploaded by cp-osera-dev-deploy, the registry says moderne-deploy for producer moderne",
+          "checked_at": "2026-09-30T09:59:49Z"
+        },
+        "tagger": {
+          "state": "failed",
+          "reason": "the tag was pushed by cp-osera-dev-bot, not one of producer moderne's accounts",
+          "checked_at": "2026-09-30T09:59:49Z"
+        }
+      },
+      "chain": "failed",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-context-indexer@5.3.39.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:50Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:50Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "the jar's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:50Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:50Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:49Z"
+        },
+        "verdict": {
+          "state": "failed",
+          "reason": "the verdict names producer cp-osera-dev, the evidence names moderne",
+          "checked_at": "2026-09-30T09:59:49Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:50Z"
+        },
+        "upload": {
+          "state": "failed",
+          "reason": "uploaded by cp-osera-dev-deploy, the registry says moderne-deploy for producer moderne",
+          "checked_at": "2026-09-30T09:59:50Z"
+        },
+        "tagger": {
+          "state": "failed",
+          "reason": "the tag was pushed by cp-osera-dev-bot, not one of producer moderne's accounts",
+          "checked_at": "2026-09-30T09:59:50Z"
+        }
+      },
+      "chain": "failed",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-context-support@5.3.39.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:51Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:51Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "the jar's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:51Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:52Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:50Z"
+        },
+        "verdict": {
+          "state": "failed",
+          "reason": "the verdict names producer cp-osera-dev, the evidence names moderne",
+          "checked_at": "2026-09-30T09:59:50Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:52Z"
+        },
+        "upload": {
+          "state": "failed",
+          "reason": "uploaded by cp-osera-dev-deploy, the registry says moderne-deploy for producer moderne",
+          "checked_at": "2026-09-30T09:59:52Z"
+        },
+        "tagger": {
+          "state": "failed",
+          "reason": "the tag was pushed by cp-osera-dev-bot, not one of producer moderne's accounts",
+          "checked_at": "2026-09-30T09:59:52Z"
+        }
+      },
+      "chain": "failed",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-context@5.3.39.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:52Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:53Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "the jar's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:53Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:53Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:52Z"
+        },
+        "verdict": {
+          "state": "failed",
+          "reason": "the verdict names producer cp-osera-dev, the evidence names moderne",
+          "checked_at": "2026-09-30T09:59:52Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:53Z"
+        },
+        "upload": {
+          "state": "failed",
+          "reason": "uploaded by cp-osera-dev-deploy, the registry says moderne-deploy for producer moderne",
+          "checked_at": "2026-09-30T09:59:53Z"
+        },
+        "tagger": {
+          "state": "failed",
+          "reason": "the tag was pushed by cp-osera-dev-bot, not one of producer moderne's accounts",
+          "checked_at": "2026-09-30T09:59:53Z"
+        }
+      },
+      "chain": "failed",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:54Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:54Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "the jar's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:54Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:54Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:53Z"
+        },
+        "verdict": {
+          "state": "failed",
+          "reason": "the verdict names producer cp-osera-dev, the evidence names moderne",
+          "checked_at": "2026-09-30T09:59:53Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:54Z"
+        },
+        "upload": {
+          "state": "failed",
+          "reason": "uploaded by cp-osera-dev-deploy, the registry says moderne-deploy for producer moderne",
+          "checked_at": "2026-09-30T09:59:54Z"
+        },
+        "tagger": {
+          "state": "failed",
+          "reason": "the tag was pushed by cp-osera-dev-bot, not one of producer moderne's accounts",
+          "checked_at": "2026-09-30T09:59:54Z"
+        }
+      },
+      "chain": "failed",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-framework-5.3.x",
+        "spring-security-5.7.x"
+      ]
+    },
+    {
+      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:55Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:55Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "the jar's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:55Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:55Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:54Z"
+        },
+        "verdict": {
+          "state": "failed",
+          "reason": "the verdict names producer cp-osera-dev, the evidence names moderne",
+          "checked_at": "2026-09-30T09:59:54Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:46Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:55Z"
+        },
+        "upload": {
+          "state": "failed",
+          "reason": "uploaded by cp-osera-dev-deploy, the registry says moderne-deploy for producer moderne",
+          "checked_at": "2026-09-30T09:59:55Z"
+        },
+        "tagger": {
+          "state": "failed",
+          "reason": "the tag was pushed by cp-osera-dev-bot, not one of producer moderne's accounts",
+          "checked_at": "2026-09-30T09:59:55Z"
+        }
+      },
+      "chain": "failed",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-framework-5.3.x",
+        "spring-security-5.7.x"
+      ]
     },
     {
       "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
@@ -89,7 +475,7 @@
         "producer": {
           "state": "failed",
           "reason": "producer controlplane-dev is not in the approved producers registry",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "checked_at": "2026-09-30T09:59:45Z"
         },
         "verdict": {
           "state": "failed",
@@ -102,17 +488,17 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "checked_at": "2026-09-30T09:59:45Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no registry entry to compare the upload account with",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "checked_at": "2026-09-30T09:59:45Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no registry entry to compare the tag pusher with",
-          "checked_at": "2026-09-30T09:59:02Z"
+          "checked_at": "2026-09-30T09:59:45Z"
         }
       },
       "chain": "failed",
