@@ -1,6 +1,68 @@
 {
   "artifacts": [
     {
+      "coordinate": "org.springframework:spring-aop@5.3.39.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-aop",
+      "tag": "v5.3.39.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "not checked",
+          "reason": "spring-aop-5.3.39.1-osera-00001.jar.sha1, spring-aop-5.3.39.1-osera-00001.pom.sha1 not there yet: the last file landed 1s ago and the gate copies the checksums after the jar and the pom",
+          "unanswered": true,
+          "checked_at": "2026-09-30T09:59:02Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:02Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "no signature next to the jar (spring-aop-5.3.39.1-osera-00001.jar.asc)",
+          "checked_at": "2026-09-30T09:59:02Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's .asc does not verify against key CD543E8266B60901EA981EF94280984B79227AD0 (producer moderne): openpgp: signature made by unknown entity",
+          "checked_at": "2026-09-30T09:59:02Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T09:59:02Z"
+        },
+        "verdict": {
+          "state": "not checked",
+          "reason": "no verdict yet: the last file landed 1s ago and the gate writes the verdict last",
+          "unanswered": true,
+          "checked_at": "2026-09-30T09:59:02Z"
+        },
+        "fork": {
+          "state": "missing",
+          "reason": "the fork patch-spring-aop is missing",
+          "checked_at": "2026-09-30T09:59:02Z"
+        },
+        "tag": {
+          "state": "not checked",
+          "reason": "the fork is missing",
+          "checked_at": "2026-09-30T09:59:02Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "the verdict could not be read",
+          "unanswered": true,
+          "checked_at": "2026-09-30T09:59:02Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "the verdict could not be read",
+          "unanswered": true,
+          "checked_at": "2026-09-30T09:59:02Z"
+        }
+      },
+      "chain": "broken",
+      "lines": []
+    },
+    {
       "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
       "producer": "controlplane-dev",
       "fork": "patch-snakeyaml",
@@ -8,49 +70,49 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-29T15:28:22Z"
+          "checked_at": "2026-09-29T15:28:52Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-29T15:28:22Z"
+          "checked_at": "2026-09-29T15:28:53Z"
         },
         "signatures": {
           "state": "failed",
           "reason": "no registry entry to take the signing key from",
-          "checked_at": "2026-09-29T15:28:22Z"
+          "checked_at": "2026-09-29T15:28:53Z"
         },
         "document": {
           "state": "failed",
           "reason": "the vulnerability document's signature: no registry entry to take the signing key from",
-          "checked_at": "2026-09-29T15:28:22Z"
+          "checked_at": "2026-09-29T15:28:53Z"
         },
         "producer": {
           "state": "failed",
           "reason": "producer controlplane-dev is not in the approved producers registry",
-          "checked_at": "2026-09-29T15:28:21Z"
+          "checked_at": "2026-09-30T09:59:02Z"
         },
         "verdict": {
           "state": "failed",
           "reason": "the verdict names producer cp-osera-dev, the evidence names controlplane-dev",
-          "checked_at": "2026-09-29T15:28:21Z"
+          "checked_at": "2026-09-29T15:28:52Z"
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-09-29T15:28:23Z"
+          "checked_at": "2026-09-30T09:37:08Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-29T15:28:23Z"
+          "checked_at": "2026-09-30T09:59:02Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no registry entry to compare the upload account with",
-          "checked_at": "2026-09-29T15:28:23Z"
+          "checked_at": "2026-09-30T09:59:02Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no registry entry to compare the tag pusher with",
-          "checked_at": "2026-09-29T15:28:23Z"
+          "checked_at": "2026-09-30T09:59:02Z"
         }
       },
       "chain": "failed",
