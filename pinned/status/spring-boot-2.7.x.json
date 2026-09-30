@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.30.4",
-  "as_of": "2026-09-30T11:21:08Z",
+  "as_of": "2026-09-30T14:08:39Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 169,
@@ -31,7 +31,16 @@
       "at": "2026-09-30T11:20:26Z"
     }
   ],
-  "in_progress": [],
+  "in_progress": [
+    {
+      "cve": "CVE-2024-38819",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2024-38819",
+      "library": "org.springframework:spring-webmvc"
+    }
+  ],
   "open": [
     {
       "cve": "CVE-2022-1471",
@@ -104,14 +113,6 @@
     {
       "cve": "CVE-2024-38807",
       "library": "org.springframework.boot:spring-boot-loader"
-    },
-    {
-      "cve": "CVE-2024-38819",
-      "library": "org.springframework:spring-webflux"
-    },
-    {
-      "cve": "CVE-2024-38819",
-      "library": "org.springframework:spring-webmvc"
     },
     {
       "cve": "CVE-2024-38821",
