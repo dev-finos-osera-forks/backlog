@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-30T15:39:57Z. Written by the line manager reconciler.
+Generated 2026-09-30T15:40:54Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -81,7 +81,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.springframework:spring-core | 5.3.29 | spring-security-5.7.x | pulled in by a dependency (org.springframework.security:spring-security-acl@5.7.11) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00008 | 5.3.39.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-expression | 5.3.29 | spring-security-5.7.x | pulled in by a dependency (org.springframework.security:spring-security-core@5.7.11) | open | 3 | 0 | 0% | 2 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00008 | 5.3.39.1-osera-00008 | not ready, evidence chain incomplete: signatures | broken | not checked (spring-expression-5.3.39.1-osera-00008.pom.sha1 not there yet: the last file landed 12s ago and the gate copies the checksums after the jar and the pom) | OK | NOK (no signature next to the pom (spring-expression-5.3.39.1-osera-00008.pom.asc)) | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00008 | 5.3.39.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-web | 5.3.29 | spring-security-5.7.x | pulled in by a dependency (org.springframework.security:spring-security-cas@5.7.11) | open | 4 | 0 | 0% | 2 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00007 | 5.3.39.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
