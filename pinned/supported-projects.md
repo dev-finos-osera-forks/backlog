@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-30T14:22:35Z. Written by the line manager reconciler.
+Generated 2026-09-30T14:32:36Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,8 +8,8 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 169 | 5 | 3% | 161 | 1 | 163 | 0 |
-| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 5 | 26% | 24 | 1 | 13 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 169 | 6 | 4% | 161 | 0 | 163 | 0 |
+| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 6 | 32% | 24 | 0 | 13 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 27 | 0 | 0% | 44 | 0 | 27 | 0 |
 | dev-1.0.x | maven | `org.finos.osera.dev:dev-bom@2.0.0` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 
@@ -79,7 +79,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.springframework.ws:spring-ws-security | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 4 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-core | 5.3.29 | spring-security-5.7.x | pulled in by a dependency (org.springframework.security:spring-security-acl@5.7.11) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 0 | 0% | 0 | 1 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 5.3.39.1-osera-00004 | 5.3.39.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-expression | 5.3.29 | spring-security-5.7.x | pulled in by a dependency (org.springframework.security:spring-security-core@5.7.11) | open | 3 | 0 | 0% | 2 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 3 | 0 | 0% | 1 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
