@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.30.2",
-  "as_of": "2026-09-30T11:18:25Z",
+  "as_of": "2026-09-30T11:19:19Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 169,
@@ -9,10 +9,10 @@
     {
       "cve": "CVE-2016-1000027",
       "library": "org.springframework:spring-web",
-      "coordinate": "org.springframework:spring-web@5.3.39.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework:spring-web@5.3.39.1-osera-00001",
-      "at": "2026-09-30T11:01:02Z"
+      "coordinate": "org.springframework:spring-web@5.3.39.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework:spring-web@5.3.39.1-osera-00002",
+      "at": "2026-09-30T11:19:19Z"
     }
   ],
   "in_progress": [
@@ -698,11 +698,14 @@
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-expression@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-expression@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-jms@5.3.39.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-jms@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-websocket@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-core@5.3.39.1-osera-00002",
     "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-expression@5.3.39.1-osera-00002",
+    "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-jms@5.3.39.1-osera-00002",
+    "fixed, not in the backlog: CVE-2024-38816 on org.springframework:spring-web@5.3.39.1-osera-00002",
     "issue #103 for CVE-2026-42498 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #104 for CVE-2026-42578 is closed in backlog while the entry on io.netty:netty-handler-proxy is open",
     "issue #105 for CVE-2026-42579 is closed in backlog while the entry on io.netty:netty-codec-dns is open",
