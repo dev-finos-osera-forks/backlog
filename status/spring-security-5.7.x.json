@@ -1,9 +1,9 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.09.30.21",
-  "as_of": "2026-09-30T15:39:57Z",
+  "book_version": "v2026.09.30.22",
+  "as_of": "2026-09-30T15:40:54Z",
   "status": "in progress",
-  "chain": "broken: 1 artifact",
+  "chain": "complete",
   "in_scope": 20,
   "fixed": [
     {
@@ -202,10 +202,7 @@
     "fixed, not in the backlog: CVE-2026-41848 on org.springframework:spring-web@5.3.39.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-41849 on org.springframework:spring-core@5.3.39.1-osera-00008",
     "fixed, not in the backlog: CVE-2026-41850 on org.springframework:spring-core@5.3.39.1-osera-00008",
-    "fixed, not in the backlog: CVE-2026-41851 on org.springframework:spring-core@5.3.39.1-osera-00008",
-    "CVE-2026-41849 on spring-expression 5.3.39 is patched, the evidence chain is broken: no signature next to the pom (spring-expression-5.3.39.1-osera-00008.pom.asc)",
-    "CVE-2026-41850 on spring-expression 5.3.39 is patched, the evidence chain is broken: no signature next to the pom (spring-expression-5.3.39.1-osera-00008.pom.asc)",
-    "CVE-2026-41851 on spring-expression 5.3.39 is patched, the evidence chain is broken: no signature next to the pom (spring-expression-5.3.39.1-osera-00008.pom.asc)"
+    "fixed, not in the backlog: CVE-2026-41851 on org.springframework:spring-core@5.3.39.1-osera-00008"
   ],
   "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.30.12"
 }
