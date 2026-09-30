@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.30.13",
-  "as_of": "2026-09-30T14:49:00Z",
+  "book_version": "v2026.09.30.14",
+  "as_of": "2026-09-30T14:49:56Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 169,
@@ -63,7 +63,16 @@
       "at": "2026-09-30T14:49:00Z"
     }
   ],
-  "in_progress": [],
+  "in_progress": [
+    {
+      "cve": "CVE-2026-41842",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41842",
+      "library": "org.springframework:spring-webmvc"
+    }
+  ],
   "open": [
     {
       "cve": "CVE-2022-1471",
@@ -420,14 +429,6 @@
     {
       "cve": "CVE-2026-41731",
       "library": "org.springframework.kafka:spring-kafka"
-    },
-    {
-      "cve": "CVE-2026-41842",
-      "library": "org.springframework:spring-webflux"
-    },
-    {
-      "cve": "CVE-2026-41842",
-      "library": "org.springframework:spring-webmvc"
     },
     {
       "cve": "CVE-2026-41844",
@@ -883,5 +884,5 @@
     "issue #89 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.30.9"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.30.10"
 }
