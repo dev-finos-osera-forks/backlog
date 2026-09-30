@@ -24,7 +24,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -36,15 +36,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -74,7 +74,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -86,15 +86,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:45Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:45Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:45Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -124,7 +124,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -136,15 +136,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -157,30 +157,28 @@
       "tag": "v5.3.39.1-osera-00002",
       "links": {
         "files": {
-          "state": "not checked",
-          "reason": "spring-aspects-5.3.39.1-osera-00002.pom.sha1 not there yet: the last file landed 3s ago and the gate copies the checksums after the jar and the pom",
-          "unanswered": true,
-          "checked_at": "2026-09-30T11:17:45Z"
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:45Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:46Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "document": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:46Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:45Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:45Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "fork": {
           "state": "present",
@@ -188,15 +186,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:46Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:46Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:46Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -226,7 +224,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -238,15 +236,65 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-beans@5.3.39.1-osera-00002",
+      "producer": "cp-osera-dev",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:30Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:30Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:30Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:31Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:29Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:30Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:00:10Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:31Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:31Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:31Z"
         }
       },
       "chain": "complete",
@@ -276,7 +324,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -288,15 +336,65 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-context-indexer@5.3.39.1-osera-00002",
+      "producer": "cp-osera-dev",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:32Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:32Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:32Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:32Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:31Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:31Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:00:10Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:32Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:32Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:32Z"
         }
       },
       "chain": "complete",
@@ -326,7 +424,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -338,15 +436,65 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-context-support@5.3.39.1-osera-00002",
+      "producer": "cp-osera-dev",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:33Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:33Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:33Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:33Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:32Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:32Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:00:10Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:33Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:33Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:33Z"
         }
       },
       "chain": "complete",
@@ -376,7 +524,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -388,15 +536,65 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-context@5.3.39.1-osera-00002",
+      "producer": "cp-osera-dev",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:34Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:34Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:33Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:34Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:00:10Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
         }
       },
       "chain": "complete",
@@ -426,7 +624,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -438,15 +636,69 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
+        }
+      },
+      "chain": "complete",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-framework-5.3.x",
+        "spring-security-5.7.x"
+      ]
+    },
+    {
+      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00002",
+      "producer": "cp-osera-dev",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:38Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:38Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:38Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:38Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:37Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:37Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:00:10Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:38Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:38Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:38Z"
         }
       },
       "chain": "complete",
@@ -480,7 +732,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -492,15 +744,69 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
+        }
+      },
+      "chain": "complete",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-framework-5.3.x",
+        "spring-security-5.7.x"
+      ]
+    },
+    {
+      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00002",
+      "producer": "cp-osera-dev",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:37Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:37Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:37Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:37Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:36Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:36Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:00:10Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:37Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:37Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:37Z"
         }
       },
       "chain": "complete",
@@ -534,7 +840,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -546,15 +852,65 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00002",
+      "producer": "cp-osera-dev",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:36Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:35Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:00:10Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:36Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:36Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:36Z"
         }
       },
       "chain": "complete",
@@ -584,7 +940,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -596,18 +952,77 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-instrument@5.3.39.1-osera-00002",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "not checked",
+          "reason": "spring-instrument-5.3.39.1-osera-00002.jar.sha1, spring-instrument-5.3.39.1-osera-00002.pom.sha1 not there yet: the last file landed 12s ago and the gate copies the checksums after the jar and the pom",
+          "unanswered": true,
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "evidence": {
+          "state": "not checked",
+          "reason": "no evidence file yet: the last file landed 12s ago and the gate writes it just before the verdict",
+          "unanswered": true,
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "no signature next to the jar (spring-instrument-5.3.39.1-osera-00002.jar.asc)",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's signature: no registry entry to take the signing key from",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "producer": {
+          "state": "not checked",
+          "reason": "no producer yet: the last file landed 11s ago and it is read from the evidence file, which the gate writes just before the verdict",
+          "unanswered": true,
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:00:10Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no registry entry to compare the upload account with",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no registry entry to compare the tag pusher with",
+          "checked_at": "2026-09-30T11:18:39Z"
+        }
+      },
+      "chain": "broken",
       "lines": []
     },
     {
@@ -634,7 +1049,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -646,18 +1061,77 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework:spring-jcl@5.3.39.1-osera-00002",
+      "fork": "patch-spring-framework",
+      "tag": "v5.3.39.1-osera-00002",
+      "links": {
+        "files": {
+          "state": "not checked",
+          "reason": "spring-jcl-5.3.39.1-osera-00002.jar.sha1, spring-jcl-5.3.39.1-osera-00002.pom.sha1 not there yet: the last file landed 11s ago and the gate copies the checksums after the jar and the pom",
+          "unanswered": true,
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "evidence": {
+          "state": "not checked",
+          "reason": "no evidence file yet: the last file landed 11s ago and the gate writes it just before the verdict",
+          "unanswered": true,
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "signatures": {
+          "state": "failed",
+          "reason": "no signature next to the jar (spring-jcl-5.3.39.1-osera-00002.jar.asc)",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "document": {
+          "state": "failed",
+          "reason": "the vulnerability document's signature: no registry entry to take the signing key from",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "producer": {
+          "state": "not checked",
+          "reason": "no producer yet: the last file landed 11s ago and it is read from the evidence file, which the gate writes just before the verdict",
+          "unanswered": true,
+          "checked_at": "2026-09-30T11:18:38Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:00:10Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "upload": {
+          "state": "not checked",
+          "reason": "no registry entry to compare the upload account with",
+          "checked_at": "2026-09-30T11:18:39Z"
+        },
+        "tagger": {
+          "state": "not checked",
+          "reason": "no registry entry to compare the tag pusher with",
+          "checked_at": "2026-09-30T11:18:39Z"
+        }
+      },
+      "chain": "broken",
       "lines": []
     },
     {
@@ -684,7 +1158,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -696,15 +1170,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -734,7 +1208,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -746,15 +1220,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -787,7 +1261,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -799,15 +1273,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -837,7 +1311,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -849,15 +1323,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -887,7 +1361,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -899,15 +1373,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -937,7 +1411,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -949,15 +1423,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -987,7 +1461,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -999,15 +1473,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -1037,7 +1511,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -1049,15 +1523,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -1087,7 +1561,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -1099,15 +1573,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -1141,7 +1615,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -1153,15 +1627,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -1194,7 +1668,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -1206,15 +1680,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -1247,7 +1721,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -1259,15 +1733,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
@@ -1300,7 +1774,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "verdict": {
           "state": "present",
@@ -1312,15 +1786,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-30T11:17:43Z"
+          "checked_at": "2026-09-30T11:18:29Z"
         }
       },
       "chain": "complete",
