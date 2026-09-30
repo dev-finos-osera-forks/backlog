@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.30.25",
-  "as_of": "2026-09-30T16:11:09Z",
+  "book_version": "v2026.09.30.26",
+  "as_of": "2026-09-30T16:12:24Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 169,
@@ -1103,5 +1103,5 @@
     "issue #89 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.30.17"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.30.18"
 }
