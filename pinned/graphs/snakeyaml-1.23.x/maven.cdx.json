@@ -1,0 +1,84 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:eb6a13a4-7129-4995-bfb6-cd3ee61088f8",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-01T20:13:13Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.23?type=pom",
+   "group": "org.yaml",
+   "name": "snakeyaml",
+   "version": "1.23",
+   "purl": "pkg:maven/org.yaml/snakeyaml@1.23?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "snakeyaml-1.23.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:d1ce5ffe48058b2f, pins.json sha256:5e1de4526f262868"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.23?type=bundle",
+   "group": "org.yaml",
+   "name": "snakeyaml",
+   "version": "1.23",
+   "purl": "pkg:maven/org.yaml/snakeyaml@1.23?type=bundle"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.yaml/snakeyaml@1.23?type=pom",
+   "dependsOn": [
+    "pkg:maven/org.yaml/snakeyaml@1.23?type=bundle"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.yaml/snakeyaml@1.23?type=bundle",
+   "dependsOn": []
+  }
+ ]
+}
