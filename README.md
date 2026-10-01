@@ -1,6 +1,6 @@
 # OSERA backlog
 
-**DEV ONLY.** This is `dev-finos-osera-forks/backlog`, the dev organisation's copy of the OSERA backlog, where the line manager is built and rehearsed. The real one is `finos-osera-forks/backlog`. Two things exist only here: the `dev-1.0.x` line and `advisories/dev.json`.
+**DEV ONLY.** This is `dev-finos-osera-forks/backlog`, the dev organisation's copy of the OSERA backlog, where the line manager is built and rehearsed. The real one is `finos-osera-forks/backlog`. It declares the same lines as the real one, nothing exists only here (1 Oct 2026).
 
 The vulnerabilities (CVEs) OSERA fixes on the lines it supports, in priority order, one GitHub issue each. The backlog says what to fix, why, and where each one stands. How a CVE gets fixed is the producer's decision.
 
@@ -17,7 +17,6 @@ The vulnerabilities (CVEs) OSERA fixes on the lines it supports, in priority ord
 | `bom/<line_id>/pom.xml` | the line manager | The OSERA BOM of the line, the same file it publishes in the release repository |
 | `status/<line_id>.json` | the line manager | The lists behind the counts of the line row |
 | `schema/` | people | What an entry must look like |
-| `advisories/dev.json` | people, dev only | Advisories in OSV's shape the line manager reads next to OSV here, to invent a CVE on a dev line |
 | `.github/ISSUE_TEMPLATE/cve.md` | people | The issue template |
 
 ## How it works
