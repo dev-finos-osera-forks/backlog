@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.01.8",
-  "as_of": "2026-10-01T13:26:51Z",
+  "as_of": "2026-10-01T13:52:25Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 169,
@@ -53,6 +53,14 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-core@5.3.39.1-osera-00012",
       "at": "2026-10-01T08:33:22Z"
+    },
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001",
+      "at": "2026-10-01T13:52:25Z"
     },
     {
       "cve": "CVE-2026-22740",
@@ -151,12 +159,7 @@
       "at": "2026-10-01T08:33:22Z"
     }
   ],
-  "in_progress": [
-    {
-      "cve": "CVE-2025-52999",
-      "library": "com.fasterxml.jackson.core:jackson-core"
-    }
-  ],
+  "in_progress": [],
   "open": [
     {
       "cve": "CVE-2022-1471",
