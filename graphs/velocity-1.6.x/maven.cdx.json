@@ -1,0 +1,124 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:b6a92820-d9cf-429f-b9a6-a0ebe22200e4",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-01T20:05:45Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.velocity/velocity@1.6.4?type=pom",
+   "group": "org.apache.velocity",
+   "name": "velocity",
+   "version": "1.6.4",
+   "purl": "pkg:maven/org.apache.velocity/velocity@1.6.4?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "velocity-1.6.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "latest_patch"
+    },
+    {
+     "name": "osera:latest",
+     "value": "commons-collections:commons-collections:3.2.1\u003e3.2.2"
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:d1ce5ffe48058b2f, pins.json sha256:3da783a7b3fd71a0"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.1",
+   "group": "commons-collections",
+   "name": "commons-collections",
+   "version": "3.2.1",
+   "purl": "pkg:maven/commons-collections/commons-collections@3.2.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-lang/commons-lang@2.4",
+   "group": "commons-lang",
+   "name": "commons-lang",
+   "version": "2.4",
+   "purl": "pkg:maven/commons-lang/commons-lang@2.4"
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.velocity/velocity@1.6.4",
+   "group": "org.apache.velocity",
+   "name": "velocity",
+   "version": "1.6.4",
+   "purl": "pkg:maven/org.apache.velocity/velocity@1.6.4"
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/oro/oro@2.0.8",
+   "group": "oro",
+   "name": "oro",
+   "version": "2.0.8",
+   "purl": "pkg:maven/oro/oro@2.0.8"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.velocity/velocity@1.6.4?type=pom",
+   "dependsOn": [
+    "pkg:maven/org.apache.velocity/velocity@1.6.4"
+   ]
+  },
+  {
+   "ref": "pkg:maven/commons-collections/commons-collections@3.2.1",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/commons-lang/commons-lang@2.4",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.apache.velocity/velocity@1.6.4",
+   "dependsOn": [
+    "pkg:maven/commons-collections/commons-collections@3.2.1",
+    "pkg:maven/commons-lang/commons-lang@2.4",
+    "pkg:maven/oro/oro@2.0.8"
+   ]
+  },
+  {
+   "ref": "pkg:maven/oro/oro@2.0.8",
+   "dependsOn": []
+  }
+ ]
+}

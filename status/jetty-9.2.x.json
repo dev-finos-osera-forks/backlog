@@ -1,0 +1,19 @@
+{
+  "line": "jetty-9.2.x",
+  "book_version": "v2026.10.01.11",
+  "as_of": "2026-10-01T20:05:25Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 1,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2021-28165",
+      "library": "org.eclipse.jetty:jetty-server"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [],
+  "consume": ""
+}
