@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:1508c673-13fd-4017-8b26-f68501aa4984",
+ "serialNumber": "urn:uuid:e7043f4b-7722-473a-a3d4-b90ba2382621",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T21:42:05Z",
+  "timestamp": "2026-10-01T21:43:58Z",
   "tools": {
    "components": [
     {
@@ -46,7 +46,7 @@
     },
     {
      "name": "osera:latest",
-     "value": "org.apache.httpcomponents.core5:httpcore5:5.3.4\u003e5.3.6,org.apache.httpcomponents.core5:httpcore5-h2:5.3.4\u003e5.3.6"
+     "value": "org.apache.httpcomponents.core5:httpcore5-h2:5.3.4\u003e5.3.6,org.apache.httpcomponents.core5:httpcore5:5.3.4\u003e5.3.6"
     },
     {
      "name": "osera:method",
