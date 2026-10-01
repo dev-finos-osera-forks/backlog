@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.01.10",
-  "as_of": "2026-10-01T14:04:42Z",
+  "as_of": "2026-10-01T14:05:29Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 169,
@@ -57,10 +57,10 @@
     {
       "cve": "CVE-2025-52999",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001",
-      "patch": "00001",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001",
-      "at": "2026-10-01T13:52:25Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
+      "patch": "00002",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
+      "at": "2026-10-01T14:05:29Z"
     },
     {
       "cve": "CVE-2026-22740",
@@ -157,14 +157,17 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00012",
       "at": "2026-10-01T08:33:22Z"
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cve": "GHSA-r7wm-3cxj-wff9",
-      "library": "com.fasterxml.jackson.core:jackson-core"
+      "library": "com.fasterxml.jackson.core:jackson-core",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
+      "patch": "00002",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
+      "at": "2026-10-01T14:05:29Z"
     }
   ],
+  "in_progress": [],
   "open": [
     {
       "cve": "CVE-2022-1471",
@@ -847,7 +850,6 @@
     "issue #82 for CVE-2026-41284 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #83 for CVE-2026-41293 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #89 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002 has no evidence file next to it, it fixes nothing",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
