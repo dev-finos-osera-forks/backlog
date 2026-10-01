@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-01T14:05:29Z. Written by the line manager reconciler.
+Generated 2026-10-01T20:05:25Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -11,10 +11,47 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 169 | 20 | 12% | 161 | 0 | 149 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 18 | 95% | 24 | 0 | 1 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 27 | 0 | 0% | 44 | 0 | 27 | 0 |
+| commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 0 | 0 | - | 1 | 0 | 0 | 0 |
+| log4j-1.2.x | maven | `log4j:log4j@1.2.17` | fixed | 0 | 0 | - | 6 | 0 | 0 | 0 |
+| axis-1.4.x | maven | `org.apache.axis:axis@1.4` | fixed | 0 | 0 | - | 5 | 0 | 0 | 0 |
+| commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | fixed | 0 | 0 | - | 2 | 0 | 0 | 0 |
+| commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | fixed | 0 | 0 | - | 2 | 0 | 0 | 0 |
+| commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | fixed | 0 | 0 | - | 2 | 0 | 0 | 0 |
+| commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | fixed | 0 | 0 | - | 2 | 0 | 0 | 0 |
+| bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 0 | 0 | - | 6 | 0 | 0 | 0 |
+| velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | fixed | 0 | 0 | - | 4 | 0 | 0 | 0 |
+| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | fixed | 0 | 0 | - | 4 | 0 | 0 | 0 |
+| snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | not fixed | 6 | 0 | 0% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | not fixed | 6 | 0 | 0% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | not fixed | 6 | 0 | 0% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | not fixed | 6 | 0 | 0% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
+| snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
+| jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | not fixed | 8 | 0 | 0% | 5 | 0 | 8 | 0 |
+| jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 8 | 0 | 0% | 5 | 0 | 8 | 0 |
+| c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | fixed | 0 | 0 | - | 4 | 0 | 0 | 0 |
+| bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | fixed | 0 | 0 | - | 14 | 0 | 0 | 0 |
+| jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 1 | 0 | 0% | 8 | 0 | 1 | 0 |
+| httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | fixed | 0 | 0 | - | 2 | 0 | 0 | 0 |
+| commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | fixed | 0 | 0 | - | 2 | 0 | 0 | 0 |
+| commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | fixed | 0 | 0 | - | 13 | 0 | 0 | 0 |
+| struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | fixed | 0 | 0 | - | 8 | 0 | 0 | 0 |
+| mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | fixed | 0 | 0 | - | 2 | 0 | 0 | 0 |
+| log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | not fixed | 2 | 0 | 0% | 3 | 0 | 2 | 0 |
+| lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | fixed | 0 | 0 | - | 4 | 0 | 0 | 0 |
+| bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | fixed | 0 | 0 | - | 6 | 0 | 0 | 0 |
+| bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | fixed | 0 | 0 | - | 7 | 0 | 0 | 0 |
+| httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | fixed | 0 | 0 | - | 3 | 0 | 0 | 0 |
+| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | fixed | 0 | 0 | - | 3 | 0 | 0 | 0 |
 
 ## Libraries
 
-67 libraries across 3 line(s).
+84 libraries across 40 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -22,8 +59,12 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | ch.qos.logback:logback-core | 1.2.12 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 3 | 0 | 0% | 5 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.13.0 | spring-security-5.7.x | pulled in by a dependency (com.fasterxml.jackson.core:jackson-databind@2.13.0) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00002 | 2.13.5.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson.core:jackson-core | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.fasterxml.jackson.core:jackson-core | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.0 | spring-security-5.7.x | pulled in by a dependency (org.jasig.cas.client:cas-client-core@3.6.4) | open | 7 | 0 | 0% | 5 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 3 | 0 | 0% | 5 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.fasterxml.jackson.core:jackson-databind | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | open | 6 | 0 | 0% | 5 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | open | 6 | 0 | 0% | 5 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.netty:netty-codec | 4.1.101.Final | spring-boot-2.7.x | listed by the BOM at 4.1.101.Final (io.netty:netty-bom@4.1.101.Final) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.netty:netty-codec-dns | 4.1.101.Final | spring-boot-2.7.x | listed by the BOM at 4.1.101.Final (io.netty:netty-bom@4.1.101.Final) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -43,6 +84,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | io.projectreactor.netty:reactor-netty-http | 1.0.39 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-1.2-api | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 2 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.tomcat.embed:tomcat-embed-core | 9.0.83 | spring-boot-2.7.x | listed by the BOM at 9.0.83 | open | 34 | 0 | 0% | 2 | 0 | 34 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.tomcat.embed:tomcat-embed-websocket | 9.0.83 | spring-boot-2.7.x | listed by the BOM at 9.0.83 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -50,6 +92,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.eclipse.jetty:jetty-http | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 2 | 0 | 0% | 1 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-jaspi | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-security | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | open | 1 | 0 | 0% | 5 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-server | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 2 | 0 | 0% | 1 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-servlets | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.hibernate:hibernate-core | 5.6.15.Final | spring-boot-2.7.x | listed by the BOM at 5.6.15.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -84,4 +127,15 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 5 | 5 | 100% | 10 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 6 | 6 | 100% | 9 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.9 | snakeyaml-1.9.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.16 | snakeyaml-1.16.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.17 | snakeyaml-1.17.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.19 | snakeyaml-1.19.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.23 | snakeyaml-1.23.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.26 | snakeyaml-1.26.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.33 | snakeyaml-1.33.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

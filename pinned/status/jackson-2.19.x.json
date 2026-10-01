@@ -1,0 +1,50 @@
+{
+  "line": "jackson-2.19.x",
+  "book_version": "v2026.10.01.11",
+  "as_of": "2026-10-01T20:05:25Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 8,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2026-18401",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "CVE-2026-54512",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54513",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-59888",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-68497",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-91776",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-91777",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "GHSA-r7wm-3cxj-wff9",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.19.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.19.4"
+  ],
+  "consume": ""
+}
