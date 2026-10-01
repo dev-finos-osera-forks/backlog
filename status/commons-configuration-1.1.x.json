@@ -1,10 +1,10 @@
 {
   "line": "commons-configuration-1.1.x",
   "book_version": "v2026.10.01.13",
-  "as_of": "2026-10-01T20:53:28Z",
+  "as_of": "2026-10-01T21:13:19Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 6,
+  "in_scope": 7,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -27,6 +27,10 @@
     {
       "cve": "CVE-2022-23437",
       "library": "xerces:xercesImpl"
+    },
+    {
+      "cve": "CVE-2025-46392",
+      "library": "commons-configuration:commons-configuration"
     },
     {
       "cve": "CVE-2025-48734",

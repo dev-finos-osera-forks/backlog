@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-01T20:49:22Z. Written by the line manager reconciler.
+Generated 2026-10-01T21:13:19Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -38,8 +38,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | not fixed | 1 | 0 | 0% | 13 | 0 | 1 | 0 |
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 1 | 0 | 0% | 8 | 0 | 1 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | fixed | 0 | 0 | - | 2 | 0 | 0 | 0 |
-| commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | not fixed | 6 | 0 | 0% | 7 | 0 | 6 | 0 |
+| commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | not fixed | 1 | 0 | 0% | 1 | 0 | 1 | 0 |
+| commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | not fixed | 7 | 0 | 0% | 6 | 0 | 7 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | not fixed | 4 | 0 | 0% | 4 | 0 | 4 | 0 |
 | mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | not fixed | 2 | 0 | 0% | 3 | 0 | 2 | 0 |
@@ -51,7 +51,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-92 libraries across 40 line(s).
+94 libraries across 40 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -72,6 +72,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-beanutils:commons-beanutils | 1.9.4 | commons-beanutils-1.9.x | own project (the anchor's group) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-collections:commons-collections | 3.0 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-collections:commons-collections | 3.2.1 | velocity-1.6.x, velocity-1.7.x | pulled in by a dependency on velocity-1.6.x (org.apache.velocity:velocity@1.6.4) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| commons-configuration:commons-configuration | 1.1 | commons-configuration-1.1.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| commons-configuration:commons-configuration | 1.9 | commons-configuration-1.9.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |

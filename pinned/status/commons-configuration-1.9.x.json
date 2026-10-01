@@ -1,13 +1,18 @@
 {
   "line": "commons-configuration-1.9.x",
   "book_version": "v2026.10.01.13",
-  "as_of": "2026-10-01T20:53:28Z",
-  "status": "fixed",
+  "as_of": "2026-10-01T21:13:19Z",
+  "status": "not fixed",
   "chain": "",
-  "in_scope": 0,
+  "in_scope": 1,
   "fixed": [],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2025-46392",
+      "library": "commons-configuration:commons-configuration"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [],
   "consume": ""
