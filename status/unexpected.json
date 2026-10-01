@@ -1,6 +1,42 @@
 {
   "artifacts": [
     {
+      "coordinate": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00001",
+      "library": "org.springframework.security:spring-security-acl",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-10-01T11:38:58Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00001",
+      "library": "org.springframework.security:spring-security-aspects",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-10-01T11:38:58Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-cas@5.7.14.1-osera-00001",
+      "library": "org.springframework.security:spring-security-cas",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-cas@5.7.14.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-10-01T11:38:58Z"
+    },
+    {
       "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
       "library": "org.yaml:snakeyaml",
       "base": "1.33",
