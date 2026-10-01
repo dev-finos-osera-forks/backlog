@@ -1,13 +1,38 @@
 {
   "line": "commons-configuration-1.1.x",
   "book_version": "v2026.10.01.12",
-  "as_of": "2026-10-01T20:11:25Z",
-  "status": "fixed",
+  "as_of": "2026-10-01T20:49:22Z",
+  "status": "not fixed",
   "chain": "",
-  "in_scope": 0,
+  "in_scope": 6,
   "fixed": [],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2015-6420",
+      "library": "commons-collections:commons-collections"
+    },
+    {
+      "cve": "CVE-2018-1000632",
+      "library": "dom4j:dom4j"
+    },
+    {
+      "cve": "CVE-2019-10086",
+      "library": "commons-beanutils:commons-beanutils"
+    },
+    {
+      "cve": "CVE-2020-10683",
+      "library": "dom4j:dom4j"
+    },
+    {
+      "cve": "CVE-2022-23437",
+      "library": "xerces:xercesImpl"
+    },
+    {
+      "cve": "CVE-2025-48734",
+      "library": "commons-beanutils:commons-beanutils"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [],
   "consume": ""
