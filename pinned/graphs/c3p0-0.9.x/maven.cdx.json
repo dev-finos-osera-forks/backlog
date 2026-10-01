@@ -1,0 +1,98 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:6d5a0b51-4181-49b6-a4cb-738df072161a",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-01T20:14:06Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.mchange/c3p0@0.9.5.5?type=pom",
+   "group": "com.mchange",
+   "name": "c3p0",
+   "version": "0.9.5.5",
+   "purl": "pkg:maven/com.mchange/c3p0@0.9.5.5?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "c3p0-0.9.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:d1ce5ffe48058b2f, pins.json sha256:81e28a6165002c56"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.mchange/c3p0@0.9.5.5",
+   "group": "com.mchange",
+   "name": "c3p0",
+   "version": "0.9.5.5",
+   "purl": "pkg:maven/com.mchange/c3p0@0.9.5.5"
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.mchange/mchange-commons-java@0.2.19",
+   "group": "com.mchange",
+   "name": "mchange-commons-java",
+   "version": "0.2.19",
+   "purl": "pkg:maven/com.mchange/mchange-commons-java@0.2.19"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/com.mchange/c3p0@0.9.5.5?type=pom",
+   "dependsOn": [
+    "pkg:maven/com.mchange/c3p0@0.9.5.5"
+   ]
+  },
+  {
+   "ref": "pkg:maven/com.mchange/c3p0@0.9.5.5",
+   "dependsOn": [
+    "pkg:maven/com.mchange/mchange-commons-java@0.2.19"
+   ]
+  },
+  {
+   "ref": "pkg:maven/com.mchange/mchange-commons-java@0.2.19",
+   "dependsOn": []
+  }
+ ]
+}

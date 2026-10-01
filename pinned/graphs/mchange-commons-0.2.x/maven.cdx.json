@@ -1,0 +1,84 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:cd2aad6a-11e6-45da-a7fb-dadf43626fdd",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-01T20:14:37Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.mchange/mchange-commons-java@0.2.20?type=pom",
+   "group": "com.mchange",
+   "name": "mchange-commons-java",
+   "version": "0.2.20",
+   "purl": "pkg:maven/com.mchange/mchange-commons-java@0.2.20?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "mchange-commons-0.2.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:d1ce5ffe48058b2f, pins.json sha256:e839cb706cf07ff9"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.mchange/mchange-commons-java@0.2.20",
+   "group": "com.mchange",
+   "name": "mchange-commons-java",
+   "version": "0.2.20",
+   "purl": "pkg:maven/com.mchange/mchange-commons-java@0.2.20"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/com.mchange/mchange-commons-java@0.2.20?type=pom",
+   "dependsOn": [
+    "pkg:maven/com.mchange/mchange-commons-java@0.2.20"
+   ]
+  },
+  {
+   "ref": "pkg:maven/com.mchange/mchange-commons-java@0.2.20",
+   "dependsOn": []
+  }
+ ]
+}
