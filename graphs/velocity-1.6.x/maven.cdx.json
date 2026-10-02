@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:3cd1d9ce-b9ca-436c-9c71-a00e757c162c",
+ "serialNumber": "urn:uuid:5c06fd28-5c40-419c-aac0-30ac2daedb0c",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-02T06:09:29Z",
+  "timestamp": "2026-10-02T06:13:06Z",
   "tools": {
    "components": [
     {
@@ -62,11 +62,11 @@
  "components": [
   {
    "type": "library",
-   "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.1",
+   "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.2",
    "group": "commons-collections",
    "name": "commons-collections",
-   "version": "3.2.1",
-   "purl": "pkg:maven/commons-collections/commons-collections@3.2.1"
+   "version": "3.2.2",
+   "purl": "pkg:maven/commons-collections/commons-collections@3.2.2"
   },
   {
    "type": "library",
@@ -101,7 +101,7 @@
    ]
   },
   {
-   "ref": "pkg:maven/commons-collections/commons-collections@3.2.1",
+   "ref": "pkg:maven/commons-collections/commons-collections@3.2.2",
    "dependsOn": []
   },
   {
@@ -111,7 +111,7 @@
   {
    "ref": "pkg:maven/org.apache.velocity/velocity@1.6.4",
    "dependsOn": [
-    "pkg:maven/commons-collections/commons-collections@3.2.1",
+    "pkg:maven/commons-collections/commons-collections@3.2.2",
     "pkg:maven/commons-lang/commons-lang@2.4",
     "pkg:maven/oro/oro@2.0.8"
    ]
