@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:5c2993f7-aa11-4e5e-a084-5c11d43c1171",
+ "serialNumber": "urn:uuid:3247bdf3-1796-41bd-ac08-67a5f74285da",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-02T05:36:10Z",
+  "timestamp": "2026-10-02T05:38:02Z",
   "tools": {
    "components": [
     {
@@ -46,7 +46,7 @@
     },
     {
      "name": "osera:latest",
-     "value": "commons-digester:commons-digester:1.8\u003e1.8.1,antlr:antlr:2.7.2\u003e2.7.6,commons-beanutils:commons-beanutils:1.8.0\u003e1.8.3"
+     "value": "commons-beanutils:commons-beanutils:1.8.0\u003e1.8.3,commons-digester:commons-digester:1.8\u003e1.8.1,antlr:antlr:2.7.2\u003e2.7.6"
     },
     {
      "name": "osera:method",
