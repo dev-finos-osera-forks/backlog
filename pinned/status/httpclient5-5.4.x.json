@@ -1,7 +1,7 @@
 {
   "line": "httpclient5-5.4.x",
-  "book_version": "v2026.10.01.14",
-  "as_of": "2026-10-01T21:15:47Z",
+  "book_version": "v2026.10.02",
+  "as_of": "2026-10-02T06:15:02Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 2,
@@ -18,6 +18,9 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "issue #1062 for CVE-2026-54399 is closed in backlog while the entry on org.apache.httpcomponents.core5:httpcore5 is open",
+    "issue #1064 for CVE-2026-54428 is closed in backlog while the entry on org.apache.httpcomponents.core5:httpcore5-h2 is open"
+  ],
   "consume": ""
 }
