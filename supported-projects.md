@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-02T07:41:12Z. Written by the line manager reconciler.
+Generated 2026-10-02T08:54:12Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -43,7 +43,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | not fixed | 4 | 0 | 0% | 4 | 0 | 4 | 0 |
 | mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | not fixed | 2 | 0 | 0% | 3 | 0 | 2 | 0 |
-| lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | not fixed | 3 | 0 | 0% | 1 | 0 | 3 | 0 |
+| lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | not fixed | 4 | 0 | 0% | 2 | 0 | 4 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | not fixed | 4 | 0 | 0% | 3 | 0 | 4 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
@@ -105,7 +105,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.eclipse.jetty:jetty-security | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | open | 1 | 0 | 0% | 5 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.hibernate:hibernate-core | 5.6.15.Final | spring-boot-2.7.x | listed by the BOM at 5.6.15.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | own project (the anchor's group) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
