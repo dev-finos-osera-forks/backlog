@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:66fc24cc-df58-45e8-ab35-6cbdfea3dcf1",
+ "serialNumber": "urn:uuid:d73d1277-a519-4794-b7dd-440400b11257",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-02T06:09:47Z",
+  "timestamp": "2026-10-02T06:13:27Z",
   "tools": {
    "components": [
     {
@@ -78,11 +78,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/commons-beanutils/commons-beanutils@1.6",
+   "bom-ref": "pkg:maven/commons-beanutils/commons-beanutils@1.6.1",
    "group": "commons-beanutils",
    "name": "commons-beanutils",
-   "version": "1.6",
-   "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.6"
+   "version": "1.6.1",
+   "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.6.1"
   },
   {
    "type": "library",
@@ -213,7 +213,7 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/commons-beanutils/commons-beanutils@1.6",
+   "ref": "pkg:maven/commons-beanutils/commons-beanutils@1.6.1",
    "dependsOn": []
   },
   {
@@ -238,7 +238,7 @@
   {
    "ref": "pkg:maven/commons-digester/commons-digester@1.5",
    "dependsOn": [
-    "pkg:maven/commons-beanutils/commons-beanutils@1.6"
+    "pkg:maven/commons-beanutils/commons-beanutils@1.6.1"
    ]
   },
   {
