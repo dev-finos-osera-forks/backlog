@@ -1,17 +1,13 @@
 {
   "line": "velocity-1.6.x",
   "book_version": "v2026.10.02.3",
-  "as_of": "2026-10-02T08:56:37Z",
+  "as_of": "2026-10-02T18:15:12Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 2,
+  "in_scope": 1,
   "fixed": [],
   "in_progress": [],
   "open": [
-    {
-      "cve": "CVE-2015-6420",
-      "library": "commons-collections:commons-collections"
-    },
     {
       "cve": "CVE-2020-13936",
       "library": "org.apache.velocity:velocity"
