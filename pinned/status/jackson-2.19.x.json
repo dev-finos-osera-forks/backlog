@@ -1,10 +1,10 @@
 {
   "line": "jackson-2.19.x",
   "book_version": "v2026.10.04.2",
-  "as_of": "2026-10-04T07:48:21Z",
+  "as_of": "2026-10-04T08:25:12Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 11,
+  "in_scope": 10,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -47,10 +47,6 @@
     {
       "cve": "CVE-2026-91777",
       "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "GHSA-r7wm-3cxj-wff9",
-      "library": "com.fasterxml.jackson.core:jackson-core"
     }
   ],
   "not_remediable": [],
