@@ -1,10 +1,10 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.04.3",
-  "as_of": "2026-10-04T08:27:26Z",
+  "as_of": "2026-10-04T19:49:12Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 24,
+  "in_scope": 23,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -61,14 +61,6 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00012",
       "at": "2026-10-01T08:33:22Z"
-    },
-    {
-      "cve": "GHSA-r7wm-3cxj-wff9",
-      "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
-      "patch": "00002",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
-      "at": "2026-10-01T14:05:29Z"
     }
   ],
   "in_progress": [],
@@ -140,6 +132,7 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
