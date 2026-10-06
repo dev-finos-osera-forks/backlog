@@ -1,8 +1,6 @@
 # Supported projects
 
-Generated 2026-10-04T19:49:12Z. Written by the line manager reconciler.
-
-Availability last confirmed 2026-10-06T07:55:23Z. It has not been confirmed since 2026-10-06T12:00:55Z.
+Generated 2026-10-06T12:04:55Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
