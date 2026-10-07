@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:85b868ab-1a2b-470a-b8da-8319626afa18",
+ "serialNumber": "urn:uuid:d1363773-e3cd-4897-babc-81701a68ba10",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-09-21T19:53:52Z",
+  "timestamp": "2026-10-07T15:41:07Z",
   "tools": {
    "components": [
     {
@@ -54,7 +54,7 @@
     },
     {
      "name": "osera:listing",
-     "value": "curated list sha256:d1ce5ffe48058b2f, pins.json sha256:43c5060bf7bdfde9"
+     "value": "curated list sha256:d1ce5ffe48058b2f, pins.json sha256:d5399df13ba5262c"
     }
    ]
   }
