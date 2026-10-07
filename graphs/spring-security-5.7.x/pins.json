@@ -4,7 +4,7 @@
   "files": [
     {
       "coordinate": "org.springframework.security:spring-security-bom@5.7.11",
-      "url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-bom/5.7.11/spring-security-bom-5.7.11.pom",
+      "url": "http://nexus.nexus.svc.cluster.local:8081/repository/osera-upstream-maven-central/org/springframework/security/spring-security-bom/5.7.11/spring-security-bom-5.7.11.pom",
       "sha256": "50e99b090df36a72b200456929d29351f70ea62b7cc48cdc305e28df306f602c",
       "packaging": "pom",
       "role": "anchor"
