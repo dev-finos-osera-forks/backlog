@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.08.12",
-  "as_of": "2026-10-08T17:43:32Z",
+  "as_of": "2026-10-08T17:44:24Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -245,6 +245,10 @@
       "library": "org.springframework.graphql:spring-graphql"
     },
     {
+      "cve": "CVE-2026-41716",
+      "library": "org.springframework.data:spring-data-commons"
+    },
+    {
       "cve": "CVE-2026-41717",
       "library": "org.springframework.data:spring-data-mongodb"
     },
@@ -353,10 +357,6 @@
     {
       "cve": "CVE-2026-41715",
       "library": "io.projectreactor.netty:reactor-netty"
-    },
-    {
-      "cve": "CVE-2026-41716",
-      "library": "org.springframework.data:spring-data-commons"
     },
     {
       "cve": "CVE-2026-41719",
