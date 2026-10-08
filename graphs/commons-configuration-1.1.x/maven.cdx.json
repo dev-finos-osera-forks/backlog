@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:d73d1277-a519-4794-b7dd-440400b11257",
+ "serialNumber": "urn:uuid:84403646-c1cb-48d1-8b00-37a5171db211",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-02T06:13:27Z",
+  "timestamp": "2026-10-08T10:30:20Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": "commons-beanutils:commons-beanutils:1.6\u003e1.6.1"
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": "the line release rules of REL-009-JAVA (draft), the owner's decisions of 8 Oct 2026"
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "commons-beanutils",
    "name": "commons-beanutils-bean-collections",
    "version": "1.7.0",
-   "purl": "pkg:maven/commons-beanutils/commons-beanutils-bean-collections@1.7.0"
+   "purl": "pkg:maven/commons-beanutils/commons-beanutils-bean-collections@1.7.0",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "commons-beanutils",
    "name": "commons-beanutils-core",
    "version": "1.7.0",
-   "purl": "pkg:maven/commons-beanutils/commons-beanutils-core@1.7.0"
+   "purl": "pkg:maven/commons-beanutils/commons-beanutils-core@1.7.0",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -82,7 +110,13 @@
    "group": "commons-beanutils",
    "name": "commons-beanutils",
    "version": "1.6.1",
-   "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.6.1"
+   "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.6.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -90,7 +124,13 @@
    "group": "commons-collections",
    "name": "commons-collections",
    "version": "3.0",
-   "purl": "pkg:maven/commons-collections/commons-collections@3.0"
+   "purl": "pkg:maven/commons-collections/commons-collections@3.0",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -98,7 +138,13 @@
    "group": "commons-configuration",
    "name": "commons-configuration",
    "version": "1.1",
-   "purl": "pkg:maven/commons-configuration/commons-configuration@1.1"
+   "purl": "pkg:maven/commons-configuration/commons-configuration@1.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -106,7 +152,13 @@
    "group": "commons-digester",
    "name": "commons-digester",
    "version": "1.5",
-   "purl": "pkg:maven/commons-digester/commons-digester@1.5"
+   "purl": "pkg:maven/commons-digester/commons-digester@1.5",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -114,7 +166,13 @@
    "group": "commons-lang",
    "name": "commons-lang",
    "version": "2.0",
-   "purl": "pkg:maven/commons-lang/commons-lang@2.0"
+   "purl": "pkg:maven/commons-lang/commons-lang@2.0",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -122,7 +180,13 @@
    "group": "commons-logging",
    "name": "commons-logging",
    "version": "1.0.4",
-   "purl": "pkg:maven/commons-logging/commons-logging@1.0.4"
+   "purl": "pkg:maven/commons-logging/commons-logging@1.0.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -130,7 +194,13 @@
    "group": "dom4j",
    "name": "dom4j",
    "version": "1.4",
-   "purl": "pkg:maven/dom4j/dom4j@1.4"
+   "purl": "pkg:maven/dom4j/dom4j@1.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -138,7 +208,13 @@
    "group": "isorelax",
    "name": "isorelax",
    "version": "20020414",
-   "purl": "pkg:maven/isorelax/isorelax@20020414"
+   "purl": "pkg:maven/isorelax/isorelax@20020414",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -146,7 +222,13 @@
    "group": "javax.servlet",
    "name": "servlet-api",
    "version": "2.3",
-   "purl": "pkg:maven/javax.servlet/servlet-api@2.3"
+   "purl": "pkg:maven/javax.servlet/servlet-api@2.3",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -154,7 +236,13 @@
    "group": "jaxen",
    "name": "jaxen",
    "version": "1.0-FCS",
-   "purl": "pkg:maven/jaxen/jaxen@1.0-FCS"
+   "purl": "pkg:maven/jaxen/jaxen@1.0-FCS",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -162,7 +250,13 @@
    "group": "msv",
    "name": "msv",
    "version": "20020414",
-   "purl": "pkg:maven/msv/msv@20020414"
+   "purl": "pkg:maven/msv/msv@20020414",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -170,7 +264,13 @@
    "group": "relaxngDatatype",
    "name": "relaxngDatatype",
    "version": "20020414",
-   "purl": "pkg:maven/relaxngDatatype/relaxngDatatype@20020414"
+   "purl": "pkg:maven/relaxngDatatype/relaxngDatatype@20020414",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -178,7 +278,41 @@
    "group": "saxpath",
    "name": "saxpath",
    "version": "1.0-FCS",
-   "purl": "pkg:maven/saxpath/saxpath@1.0-FCS"
+   "purl": "pkg:maven/saxpath/saxpath@1.0-FCS",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/servletapi/servletapi@2.3",
+   "group": "servletapi",
+   "name": "servletapi",
+   "version": "2.3",
+   "purl": "pkg:maven/servletapi/servletapi@2.3",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/xerces/xerces@2.2.1",
+   "group": "xerces",
+   "name": "xerces",
+   "version": "2.2.1",
+   "purl": "pkg:maven/xerces/xerces@2.2.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -186,7 +320,13 @@
    "group": "xerces",
    "name": "xercesImpl",
    "version": "2.2.1",
-   "purl": "pkg:maven/xerces/xercesImpl@2.2.1"
+   "purl": "pkg:maven/xerces/xercesImpl@2.2.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -194,7 +334,27 @@
    "group": "xml-apis",
    "name": "xml-apis",
    "version": "1.0.b2",
-   "purl": "pkg:maven/xml-apis/xml-apis@1.0.b2"
+   "purl": "pkg:maven/xml-apis/xml-apis@1.0.b2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/xml-apis/xml-apis@2.0.2",
+   "group": "xml-apis",
+   "name": "xml-apis",
+   "version": "2.0.2",
+   "purl": "pkg:maven/xml-apis/xml-apis@2.0.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "gradle"
+    }
+   ]
   }
  ],
  "dependencies": [
@@ -210,11 +370,17 @@
   },
   {
    "ref": "pkg:maven/commons-beanutils/commons-beanutils-core@1.7.0",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/commons-collections/commons-collections@3.0",
+    "pkg:maven/commons-logging/commons-logging@1.0.4"
+   ]
   },
   {
    "ref": "pkg:maven/commons-beanutils/commons-beanutils@1.6.1",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/commons-collections/commons-collections@3.0",
+    "pkg:maven/commons-logging/commons-logging@1.0.4"
+   ]
   },
   {
    "ref": "pkg:maven/commons-collections/commons-collections@3.0",
@@ -231,14 +397,20 @@
     "pkg:maven/commons-logging/commons-logging@1.0.4",
     "pkg:maven/dom4j/dom4j@1.4",
     "pkg:maven/javax.servlet/servlet-api@2.3",
+    "pkg:maven/servletapi/servletapi@2.3",
+    "pkg:maven/xerces/xerces@2.2.1",
     "pkg:maven/xerces/xercesImpl@2.2.1",
-    "pkg:maven/xml-apis/xml-apis@1.0.b2"
+    "pkg:maven/xml-apis/xml-apis@1.0.b2",
+    "pkg:maven/xml-apis/xml-apis@2.0.2"
    ]
   },
   {
    "ref": "pkg:maven/commons-digester/commons-digester@1.5",
    "dependsOn": [
-    "pkg:maven/commons-beanutils/commons-beanutils@1.6.1"
+    "pkg:maven/commons-beanutils/commons-beanutils@1.6.1",
+    "pkg:maven/commons-collections/commons-collections@3.0",
+    "pkg:maven/commons-logging/commons-logging@1.0.4",
+    "pkg:maven/xml-apis/xml-apis@2.0.2"
    ]
   },
   {
@@ -256,7 +428,8 @@
     "pkg:maven/jaxen/jaxen@1.0-FCS",
     "pkg:maven/msv/msv@20020414",
     "pkg:maven/relaxngDatatype/relaxngDatatype@20020414",
-    "pkg:maven/saxpath/saxpath@1.0-FCS"
+    "pkg:maven/saxpath/saxpath@1.0-FCS",
+    "pkg:maven/xml-apis/xml-apis@2.0.2"
    ]
   },
   {
@@ -284,11 +457,27 @@
    "dependsOn": []
   },
   {
+   "ref": "pkg:maven/servletapi/servletapi@2.3",
+   "dependsOn": [
+    "pkg:maven/javax.servlet/servlet-api@2.3"
+   ]
+  },
+  {
+   "ref": "pkg:maven/xerces/xerces@2.2.1",
+   "dependsOn": [
+    "pkg:maven/xerces/xercesImpl@2.2.1"
+   ]
+  },
+  {
    "ref": "pkg:maven/xerces/xercesImpl@2.2.1",
    "dependsOn": []
   },
   {
    "ref": "pkg:maven/xml-apis/xml-apis@1.0.b2",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/xml-apis/xml-apis@2.0.2",
    "dependsOn": []
   }
  ]
