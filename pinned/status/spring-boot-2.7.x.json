@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.08.9",
-  "as_of": "2026-10-08T17:06:55Z",
+  "as_of": "2026-10-08T17:07:48Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 181,
@@ -77,6 +77,14 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00012",
       "at": "2026-10-01T08:34:58Z"
+    },
+    {
+      "cve": "CVE-2026-41006",
+      "library": "org.springframework.hateoas:spring-hateoas",
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001",
+      "at": "2026-10-08T17:07:48Z"
     },
     {
       "cve": "CVE-2026-41838",
@@ -175,10 +183,6 @@
     {
       "cve": "CVE-2026-40999",
       "library": "org.springframework.ws:spring-ws-core"
-    },
-    {
-      "cve": "CVE-2026-41006",
-      "library": "org.springframework.hateoas:spring-hateoas"
     },
     {
       "cve": "CVE-2026-41700",
@@ -928,5 +932,5 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.08.9"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.08.10"
 }
