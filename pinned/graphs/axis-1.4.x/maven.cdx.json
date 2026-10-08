@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:0c74cc81-6ee1-42e1-98f8-f79d47d3e289",
+ "serialNumber": "urn:uuid:b093702b-e07e-43e0-b8d3-b42be2974751",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:12:33Z",
+  "timestamp": "2026-10-08T10:52:52Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "org.apache.axis",
    "name": "axis",
    "version": "1.4",
-   "purl": "pkg:maven/org.apache.axis/axis@1.4"
+   "purl": "pkg:maven/org.apache.axis/axis@1.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [

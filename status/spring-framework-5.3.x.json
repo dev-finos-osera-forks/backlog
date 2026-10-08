@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.10.08.3",
-  "as_of": "2026-10-08T08:00:56Z",
+  "as_of": "2026-10-08T10:51:08Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 20,
@@ -164,5 +164,5 @@
   ],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.10.01.4"
+  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.10.08.2"
 }

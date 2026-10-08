@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:43d3991a-321a-4a1f-9553-93e3a9cd84b9",
+ "serialNumber": "urn:uuid:8fade81e-3a8a-4254-8e7b-dcb1217f56e8",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:13:57Z",
+  "timestamp": "2026-10-08T10:57:44Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "com.fasterxml.jackson.core",
    "name": "jackson-annotations",
    "version": "2.19.4",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.4"
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "com.fasterxml.jackson.core",
    "name": "jackson-core",
    "version": "2.19.4",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4"
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -82,7 +110,13 @@
    "group": "com.fasterxml.jackson.core",
    "name": "jackson-databind",
    "version": "2.19.4",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4"
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [

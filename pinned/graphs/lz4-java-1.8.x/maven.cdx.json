@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:1bbe6c56-d8e6-460d-9d80-f023bc0b8236",
+ "serialNumber": "urn:uuid:2c454f52-6d58-4a0a-a3e5-524fa67ac5d4",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:14:46Z",
+  "timestamp": "2026-10-08T11:00:37Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "failed, the graph is the Maven resolve alone: 1 dependencies unresolved, the first: line asked for org.lz4:lz4-java:1.8.1: Could not resolve org.lz4:lz4-java:1.8.1. \u003c- Module 'org.lz4:lz4-java' has been rejected:"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "at.yawk.lz4",
    "name": "lz4-java",
    "version": "1.8.1",
-   "purl": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1"
+   "purl": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven"
+    }
+   ]
   }
  ],
  "dependencies": [

@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:fb93575b-eabc-4b92-94d4-be7b691a221d",
+ "serialNumber": "urn:uuid:ea2054cd-5457-4800-a175-763b65f9d33e",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:13:04Z",
+  "timestamp": "2026-10-08T10:54:40Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "commons-collections",
    "name": "commons-collections",
    "version": "3.2.1",
-   "purl": "pkg:maven/commons-collections/commons-collections@3.2.1"
+   "purl": "pkg:maven/commons-collections/commons-collections@3.2.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "commons-lang",
    "name": "commons-lang",
    "version": "2.4",
-   "purl": "pkg:maven/commons-lang/commons-lang@2.4"
+   "purl": "pkg:maven/commons-lang/commons-lang@2.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -82,7 +110,13 @@
    "group": "org.apache.velocity",
    "name": "velocity",
    "version": "1.6.4",
-   "purl": "pkg:maven/org.apache.velocity/velocity@1.6.4"
+   "purl": "pkg:maven/org.apache.velocity/velocity@1.6.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -90,7 +124,13 @@
    "group": "oro",
    "name": "oro",
    "version": "2.0.8",
-   "purl": "pkg:maven/oro/oro@2.0.8"
+   "purl": "pkg:maven/oro/oro@2.0.8",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [

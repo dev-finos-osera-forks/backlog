@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:edcc2391-c80d-4742-b4f2-6c057e5191b6",
+ "serialNumber": "urn:uuid:8bfe73b7-f300-4fa8-9eb1-72584acbbb2f",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:14:42Z",
+  "timestamp": "2026-10-08T11:00:22Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "org.apache.logging.log4j",
    "name": "log4j-api",
    "version": "2.24.3",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.24.3"
+   "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.24.3",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "org.apache.logging.log4j",
    "name": "log4j-core",
    "version": "2.24.3",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3"
+   "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [

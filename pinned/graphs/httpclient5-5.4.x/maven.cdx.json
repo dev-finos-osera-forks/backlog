@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:6cd87f54-9178-493b-adcc-f3d74c608ad4",
+ "serialNumber": "urn:uuid:38f8e399-ec89-43a1-bd33-a05b68142ff4",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:15:05Z",
+  "timestamp": "2026-10-08T11:01:42Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "org.apache.httpcomponents.client5",
    "name": "httpclient5",
    "version": "5.4.4",
-   "purl": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.4.4"
+   "purl": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.4.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "org.apache.httpcomponents.core5",
    "name": "httpcore5-h2",
    "version": "5.3.4",
-   "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.3.4"
+   "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.3.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -82,7 +110,13 @@
    "group": "org.apache.httpcomponents.core5",
    "name": "httpcore5",
    "version": "5.3.4",
-   "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.4"
+   "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -90,7 +124,13 @@
    "group": "org.slf4j",
    "name": "slf4j-api",
    "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [
@@ -110,7 +150,9 @@
   },
   {
    "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.3.4",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.4"
+   ]
   },
   {
    "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.4",
