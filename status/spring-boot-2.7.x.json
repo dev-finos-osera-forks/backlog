@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.08.7",
-  "as_of": "2026-10-08T16:59:05Z",
+  "book_version": "v2026.10.08.8",
+  "as_of": "2026-10-08T17:00:20Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -237,6 +237,10 @@
       "library": "org.springframework.ldap:spring-ldap-core"
     },
     {
+      "cve": "CVE-2026-50193",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
       "cve": "CVE-2026-54512",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
@@ -383,10 +387,6 @@
       "library": "org.springframework:spring-webmvc"
     },
     {
-      "cve": "CVE-2026-50193",
-      "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
       "cve": "CVE-2026-5795",
       "library": "org.eclipse.jetty:jetty-jaspi"
     },
@@ -416,5 +416,5 @@
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.08.3"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.08.4"
 }
