@@ -1,7 +1,7 @@
 {
   "line": "c3p0-0.9.x",
-  "book_version": "v2026.10.08.3",
-  "as_of": "2026-10-08T08:00:56Z",
+  "book_version": "v2026.10.08.4",
+  "as_of": "2026-10-08T13:30:22Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 4,
@@ -26,6 +26,9 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "issue #1059 for CVE-2026-27727 is closed in backlog while the entry on com.mchange:mchange-commons-java is open",
+    "issue #1066 for CVE-2026-55153 is closed in backlog while the entry on com.mchange:mchange-commons-java is open"
+  ],
   "consume": ""
 }
