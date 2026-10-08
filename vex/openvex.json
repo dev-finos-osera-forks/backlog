@@ -1,0 +1,1476 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://raw.githubusercontent.com/dev-finos-osera-forks/backlog/main/vex/openvex.json",
+  "author": "OSERA Exchange",
+  "role": "the exchange republishing the producers' statements for whole promoted release sets",
+  "timestamp": "2026-10-08T10:22:10Z",
+  "version": 1,
+  "tooling": "osera-feed main-a062eda4",
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52999",
+        "aliases": [
+          "GHSA-h46c-h94j-95f3"
+        ]
+      },
+      "timestamp": "2026-10-01T13:52:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52999",
+        "aliases": [
+          "GHSA-h46c-h94j-95f3"
+        ]
+      },
+      "timestamp": "2026-10-01T14:04:46Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-r7wm-3cxj-wff9",
+        "aliases": [
+          "CVE-2026-68494"
+        ]
+      },
+      "timestamp": "2026-10-01T14:04:46Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22228"
+      },
+      "timestamp": "2026-10-01T12:17:09Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22228"
+      },
+      "timestamp": "2026-10-01T12:23:41Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40988",
+        "aliases": [
+          "GHSA-m69x-pw9p-7j3q"
+        ]
+      },
+      "timestamp": "2026-10-01T12:11:12Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40988",
+        "aliases": [
+          "GHSA-m69x-pw9p-7j3q"
+        ]
+      },
+      "timestamp": "2026-10-01T12:17:32Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40988",
+        "aliases": [
+          "GHSA-m69x-pw9p-7j3q"
+        ]
+      },
+      "timestamp": "2026-10-01T12:24:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22732",
+        "aliases": [
+          "GHSA-mf92-479x-3373"
+        ]
+      },
+      "timestamp": "2026-10-01T11:39:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22732",
+        "aliases": [
+          "GHSA-mf92-479x-3373"
+        ]
+      },
+      "timestamp": "2026-10-01T11:46:29Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47838",
+        "aliases": [
+          "GHSA-293q-567p-wmwq"
+        ]
+      },
+      "timestamp": "2026-10-01T11:46:29Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22732",
+        "aliases": [
+          "GHSA-mf92-479x-3373"
+        ]
+      },
+      "timestamp": "2026-10-01T12:11:19Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47838",
+        "aliases": [
+          "GHSA-293q-567p-wmwq"
+        ]
+      },
+      "timestamp": "2026-10-01T12:11:19Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22732",
+        "aliases": [
+          "GHSA-mf92-479x-3373"
+        ]
+      },
+      "timestamp": "2026-10-01T12:17:36Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47838",
+        "aliases": [
+          "GHSA-293q-567p-wmwq"
+        ]
+      },
+      "timestamp": "2026-10-01T12:17:36Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22732",
+        "aliases": [
+          "GHSA-mf92-479x-3373"
+        ]
+      },
+      "timestamp": "2026-10-01T12:24:11Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41706",
+        "aliases": [
+          "GHSA-x2r2-rvhq-2mqv"
+        ]
+      },
+      "timestamp": "2026-10-01T12:24:11Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47838",
+        "aliases": [
+          "GHSA-293q-567p-wmwq"
+        ]
+      },
+      "timestamp": "2026-10-01T12:24:11Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41249",
+        "aliases": [
+          "GHSA-jmp9-x22r-554x"
+        ]
+      },
+      "timestamp": "2026-09-30T14:32:31Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41249",
+        "aliases": [
+          "GHSA-jmp9-x22r-554x"
+        ]
+      },
+      "timestamp": "2026-09-30T14:46:07Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41249",
+        "aliases": [
+          "GHSA-jmp9-x22r-554x"
+        ]
+      },
+      "timestamp": "2026-09-30T15:00:19Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41249",
+        "aliases": [
+          "GHSA-jmp9-x22r-554x"
+        ]
+      },
+      "timestamp": "2026-09-30T15:39:51Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41848"
+      },
+      "timestamp": "2026-09-30T15:39:51Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41249",
+        "aliases": [
+          "GHSA-jmp9-x22r-554x"
+        ]
+      },
+      "timestamp": "2026-09-30T16:09:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41848"
+      },
+      "timestamp": "2026-09-30T16:09:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41249",
+        "aliases": [
+          "GHSA-jmp9-x22r-554x"
+        ]
+      },
+      "timestamp": "2026-09-30T16:45:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41848"
+      },
+      "timestamp": "2026-09-30T16:45:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41249",
+        "aliases": [
+          "GHSA-jmp9-x22r-554x"
+        ]
+      },
+      "timestamp": "2026-10-01T08:20:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41848"
+      },
+      "timestamp": "2026-10-01T08:20:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41249",
+        "aliases": [
+          "GHSA-jmp9-x22r-554x"
+        ]
+      },
+      "timestamp": "2026-10-01T08:32:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41848"
+      },
+      "timestamp": "2026-10-01T08:32:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41849"
+      },
+      "timestamp": "2026-09-30T15:40:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41850"
+      },
+      "timestamp": "2026-09-30T15:40:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41851"
+      },
+      "timestamp": "2026-09-30T15:40:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41849"
+      },
+      "timestamp": "2026-09-30T16:09:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41850"
+      },
+      "timestamp": "2026-09-30T16:09:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41851"
+      },
+      "timestamp": "2026-09-30T16:09:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41849"
+      },
+      "timestamp": "2026-09-30T16:45:46Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41850"
+      },
+      "timestamp": "2026-09-30T16:45:46Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41851"
+      },
+      "timestamp": "2026-09-30T16:45:46Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41849"
+      },
+      "timestamp": "2026-10-01T08:20:37Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41850"
+      },
+      "timestamp": "2026-10-01T08:20:37Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41851"
+      },
+      "timestamp": "2026-10-01T08:20:37Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41849"
+      },
+      "timestamp": "2026-10-01T08:32:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41850"
+      },
+      "timestamp": "2026-10-01T08:32:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41851"
+      },
+      "timestamp": "2026-10-01T08:32:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-09-30T10:00:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-09-30T11:19:18Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-09-30T14:19:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-09-30T14:33:36Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-09-30T14:47:41Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-09-30T15:01:13Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-09-30T15:41:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-09-30T16:10:31Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-09-30T16:47:08Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-10-01T08:21:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027",
+        "aliases": [
+          "GHSA-4wrc-f8pq-fpqp"
+        ]
+      },
+      "timestamp": "2026-10-01T08:33:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22740"
+      },
+      "timestamp": "2026-09-30T16:10:37Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22740"
+      },
+      "timestamp": "2026-09-30T16:47:19Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22740"
+      },
+      "timestamp": "2026-10-01T08:21:29Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22740"
+      },
+      "timestamp": "2026-10-01T08:33:45Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-09-30T11:19:32Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-09-30T14:20:17Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819",
+        "aliases": [
+          "GHSA-g5vr-rgqm-vf78"
+        ]
+      },
+      "timestamp": "2026-09-30T14:20:17Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-09-30T14:33:46Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819",
+        "aliases": [
+          "GHSA-g5vr-rgqm-vf78"
+        ]
+      },
+      "timestamp": "2026-09-30T14:33:46Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-09-30T14:47:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819",
+        "aliases": [
+          "GHSA-g5vr-rgqm-vf78"
+        ]
+      },
+      "timestamp": "2026-09-30T14:47:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-09-30T15:01:24Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819",
+        "aliases": [
+          "GHSA-g5vr-rgqm-vf78"
+        ]
+      },
+      "timestamp": "2026-09-30T15:01:24Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41842"
+      },
+      "timestamp": "2026-09-30T15:01:24Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-09-30T15:41:23Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819",
+        "aliases": [
+          "GHSA-g5vr-rgqm-vf78"
+        ]
+      },
+      "timestamp": "2026-09-30T15:41:23Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41842"
+      },
+      "timestamp": "2026-09-30T15:41:23Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-09-30T16:10:41Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819",
+        "aliases": [
+          "GHSA-g5vr-rgqm-vf78"
+        ]
+      },
+      "timestamp": "2026-09-30T16:10:41Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41842"
+      },
+      "timestamp": "2026-09-30T16:10:41Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-09-30T16:47:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819",
+        "aliases": [
+          "GHSA-g5vr-rgqm-vf78"
+        ]
+      },
+      "timestamp": "2026-09-30T16:47:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41842"
+      },
+      "timestamp": "2026-09-30T16:47:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41844"
+      },
+      "timestamp": "2026-09-30T16:47:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-10-01T08:21:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819",
+        "aliases": [
+          "GHSA-g5vr-rgqm-vf78"
+        ]
+      },
+      "timestamp": "2026-10-01T08:21:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41842"
+      },
+      "timestamp": "2026-10-01T08:21:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41844"
+      },
+      "timestamp": "2026-10-01T08:21:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41845"
+      },
+      "timestamp": "2026-10-01T08:21:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38816",
+        "aliases": [
+          "GHSA-cx7f-g6mp-7hqm"
+        ]
+      },
+      "timestamp": "2026-10-01T08:33:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38819",
+        "aliases": [
+          "GHSA-g5vr-rgqm-vf78"
+        ]
+      },
+      "timestamp": "2026-10-01T08:33:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41842"
+      },
+      "timestamp": "2026-10-01T08:33:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41844"
+      },
+      "timestamp": "2026-10-01T08:33:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41845"
+      },
+      "timestamp": "2026-10-01T08:33:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41846"
+      },
+      "timestamp": "2026-10-01T08:33:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41838"
+      },
+      "timestamp": "2026-09-30T14:48:04Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41838"
+      },
+      "timestamp": "2026-09-30T15:01:33Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41838"
+      },
+      "timestamp": "2026-09-30T15:41:15Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41838"
+      },
+      "timestamp": "2026-09-30T16:10:46Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00009"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41838"
+      },
+      "timestamp": "2026-09-30T16:47:37Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00010"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41838"
+      },
+      "timestamp": "2026-10-01T08:21:37Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41838"
+      },
+      "timestamp": "2026-10-01T08:33:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2026-09-29T15:28:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    }
+  ]
+}
