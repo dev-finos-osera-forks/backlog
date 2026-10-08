@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.08.11",
-  "as_of": "2026-10-08T17:10:23Z",
+  "as_of": "2026-10-08T17:11:40Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -105,10 +105,18 @@
     {
       "cve": "CVE-2026-41006",
       "library": "org.springframework.hateoas:spring-hateoas",
-      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001",
-      "at": "2026-10-08T17:07:48Z"
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "at": "2026-10-08T17:11:40Z"
+    },
+    {
+      "cve": "CVE-2026-41007",
+      "library": "org.springframework.hateoas:spring-hateoas",
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "at": "2026-10-08T17:11:40Z"
     },
     {
       "cve": "CVE-2026-41706",
@@ -233,12 +241,12 @@
       "library": "org.springframework.ws:spring-ws-core"
     },
     {
-      "cve": "CVE-2026-41007",
-      "library": "org.springframework.hateoas:spring-hateoas"
-    },
-    {
       "cve": "CVE-2026-41700",
       "library": "org.springframework.graphql:spring-graphql"
+    },
+    {
+      "cve": "CVE-2026-41717",
+      "library": "org.springframework.data:spring-data-mongodb"
     },
     {
       "cve": "CVE-2026-41720",
@@ -351,10 +359,6 @@
       "library": "org.springframework.data:spring-data-commons"
     },
     {
-      "cve": "CVE-2026-41717",
-      "library": "org.springframework.data:spring-data-mongodb"
-    },
-    {
       "cve": "CVE-2026-41719",
       "library": "org.springframework.data:spring-data-keyvalue"
     },
@@ -420,5 +424,5 @@
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.08.13"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.08.14"
 }
