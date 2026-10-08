@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:e9a90b66-f4fe-4201-a386-414cb2cdf909",
+ "serialNumber": "urn:uuid:54ff24bd-9297-46ed-82ee-8e6e2d7e271e",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:12:42Z",
+  "timestamp": "2026-10-08T10:53:23Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "org.apache.commons",
    "name": "commons-lang3",
    "version": "3.9",
-   "purl": "pkg:maven/org.apache.commons/commons-lang3@3.9"
+   "purl": "pkg:maven/org.apache.commons/commons-lang3@3.9",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "org.apache.commons",
    "name": "commons-text",
    "version": "1.8",
-   "purl": "pkg:maven/org.apache.commons/commons-text@1.8"
+   "purl": "pkg:maven/org.apache.commons/commons-text@1.8",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [

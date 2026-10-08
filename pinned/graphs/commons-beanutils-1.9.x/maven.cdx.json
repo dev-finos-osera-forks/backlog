@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:c5e454b6-cd35-4b8b-9fcb-15c2f9074847",
+ "serialNumber": "urn:uuid:19291067-5cd9-4648-99ac-0e44e9eeb736",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:12:24Z",
+  "timestamp": "2026-10-08T10:52:20Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "commons-beanutils",
    "name": "commons-beanutils",
    "version": "1.9.4",
-   "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4"
+   "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "commons-collections",
    "name": "commons-collections",
    "version": "3.2.2",
-   "purl": "pkg:maven/commons-collections/commons-collections@3.2.2"
+   "purl": "pkg:maven/commons-collections/commons-collections@3.2.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -82,7 +110,13 @@
    "group": "commons-logging",
    "name": "commons-logging",
    "version": "1.2",
-   "purl": "pkg:maven/commons-logging/commons-logging@1.2"
+   "purl": "pkg:maven/commons-logging/commons-logging@1.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [

@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:60990205-a558-443c-94a5-bd822f85758e",
+ "serialNumber": "urn:uuid:fa6d9a8d-d54a-4907-a96e-89af4578cf08",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:12:55Z",
+  "timestamp": "2026-10-08T10:54:10Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "org.bouncycastle",
    "name": "bcpkix-jdk18on",
    "version": "1.78.1",
-   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1"
+   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "org.bouncycastle",
    "name": "bcprov-jdk18on",
    "version": "1.78.1",
-   "purl": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1"
+   "purl": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -82,7 +110,13 @@
    "group": "org.bouncycastle",
    "name": "bcutil-jdk18on",
    "version": "1.78.1",
-   "purl": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1"
+   "purl": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [
@@ -105,7 +139,9 @@
   },
   {
    "ref": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1"
+   ]
   }
  ]
 }

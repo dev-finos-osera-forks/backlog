@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:82ae5ec8-19c1-4476-8fad-48531adbe905",
+ "serialNumber": "urn:uuid:73044d84-1678-4693-8a30-c04b201d3359",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:13:30Z",
+  "timestamp": "2026-10-08T10:56:13Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "org.yaml",
    "name": "snakeyaml",
    "version": "1.29",
-   "purl": "pkg:maven/org.yaml/snakeyaml@1.29?type=bundle"
+   "purl": "pkg:maven/org.yaml/snakeyaml@1.29?type=bundle",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [

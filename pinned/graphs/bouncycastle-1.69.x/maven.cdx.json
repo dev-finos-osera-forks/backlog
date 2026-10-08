@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:aa2dfb2b-069f-4019-a2fa-dbde30d76e75",
+ "serialNumber": "urn:uuid:c9422464-38fd-4b71-b357-025d56f6db09",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-01T20:14:55Z",
+  "timestamp": "2026-10-08T11:01:08Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": ""
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "org.bouncycastle",
    "name": "bcpkix-jdk15on",
    "version": "1.69",
-   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.69"
+   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.69",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "org.bouncycastle",
    "name": "bcprov-jdk15on",
    "version": "1.69",
-   "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.69"
+   "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.69",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -82,7 +110,13 @@
    "group": "org.bouncycastle",
    "name": "bcutil-jdk15on",
    "version": "1.69",
-   "purl": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.69"
+   "purl": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.69",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [
@@ -105,7 +139,9 @@
   },
   {
    "ref": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.69",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.69"
+   ]
   }
  ]
 }
