@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.08.9",
-  "as_of": "2026-10-08T17:07:48Z",
+  "book_version": "v2026.10.08.10",
+  "as_of": "2026-10-08T17:08:53Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -233,6 +233,10 @@
       "library": "org.springframework.ws:spring-ws-core"
     },
     {
+      "cve": "CVE-2026-41007",
+      "library": "org.springframework.hateoas:spring-hateoas"
+    },
+    {
       "cve": "CVE-2026-41700",
       "library": "org.springframework.graphql:spring-graphql"
     },
@@ -339,10 +343,6 @@
       "library": "org.springframework.ws:spring-xml"
     },
     {
-      "cve": "CVE-2026-41007",
-      "library": "org.springframework.hateoas:spring-hateoas"
-    },
-    {
       "cve": "CVE-2026-41715",
       "library": "io.projectreactor.netty:reactor-netty"
     },
@@ -420,5 +420,5 @@
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.08.11"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.08.12"
 }
