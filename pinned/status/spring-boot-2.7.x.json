@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.08.5",
-  "as_of": "2026-10-08T16:56:37Z",
+  "book_version": "v2026.10.08.6",
+  "as_of": "2026-10-08T16:57:47Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 181,
@@ -171,6 +171,14 @@
     {
       "cve": "CVE-2026-34480",
       "library": "org.apache.logging.log4j:log4j-core"
+    },
+    {
+      "cve": "CVE-2026-41006",
+      "library": "org.springframework.hateoas:spring-hateoas"
+    },
+    {
+      "cve": "CVE-2026-41700",
+      "library": "org.springframework.graphql:spring-graphql"
     },
     {
       "cve": "CVE-2026-54513",
@@ -459,10 +467,6 @@
       "library": "org.springframework.ws:spring-ws-core"
     },
     {
-      "cve": "CVE-2026-41006",
-      "library": "org.springframework.hateoas:spring-hateoas"
-    },
-    {
       "cve": "CVE-2026-41007",
       "library": "org.springframework.hateoas:spring-hateoas"
     },
@@ -473,10 +477,6 @@
     {
       "cve": "CVE-2026-41293",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
-    },
-    {
-      "cve": "CVE-2026-41700",
-      "library": "org.springframework.graphql:spring-graphql"
     },
     {
       "cve": "CVE-2026-41706",
