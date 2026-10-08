@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-08T10:51:08Z. Written by the line manager reconciler.
+Generated 2026-10-08T13:26:37Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,9 +8,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 74 | 19 | 26% | 199 | 0 | 55 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 74 | 25 | 34% | 199 | 0 | 49 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 20 | 18 | 90% | 24 | 0 | 2 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 23 | 7 | 30% | 44 | 0 | 16 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 23 | 12 | 52% | 43 | 0 | 11 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | not fixed | 3 | 0 | 0% | 2 | 0 | 3 | 0 |
@@ -21,16 +21,16 @@ The latest patch view: every library at the latest upstream patch release, the v
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | not fixed | 1 | 0 | 0% | 2 | 0 | 1 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | not fixed | 1 | 0 | 0% | 2 | 0 | 1 | 0 |
-| snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
-| snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
-| snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
-| snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
-| snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
-| snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | not fixed | 6 | 0 | 0% | 1 | 0 | 6 | 0 |
-| snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | not fixed | 6 | 0 | 0% | 1 | 0 | 6 | 0 |
-| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | not fixed | 6 | 0 | 0% | 1 | 0 | 6 | 0 |
-| snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | not fixed | 6 | 0 | 0% | 1 | 0 | 6 | 0 |
-| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
+| snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | in progress | 4 | 1 | 25% | 0 | 0 | 3 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | not fixed | 10 | 0 | 0% | 6 | 0 | 10 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 9 | 0 | 0% | 6 | 0 | 9 | 0 |
@@ -65,8 +65,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | open | 6 | 0 | 0% | 5 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.mchange:mchange-commons-java | 0.2.19 | c3p0-0.9.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.mchange:mchange-commons-java | 0.2.20 | mchange-commons-0.2.x | own project (the anchor's group) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.mchange:mchange-commons-java | 0.2.20 | c3p0-0.9.x, mchange-commons-0.2.x | own project (the anchor's group) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.6.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-digester:commons-digester@1.5) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.8.3 | struts-1.3.x | pulled in by a dependency (commons-digester:commons-digester@1.8.1) | open | 2 | 0 | 0% | 1 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.9.4 | commons-beanutils-1.9.x | own project (the anchor's group) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -103,7 +102,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.eclipse.jetty:jetty-jaspi | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-security | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | open | 1 | 0 | 0% | 5 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | own project (the anchor's group) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -117,10 +116,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.integration:spring-integration-file | 5.5.20 | spring-boot-2.7.x | listed by the BOM at 5.5.20 (org.springframework.integration:spring-integration-bom@5.5.20) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.kafka:spring-kafka | 2.8.11 | spring-boot-2.7.x | listed by the BOM at 2.8.11 | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ldap:spring-ldap-core | 2.4.4 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.4.1 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.security:spring-security-core | 5.7.11 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | open | 1 | 0 | 0% | 2 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.security:spring-security-crypto | 5.7.11 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.security:spring-security-saml2-service-provider | 5.7.11 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | open | 1 | 0 | 0% | 2 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.security:spring-security-web | 5.7.11 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.security:spring-security-core | 5.7.11 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.security:spring-security-crypto | 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.security:spring-security-saml2-service-provider | 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | fixed | 1 | 1 | 100% | 2 | 0 | 0 | 0 | 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.security:spring-security-web | 5.7.11 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.security:spring-security-web | 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ws:spring-ws-security | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 4 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -140,9 +140,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.33 | snakeyaml-1.33.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.33 | snakeyaml-1.16.x, snakeyaml-1.17.x, snakeyaml-1.19.x, snakeyaml-1.23.x, snakeyaml-1.26.x, snakeyaml-1.27.x, snakeyaml-1.28.x, snakeyaml-1.29.x, snakeyaml-1.31.x, snakeyaml-1.33.x, snakeyaml-1.9.x, spring-boot-2.7.x | own project on snakeyaml-1.16.x (the anchor's group) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 1 | 0 | 0% | 4 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Released with the lines
