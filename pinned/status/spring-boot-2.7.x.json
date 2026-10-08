@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.08.4",
-  "as_of": "2026-10-08T16:55:37Z",
+  "book_version": "v2026.10.08.5",
+  "as_of": "2026-10-08T16:56:37Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 181,
@@ -168,6 +168,10 @@
     }
   ],
   "in_progress": [
+    {
+      "cve": "CVE-2026-34480",
+      "library": "org.apache.logging.log4j:log4j-core"
+    },
     {
       "cve": "CVE-2026-54513",
       "library": "com.fasterxml.jackson.core:jackson-databind"
@@ -413,10 +417,6 @@
     {
       "cve": "CVE-2026-34479",
       "library": "org.apache.logging.log4j:log4j-1.2-api"
-    },
-    {
-      "cve": "CVE-2026-34480",
-      "library": "org.apache.logging.log4j:log4j-core"
     },
     {
       "cve": "CVE-2026-34481",
