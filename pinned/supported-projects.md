@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-08T16:55:37Z. Written by the line manager reconciler.
+Generated 2026-10-08T16:56:37Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 181 | 20 | 11% | 168 | 1 | 160 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 181 | 20 | 11% | 168 | 2 | 159 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 20 | 18 | 90% | 24 | 0 | 2 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 30 | 0 | 0% | 45 | 0 | 30 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
@@ -107,7 +107,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.apache.httpcomponents.core5:httpcore5-h2 | 5.3.4 | httpclient5-5.4.x | listed by the BOM at 5.3.4 (org.apache.httpcomponents.client5:httpclient5-parent@5.4.4) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.httpcomponents.core5:httpcore5-h2 | 5.3.6 | httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-1.2-api | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 2 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | in progress | 1 | 0 | 0% | 2 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | open | 1 | 0 | 0% | 3 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
