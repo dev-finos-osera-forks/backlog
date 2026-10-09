@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.10.08.14",
-  "as_of": "2026-10-08T17:49:40Z",
+  "book_version": "v2026.10.09",
+  "as_of": "2026-10-09T01:33:32Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 30,
@@ -150,6 +150,8 @@
     "issue #206 for CVE-2026-50193 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #207 for CVE-2026-54512 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #208 for CVE-2026-54513 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
+    "issue #23 for CVE-2024-22257 is closed in backlog while the entry on org.springframework.security:spring-security-core is open",
+    "issue #31 for CVE-2024-38821 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
     "issue #38 for CVE-2025-22228 is closed in backlog while the entry on org.springframework.security:spring-security-crypto is open",
     "issue #63 for CVE-2026-22732 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
     "issue #77 for CVE-2026-40988 is closed in backlog while the entry on org.springframework.security:spring-security-saml2-service-provider is open",
