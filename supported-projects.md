@@ -1,8 +1,6 @@
 # Supported projects
 
-Generated 2026-10-09T01:30:37Z. Written by the line manager reconciler.
-
-Availability last confirmed 2026-10-12T01:51:51Z. It has not been confirmed since 2026-10-12T09:44:28Z.
+Generated 2026-10-12T10:36:16Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
