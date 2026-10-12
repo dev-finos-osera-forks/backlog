@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:6a1557dd-91d4-4854-a79c-8983a6d3059a",
+ "serialNumber": "urn:uuid:f7cf43aa-d39f-4735-8a39-b0a026def316",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-12T19:52:46Z",
+  "timestamp": "2026-10-12T19:58:18Z",
   "tools": {
    "components": [
     {
@@ -3788,11 +3788,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.122",
+   "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.123",
    "group": "org.apache.tomcat.embed",
    "name": "tomcat-embed-jasper",
-   "version": "9.0.122",
-   "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.122",
+   "version": "9.0.123",
+   "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.123",
    "properties": [
     {
      "name": "osera:listed",
@@ -3816,11 +3816,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.122",
+   "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.123",
    "group": "org.apache.tomcat",
    "name": "tomcat-annotations-api",
-   "version": "9.0.122",
-   "purl": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.122",
+   "version": "9.0.123",
+   "purl": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.123",
    "properties": [
     {
      "name": "osera:listed",
@@ -3830,11 +3830,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.122",
+   "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.123",
    "group": "org.apache.tomcat",
    "name": "tomcat-jdbc",
-   "version": "9.0.122",
-   "purl": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.122",
+   "version": "9.0.123",
+   "purl": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.123",
    "properties": [
     {
      "name": "osera:listed",
@@ -3844,11 +3844,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.122",
+   "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.123",
    "group": "org.apache.tomcat",
    "name": "tomcat-jsp-api",
-   "version": "9.0.122",
-   "purl": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.122",
+   "version": "9.0.123",
+   "purl": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.123",
    "properties": [
     {
      "name": "osera:listed",
@@ -11200,7 +11200,7 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.122",
+   "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.123",
    "dependsOn": []
   },
   {
@@ -11210,15 +11210,15 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.122",
+   "ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.123",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.122",
+   "ref": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.123",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.122",
+   "ref": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.123",
    "dependsOn": []
   },
   {
