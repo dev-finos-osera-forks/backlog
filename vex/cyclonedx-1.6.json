@@ -2,15 +2,15 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:4b02f427-b22e-5f9f-b341-bbf2feba2805",
-  "version": 2,
+  "version": 3,
   "metadata": {
-    "timestamp": "2026-10-15T12:46:29Z",
+    "timestamp": "2026-10-15T13:27:46Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "osera-feed",
-          "version": "main-70de44c4"
+          "version": "main-e99d74aa"
         }
       ]
     },
