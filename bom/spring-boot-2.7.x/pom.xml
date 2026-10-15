@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-10-13T11:38:23Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-10-15T15:40:56Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.10.13.14</version>
+  <version>2026.10.15</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -155,7 +155,7 @@
       <dependency>
         <groupId>io.projectreactor.addons</groupId>
         <artifactId>reactor-pool</artifactId>
-        <version>0.2.13.1-osera-00001</version>
+        <version>0.2.13.1-osera-00002</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.kafka</groupId>
