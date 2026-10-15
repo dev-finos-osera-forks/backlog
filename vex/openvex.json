@@ -1,12 +1,12 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://raw.githubusercontent.com/dev-finos-osera-forks/backlog/main/vex/openvex.json",
+  "@id": "https://feed.dev.finos.org/openvex.json",
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-08T10:22:10Z",
-  "last_updated": "2026-10-15T13:27:46Z",
-  "version": 17,
-  "tooling": "osera-feed main-e99d74aa",
+  "last_updated": "2026-10-15T15:51:29Z",
+  "version": 18,
+  "tooling": "osera-feed main-cdb8dfd5",
   "statements": [
     {
       "vulnerability": {
