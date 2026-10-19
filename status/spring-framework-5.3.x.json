@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.10.19.2",
-  "as_of": "2026-10-19T08:09:10Z",
+  "as_of": "2026-10-19T21:21:52Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 21,
@@ -167,13 +167,13 @@
       "at": "2026-10-16T21:38:08Z"
     }
   ],
-  "in_progress": [],
-  "open": [
+  "in_progress": [
     {
       "cve": "CVE-2026-41855",
       "library": "org.springframework:spring-jms"
     }
   ],
+  "open": [],
   "not_remediable": [],
   "discrepancies": [],
   "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.10.16.4"
