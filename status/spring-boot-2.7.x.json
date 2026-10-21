@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.21",
-  "as_of": "2026-10-21T02:45:28Z",
+  "as_of": "2026-10-21T08:06:21Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 68,
+  "in_scope": 69,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -385,6 +385,10 @@
     {
       "cve": "CVE-2026-5795",
       "library": "org.eclipse.jetty:jetty-jaspi"
+    },
+    {
+      "cve": "CVE-2026-59889",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
       "cve": "CVE-2026-68494",
