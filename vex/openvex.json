@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-08T10:22:10Z",
-  "last_updated": "2026-10-21T12:28:18Z",
-  "version": 25,
-  "tooling": "osera-feed main-45f309c6",
+  "last_updated": "2026-10-21T21:51:25Z",
+  "version": 26,
+  "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
       "vulnerability": {
@@ -51,6 +51,22 @@
       "products": [
         {
           "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54399",
+        "aliases": [
+          "GHSA-hf6x-8p5f-cgmf"
+        ]
+      },
+      "timestamp": "2026-10-21T21:43:24Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001"
         }
       ],
       "status": "fixed",

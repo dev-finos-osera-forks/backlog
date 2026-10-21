@@ -2,15 +2,15 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:aade1e8b-3533-526b-9035-145fc3e17332",
-  "version": 11,
+  "version": 12,
   "metadata": {
-    "timestamp": "2026-10-21T12:28:18Z",
+    "timestamp": "2026-10-21T21:51:25Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "osera-feed",
-          "version": "main-45f309c6"
+          "version": "main-2a233d5d"
         }
       ]
     },
@@ -43,6 +43,17 @@
       "name": "jackson-core",
       "version": "2.13.5.1-osera-00002",
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001",
+      "supplier": {
+        "name": "cp-osera-dev"
+      },
+      "group": "org.apache.httpcomponents.core5",
+      "name": "httpcore5",
+      "version": "5.3.6.1-osera-00001",
+      "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001"
     },
     {
       "type": "library",
@@ -1045,6 +1056,32 @@
       "affects": [
         {
           "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-54399 on pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001",
+      "id": "CVE-2026-54399",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54399"
+      },
+      "references": [
+        {
+          "id": "GHSA-hf6x-8p5f-cgmf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-hf6x-8p5f-cgmf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T21:43:24Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001"
         }
       ]
     },
