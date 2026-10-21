@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T12:20:32Z",
-  "feed_version": 24,
+  "generated_at": "2026-10-21T12:28:18Z",
+  "feed_version": 25,
   "sets": [
     {
       "set": "dev-finos-osera-forks/patch-jackson-annotations@v2.13.5.1-osera-00001",
@@ -615,14 +615,8 @@
         "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00001",
         "org.springframework.boot:spring-boot@2.7.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.boot:spring-boot-starter-security@2.7.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.boot:spring-boot-starter-security@2.7.18.1-osera-00001: GET org/springframework/boot/spring-boot-starter-security/2.7.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/boot/spring-boot-starter-security/2.7.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-build@v1.5.18.1-osera-00001",
@@ -630,14 +624,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00001: GET org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-build@v1.5.18.1-osera-00002",
@@ -645,14 +633,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00002: GET org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-build@v1.5.18.1-osera-00003",
@@ -660,14 +642,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00003: GET org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-build@v1.5.18.1-osera-00004",
@@ -675,14 +651,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00004: GET org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-build@v1.5.18.1-osera-00005",
@@ -690,14 +660,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00005: GET org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-build@v1.5.18.1-osera-00006",
@@ -705,14 +669,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00006: GET org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-r2dbc/1.5.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-cassandra@v3.4.18.1-osera-00001",
@@ -720,14 +678,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00001: GET org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-cassandra@v3.4.18.1-osera-00002",
@@ -735,14 +687,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00002: GET org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-cassandra@v3.4.18.1-osera-00003",
@@ -750,14 +696,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00003: GET org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-cassandra@v3.4.18.1-osera-00004",
@@ -765,14 +705,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00004: GET org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-cassandra@v3.4.18.1-osera-00005",
@@ -780,14 +714,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00005: GET org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-cassandra@v3.4.18.1-osera-00006",
@@ -795,14 +723,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00006: GET org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-cassandra/3.4.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-couchbase@v4.4.18.1-osera-00001",
@@ -810,14 +732,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00001: GET org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-couchbase@v4.4.18.1-osera-00002",
@@ -825,14 +741,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00002: GET org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-couchbase@v4.4.18.1-osera-00003",
@@ -840,14 +750,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00003: GET org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-couchbase@v4.4.18.1-osera-00004",
@@ -855,14 +759,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00004: GET org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-couchbase@v4.4.18.1-osera-00005",
@@ -870,14 +768,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00005: GET org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-couchbase@v4.4.18.1-osera-00006",
@@ -885,14 +777,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00006: GET org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-couchbase/4.4.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-elasticsearch@v4.4.18.1-osera-00001",
@@ -900,14 +786,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00001: GET org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-elasticsearch@v4.4.18.1-osera-00002",
@@ -915,14 +795,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00002: GET org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-elasticsearch@v4.4.18.1-osera-00003",
@@ -930,14 +804,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00003: GET org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-elasticsearch@v4.4.18.1-osera-00004",
@@ -945,14 +813,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00004: GET org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-elasticsearch@v4.4.18.1-osera-00005",
@@ -960,14 +822,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00005: GET org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-elasticsearch@v4.4.18.1-osera-00006",
@@ -975,14 +831,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00006: GET org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-elasticsearch/4.4.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-envers@v2.7.18.1-osera-00002",
@@ -990,14 +840,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-envers@2.7.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-envers@2.7.18.1-osera-00002: GET org/springframework/data/spring-data-envers/2.7.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-envers/2.7.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-envers@v2.7.18.1-osera-00003",
@@ -1005,14 +849,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-envers@2.7.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-envers@2.7.18.1-osera-00003: GET org/springframework/data/spring-data-envers/2.7.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-envers/2.7.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-envers@v2.7.18.1-osera-00004",
@@ -1020,14 +858,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-envers@2.7.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-envers@2.7.18.1-osera-00004: GET org/springframework/data/spring-data-envers/2.7.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-envers/2.7.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-envers@v2.7.18.1-osera-00005",
@@ -1035,14 +867,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-envers@2.7.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-envers@2.7.18.1-osera-00005: GET org/springframework/data/spring-data-envers/2.7.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-envers/2.7.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-envers@v2.7.18.1-osera-00006",
@@ -1050,14 +876,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-envers@2.7.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-envers@2.7.18.1-osera-00006: GET org/springframework/data/spring-data-envers/2.7.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-envers/2.7.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jdbc@v2.4.18.1-osera-00001",
@@ -1065,14 +885,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00001: GET org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jdbc@v2.4.18.1-osera-00002",
@@ -1080,14 +894,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00002: GET org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jdbc@v2.4.18.1-osera-00003",
@@ -1095,14 +903,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00003: GET org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jdbc@v2.4.18.1-osera-00004",
@@ -1110,14 +912,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00004: GET org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jdbc@v2.4.18.1-osera-00005",
@@ -1125,14 +921,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00005: GET org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jdbc@v2.4.18.1-osera-00006",
@@ -1140,14 +930,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00006: GET org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jdbc/2.4.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jpa@v2.7.18.1-osera-00001",
@@ -1155,14 +939,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jpa@2.7.18.1-osera-00001: GET org/springframework/data/spring-data-jpa/2.7.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jpa/2.7.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jpa@v2.7.18.1-osera-00002",
@@ -1170,14 +948,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jpa@2.7.18.1-osera-00002: GET org/springframework/data/spring-data-jpa/2.7.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jpa/2.7.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jpa@v2.7.18.1-osera-00003",
@@ -1185,14 +957,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jpa@2.7.18.1-osera-00003: GET org/springframework/data/spring-data-jpa/2.7.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jpa/2.7.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jpa@v2.7.18.1-osera-00004",
@@ -1200,14 +966,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jpa@2.7.18.1-osera-00004: GET org/springframework/data/spring-data-jpa/2.7.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jpa/2.7.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jpa@v2.7.18.1-osera-00005",
@@ -1215,14 +975,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jpa@2.7.18.1-osera-00005: GET org/springframework/data/spring-data-jpa/2.7.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jpa/2.7.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-jpa@v2.7.18.1-osera-00006",
@@ -1230,14 +984,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-jpa@2.7.18.1-osera-00006: GET org/springframework/data/spring-data-jpa/2.7.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-jpa/2.7.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-ldap@v2.7.18.1-osera-00001",
@@ -1245,14 +993,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-ldap@2.7.18.1-osera-00001: GET org/springframework/data/spring-data-ldap/2.7.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-ldap/2.7.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-ldap@v2.7.18.1-osera-00002",
@@ -1260,14 +1002,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-ldap@2.7.18.1-osera-00002: GET org/springframework/data/spring-data-ldap/2.7.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-ldap/2.7.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-ldap@v2.7.18.1-osera-00003",
@@ -1275,14 +1011,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-ldap@2.7.18.1-osera-00003: GET org/springframework/data/spring-data-ldap/2.7.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-ldap/2.7.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-ldap@v2.7.18.1-osera-00004",
@@ -1290,14 +1020,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-ldap@2.7.18.1-osera-00004: GET org/springframework/data/spring-data-ldap/2.7.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-ldap/2.7.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-ldap@v2.7.18.1-osera-00005",
@@ -1305,14 +1029,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-ldap@2.7.18.1-osera-00005: GET org/springframework/data/spring-data-ldap/2.7.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-ldap/2.7.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-ldap@v2.7.18.1-osera-00006",
@@ -1320,14 +1038,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-ldap@2.7.18.1-osera-00006: GET org/springframework/data/spring-data-ldap/2.7.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-ldap/2.7.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-neo4j@v6.3.18.1-osera-00001",
@@ -1335,14 +1047,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00001: GET org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-neo4j@v6.3.18.1-osera-00002",
@@ -1350,14 +1056,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00002: GET org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-neo4j@v6.3.18.1-osera-00003",
@@ -1365,14 +1065,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00003: GET org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-neo4j@v6.3.18.1-osera-00004",
@@ -1380,14 +1074,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00004: GET org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-neo4j@v6.3.18.1-osera-00005",
@@ -1395,14 +1083,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00005: GET org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-neo4j@v6.3.18.1-osera-00006",
@@ -1410,14 +1092,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00006: GET org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-neo4j/6.3.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-redis@v2.7.18.1-osera-00001",
@@ -1425,14 +1101,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-redis@2.7.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-redis@2.7.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-redis@2.7.18.1-osera-00001: GET org/springframework/data/spring-data-redis/2.7.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-redis/2.7.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-redis@v2.7.18.1-osera-00002",
@@ -1440,14 +1110,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-redis@2.7.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-redis@2.7.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-redis@2.7.18.1-osera-00002: GET org/springframework/data/spring-data-redis/2.7.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-redis/2.7.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-redis@v2.7.18.1-osera-00004",
@@ -1455,14 +1119,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-redis@2.7.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-redis@2.7.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-redis@2.7.18.1-osera-00004: GET org/springframework/data/spring-data-redis/2.7.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-redis/2.7.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-redis@v2.7.18.1-osera-00005",
@@ -1470,14 +1128,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-redis@2.7.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-redis@2.7.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-redis@2.7.18.1-osera-00005: GET org/springframework/data/spring-data-redis/2.7.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-redis/2.7.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-redis@v2.7.18.1-osera-00006",
@@ -1485,14 +1137,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-redis@2.7.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-redis@2.7.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-redis@2.7.18.1-osera-00006: GET org/springframework/data/spring-data-redis/2.7.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-redis/2.7.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-relational@v2.4.18.1-osera-00001",
@@ -1500,14 +1146,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-relational@2.4.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-relational@2.4.18.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-relational@2.4.18.1-osera-00001: GET org/springframework/data/spring-data-relational/2.4.18.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-relational/2.4.18.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-relational@v2.4.18.1-osera-00002",
@@ -1515,14 +1155,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-relational@2.4.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-relational@2.4.18.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-relational@2.4.18.1-osera-00002: GET org/springframework/data/spring-data-relational/2.4.18.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-relational/2.4.18.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-relational@v2.4.18.1-osera-00003",
@@ -1530,14 +1164,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-relational@2.4.18.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-relational@2.4.18.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-relational@2.4.18.1-osera-00003: GET org/springframework/data/spring-data-relational/2.4.18.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-relational/2.4.18.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-relational@v2.4.18.1-osera-00004",
@@ -1545,14 +1173,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-relational@2.4.18.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-relational@2.4.18.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-relational@2.4.18.1-osera-00004: GET org/springframework/data/spring-data-relational/2.4.18.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-relational/2.4.18.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-relational@v2.4.18.1-osera-00005",
@@ -1560,14 +1182,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-relational@2.4.18.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-relational@2.4.18.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-relational@2.4.18.1-osera-00005: GET org/springframework/data/spring-data-relational/2.4.18.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-relational/2.4.18.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-data-relational@v2.4.18.1-osera-00006",
@@ -1575,14 +1191,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-relational@2.4.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-relational@2.4.18.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework.data:spring-data-relational@2.4.18.1-osera-00006: GET org/springframework/data/spring-data-relational/2.4.18.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/data/spring-data-relational/2.4.18.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00001",
@@ -1612,14 +1222,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00001",
         "org.springframework:spring-websocket@5.3.39.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00001: GET org/springframework/spring-aop/5.3.39.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00002",
@@ -1649,14 +1253,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00002",
         "org.springframework:spring-websocket@5.3.39.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00002: GET org/springframework/spring-aop/5.3.39.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00003",
@@ -1686,14 +1284,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00003",
         "org.springframework:spring-websocket@5.3.39.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00003: GET org/springframework/spring-aop/5.3.39.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 3
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00004",
@@ -1723,14 +1315,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00004",
         "org.springframework:spring-websocket@5.3.39.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00004: GET org/springframework/spring-aop/5.3.39.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 4
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00005",
@@ -1760,14 +1346,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00005",
         "org.springframework:spring-websocket@5.3.39.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00005: GET org/springframework/spring-aop/5.3.39.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 5
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00006",
@@ -1797,14 +1377,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00006",
         "org.springframework:spring-websocket@5.3.39.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00006",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00006: GET org/springframework/spring-aop/5.3.39.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 6
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00007",
@@ -1875,14 +1449,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00008",
         "org.springframework:spring-websocket@5.3.39.1-osera-00008"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00008",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00008: GET org/springframework/spring-aop/5.3.39.1-osera-00008/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00008/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 10
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00009",
@@ -1912,14 +1480,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00009",
         "org.springframework:spring-websocket@5.3.39.1-osera-00009"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00009",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00009: GET org/springframework/spring-aop/5.3.39.1-osera-00009/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00009/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 11
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00010",
@@ -1949,14 +1511,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00010",
         "org.springframework:spring-websocket@5.3.39.1-osera-00010"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00010",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00010: GET org/springframework/spring-aop/5.3.39.1-osera-00010/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00010/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 12
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00011",
@@ -1986,14 +1542,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00011",
         "org.springframework:spring-websocket@5.3.39.1-osera-00011"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00011",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00011: GET org/springframework/spring-aop/5.3.39.1-osera-00011/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00011/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 13
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00012",
@@ -2023,14 +1573,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00012",
         "org.springframework:spring-websocket@5.3.39.1-osera-00012"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00012",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00012: GET org/springframework/spring-aop/5.3.39.1-osera-00012/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00012/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 14
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00013",
@@ -2060,14 +1604,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00013",
         "org.springframework:spring-websocket@5.3.39.1-osera-00013"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00013",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00013: GET org/springframework/spring-aop/5.3.39.1-osera-00013/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00013/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 19
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00014",
@@ -2097,14 +1635,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00014",
         "org.springframework:spring-websocket@5.3.39.1-osera-00014"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00014",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00014: GET org/springframework/spring-aop/5.3.39.1-osera-00014/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00014/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 20
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00015",
@@ -2134,14 +1666,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00015",
         "org.springframework:spring-websocket@5.3.39.1-osera-00015"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00015",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00015: GET org/springframework/spring-aop/5.3.39.1-osera-00015/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00015/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 21
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00016",
@@ -2171,14 +1697,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
         "org.springframework:spring-websocket@5.3.39.1-osera-00016"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-aop@5.3.39.1-osera-00016",
-          "why": "release record not read: the verdict of org.springframework:spring-aop@5.3.39.1-osera-00016: GET org/springframework/spring-aop/5.3.39.1-osera-00016/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/spring-aop/5.3.39.1-osera-00016/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 24
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-hateoas@v1.5.6.1-osera-00001",
@@ -2186,14 +1706,8 @@
       "coordinates": [
         "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001: GET org/springframework/hateoas/spring-hateoas/1.5.6.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/hateoas/spring-hateoas/1.5.6.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-hateoas@v1.5.6.1-osera-00002",
@@ -2201,14 +1715,8 @@
       "coordinates": [
         "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002: GET org/springframework/hateoas/spring-hateoas/1.5.6.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/hateoas/spring-hateoas/1.5.6.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-instrument@v5.3.39.1-osera-00007",
@@ -2251,14 +1759,8 @@
         "org.springframework.security:spring-security-test@5.7.14.1-osera-00001",
         "org.springframework.security:spring-security-web@5.7.14.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00001",
-          "why": "release record not read: the verdict of org.springframework.security:spring-security-acl@5.7.14.1-osera-00001: GET org/springframework/security/spring-security-acl/5.7.14.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/security/spring-security-acl/5.7.14.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-security@v5.7.14.1-osera-00002",
@@ -2286,14 +1788,8 @@
         "org.springframework.security:spring-security-test@5.7.14.1-osera-00002",
         "org.springframework.security:spring-security-web@5.7.14.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00002",
-          "why": "release record not read: the verdict of org.springframework.security:spring-security-acl@5.7.14.1-osera-00002: GET org/springframework/security/spring-security-acl/5.7.14.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/security/spring-security-acl/5.7.14.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-security@v5.7.14.1-osera-00003",
@@ -2321,14 +1817,8 @@
         "org.springframework.security:spring-security-test@5.7.14.1-osera-00003",
         "org.springframework.security:spring-security-web@5.7.14.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00003",
-          "why": "release record not read: the verdict of org.springframework.security:spring-security-acl@5.7.14.1-osera-00003: GET org/springframework/security/spring-security-acl/5.7.14.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/security/spring-security-acl/5.7.14.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 3
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-security@v5.7.14.1-osera-00004",
@@ -2356,14 +1846,8 @@
         "org.springframework.security:spring-security-test@5.7.14.1-osera-00004",
         "org.springframework.security:spring-security-web@5.7.14.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00004",
-          "why": "release record not read: the verdict of org.springframework.security:spring-security-acl@5.7.14.1-osera-00004: GET org/springframework/security/spring-security-acl/5.7.14.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/security/spring-security-acl/5.7.14.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 4
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-security@v5.7.14.1-osera-00005",
@@ -2391,14 +1875,8 @@
         "org.springframework.security:spring-security-test@5.7.14.1-osera-00005",
         "org.springframework.security:spring-security-web@5.7.14.1-osera-00005"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T12:20:32Z",
-      "reasons": [
-        {
-          "member": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00005",
-          "why": "release record not read: the verdict of org.springframework.security:spring-security-acl@5.7.14.1-osera-00005: GET org/springframework/security/spring-security-acl/5.7.14.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/org/springframework/security/spring-security-acl/5.7.14.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 5
     }
   ]
 }
