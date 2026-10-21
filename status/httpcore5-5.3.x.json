@@ -1,17 +1,18 @@
 {
   "line": "httpcore5-5.3.x",
   "book_version": "v2026.10.21.2",
-  "as_of": "2026-10-21T08:09:15Z",
-  "status": "not fixed",
+  "as_of": "2026-10-21T11:54:21Z",
+  "status": "in progress",
   "chain": "",
   "in_scope": 2,
   "fixed": [],
-  "in_progress": [],
-  "open": [
+  "in_progress": [
     {
       "cve": "CVE-2026-54399",
       "library": "org.apache.httpcomponents.core5:httpcore5"
-    },
+    }
+  ],
+  "open": [
     {
       "cve": "CVE-2026-54428",
       "library": "org.apache.httpcomponents.core5:httpcore5-h2"
