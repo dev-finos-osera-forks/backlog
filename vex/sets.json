@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-10-21T12:28:18Z",
-  "feed_version": 25,
+  "generated_at": "2026-10-21T21:51:25Z",
+  "feed_version": 26,
   "sets": [
+    {
+      "set": "dev-finos-osera-forks/patch-httpcomponents-core@v5.3.6.1-osera-00001",
+      "members": 3,
+      "coordinates": [
+        "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00001",
+        "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00001",
+        "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
     {
       "set": "dev-finos-osera-forks/patch-jackson-annotations@v2.13.5.1-osera-00001",
       "members": 1,
