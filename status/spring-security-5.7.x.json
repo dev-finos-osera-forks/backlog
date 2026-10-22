@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.10.22.47",
-  "as_of": "2026-10-22T17:00:25Z",
+  "book_version": "v2026.10.22.48",
+  "as_of": "2026-10-22T17:01:43Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 22,
@@ -107,7 +107,9 @@
     {
       "cve": "CVE-2026-41716",
       "library": "org.springframework.data:spring-data-commons"
-    },
+    }
+  ],
+  "open": [
     {
       "cve": "CVE-2026-41720",
       "library": "org.springframework.ldap:spring-ldap-core"
@@ -123,9 +125,7 @@
     {
       "cve": "CVE-2026-54513",
       "library": "com.fasterxml.jackson.core:jackson-databind"
-    }
-  ],
-  "open": [
+    },
     {
       "cve": "CVE-2026-59889",
       "library": "com.fasterxml.jackson.core:jackson-databind"
