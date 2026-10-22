@@ -1,7 +1,7 @@
 {
   "line": "velocity-1.7.x",
   "book_version": "v2026.10.22.3",
-  "as_of": "2026-10-22T15:09:16Z",
+  "as_of": "2026-10-22T15:10:38Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 2,
@@ -18,8 +18,6 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [
-    "issue #1018 for CVE-2015-6420 is closed in backlog while the entry on commons-collections:commons-collections is open"
-  ],
+  "discrepancies": [],
   "consume": ""
 }
