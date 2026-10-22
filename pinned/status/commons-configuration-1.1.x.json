@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.1.x",
-  "book_version": "v2026.10.22.12",
-  "as_of": "2026-10-22T15:37:00Z",
+  "book_version": "v2026.10.22.13",
+  "as_of": "2026-10-22T15:38:20Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 7,
@@ -38,9 +38,6 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [
-    "issue #1023 for CVE-2019-10086 is closed in backlog while the entry on commons-beanutils:commons-beanutils is open",
-    "issue #1048 for CVE-2025-48734 is closed in backlog while the entry on commons-beanutils:commons-beanutils is open"
-  ],
+  "discrepancies": [],
   "consume": ""
 }
