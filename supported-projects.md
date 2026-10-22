@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T15:47:17Z. Written by the line manager reconciler.
+Generated 2026-10-22T15:48:17Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,9 +8,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 74 | 30 | 41% | 220 | 0 | 44 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 74 | 30 | 41% | 220 | 6 | 38 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 23 | 21 | 91% | 24 | 0 | 2 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 22 | 12 | 55% | 45 | 0 | 10 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 22 | 12 | 55% | 45 | 1 | 9 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | not fixed | 3 | 0 | 0% | 2 | 0 | 3 | 0 |
@@ -84,7 +84,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.httpcomponents.core5:httpcore5 | 5.3.6 | httpclient5-5.4.x, httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.6.1-osera-00001 | 5.3.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.httpcomponents.core5:httpcore5-h2 | 5.3.6 | httpclient5-5.4.x, httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-1.2-api | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 2 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | in progress | 1 | 0 | 0% | 2 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | open | 1 | 0 | 0% | 3 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -107,11 +107,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-starter-actuator | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.data:spring-data-commons | 2.7.18 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.7.18 (org.springframework.data:spring-data-bom@2021.2.18) | open | 1 | 0 | 0% | 2 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.data:spring-data-keyvalue | 2.7.18 | spring-boot-2.7.x | listed by the BOM at 2.7.18 (org.springframework.data:spring-data-bom@2021.2.18) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.data:spring-data-mongodb | 3.4.18 | spring-boot-2.7.x | listed by the BOM at 3.4.18 (org.springframework.data:spring-data-bom@2021.2.18) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.data:spring-data-commons | 2.7.18 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.7.18 (org.springframework.data:spring-data-bom@2021.2.18) | in progress | 1 | 0 | 0% | 2 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.data:spring-data-keyvalue | 2.7.18 | spring-boot-2.7.x | listed by the BOM at 2.7.18 (org.springframework.data:spring-data-bom@2021.2.18) | in progress | 1 | 0 | 0% | 0 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.data:spring-data-mongodb | 3.4.18 | spring-boot-2.7.x | listed by the BOM at 3.4.18 (org.springframework.data:spring-data-bom@2021.2.18) | in progress | 1 | 0 | 0% | 1 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.data:spring-data-rest-core | 3.7.18 | spring-boot-2.7.x | listed by the BOM at 3.7.18 (org.springframework.data:spring-data-bom@2021.2.18) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.graphql:spring-graphql | 1.0.6 | spring-boot-2.7.x | listed by the BOM at 1.0.6 | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.graphql:spring-graphql | 1.0.6 | spring-boot-2.7.x | listed by the BOM at 1.0.6 | open | 4 | 0 | 0% | 0 | 1 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.hateoas:spring-hateoas | 1.5.6 | spring-boot-2.7.x | listed by the BOM at 1.5.6 | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.5.6.1-osera-00002 | 1.5.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.integration:spring-integration-file | 5.5.20 | spring-boot-2.7.x | listed by the BOM at 5.5.20 (org.springframework.integration:spring-integration-bom@5.5.20) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.kafka:spring-kafka | 2.8.11 | spring-boot-2.7.x | listed by the BOM at 2.8.11 | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -119,7 +119,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.security:spring-security-crypto | 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-saml2-service-provider | 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | fixed | 1 | 1 | 100% | 2 | 0 | 0 | 0 | 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-web | 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | in progress | 1 | 0 | 0% | 0 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ws:spring-ws-security | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 4 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
