@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.10.22.3",
-  "as_of": "2026-10-22T15:10:38Z",
+  "book_version": "v2026.10.22.4",
+  "as_of": "2026-10-22T15:22:33Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 31,
@@ -135,13 +135,6 @@
   ],
   "not_remediable": [],
   "discrepancies": [
-    "issue #23 for CVE-2024-22257 is closed in backlog while the entry on org.springframework.security:spring-security-core is open",
-    "issue #31 for CVE-2024-38821 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
-    "issue #38 for CVE-2025-22228 is closed in backlog while the entry on org.springframework.security:spring-security-crypto is open",
-    "issue #63 for CVE-2026-22732 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
-    "issue #77 for CVE-2026-40988 is closed in backlog while the entry on org.springframework.security:spring-security-saml2-service-provider is open",
-    "issue #85 for CVE-2026-41706 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
-    "issue #89 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
     "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
