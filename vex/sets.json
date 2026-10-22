@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:11:25Z",
+  "generated_at": "2026-10-22T16:26:28Z",
   "feed_version": 26,
   "sets": [
     {
@@ -1206,21 +1206,6 @@
       "statements": 0
     },
     {
-      "set": "dev-finos-osera-forks/patch-spring-expression@v5.3.39.1-osera-00007",
-      "members": 1,
-      "coordinates": [
-        "org.springframework:spring-expression@5.3.39.1-osera-00007"
-      ],
-      "state": "held",
-      "held_since": "2026-10-22T16:11:25Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-expression@5.3.39.1-osera-00007",
-          "why": "evidence chain not complete: verdict: missing (no verdict for 5.3.39.1-osera-00007 in osera-releases-raw-01); fork: missing (the fork patch-spring-expression is missing); tag: not checked (the fork is missing); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
-        }
-      ]
-    },
-    {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00001",
       "members": 23,
       "coordinates": [
@@ -1435,11 +1420,11 @@
         "org.springframework:spring-websocket@5.3.39.1-osera-00007"
       ],
       "state": "held",
-      "held_since": "2026-10-22T16:11:25Z",
+      "held_since": "2026-10-22T16:26:28Z",
       "reasons": [
         {
           "member": "org.springframework:spring-expression@5.3.39.1-osera-00007",
-          "why": "evidence chain not complete: verdict: missing (no verdict for 5.3.39.1-osera-00007 in osera-releases-raw-01); fork: missing (the fork patch-spring-expression is missing); tag: not checked (the fork is missing); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
+          "why": "evidence chain not complete: verdict: missing (no verdict for 5.3.39.1-osera-00007 in osera-releases-raw-01); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
         },
         {
           "member": "org.springframework:spring-instrument@5.3.39.1-osera-00007",
