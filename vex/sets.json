@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:11:24Z",
+  "generated_at": "2026-10-26T09:16:24Z",
   "feed_version": 26,
   "sets": [
     {
@@ -274,10 +274,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00002"
       ],
       "state": "held",
-      "held_since": "2026-10-26T09:11:24Z",
+      "held_since": "2026-10-26T09:16:24Z",
       "reasons": [
         {
-          "why": "line declaration not read: reading .osera/line.yaml of dev-finos-osera-forks/patch-jackson-bom at v2.13.5.1-osera-00002: Get \"https://raw.githubusercontent.com/dev-finos-osera-forks/patch-jackson-bom/v2.13.5.1-osera-00002/.osera/line.yaml\": read tcp 10.0.29.67:40828-\u003e185.199.109.133:443: read: connection reset by peer"
+          "why": "line declaration not read: dev-finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.13.5.1-osera-00002, the release tag of the artifacts the gate placed with its declaration at patch/2.13.x, so the release of the line they belong to is not known"
         }
       ]
     },
