@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T12:35:35Z. Written by the line manager reconciler.
+Generated 2026-10-27T12:40:35Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -9,7 +9,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
 | spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 200 | 30 | 15% | 89 | 12 | 158 | 0 |
-| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 23 | 21 | 91% | 24 | 0 | 2 | 0 |
+| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 21 | 45% | 0 | 0 | 26 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 22 | 12 | 55% | 45 | 5 | 5 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
@@ -144,14 +144,14 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | in progress | 1 | 0 | 0% | 0 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ws:spring-ws-security | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework:spring-context | 5.3.39 | spring-boot-2.7.x | own project (declared org.springframework@5.3.39) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework:spring-context | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 4 | 3 | 75% | 1 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 1 | 50% | 1 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 17 | 6 | 35% | 10 | 0 | 11 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 17 | 7 | 41% | 9 | 0 | 10 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 1 | 50% | 1 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 17 | 6 | 35% | 0 | 0 | 11 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 17 | 7 | 41% | 0 | 0 | 10 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.thymeleaf:thymeleaf | 3.0.15.RELEASE | spring-boot-2.7.x | listed by the BOM at 3.0.15.RELEASE | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.thymeleaf:thymeleaf-spring5 | 3.0.15.RELEASE | spring-boot-2.7.x | listed by the BOM at 3.0.15.RELEASE | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.xmlunit:xmlunit-core | 2.9.1 | spring-boot-2.7.x | listed by the BOM at 2.9.1 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
