@@ -1,10 +1,10 @@
 {
   "line": "commons-configuration-1.1.x",
   "book_version": "v2026.10.27.22",
-  "as_of": "2026-10-27T15:00:01Z",
+  "as_of": "2026-10-27T15:01:22Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 7,
+  "in_scope": 9,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -25,6 +25,10 @@
       "library": "dom4j:dom4j"
     },
     {
+      "cve": "CVE-2020-14338",
+      "library": "xerces:xercesImpl"
+    },
+    {
       "cve": "CVE-2022-23437",
       "library": "xerces:xercesImpl"
     },
@@ -35,6 +39,10 @@
     {
       "cve": "CVE-2025-48734",
       "library": "commons-beanutils:commons-beanutils"
+    },
+    {
+      "cve": "CVE-2025-48924",
+      "library": "commons-lang:commons-lang"
     }
   ],
   "not_remediable": [],
