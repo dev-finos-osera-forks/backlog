@@ -1,0 +1,11 @@
+# Simulated requests, dev only, not real members; temporary, removed when the secure intake API login is agreed (27 Oct 2026).
+# One row per line a simulated firm asks for, the secure intake's request fields: firm, ecosystem, project, version_line, precision, weight.
+# The line manager (INTAKE=file, INTAKE_FILE=requests/simulated.yaml) reads this file from its clone on every pass and refuses it whole on an unknown key, a missing key, a bad ecosystem, precision or weight, or a firm asking for one line twice.
+- {firm: sim-firm-a, ecosystem: maven, project: org.springframework.boot:spring-boot-dependencies, version_line: 2.7.x, precision: exact-line, weight: critical}
+- {firm: sim-firm-a, ecosystem: maven, project: org.springframework.security:spring-security-bom, version_line: 5.7.x, precision: exact-line, weight: medium}
+- {firm: sim-firm-b, ecosystem: maven, project: org.springframework.boot:spring-boot-dependencies, version_line: 2.7.x, precision: exact-line, weight: high}
+- {firm: sim-firm-b, ecosystem: maven, project: org.yaml:snakeyaml, version_line: 1.33.x, precision: exact-line, weight: low}
+- {firm: sim-firm-c, ecosystem: maven, project: org.springframework:spring-framework-bom, version_line: 5.3.x, precision: exact-line, weight: high}
+- {firm: sim-firm-c, ecosystem: maven, project: org.apache.logging.log4j:log4j-core, version_line: 2.24.x, precision: exact-line, weight: medium}
+# Moderne's npm line: the package is not known yet; fill project and version_line (major.minor.x) when the line is in supported-lines.csv.
+# - {firm: sim-firm-c, ecosystem: npm, project: <package>, version_line: <major.minor.x>, precision: exact-line, weight: medium}
