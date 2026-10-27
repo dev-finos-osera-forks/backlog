@@ -1,10 +1,10 @@
 {
   "line": "snakeyaml-1.17.x",
   "book_version": "v2026.10.27.14",
-  "as_of": "2026-10-27T13:47:45Z",
+  "as_of": "2026-10-27T14:00:27Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 8,
+  "in_scope": 9,
   "fixed": [
     {
       "cve": "CVE-2022-1471",
@@ -31,6 +31,10 @@
     },
     {
       "cve": "CVE-2022-38749",
+      "library": "org.yaml:snakeyaml"
+    },
+    {
+      "cve": "CVE-2022-38750",
       "library": "org.yaml:snakeyaml"
     },
     {
