@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T17:38:01Z. Written by the line manager reconciler.
+Generated 2026-10-27T17:54:01Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -35,8 +35,8 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | not fixed | 16 | 0 | 0% | 1 | 0 | 16 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 15 | 0 | 0% | 1 | 0 | 15 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
-| bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | not fixed | 1 | 0 | 0% | 13 | 0 | 1 | 0 |
-| jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 1 | 0 | 0% | 8 | 0 | 1 | 0 |
+| bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | not fixed | 4 | 0 | 0% | 10 | 0 | 4 | 0 |
+| jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 8 | 0 | 0% | 1 | 0 | 8 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | not fixed | 1 | 0 | 0% | 1 | 0 | 1 | 0 |
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | not fixed | 7 | 0 | 0% | 6 | 0 | 7 | 0 |
@@ -52,7 +52,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 ## Libraries
 
-161 libraries across 41 line(s).
+162 libraries across 41 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -146,15 +146,16 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.bouncycastle:bcpkix-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcpkix-jdk15on | 1.70 | bouncycastle-1.70.x, spring-boot-2.7.x, spring-security-5.7.x | own project on bouncycastle-1.70.x (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcpkix-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | open | 1 | 0 | 0% | 13 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | open | 4 | 0 | 0% | 10 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 0 | 0% | 3 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk15on | 1.70 | bouncycastle-1.70.x, spring-boot-2.7.x, spring-security-5.7.x | own project on bouncycastle-1.70.x (the anchor's group) | open | 4 | 0 | 0% | 2 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty.http2:http2-common | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.eclipse.jetty:jetty-http | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-http | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-jaspi | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-security | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | open | 1 | 0 | 0% | 5 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | open | 5 | 0 | 0% | 1 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-server | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-servlets | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.parsson:parsson | 1.0.0 | spring-boot-2.7.x | pulled in by a dependency (co.elastic.clients:elasticsearch-java@7.17.15) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
