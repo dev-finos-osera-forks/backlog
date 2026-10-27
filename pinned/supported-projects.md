@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T16:19:01Z. Written by the line manager reconciler.
+Generated 2026-10-27T16:20:01Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -18,7 +18,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | not fixed | 1 | 0 | 0% | 1 | 0 | 1 | 0 |
-| bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | not fixed | 2 | 0 | 0% | 2 | 0 | 2 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | not fixed | 2 | 0 | 0% | 2 | 0 | 2 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
