@@ -1,10 +1,10 @@
 {
   "line": "velocity-1.7.x",
   "book_version": "v2026.10.27.30",
-  "as_of": "2026-10-27T15:38:01Z",
+  "as_of": "2026-10-27T16:23:01Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 2,
+  "in_scope": 3,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -15,6 +15,10 @@
     {
       "cve": "CVE-2020-13936",
       "library": "org.apache.velocity:velocity"
+    },
+    {
+      "cve": "CVE-2025-48924",
+      "library": "commons-lang:commons-lang"
     }
   ],
   "not_remediable": [],

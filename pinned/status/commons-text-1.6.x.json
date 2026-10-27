@@ -1,16 +1,20 @@
 {
   "line": "commons-text-1.6.x",
   "book_version": "v2026.10.27.30",
-  "as_of": "2026-10-27T15:38:01Z",
+  "as_of": "2026-10-27T16:23:01Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 1,
+  "in_scope": 2,
   "fixed": [],
   "in_progress": [],
   "open": [
     {
       "cve": "CVE-2022-42889",
       "library": "org.apache.commons:commons-text"
+    },
+    {
+      "cve": "CVE-2025-48924",
+      "library": "org.apache.commons:commons-lang3"
     }
   ],
   "not_remediable": [],
