@@ -1,11 +1,20 @@
 {
   "line": "crypto-js-4.1.x",
-  "book_version": "v2026.10.27.31",
-  "as_of": "2026-10-27T18:54:01Z",
-  "status": "nothing in scope",
-  "chain": "",
-  "in_scope": 0,
-  "fixed": [],
+  "book_version": "v2026.10.27.32",
+  "as_of": "2026-10-27T18:55:22Z",
+  "status": "fixed",
+  "chain": "complete",
+  "in_scope": 1,
+  "fixed": [
+    {
+      "cve": "CVE-2023-46233",
+      "library": "crypto-js",
+      "coordinate": "crypto-js@4.1.2-osera-00001",
+      "patch": "00001",
+      "named_by": "crypto-js@4.1.2-osera-00001",
+      "at": "2026-10-27T18:55:22Z"
+    }
+  ],
   "in_progress": [],
   "open": [],
   "not_remediable": [],
