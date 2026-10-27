@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T15:23:01Z. Written by the line manager reconciler.
+Generated 2026-10-27T15:27:01Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -45,7 +45,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | not fixed | 14 | 0 | 0% | 0 | 0 | 14 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | not fixed | 4 | 0 | 0% | 2 | 0 | 4 | 0 |
-| bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | not fixed | 4 | 0 | 0% | 3 | 0 | 4 | 0 |
+| bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 2 | 1 | 50% | 1 | 0 | 1 | 0 |
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 2 | 1 | 50% | 1 | 0 | 1 | 0 |
 
@@ -117,7 +117,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.bouncycastle:bcpkix-jdk15on | 1.70 | bouncycastle-1.70.x, spring-boot-2.7.x, spring-security-5.7.x | own project on bouncycastle-1.70.x (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcpkix-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | open | 4 | 0 | 0% | 10 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 0 | 0% | 3 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk15on | 1.70 | bouncycastle-1.70.x, spring-boot-2.7.x, spring-security-5.7.x | own project on bouncycastle-1.70.x (the anchor's group) | open | 4 | 0 | 0% | 2 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-http | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
