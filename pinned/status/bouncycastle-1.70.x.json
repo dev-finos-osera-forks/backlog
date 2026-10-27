@@ -1,15 +1,23 @@
 {
   "line": "bouncycastle-1.70.x",
   "book_version": "v2026.10.27.30",
-  "as_of": "2026-10-27T15:38:01Z",
+  "as_of": "2026-10-27T18:42:01Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 4,
+  "in_scope": 6,
   "fixed": [],
   "in_progress": [],
   "open": [
     {
+      "cve": "CVE-2023-33201",
+      "library": "org.bouncycastle:bcprov-jdk15on"
+    },
+    {
       "cve": "CVE-2024-29857",
+      "library": "org.bouncycastle:bcprov-jdk15on"
+    },
+    {
+      "cve": "CVE-2024-30171",
       "library": "org.bouncycastle:bcprov-jdk15on"
     },
     {
