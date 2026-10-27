@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.26.3",
-  "as_of": "2026-10-26T20:14:51Z",
+  "as_of": "2026-10-27T10:37:51Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 189,
+  "in_scope": 190,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -489,6 +489,10 @@
     {
       "cve": "CVE-2026-34479",
       "library": "org.apache.logging.log4j:log4j-1.2-api"
+    },
+    {
+      "cve": "CVE-2026-34479",
+      "library": "org.apache.logging.log4j:log4j-core"
     },
     {
       "cve": "CVE-2026-34481",
