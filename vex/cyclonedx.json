@@ -2,15 +2,15 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:aade1e8b-3533-526b-9035-145fc3e17332",
-  "version": 12,
+  "version": 13,
   "metadata": {
-    "timestamp": "2026-10-21T21:51:25Z",
+    "timestamp": "2026-10-27T15:08:07Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "osera-feed",
-          "version": "main-2a233d5d"
+          "version": "main-a0799050"
         }
       ]
     },
@@ -978,6 +978,17 @@
       "name": "snakeyaml",
       "version": "1.33.1-osera-00001",
       "purl": "pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/crypto-js@4.1.2-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "",
+      "name": "crypto-js",
+      "version": "4.1.2-osera-00001",
+      "purl": "pkg:npm/crypto-js@4.1.2-osera-00001"
     }
   ],
   "vulnerabilities": [
@@ -4957,6 +4968,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-46233 on pkg:npm/crypto-js@4.1.2-osera-00001",
+      "id": "CVE-2023-46233",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46233"
+      },
+      "references": [
+        {
+          "id": "GHSA-xwcq-pm8m-c4vf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xwcq-pm8m-c4vf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-27T15:04:20Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:npm/crypto-js@4.1.2-osera-00001"
         }
       ]
     }

@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-08T10:22:10Z",
-  "last_updated": "2026-10-21T21:51:25Z",
-  "version": 26,
-  "tooling": "osera-feed main-2a233d5d",
+  "last_updated": "2026-10-27T15:08:07Z",
+  "version": 27,
+  "tooling": "osera-feed main-a0799050",
   "statements": [
     {
       "vulnerability": {
@@ -2712,6 +2712,22 @@
       ],
       "status": "fixed",
       "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-46233",
+        "aliases": [
+          "GHSA-xwcq-pm8m-c4vf"
+        ]
+      },
+      "timestamp": "2026-10-27T15:04:20Z",
+      "products": [
+        {
+          "@id": "pkg:npm/crypto-js@4.1.2-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
     }
   ]
 }
