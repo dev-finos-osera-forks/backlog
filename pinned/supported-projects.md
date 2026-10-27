@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T16:10:01Z. Written by the line manager reconciler.
+Generated 2026-10-27T16:13:01Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -48,10 +48,11 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | not fixed | 4 | 0 | 0% | 3 | 0 | 4 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 2 | 1 | 50% | 1 | 0 | 1 | 0 |
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
+| crypto-js-4.1.x | npm | `crypto-js@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
 ## Libraries
 
-160 libraries across 40 line(s).
+160 libraries across 41 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
