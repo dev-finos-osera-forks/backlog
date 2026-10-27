@@ -1,0 +1,1071 @@
+{
+ "as_of": "2026-10-27T15:08:07Z",
+ "environment": "dev",
+ "ecosystems": [
+  "Java",
+  "JavaScript"
+ ],
+ "totals": {
+  "releases": 100,
+  "libraries": 145,
+  "libraries_with_a_fixed_cve": 15,
+  "fixed_entries": 189,
+  "undated_releases": 0
+ },
+ "releases_per_day": [
+  {
+   "date": "2026-09-30",
+   "count": 10
+  },
+  {
+   "date": "2026-10-01",
+   "count": 10
+  },
+  {
+   "date": "2026-10-08",
+   "count": 66
+  },
+  {
+   "date": "2026-10-13",
+   "count": 7
+  },
+  {
+   "date": "2026-10-15",
+   "count": 1
+  },
+  {
+   "date": "2026-10-16",
+   "count": 2
+  },
+  {
+   "date": "2026-10-19",
+   "count": 1
+  },
+  {
+   "date": "2026-10-20",
+   "count": 1
+  },
+  {
+   "date": "2026-10-21",
+   "count": 1
+  },
+  {
+   "date": "2026-10-27",
+   "count": 1
+  }
+ ],
+ "top_cves": [
+  {
+   "id": "CVE-2024-38816",
+   "fixed_entries": 18,
+   "libraries": 2,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2024-38819",
+   "fixed_entries": 17,
+   "libraries": 2,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2016-1000027",
+   "fixed_entries": 15,
+   "libraries": 1,
+   "cvss": 9.8,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-41842",
+   "fixed_entries": 14,
+   "libraries": 2,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2025-41249",
+   "fixed_entries": 13,
+   "libraries": 2,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-41844",
+   "fixed_entries": 11,
+   "libraries": 2,
+   "cvss": 6.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-41838",
+   "fixed_entries": 11,
+   "libraries": 1,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-22740",
+   "fixed_entries": 9,
+   "libraries": 2,
+   "cvss": 6.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-41848",
+   "fixed_entries": 9,
+   "libraries": 1,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-41849",
+   "fixed_entries": 9,
+   "libraries": 1,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-41850",
+   "fixed_entries": 9,
+   "libraries": 1,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-41851",
+   "fixed_entries": 9,
+   "libraries": 1,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-41845",
+   "fixed_entries": 7,
+   "libraries": 2,
+   "cvss": 6.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-22732",
+   "fixed_entries": 5,
+   "libraries": 1,
+   "cvss": 9.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-41846",
+   "fixed_entries": 5,
+   "libraries": 1,
+   "cvss": 6.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-47838",
+   "fixed_entries": 4,
+   "libraries": 1,
+   "cvss": 8.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-47892",
+   "fixed_entries": 4,
+   "libraries": 1,
+   "cvss": 9.8,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-40988",
+   "fixed_entries": 3,
+   "libraries": 1,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-47884",
+   "fixed_entries": 3,
+   "libraries": 1,
+   "cvss": 9.8,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2025-22228",
+   "fixed_entries": 2,
+   "libraries": 1,
+   "cvss": 7.4,
+   "cvss_version": "3.1"
+  }
+ ],
+ "libraries": [
+  {
+   "library": "com.fasterxml.jackson.core:jackson-annotations",
+   "releases": 1,
+   "latest": "2.13.5.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "com.fasterxml.jackson.core:jackson-core",
+   "releases": 2,
+   "latest": "2.13.5.1-osera-00002",
+   "fixed_entries": 3
+  },
+  {
+   "library": "crypto-js",
+   "releases": 1,
+   "latest": "4.1.2-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "io.projectreactor.addons:reactor-adapter",
+   "releases": 1,
+   "latest": "3.4.11.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.projectreactor.addons:reactor-extra",
+   "releases": 1,
+   "latest": "3.4.11.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.projectreactor.addons:reactor-pool",
+   "releases": 2,
+   "latest": "0.2.13.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.projectreactor.kafka:reactor-kafka",
+   "releases": 1,
+   "latest": "1.3.23.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.projectreactor.kotlin:reactor-kotlin-extensions",
+   "releases": 1,
+   "latest": "1.1.11.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.projectreactor.rabbitmq:reactor-rabbitmq",
+   "releases": 1,
+   "latest": "1.5.6.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.projectreactor:reactor-core",
+   "releases": 1,
+   "latest": "3.4.41.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.projectreactor:reactor-test",
+   "releases": 1,
+   "latest": "3.4.41.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.projectreactor:reactor-tools",
+   "releases": 1,
+   "latest": "3.4.41.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.httpcomponents.core5:httpcore5",
+   "releases": 1,
+   "latest": "5.3.6.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "org.apache.httpcomponents.core5:httpcore5-h2",
+   "releases": 1,
+   "latest": "5.3.6.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.httpcomponents.core5:httpcore5-parent",
+   "releases": 1,
+   "latest": "5.3.6.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-actuator",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-autoconfigure",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-autoconfigure-processor",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-buildpack-platform",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-configuration-metadata",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-configuration-processor",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-dependencies",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-devtools",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-gradle-plugin",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-jarmode-layertools",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-loader",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-loader-tools",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-maven-plugin",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-properties-migrator",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-activemq",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-actuator",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-amqp",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-aop",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-artemis",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-batch",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-cache",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-cassandra",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-cassandra-reactive",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-couchbase",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-couchbase-reactive",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-elasticsearch",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-jdbc",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-jpa",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-ldap",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-mongodb",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-mongodb-reactive",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-neo4j",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-r2dbc",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-redis",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-redis-reactive",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-data-rest",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-freemarker",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-graphql",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-groovy-templates",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-hateoas",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-integration",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-jdbc",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-jersey",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-jetty",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-jooq",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-json",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-jta-atomikos",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-log4j2",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-logging",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-mail",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-mustache",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-oauth2-client",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-oauth2-resource-server",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-parent",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-quartz",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-reactor-netty",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-rsocket",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-security",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-test",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-thymeleaf",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-tomcat",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-undertow",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-validation",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-web",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-web-services",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-webflux",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-starter-websocket",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-test",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.boot:spring-boot-test-autoconfigure",
+   "releases": 1,
+   "latest": "2.7.18.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-cassandra",
+   "releases": 6,
+   "latest": "3.4.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-couchbase",
+   "releases": 6,
+   "latest": "4.4.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-elasticsearch",
+   "releases": 6,
+   "latest": "4.4.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-envers",
+   "releases": 5,
+   "latest": "2.7.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-jdbc",
+   "releases": 6,
+   "latest": "2.4.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-jpa",
+   "releases": 6,
+   "latest": "2.7.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-ldap",
+   "releases": 6,
+   "latest": "2.7.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-neo4j",
+   "releases": 6,
+   "latest": "6.3.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-r2dbc",
+   "releases": 6,
+   "latest": "1.5.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-redis",
+   "releases": 5,
+   "latest": "2.7.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.data:spring-data-relational",
+   "releases": 6,
+   "latest": "2.4.18.1-osera-00006",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.hateoas:spring-hateoas",
+   "releases": 2,
+   "latest": "1.5.6.1-osera-00002",
+   "fixed_entries": 3
+  },
+  {
+   "library": "org.springframework.security:spring-security-acl",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-aspects",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-bom",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-cas",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-config",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-core",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-crypto",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 2
+  },
+  {
+   "library": "org.springframework.security:spring-security-data",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-ldap",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-messaging",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-oauth2-client",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-oauth2-core",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-oauth2-jose",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-oauth2-resource-server",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-openid",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-remoting",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-rsocket",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-saml2-service-provider",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 3
+  },
+  {
+   "library": "org.springframework.security:spring-security-taglibs",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-test",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.security:spring-security-web",
+   "releases": 5,
+   "latest": "5.7.14.1-osera-00005",
+   "fixed_entries": 10
+  },
+  {
+   "library": "org.springframework:spring-aop",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-aspects",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-beans",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-context",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-context-indexer",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-context-support",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-core",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 21
+  },
+  {
+   "library": "org.springframework:spring-expression",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 27
+  },
+  {
+   "library": "org.springframework:spring-framework-bom",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-instrument",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-jcl",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-jdbc",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-jms",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 2
+  },
+  {
+   "library": "org.springframework:spring-messaging",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-orm",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-oxm",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-r2dbc",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-test",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-tx",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework:spring-web",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 18
+  },
+  {
+   "library": "org.springframework:spring-webflux",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 28
+  },
+  {
+   "library": "org.springframework:spring-webmvc",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 58
+  },
+  {
+   "library": "org.springframework:spring-websocket",
+   "releases": 15,
+   "latest": "5.3.39.1-osera-00016",
+   "fixed_entries": 11
+  },
+  {
+   "library": "org.yaml:snakeyaml",
+   "releases": 1,
+   "latest": "1.33.1-osera-00001",
+   "fixed_entries": 1
+  }
+ ]
+}
