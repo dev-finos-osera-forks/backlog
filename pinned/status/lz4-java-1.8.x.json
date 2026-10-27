@@ -1,10 +1,10 @@
 {
   "line": "lz4-java-1.8.x",
   "book_version": "v2026.10.27.30",
-  "as_of": "2026-10-27T15:38:01Z",
+  "as_of": "2026-10-27T18:26:01Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 6,
+  "in_scope": 14,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -17,11 +17,43 @@
       "library": "org.lz4:lz4-java"
     },
     {
+      "cve": "CVE-2026-106449",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106449",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106450",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106450",
+      "library": "org.lz4:lz4-java"
+    },
+    {
       "cve": "CVE-2026-106451",
       "library": "at.yawk.lz4:lz4-java"
     },
     {
       "cve": "CVE-2026-106451",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106452",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106452",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106453",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106453",
       "library": "org.lz4:lz4-java"
     },
     {
