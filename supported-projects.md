@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T13:36:27Z. Written by the line manager reconciler.
+Generated 2026-10-27T13:45:27Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -21,8 +21,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
-| snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
-| snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 9 | 1 | 11% | 0 | 0 | 8 | 0 |
+| snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 9 | 1 | 11% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
@@ -158,11 +158,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.thymeleaf:thymeleaf | 3.0.15.RELEASE | spring-boot-2.7.x | listed by the BOM at 3.0.15.RELEASE | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.thymeleaf:thymeleaf-spring5 | 3.0.15.RELEASE | spring-boot-2.7.x | listed by the BOM at 3.0.15.RELEASE | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.xmlunit:xmlunit-core | 2.9.1 | spring-boot-2.7.x | listed by the BOM at 2.9.1 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.9 | snakeyaml-1.9.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.9 | snakeyaml-1.9.x | own project (the anchor's group) | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.16 | snakeyaml-1.16.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.17 | snakeyaml-1.17.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.19 | snakeyaml-1.19.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.23 | snakeyaml-1.23.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.23 | snakeyaml-1.23.x | own project (the anchor's group) | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.26 | snakeyaml-1.26.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
