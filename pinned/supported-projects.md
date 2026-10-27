@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T16:40:01Z. Written by the line manager reconciler.
+Generated 2026-10-27T16:49:01Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -22,7 +22,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | not fixed | 3 | 0 | 0% | 1 | 0 | 3 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | not fixed | 3 | 0 | 0% | 1 | 0 | 3 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
-| snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | not fixed | 7 | 0 | 0% | 1 | 0 | 7 | 0 |
@@ -207,7 +207,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.yaml:snakeyaml | 1.16 | snakeyaml-1.16.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.17 | snakeyaml-1.17.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.19 | snakeyaml-1.19.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.23 | snakeyaml-1.23.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.23 | snakeyaml-1.23.x | own project (the anchor's group) | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.26 | snakeyaml-1.26.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
