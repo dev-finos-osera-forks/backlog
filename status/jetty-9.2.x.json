@@ -1,16 +1,44 @@
 {
   "line": "jetty-9.2.x",
   "book_version": "v2026.10.27.20",
-  "as_of": "2026-10-27T14:47:01Z",
+  "as_of": "2026-10-27T14:50:01Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 1,
+  "in_scope": 8,
   "fixed": [],
   "in_progress": [],
   "open": [
     {
+      "cve": "CVE-2018-12536",
+      "library": "org.eclipse.jetty:jetty-server"
+    },
+    {
       "cve": "CVE-2021-28165",
       "library": "org.eclipse.jetty:jetty-server"
+    },
+    {
+      "cve": "CVE-2021-34428",
+      "library": "org.eclipse.jetty:jetty-server"
+    },
+    {
+      "cve": "CVE-2022-2047",
+      "library": "org.eclipse.jetty:jetty-http"
+    },
+    {
+      "cve": "CVE-2023-26048",
+      "library": "org.eclipse.jetty:jetty-server"
+    },
+    {
+      "cve": "CVE-2023-26049",
+      "library": "org.eclipse.jetty:jetty-server"
+    },
+    {
+      "cve": "CVE-2023-40167",
+      "library": "org.eclipse.jetty:jetty-http"
+    },
+    {
+      "cve": "CVE-2024-6763",
+      "library": "org.eclipse.jetty:jetty-http"
     }
   ],
   "not_remediable": [],
