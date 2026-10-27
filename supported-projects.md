@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T13:06:35Z. Written by the line manager reconciler.
+Generated 2026-10-27T13:12:35Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -15,7 +15,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | not fixed | 3 | 0 | 0% | 2 | 0 | 3 | 0 |
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | not fixed | 1 | 0 | 0% | 1 | 0 | 1 | 0 |
+| commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | not fixed | 1 | 0 | 0% | 1 | 0 | 1 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | not fixed | 1 | 0 | 0% | 1 | 0 | 1 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
@@ -51,7 +51,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-114 libraries across 40 line(s).
+115 libraries across 40 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -90,6 +90,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.activemq:activemq-client | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 0 | 0% | 2 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-compress | 1.21 | spring-boot-2.7.x | pulled in by a dependency (org.springframework.boot:spring-boot-buildpack-platform@2.7.18) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.commons:commons-lang3 | 3.9 | commons-text-1.8.x | own project (the anchor's group) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-lang3 | 3.11 | commons-text-1.9.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-text | 1.6 | commons-text-1.6.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-text | 1.7 | commons-text-1.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
