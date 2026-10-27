@@ -1,24 +1,60 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.27.30",
-  "as_of": "2026-10-27T15:38:01Z",
+  "as_of": "2026-10-27T15:44:01Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 31,
+  "in_scope": 72,
   "fixed": [],
   "in_progress": [],
   "open": [
     {
+      "cve": "CVE-2015-6420",
+      "library": "commons-collections:commons-collections"
+    },
+    {
       "cve": "CVE-2016-1000027",
       "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2018-10237",
+      "library": "com.google.guava:guava"
+    },
+    {
+      "cve": "CVE-2019-12400",
+      "library": "org.apache.santuario:xmlsec"
+    },
+    {
+      "cve": "CVE-2020-13936",
+      "library": "org.apache.velocity:velocity"
+    },
+    {
+      "cve": "CVE-2020-14338",
+      "library": "xerces:xercesImpl"
     },
     {
       "cve": "CVE-2020-36518",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
+      "cve": "CVE-2020-8908",
+      "library": "com.google.guava:guava"
+    },
+    {
+      "cve": "CVE-2021-40690",
+      "library": "org.apache.santuario:xmlsec"
+    },
+    {
       "cve": "CVE-2021-46877",
       "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2022-23437",
+      "library": "xerces:xercesImpl"
+    },
+    {
+      "cve": "CVE-2022-40152",
+      "library": "com.fasterxml.woodstox:woodstox-core"
     },
     {
       "cve": "CVE-2022-42003",
@@ -27,6 +63,26 @@
     {
       "cve": "CVE-2022-42004",
       "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2023-1370",
+      "library": "net.minidev:json-smart"
+    },
+    {
+      "cve": "CVE-2023-2976",
+      "library": "com.google.guava:guava"
+    },
+    {
+      "cve": "CVE-2023-33201",
+      "library": "org.bouncycastle:bcprov-jdk15on"
+    },
+    {
+      "cve": "CVE-2023-44483",
+      "library": "org.apache.santuario:xmlsec"
+    },
+    {
+      "cve": "CVE-2023-52428",
+      "library": "com.nimbusds:nimbus-jose-jwt"
     },
     {
       "cve": "CVE-2024-22243",
@@ -45,32 +101,112 @@
       "library": "org.springframework:spring-web"
     },
     {
+      "cve": "CVE-2024-29857",
+      "library": "org.bouncycastle:bcprov-jdk15on"
+    },
+    {
+      "cve": "CVE-2024-30171",
+      "library": "org.bouncycastle:bcprov-jdk15on"
+    },
+    {
+      "cve": "CVE-2024-34447",
+      "library": "org.bouncycastle:bcprov-jdk15on"
+    },
+    {
+      "cve": "CVE-2024-38808",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2024-38809",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-38820",
+      "library": "org.springframework:spring-context"
+    },
+    {
+      "cve": "CVE-2024-38820",
+      "library": "org.springframework:spring-web"
+    },
+    {
       "cve": "CVE-2024-38821",
       "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2024-38827",
+      "library": "org.springframework.security:spring-security-core"
+    },
+    {
+      "cve": "CVE-2024-38829",
+      "library": "org.springframework.ldap:spring-ldap-core"
+    },
+    {
+      "cve": "CVE-2024-47535",
+      "library": "io.netty:netty-common"
     },
     {
       "cve": "CVE-2025-22228",
       "library": "org.springframework.security:spring-security-crypto"
     },
     {
+      "cve": "CVE-2025-22233",
+      "library": "org.springframework:spring-context"
+    },
+    {
+      "cve": "CVE-2025-25193",
+      "library": "io.netty:netty-common"
+    },
+    {
       "cve": "CVE-2025-41249",
       "library": "org.springframework:spring-core"
+    },
+    {
+      "cve": "CVE-2025-48924",
+      "library": "commons-lang:commons-lang"
     },
     {
       "cve": "CVE-2025-52999",
       "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
+      "cve": "CVE-2025-53864",
+      "library": "com.nimbusds:nimbus-jose-jwt"
+    },
+    {
+      "cve": "CVE-2025-8916",
+      "library": "org.bouncycastle:bcpkix-jdk15on"
+    },
+    {
+      "cve": "CVE-2026-19032",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
       "cve": "CVE-2026-22732",
       "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-22746",
+      "library": "org.springframework.security:spring-security-core"
     },
     {
       "cve": "CVE-2026-40988",
       "library": "org.springframework.security:spring-security-saml2-service-provider"
     },
     {
+      "cve": "CVE-2026-41003",
+      "library": "org.springframework.security:spring-security-saml2-service-provider"
+    },
+    {
+      "cve": "CVE-2026-41694",
+      "library": "org.springframework.security:spring-security-saml2-service-provider"
+    },
+    {
       "cve": "CVE-2026-41706",
       "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-41711",
+      "library": "org.springframework.data:spring-data-commons"
     },
     {
       "cve": "CVE-2026-41716",
@@ -79,6 +215,10 @@
     {
       "cve": "CVE-2026-41720",
       "library": "org.springframework.ldap:spring-ldap-core"
+    },
+    {
+      "cve": "CVE-2026-41721",
+      "library": "org.springframework.data:spring-data-commons"
     },
     {
       "cve": "CVE-2026-41848",
@@ -94,6 +234,10 @@
     },
     {
       "cve": "CVE-2026-41851",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41852",
       "library": "org.springframework:spring-expression"
     },
     {
@@ -113,12 +257,32 @@
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
+      "cve": "CVE-2026-54514",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54515",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-5588",
+      "library": "org.bouncycastle:bcpkix-jdk15on"
+    },
+    {
       "cve": "CVE-2026-59889",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
       "cve": "CVE-2026-68494",
       "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "CVE-2026-77310",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-83557",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
       "cve": "CVE-2026-89425",
@@ -135,6 +299,7 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "issue #1018 for CVE-2015-6420 is closed in backlog while the entry on commons-collections:commons-collections is open",
     "issue #120 for CVE-2026-47838 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
     "issue #152 for CVE-2020-36518 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #153 for CVE-2021-46877 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
@@ -183,6 +348,22 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00004 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00005 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00008 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00009 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00010 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00011 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00012 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00013 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00014 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00015 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00016 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
