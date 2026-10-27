@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T14:00:27Z. Written by the line manager reconciler.
+Generated 2026-10-27T14:16:27Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -27,9 +27,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | in progress | 9 | 1 | 11% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | in progress | 9 | 1 | 11% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | in progress | 8 | 1 | 13% | 0 | 0 | 7 | 0 |
-| snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
-| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
-| snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | in progress | 8 | 1 | 13% | 0 | 0 | 7 | 0 |
+| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 8 | 1 | 13% | 0 | 0 | 7 | 0 |
+| snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | in progress | 8 | 1 | 13% | 0 | 0 | 7 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | in progress | 4 | 1 | 25% | 0 | 0 | 3 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | not fixed | 11 | 0 | 0% | 6 | 0 | 11 | 0 |
@@ -163,9 +163,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.yaml:snakeyaml | 1.17 | snakeyaml-1.17.x | own project (the anchor's group) | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.19 | snakeyaml-1.19.x | own project (the anchor's group) | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.23 | snakeyaml-1.23.x | own project (the anchor's group) | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.26 | snakeyaml-1.26.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.26 | snakeyaml-1.26.x | own project (the anchor's group) | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | own project (the anchor's group) | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.33 | snakeyaml-1.16.x, snakeyaml-1.17.x, snakeyaml-1.19.x, snakeyaml-1.23.x, snakeyaml-1.26.x, snakeyaml-1.27.x, snakeyaml-1.28.x, snakeyaml-1.29.x, snakeyaml-1.31.x, snakeyaml-1.33.x, snakeyaml-1.9.x, spring-boot-2.7.x | own project on snakeyaml-1.16.x (the anchor's group) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
