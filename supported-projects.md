@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T14:32:01Z. Written by the line manager reconciler.
+Generated 2026-10-27T14:43:01Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -33,7 +33,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | in progress | 4 | 1 | 25% | 0 | 0 | 3 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | not fixed | 16 | 0 | 0% | 1 | 0 | 16 | 0 |
-| jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 10 | 0 | 0% | 6 | 0 | 10 | 0 |
+| jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 15 | 0 | 0% | 1 | 0 | 15 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | not fixed | 1 | 0 | 0% | 13 | 0 | 1 | 0 |
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 1 | 0 | 0% | 8 | 0 | 1 | 0 |
@@ -61,7 +61,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.fasterxml.jackson.core:jackson-core | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | open | 3 | 0 | 0% | 1 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | open | 4 | 0 | 0% | 1 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 11 | 0 | 0% | 0 | 3 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.fasterxml.jackson.core:jackson-databind | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | open | 7 | 0 | 0% | 5 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.fasterxml.jackson.core:jackson-databind | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | open | 12 | 0 | 0% | 0 | 0 | 12 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | open | 12 | 0 | 0% | 0 | 0 | 12 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.woodstox:woodstox-core | 5.0.3 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.apache.santuario:xmlsec@2.0.10) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
