@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.28",
-  "as_of": "2026-10-28T00:43:10Z",
+  "as_of": "2026-10-28T03:48:44Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 353,
+  "in_scope": 323,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -323,14 +323,6 @@
       "library": "org.bouncycastle:bcprov-jdk15on"
     },
     {
-      "cve": "CVE-2023-34040",
-      "library": "org.springframework.kafka:spring-kafka"
-    },
-    {
-      "cve": "CVE-2023-3894",
-      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml"
-    },
-    {
       "cve": "CVE-2023-44483",
       "library": "org.apache.santuario:xmlsec"
     },
@@ -639,10 +631,6 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
-      "cve": "CVE-2025-5115",
-      "library": "org.eclipse.jetty.http2:http2-common"
-    },
-    {
       "cve": "CVE-2025-52434",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -879,10 +867,6 @@
       "library": "org.apache.logging.log4j:log4j-core"
     },
     {
-      "cve": "CVE-2026-34481",
-      "library": "org.apache.logging.log4j:log4j-layout-template-json"
-    },
-    {
       "cve": "CVE-2026-34483",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -931,16 +915,8 @@
       "library": "io.micrometer:micrometer-core"
     },
     {
-      "cve": "CVE-2026-40987",
-      "library": "org.springframework.integration:spring-integration-file"
-    },
-    {
       "cve": "CVE-2026-40988",
       "library": "org.springframework.security:spring-security-saml2-service-provider"
-    },
-    {
-      "cve": "CVE-2026-40994",
-      "library": "org.springframework.ws:spring-ws-security"
     },
     {
       "cve": "CVE-2026-40998",
@@ -1007,24 +983,12 @@
       "library": "org.springframework.amqp:spring-amqp"
     },
     {
-      "cve": "CVE-2026-41715",
-      "library": "io.projectreactor.netty:reactor-netty"
-    },
-    {
       "cve": "CVE-2026-41720",
       "library": "org.springframework.ldap:spring-ldap-core"
     },
     {
       "cve": "CVE-2026-41721",
       "library": "org.springframework.data:spring-data-commons"
-    },
-    {
-      "cve": "CVE-2026-41726",
-      "library": "org.springframework.kafka:spring-kafka"
-    },
-    {
-      "cve": "CVE-2026-41727",
-      "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2026-41728",
@@ -1037,10 +1001,6 @@
     {
       "cve": "CVE-2026-41730",
       "library": "org.springframework.data:spring-data-rest-core"
-    },
-    {
-      "cve": "CVE-2026-41731",
-      "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2026-41837",
@@ -1131,10 +1091,6 @@
       "library": "io.netty:netty-codec-http"
     },
     {
-      "cve": "CVE-2026-42586",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
       "cve": "CVE-2026-42587",
       "library": "io.netty:netty-codec-http"
     },
@@ -1163,28 +1119,8 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
-      "cve": "CVE-2026-44248",
-      "library": "io.netty:netty-codec-mqtt"
-    },
-    {
       "cve": "CVE-2026-44249",
       "library": "io.netty:netty-handler"
-    },
-    {
-      "cve": "CVE-2026-44250",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
-      "cve": "CVE-2026-44890",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
-      "cve": "CVE-2026-44891",
-      "library": "io.netty:netty-codec-stomp"
-    },
-    {
-      "cve": "CVE-2026-44893",
-      "library": "io.netty:netty-codec-haproxy"
     },
     {
       "cve": "CVE-2026-45416",
@@ -1211,10 +1147,6 @@
       "library": "io.netty:netty-resolver-dns"
     },
     {
-      "cve": "CVE-2026-46340",
-      "library": "io.netty:netty-transport-sctp"
-    },
-    {
       "cve": "CVE-2026-47244",
       "library": "io.netty:netty-codec-http2"
     },
@@ -1231,16 +1163,8 @@
       "library": "org.springframework:spring-webflux"
     },
     {
-      "cve": "CVE-2026-48006",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
       "cve": "CVE-2026-48043",
       "library": "io.netty:netty-codec-http2"
-    },
-    {
-      "cve": "CVE-2026-48059",
-      "library": "io.netty:netty-codec-haproxy"
     },
     {
       "cve": "CVE-2026-49270",
@@ -1253,10 +1177,6 @@
     {
       "cve": "CVE-2026-50010",
       "library": "io.netty:netty-handler"
-    },
-    {
-      "cve": "CVE-2026-50011",
-      "library": "io.netty:netty-codec-redis"
     },
     {
       "cve": "CVE-2026-50020",
@@ -1303,10 +1223,6 @@
       "library": "io.netty:netty-codec-http"
     },
     {
-      "cve": "CVE-2026-55851",
-      "library": "io.netty:netty-codec-haproxy"
-    },
-    {
       "cve": "CVE-2026-5588",
       "library": "org.bouncycastle:bcpkix-jdk15on"
     },
@@ -1319,32 +1235,8 @@
       "library": "io.netty:netty-codec-http"
     },
     {
-      "cve": "CVE-2026-56817",
-      "library": "io.netty:netty-codec-xml"
-    },
-    {
-      "cve": "CVE-2026-56818",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
       "cve": "CVE-2026-56819",
       "library": "io.netty:netty-codec-http2"
-    },
-    {
-      "cve": "CVE-2026-56820",
-      "library": "io.netty:netty-handler-ssl-ocsp"
-    },
-    {
-      "cve": "CVE-2026-56821",
-      "library": "io.netty:netty-handler-ssl-ocsp"
-    },
-    {
-      "cve": "CVE-2026-56822",
-      "library": "io.netty:netty-handler-ssl-ocsp"
-    },
-    {
-      "cve": "CVE-2026-5795",
-      "library": "org.eclipse.jetty:jetty-jaspi"
     },
     {
       "cve": "CVE-2026-59286",
@@ -1383,16 +1275,8 @@
       "library": "io.netty:netty-codec"
     },
     {
-      "cve": "CVE-2026-59902",
-      "library": "io.netty:netty-transport-sctp"
-    },
-    {
       "cve": "CVE-2026-59903",
       "library": "io.netty:netty-codec-http"
-    },
-    {
-      "cve": "CVE-2026-59920",
-      "library": "io.netty:netty-codec-stomp"
     },
     {
       "cve": "CVE-2026-59921",
@@ -1453,10 +1337,6 @@
     {
       "cve": "CVE-2026-69220",
       "library": "com.rabbitmq:amqp-client"
-    },
-    {
-      "cve": "CVE-2026-73507",
-      "library": "io.netty:netty-codec-xml"
     },
     {
       "cve": "CVE-2026-73508",
@@ -1621,14 +1501,6 @@
     "issue #71 for CVE-2026-33871 is closed in backlog while the entry on io.netty:netty-codec-http2 is open",
     "issue #73 for CVE-2026-34483 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #74 for CVE-2026-34487 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
-    "issue #744 for CVE-2023-34040 is closed in backlog while the entry on org.springframework.kafka:spring-kafka is open",
-    "issue #746 for CVE-2023-3894 is closed in backlog while the entry on com.fasterxml.jackson.dataformat:jackson-dataformat-toml is open",
-    "issue #748 for CVE-2026-34481 is closed in backlog while the entry on org.apache.logging.log4j:log4j-layout-template-json is open",
-    "issue #749 for CVE-2026-40987 is closed in backlog while the entry on org.springframework.integration:spring-integration-file is open",
-    "issue #750 for CVE-2026-40994 is closed in backlog while the entry on org.springframework.ws:spring-ws-security is open",
-    "issue #752 for CVE-2026-41726 is closed in backlog while the entry on org.springframework.kafka:spring-kafka is open",
-    "issue #753 for CVE-2026-41727 is closed in backlog while the entry on org.springframework.kafka:spring-kafka is open",
-    "issue #754 for CVE-2026-41731 is closed in backlog while the entry on org.springframework.kafka:spring-kafka is open",
     "issue #77 for CVE-2026-40988 is closed in backlog while the entry on org.springframework.security:spring-security-saml2-service-provider is open",
     "issue #82 for CVE-2026-41284 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #83 for CVE-2026-41293 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
