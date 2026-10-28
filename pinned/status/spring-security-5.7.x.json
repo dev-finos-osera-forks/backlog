@@ -1,10 +1,10 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.28.35",
-  "as_of": "2026-10-28T15:52:48Z",
+  "as_of": "2026-10-28T15:57:47Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 72,
+  "in_scope": 73,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -175,6 +175,10 @@
     {
       "cve": "CVE-2025-8916",
       "library": "org.bouncycastle:bcpkix-jdk15on"
+    },
+    {
+      "cve": "CVE-2026-102554",
+      "library": "com.google.guava:guava"
     },
     {
       "cve": "CVE-2026-19032",
