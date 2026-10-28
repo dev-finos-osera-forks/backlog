@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:49:34Z",
+  "generated_at": "2026-10-28T08:53:40Z",
   "feed_version": 27,
   "sets": [
     {
@@ -27,60 +27,6 @@
       "members": 1,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00001"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-annotations@v2.13.5.1-osera-00002",
-      "members": 1,
-      "coordinates": [
-        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00002"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-annotations@v2.13.5.1-osera-00003",
-      "members": 1,
-      "coordinates": [
-        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00003"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-annotations@v2.13.5.1-osera-00004",
-      "members": 1,
-      "coordinates": [
-        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00004"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-annotations@v2.13.5.1-osera-00005",
-      "members": 1,
-      "coordinates": [
-        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00005"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-annotations@v2.13.5.1-osera-00006",
-      "members": 1,
-      "coordinates": [
-        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00006"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-annotations@v2.13.5.1-osera-00007",
-      "members": 1,
-      "coordinates": [
-        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00007"
       ],
       "state": "in the feed",
       "statements": 0
@@ -311,8 +257,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00002",
-      "members": 17,
+      "members": 22,
       "coordinates": [
+        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00002",
@@ -341,8 +292,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00003",
-      "members": 17,
+      "members": 22,
       "coordinates": [
+        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00003",
@@ -371,8 +327,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00004",
-      "members": 16,
+      "members": 21,
       "coordinates": [
+        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00004",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00004",
         "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00004",
         "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00004",
@@ -400,8 +361,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00005",
-      "members": 17,
+      "members": 22,
       "coordinates": [
+        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00005",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00005",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00005",
         "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00005",
@@ -430,8 +396,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00006",
-      "members": 17,
+      "members": 22,
       "coordinates": [
+        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00006",
@@ -460,8 +431,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00007",
-      "members": 17,
+      "members": 22,
       "coordinates": [
+        "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00007",
@@ -505,90 +481,6 @@
       ],
       "state": "in the feed",
       "statements": 2
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00001",
-      "members": 4,
-      "coordinates": [
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00001",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00001",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00001",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00001"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00002",
-      "members": 4,
-      "coordinates": [
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00002"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00003",
-      "members": 4,
-      "coordinates": [
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00003"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00004",
-      "members": 4,
-      "coordinates": [
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00004"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00005",
-      "members": 4,
-      "coordinates": [
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00005"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00006",
-      "members": 4,
-      "coordinates": [
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00006"
-      ],
-      "state": "in the feed",
-      "statements": 0
-    },
-    {
-      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00007",
-      "members": 4,
-      "coordinates": [
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00007"
-      ],
-      "state": "in the feed",
-      "statements": 0
     },
     {
       "set": "dev-finos-osera-forks/patch-reactor-addons@v3.4.11.1-osera-00001",
