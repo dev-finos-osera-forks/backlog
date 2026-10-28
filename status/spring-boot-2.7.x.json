@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.27.33",
-  "as_of": "2026-10-27T18:56:44Z",
+  "as_of": "2026-10-28T00:41:44Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 200,
+  "in_scope": 189,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -339,14 +339,6 @@
       "library": "org.bouncycastle:bcprov-jdk15on"
     },
     {
-      "cve": "CVE-2023-34040",
-      "library": "org.springframework.kafka:spring-kafka"
-    },
-    {
-      "cve": "CVE-2023-3894",
-      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml"
-    },
-    {
       "cve": "CVE-2023-44483",
       "library": "org.apache.santuario:xmlsec"
     },
@@ -612,15 +604,7 @@
     },
     {
       "cve": "CVE-2026-34479",
-      "library": "org.apache.logging.log4j:log4j-1.2-api"
-    },
-    {
-      "cve": "CVE-2026-34479",
       "library": "org.apache.logging.log4j:log4j-core"
-    },
-    {
-      "cve": "CVE-2026-34481",
-      "library": "org.apache.logging.log4j:log4j-layout-template-json"
     },
     {
       "cve": "CVE-2026-39304",
@@ -661,14 +645,6 @@
     {
       "cve": "CVE-2026-40984",
       "library": "io.micrometer:micrometer-core"
-    },
-    {
-      "cve": "CVE-2026-40987",
-      "library": "org.springframework.integration:spring-integration-file"
-    },
-    {
-      "cve": "CVE-2026-40994",
-      "library": "org.springframework.ws:spring-ws-security"
     },
     {
       "cve": "CVE-2026-40998",
@@ -719,20 +695,8 @@
       "library": "org.springframework.amqp:spring-amqp"
     },
     {
-      "cve": "CVE-2026-41715",
-      "library": "io.projectreactor.netty:reactor-netty"
-    },
-    {
       "cve": "CVE-2026-41721",
       "library": "org.springframework.data:spring-data-commons"
-    },
-    {
-      "cve": "CVE-2026-41726",
-      "library": "org.springframework.kafka:spring-kafka"
-    },
-    {
-      "cve": "CVE-2026-41727",
-      "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2026-41728",
@@ -745,10 +709,6 @@
     {
       "cve": "CVE-2026-41730",
       "library": "org.springframework.data:spring-data-rest-core"
-    },
-    {
-      "cve": "CVE-2026-41731",
-      "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2026-41837",
@@ -841,10 +801,6 @@
     {
       "cve": "CVE-2026-5588",
       "library": "org.bouncycastle:bcpkix-jdk15on"
-    },
-    {
-      "cve": "CVE-2026-5795",
-      "library": "org.eclipse.jetty:jetty-jaspi"
     },
     {
       "cve": "CVE-2026-59286",
