@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:53:40Z",
+  "generated_at": "2026-10-29T02:49:58Z",
   "feed_version": 27,
   "sets": [
     {
@@ -693,6 +693,15 @@
       "statements": 0
     },
     {
+      "set": "dev-finos-osera-forks/patch-spring-data-build@v1.5.18.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 0
+    },
+    {
       "set": "dev-finos-osera-forks/patch-spring-data-cassandra@v3.4.18.1-osera-00001",
       "members": 1,
       "coordinates": [
@@ -742,6 +751,15 @@
       "members": 1,
       "coordinates": [
         "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 0
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-spring-data-cassandra@v3.4.18.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00007"
       ],
       "state": "in the feed",
       "statements": 0
