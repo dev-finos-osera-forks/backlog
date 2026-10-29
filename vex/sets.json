@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T02:59:58Z",
+  "generated_at": "2026-10-29T12:47:45Z",
   "feed_version": 27,
   "sets": [
     {
@@ -257,30 +257,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00002",
-      "members": 22,
+      "members": 5,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00002",
-        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00002"
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00002"
       ],
       "state": "held",
       "held_since": "2026-10-26T09:16:24Z",
@@ -292,30 +275,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00003",
-      "members": 22,
+      "members": 5,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00003",
-        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00003"
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00003"
       ],
       "state": "held",
       "held_since": "2026-10-19T08:13:21Z",
@@ -327,29 +293,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00004",
-      "members": 21,
+      "members": 5,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00004",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00004",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00004",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00004",
-        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00004"
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00004"
       ],
       "state": "held",
       "held_since": "2026-10-19T08:13:21Z",
@@ -361,30 +311,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00005",
-      "members": 22,
+      "members": 5,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00005",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00005",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00005",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00005",
-        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00005"
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00005"
       ],
       "state": "held",
       "held_since": "2026-10-19T08:13:21Z",
@@ -396,30 +329,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00006",
-      "members": 22,
+      "members": 5,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00006",
-        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00006"
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00006"
       ],
       "state": "held",
       "held_since": "2026-10-19T08:13:21Z",
@@ -431,30 +347,13 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00007",
-      "members": 22,
+      "members": 5,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00007",
-        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00007"
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00007"
       ],
       "state": "held",
       "held_since": "2026-10-19T08:13:21Z",
@@ -481,6 +380,894 @@
       ],
       "state": "in the feed",
       "statements": 2
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformat-xml@v2.13.5.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00001",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00001: GET com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformat-xml@v2.13.5.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00002",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00002: GET com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformat-xml@v2.13.5.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00003"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00003",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00003: GET com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformat-xml@v2.13.5.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00005"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00005",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00005: GET com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformat-xml@v2.13.5.1-osera-00006",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00006"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00006",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00006: GET com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformat-xml@v2.13.5.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00007"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00007",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.13.5.1-osera-00007: GET com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00007/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.5.1-osera-00007/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00001",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00001: GET com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00002",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00002: GET com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00003"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00003",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00003: GET com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00004",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00004"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00004",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00004: GET com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00005"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00005",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00005: GET com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00006",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00006"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00006",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00006: GET com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-dataformats-binary@v2.13.5.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00007"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00007",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.13.5.1-osera-00007: GET com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00007/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.5.1-osera-00007/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatype-joda@v2.13.5.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00001",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00001: GET com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatype-joda@v2.13.5.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00002",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00002: GET com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatype-joda@v2.13.5.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00003"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00003",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00003: GET com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatype-joda@v2.13.5.1-osera-00004",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00004"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00004",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00004: GET com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatype-joda@v2.13.5.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00005"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00005",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00005: GET com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatype-joda@v2.13.5.1-osera-00006",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00006"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00006",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00006: GET com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatype-joda@v2.13.5.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00007"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00007",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00007: GET com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00007/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.5.1-osera-00007/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-collections@v2.13.5.1-osera-00001",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00001",
+        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00001",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00001",
+        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00001",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00001: GET com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-collections@v2.13.5.1-osera-00002",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00002",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00002: GET com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-collections@v2.13.5.1-osera-00003",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00003"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00003",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00003: GET com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-collections@v2.13.5.1-osera-00004",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00004"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00004",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00004: GET com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-collections@v2.13.5.1-osera-00005",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00005"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00005",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00005: GET com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-collections@v2.13.5.1-osera-00006",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00006"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00006",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00006: GET com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-collections@v2.13.5.1-osera-00007",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00007"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00007",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.13.5.1-osera-00007: GET com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00007/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-eclipse-collections/2.13.5.1-osera-00007/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-misc@v2.13.5.1-osera-00001",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00001",
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00001",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00001",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00001",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00001: GET com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-misc@v2.13.5.1-osera-00002",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00002",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00002: GET com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-misc@v2.13.5.1-osera-00003",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00003"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00003",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00003: GET com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-misc@v2.13.5.1-osera-00004",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00004"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00004",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00004: GET com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-misc@v2.13.5.1-osera-00005",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00005"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00005",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00005: GET com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-misc@v2.13.5.1-osera-00006",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00006"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00006",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00006: GET com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-datatypes-misc@v2.13.5.1-osera-00007",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda-money@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00007"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00007",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp@2.13.5.1-osera-00007: GET com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00007/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/datatype/jackson-datatype-jakarta-jsonp/2.13.5.1-osera-00007/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-jsonSchema@v2.13.5.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00001",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00001: GET com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-jsonSchema@v2.13.5.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00002",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00002: GET com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-jsonSchema@v2.13.5.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00003"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00003",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00003: GET com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-jsonSchema@v2.13.5.1-osera-00004",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00004"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00004",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00004: GET com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-jsonSchema@v2.13.5.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00005"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00005",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00005: GET com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-jsonSchema@v2.13.5.1-osera-00006",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00006"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00006",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00006: GET com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-jsonSchema@v2.13.5.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00007"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00007",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00007: GET com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00007/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.13.5.1-osera-00007/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-kotlin@v2.13.5.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00001",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00001: GET com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-kotlin@v2.13.5.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00002",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00002: GET com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-kotlin@v2.13.5.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00003"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00003",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00003: GET com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-kotlin@v2.13.5.1-osera-00004",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00004"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00004",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00004: GET com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-kotlin@v2.13.5.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00005"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00005",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00005: GET com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-kotlin@v2.13.5.1-osera-00006",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00006"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00006",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00006: GET com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-kotlin@v2.13.5.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00007"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00007",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00007: GET com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00007/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.5.1-osera-00007/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-scala@v2.13.5.1-osera-00001",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00001",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00001",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00001",
+        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00001",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00001: GET com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00001/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00001/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-scala@v2.13.5.1-osera-00002",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00002",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00002: GET com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00002/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00002/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-scala@v2.13.5.1-osera-00003",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00003"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00003",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00003: GET com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00003/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00003/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-scala@v2.13.5.1-osera-00004",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00004",
+        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00004"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00004",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00004: GET com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00004/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00004/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-scala@v2.13.5.1-osera-00005",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00005",
+        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00005"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00005",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00005: GET com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00005/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00005/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-scala@v2.13.5.1-osera-00006",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00006"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00006",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00006: GET com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00006/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00006/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-jackson-module-scala@v2.13.5.1-osera-00007",
+      "members": 4,
+      "coordinates": [
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00007"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T12:47:45Z",
+      "reasons": [
+        {
+          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00007",
+          "why": "release record not read: the verdict of com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00007: GET com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00007/verdict.json: Get \"http://nexus.nexus.svc.cluster.local:8081/repository/osera-releases-raw-01/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.13.5.1-osera-00007/verdict.json\": dial tcp 172.20.101.56:8081: connect: connection refused"
+        }
+      ]
     },
     {
       "set": "dev-finos-osera-forks/patch-reactor-addons@v3.4.11.1-osera-00001",
@@ -1447,7 +2234,7 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00007",
-      "members": 23,
+      "members": 22,
       "coordinates": [
         "org.springframework:spring-aop@5.3.39.1-osera-00007",
         "org.springframework:spring-aspects@5.3.39.1-osera-00007",
@@ -1458,7 +2245,6 @@
         "org.springframework:spring-core@5.3.39.1-osera-00007",
         "org.springframework:spring-expression@5.3.39.1-osera-00007",
         "org.springframework:spring-framework-bom@5.3.39.1-osera-00007",
-        "org.springframework:spring-instrument@5.3.39.1-osera-00007",
         "org.springframework:spring-jcl@5.3.39.1-osera-00007",
         "org.springframework:spring-jdbc@5.3.39.1-osera-00007",
         "org.springframework:spring-jms@5.3.39.1-osera-00007",
@@ -1474,15 +2260,11 @@
         "org.springframework:spring-websocket@5.3.39.1-osera-00007"
       ],
       "state": "held",
-      "held_since": "2026-10-22T16:26:28Z",
+      "held_since": "2026-10-29T12:47:45Z",
       "reasons": [
         {
           "member": "org.springframework:spring-expression@5.3.39.1-osera-00007",
           "why": "evidence chain not complete: verdict: missing (no verdict for 5.3.39.1-osera-00007 in osera-releases-raw-01); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
-        },
-        {
-          "member": "org.springframework:spring-instrument@5.3.39.1-osera-00007",
-          "why": "evidence chain not complete: files: missing (spring-instrument-5.3.39.1-osera-00007.pom.sha1 missing in the release repository); evidence: missing (no evidence file next to spring-instrument-5.3.39.1-osera-00007); signatures: failed (no signature next to the pom (spring-instrument-5.3.39.1-osera-00007.pom.asc)); document: failed (the vulnerability document's signature: no registry entry to take the signing key from); producer: missing (the evidence names no producer); verdict: missing (no verdict for 5.3.39.1-osera-00007 in osera-releases-raw-01); fork: missing (the fork patch-spring-instrument is missing); tag: not checked (the fork is missing); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
         }
       ]
     },
