@@ -1,12 +1,12 @@
 {
- "as_of": "2026-10-29T02:49:58Z",
+ "as_of": "2026-10-29T02:59:58Z",
  "environment": "dev",
  "ecosystems": [
   "Java",
   "JavaScript"
  ],
  "totals": {
-  "releases": 102,
+  "releases": 105,
   "libraries": 145,
   "libraries_with_a_fixed_cve": 15,
   "fixed_entries": 189,
@@ -55,7 +55,7 @@
   },
   {
    "date": "2026-10-29",
-   "count": 2
+   "count": 5
   }
  ],
  "top_cves": [
@@ -827,22 +827,22 @@
   {
    "library": "org.springframework.data:spring-data-couchbase",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "4.4.18.1-osera-00006",
+   "releases": 7,
+   "latest": "4.4.18.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-elasticsearch",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "4.4.18.1-osera-00006",
+   "releases": 7,
+   "latest": "4.4.18.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-envers",
    "ecosystem": "Java",
-   "releases": 5,
-   "latest": "2.7.18.1-osera-00006",
+   "releases": 6,
+   "latest": "2.7.18.1-osera-00007",
    "fixed_entries": 0
   },
   {
