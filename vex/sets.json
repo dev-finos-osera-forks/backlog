@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T02:49:58Z",
+  "generated_at": "2026-10-29T02:59:58Z",
   "feed_version": 27,
   "sets": [
     {
@@ -819,6 +819,15 @@
       "statements": 0
     },
     {
+      "set": "dev-finos-osera-forks/patch-spring-data-couchbase@v4.4.18.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 0
+    },
+    {
       "set": "dev-finos-osera-forks/patch-spring-data-elasticsearch@v4.4.18.1-osera-00001",
       "members": 1,
       "coordinates": [
@@ -873,6 +882,15 @@
       "statements": 0
     },
     {
+      "set": "dev-finos-osera-forks/patch-spring-data-elasticsearch@v4.4.18.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 0
+    },
+    {
       "set": "dev-finos-osera-forks/patch-spring-data-envers@v2.7.18.1-osera-00002",
       "members": 1,
       "coordinates": [
@@ -913,6 +931,15 @@
       "members": 1,
       "coordinates": [
         "org.springframework.data:spring-data-envers@2.7.18.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 0
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-spring-data-envers@v2.7.18.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "org.springframework.data:spring-data-envers@2.7.18.1-osera-00007"
       ],
       "state": "in the feed",
       "statements": 0
