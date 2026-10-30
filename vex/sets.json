@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:57:54Z",
+  "generated_at": "2026-10-30T15:07:56Z",
   "feed_version": 27,
   "sets": [
     {
@@ -396,7 +396,7 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00006",
-      "members": 22,
+      "members": 27,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00006",
@@ -414,6 +414,11 @@
         "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.jr:jackson-jr-annotation-support@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.jr:jackson-jr-objects@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.13.5.1-osera-00006",
+        "com.fasterxml.jackson.jr:jackson-jr-stree@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00006",
         "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00006",
@@ -431,7 +436,7 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00007",
-      "members": 22,
+      "members": 27,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00007",
@@ -449,6 +454,11 @@
         "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.jr:jackson-jr-annotation-support@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.jr:jackson-jr-objects@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.13.5.1-osera-00007",
+        "com.fasterxml.jackson.jr:jackson-jr-stree@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00007",
         "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00007",
