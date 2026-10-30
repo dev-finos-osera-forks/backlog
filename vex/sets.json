@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:58:47Z",
+  "generated_at": "2026-10-30T14:15:51Z",
   "feed_version": 27,
   "sets": [
     {
@@ -553,6 +553,15 @@
       "members": 1,
       "coordinates": [
         "io.projectreactor.rabbitmq:reactor-rabbitmq@1.5.6.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 0
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-reactor-rabbitmq@v1.5.6.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "io.projectreactor.rabbitmq:reactor-rabbitmq@1.5.6.1-osera-00002"
       ],
       "state": "in the feed",
       "statements": 0
