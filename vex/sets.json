@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:15:51Z",
+  "generated_at": "2026-10-30T14:51:06Z",
   "feed_version": 27,
   "sets": [
     {
@@ -99,7 +99,7 @@
         "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00001"
       ],
       "state": "held",
-      "held_since": "2026-10-19T08:13:21Z",
+      "held_since": "2026-10-30T14:51:06Z",
       "reasons": [
         {
           "member": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00001",
@@ -194,26 +194,6 @@
           "why": "not promoted"
         },
         {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-annotation-support@2.13.5.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-objects@2.13.5.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.13.5.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-stree@2.13.5.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
           "member": "com.fasterxml.jackson.module:jackson-module-afterburner@2.13.5.1-osera-00001",
           "why": "not promoted"
         },
@@ -257,7 +237,7 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00002",
-      "members": 22,
+      "members": 27,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00002",
@@ -275,6 +255,11 @@
         "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.jr:jackson-jr-annotation-support@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.jr:jackson-jr-objects@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.13.5.1-osera-00002",
+        "com.fasterxml.jackson.jr:jackson-jr-stree@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00002",
         "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00002",
@@ -292,7 +277,7 @@
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00003",
-      "members": 22,
+      "members": 27,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00003",
@@ -310,6 +295,11 @@
         "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.jr:jackson-jr-annotation-support@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.jr:jackson-jr-objects@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.13.5.1-osera-00003",
+        "com.fasterxml.jackson.jr:jackson-jr-stree@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00003",
         "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00003",
