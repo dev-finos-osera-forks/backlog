@@ -1915,6 +1915,17 @@
       "first_seen": "2026-10-27T12:29:35Z"
     },
     {
+      "coordinate": "io.projectreactor.rabbitmq:reactor-rabbitmq@1.5.6.1-osera-00002",
+      "library": "io.projectreactor.rabbitmq:reactor-rabbitmq",
+      "base": "1.5.6",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.5.6, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.projectreactor.rabbitmq:reactor-rabbitmq@1.5.6.1-osera-00002: listed by the BOM of spring-boot-2.7.x at 1.5.6, not in its dependency graph",
+      "first_seen": "2026-10-30T14:14:23Z"
+    },
+    {
       "coordinate": "io.projectreactor:reactor-test@3.4.41.1-osera-00001",
       "library": "io.projectreactor:reactor-test",
       "base": "3.4.41",
