@@ -1,9 +1,9 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.30.17",
-  "as_of": "2026-10-30T14:39:03Z",
+  "as_of": "2026-10-30T14:40:15Z",
   "status": "in progress",
-  "chain": "complete",
+  "chain": "broken: 1 artifact",
   "in_scope": 324,
   "fixed": [
     {
@@ -1529,7 +1529,8 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
-    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
+    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
+    "CVE-2025-52999 on jackson-core 2.13.5 is patched, the evidence chain is broken: the verdict names the fork dev-finos-osera-forks/patch-jackson-core, the board shows the issue in dev-finos-osera-forks/patch-jackson-jr"
   ],
   "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.29.4"
 }
