@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-30T13:55:30Z. Written by the line manager reconciler.
+Generated 2026-10-30T14:14:23Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -175,7 +175,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-27 libraries, 146 patched version(s).
+27 libraries, 147 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -202,7 +202,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.projectreactor.addons:reactor-extra | 3.4.11 | listed by the BOM of spring-boot-2.7.x at 3.4.10, not in its dependency graph | spring-boot-2.7.x |  | 3.4.11.1-osera-00001 | 3.4.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.kafka:reactor-kafka | 1.3.23 | listed by the BOM of spring-boot-2.7.x at 1.3.22, not in its dependency graph | spring-boot-2.7.x |  | 1.3.23.1-osera-00001 1.3.23.1-osera-00002 | 1.3.23.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.kotlin:reactor-kotlin-extensions | 1.1.11 | listed by the BOM of spring-boot-2.7.x at 1.1.10, not in its dependency graph | spring-boot-2.7.x |  | 1.1.11.1-osera-00001 | 1.1.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.projectreactor.rabbitmq:reactor-rabbitmq | 1.5.6 | listed by the BOM of spring-boot-2.7.x at 1.5.6, not in its dependency graph | spring-boot-2.7.x |  | 1.5.6.1-osera-00001 | 1.5.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.projectreactor.rabbitmq:reactor-rabbitmq | 1.5.6 | listed by the BOM of spring-boot-2.7.x at 1.5.6, not in its dependency graph | spring-boot-2.7.x |  | 1.5.6.1-osera-00001 1.5.6.1-osera-00002 | 1.5.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-test | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 | 3.4.41.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-tools | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 | 3.4.41.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-envers | 2.7.18 | listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph | spring-boot-2.7.x |  | 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 2.7.18.1-osera-00007 | 2.7.18.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
