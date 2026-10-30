@@ -1,12 +1,12 @@
 {
- "as_of": "2026-10-30T13:58:47Z",
+ "as_of": "2026-10-30T14:15:51Z",
  "environment": "dev",
  "ecosystems": [
   "Java",
   "JavaScript"
  ],
  "totals": {
-  "releases": 106,
+  "releases": 107,
   "libraries": 145,
   "libraries_with_a_fixed_cve": 15,
   "fixed_entries": 189,
@@ -59,7 +59,7 @@
   },
   {
    "date": "2026-10-30",
-   "count": 1
+   "count": 2
   }
  ],
  "top_cves": [
@@ -264,8 +264,8 @@
   {
    "library": "io.projectreactor.rabbitmq:reactor-rabbitmq",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "1.5.6.1-osera-00001",
+   "releases": 2,
+   "latest": "1.5.6.1-osera-00002",
    "fixed_entries": 0
   },
   {
