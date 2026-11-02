@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.02.3",
-  "as_of": "2026-11-02T09:12:55Z",
+  "as_of": "2026-11-02T09:23:31Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 190,
@@ -101,6 +101,14 @@
       "patch": "00005",
       "named_by": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005",
       "at": "2026-10-08T13:26:37Z"
+    },
+    {
+      "cve": "CVE-2026-40999",
+      "library": "org.springframework.ws:spring-ws-core",
+      "coordinate": "org.springframework.ws:spring-ws-core@3.1.8.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.ws:spring-ws-core@3.1.8.1-osera-00001",
+      "at": "2026-11-02T09:23:31Z"
     },
     {
       "cve": "CVE-2026-41006",
@@ -259,10 +267,6 @@
     {
       "cve": "CVE-2026-34480",
       "library": "org.apache.logging.log4j:log4j-core"
-    },
-    {
-      "cve": "CVE-2026-40999",
-      "library": "org.springframework.ws:spring-ws-core"
     },
     {
       "cve": "CVE-2026-41700",
@@ -898,5 +902,5 @@
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.02"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.02.2"
 }
