@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:19:23Z",
+  "generated_at": "2026-11-02T09:29:24Z",
   "feed_version": 27,
   "sets": [
     {
@@ -1979,6 +1979,38 @@
       ],
       "state": "in the feed",
       "statements": 5
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-spring-ws@v3.1.8.1-osera-00001",
+      "members": 6,
+      "coordinates": [
+        "org.springframework.ws:spring-ws-core@3.1.8.1-osera-00001",
+        "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
+        "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00001",
+        "org.springframework.ws:spring-ws-test@3.1.8.1-osera-00001",
+        "org.springframework.ws:spring-ws@3.1.8.1-osera-00001",
+        "org.springframework.ws:spring-xml@3.1.8.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-11-02T09:29:24Z",
+      "reasons": [
+        {
+          "member": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00001",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework.ws:spring-ws-test@3.1.8.1-osera-00001",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework.ws:spring-xml@3.1.8.1-osera-00001",
+          "why": "not promoted"
+        }
+      ]
     }
   ]
 }
