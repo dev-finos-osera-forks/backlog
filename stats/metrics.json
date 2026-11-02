@@ -6,28 +6,33 @@
   "JavaScript"
  ],
  "totals": {
-  "releases": 108,
+  "supported_lines": 41,
   "libraries": 145,
-  "libraries_with_a_fixed_cve": 15,
-  "fixed_entries": 189,
-  "undated_releases": 0
+  "library_versions": 145,
+  "releases": 108,
+  "forks": 26,
+  "artifacts": 615,
+  "cves": 29,
+  "cve_statements": 189,
+  "release_sets": 108,
+  "undated_artifacts": 0
  },
- "releases_per_day": [
+ "artifacts_per_day": [
   {
    "date": "2026-09-30",
-   "count": 10
+   "count": 208
   },
   {
    "date": "2026-10-01",
-   "count": 10
+   "count": 154
   },
   {
    "date": "2026-10-08",
-   "count": 66
+   "count": 69
   },
   {
    "date": "2026-10-13",
-   "count": 7
+   "count": 79
   },
   {
    "date": "2026-10-15",
@@ -35,19 +40,19 @@
   },
   {
    "date": "2026-10-16",
-   "count": 2
+   "count": 46
   },
   {
    "date": "2026-10-19",
-   "count": 1
+   "count": 23
   },
   {
    "date": "2026-10-20",
-   "count": 1
+   "count": 23
   },
   {
    "date": "2026-10-21",
-   "count": 1
+   "count": 3
   },
   {
    "date": "2026-10-27",
@@ -69,6 +74,7 @@
  "top_cves": [
   {
    "id": "CVE-2024-38816",
+   "summary": "Path traversal vulnerability in functional web frameworks",
    "fixed_entries": 18,
    "libraries": 2,
    "cvss": 7.5,
@@ -76,6 +82,7 @@
   },
   {
    "id": "CVE-2024-38819",
+   "summary": "Spring Framework Path Traversal vulnerability",
    "fixed_entries": 17,
    "libraries": 2,
    "cvss": 7.5,
@@ -83,6 +90,7 @@
   },
   {
    "id": "CVE-2016-1000027",
+   "summary": "Pivotal Spring Framework contains unsafe Java deserialization methods",
    "fixed_entries": 15,
    "libraries": 1,
    "cvss": 9.8,
@@ -90,6 +98,7 @@
   },
   {
    "id": "CVE-2026-41842",
+   "summary": "Spring Framework Denial of Service via Versioned Resources in Spring MVC and WebFlux",
    "fixed_entries": 14,
    "libraries": 2,
    "cvss": 7.5,
@@ -97,6 +106,7 @@
   },
   {
    "id": "CVE-2025-41249",
+   "summary": "Spring Framework annotation detection mechanism may result in improper authorization",
    "fixed_entries": 13,
    "libraries": 2,
    "cvss": 7.5,
@@ -104,6 +114,7 @@
   },
   {
    "id": "CVE-2026-41844",
+   "summary": "Spring Framework Open Redirect in Spring MVC and WebFlux",
    "fixed_entries": 11,
    "libraries": 2,
    "cvss": 6.1,
@@ -111,6 +122,7 @@
   },
   {
    "id": "CVE-2026-41838",
+   "summary": "Spring Framework Predictable Session ID in WebSocket Module",
    "fixed_entries": 11,
    "libraries": 1,
    "cvss": 7.5,
@@ -118,6 +130,7 @@
   },
   {
    "id": "CVE-2026-22740",
+   "summary": "Spring Framework DoS with Multipart Temp Files in WebFlux",
    "fixed_entries": 9,
    "libraries": 2,
    "cvss": 6.5,
@@ -125,6 +138,7 @@
   },
   {
    "id": "CVE-2026-41848",
+   "summary": "Spring Framework Denial of Service via AntPathMatcher",
    "fixed_entries": 9,
    "libraries": 1,
    "cvss": 7.5,
@@ -132,6 +146,7 @@
   },
   {
    "id": "CVE-2026-41849",
+   "summary": "Spring Framework Denial of Service via Integer Overflow in SpEL Expressions",
    "fixed_entries": 9,
    "libraries": 1,
    "cvss": 7.5,
@@ -139,6 +154,7 @@
   },
   {
    "id": "CVE-2026-41850",
+   "summary": "Spring Framework Algorithmic Denial of Service via SpEL Expressions",
    "fixed_entries": 9,
    "libraries": 1,
    "cvss": 7.5,
@@ -146,6 +162,7 @@
   },
   {
    "id": "CVE-2026-41851",
+   "summary": "Spring Framework Denial of Service via Unbounded Cache in SpEL",
    "fixed_entries": 9,
    "libraries": 1,
    "cvss": 7.5,
@@ -153,6 +170,7 @@
   },
   {
    "id": "CVE-2026-41845",
+   "summary": "Spring Framework Cross-site Scripting via JavaScriptUtils",
    "fixed_entries": 7,
    "libraries": 2,
    "cvss": 6.1,
@@ -160,6 +178,7 @@
   },
   {
    "id": "CVE-2026-22732",
+   "summary": "Spring Security HTTP Headers Are not Written Under Some Conditions",
    "fixed_entries": 5,
    "libraries": 1,
    "cvss": 9.1,
@@ -167,6 +186,7 @@
   },
   {
    "id": "CVE-2026-41846",
+   "summary": "Spring Framework Cross-site Scripting via JSP Form Tags",
    "fixed_entries": 5,
    "libraries": 1,
    "cvss": 6.1,
@@ -174,6 +194,7 @@
   },
   {
    "id": "CVE-2026-47838",
+   "summary": "Spring Security Vulnerable to Unauthorized User Impersonation when Using X.509 Client Certificates",
    "fixed_entries": 4,
    "libraries": 1,
    "cvss": 8.1,
@@ -181,6 +202,7 @@
   },
   {
    "id": "CVE-2026-47892",
+   "summary": "Spring Framework Header Predicate Bypass in WebFlux Functional Endpoints",
    "fixed_entries": 4,
    "libraries": 1,
    "cvss": 9.8,
@@ -188,6 +210,7 @@
   },
   {
    "id": "CVE-2026-40988",
+   "summary": "Spring Security SAML2 Service Provider: Unbounded writer inflates the compressed SAML payload into memory (DoS)",
    "fixed_entries": 3,
    "libraries": 1,
    "cvss": 7.5,
@@ -195,6 +218,7 @@
   },
   {
    "id": "CVE-2026-47884",
+   "summary": "Spring Framework Improper Path Limitation in XsltView",
    "fixed_entries": 3,
    "libraries": 1,
    "cvss": 9.8,
@@ -202,6 +226,7 @@
   },
   {
    "id": "CVE-2025-22228",
+   "summary": "Spring Security Does Not Enforce Password Length",
    "fixed_entries": 2,
    "libraries": 1,
    "cvss": 7.4,
