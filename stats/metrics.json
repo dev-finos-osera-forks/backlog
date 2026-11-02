@@ -1,12 +1,12 @@
 {
- "as_of": "2026-10-30T15:07:56Z",
+ "as_of": "2026-11-02T09:19:23Z",
  "environment": "dev",
  "ecosystems": [
   "Java",
   "JavaScript"
  ],
  "totals": {
-  "releases": 107,
+  "releases": 108,
   "libraries": 145,
   "libraries_with_a_fixed_cve": 15,
   "fixed_entries": 189,
@@ -60,6 +60,10 @@
   {
    "date": "2026-10-30",
    "count": 2
+  },
+  {
+   "date": "2026-11-02",
+   "count": 1
   }
  ],
  "top_cves": [
@@ -866,8 +870,8 @@
   {
    "library": "org.springframework.data:spring-data-ldap",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "2.7.18.1-osera-00006",
+   "releases": 7,
+   "latest": "2.7.18.1-osera-00007",
    "fixed_entries": 0
   },
   {
