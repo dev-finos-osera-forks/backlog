@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-30T15:04:15Z. Written by the line manager reconciler.
+Generated 2026-11-02T09:23:31Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 190 | 30 | 16% | 100 | 12 | 148 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 190 | 31 | 16% | 100 | 11 | 148 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 21 | 45% | 0 | 0 | 26 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 12 | 21% | 12 | 5 | 39 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
@@ -146,7 +146,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.security:spring-security-crypto | 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-saml2-service-provider | 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | open | 3 | 1 | 33% | 0 | 0 | 2 | 0 | 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-web | 5.7.14 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | in progress | 1 | 0 | 0% | 0 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 3.1.8.1-osera-00001 | 3.1.8.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-context | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -214,7 +214,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-9 component(s), 28 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+10 component(s), 29 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -226,4 +226,5 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.boot:spring-boot-maven-plugin | 2.7.18 | build plugin | patch-spring-boot v2.7.18.1-osera-00001 | the build plugin at the patched version | 2.7.18.1-osera-00001 | 2.7.18.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-starter-parent | 2.7.18 | parent | patch-spring-boot v2.7.18.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 2.7.18.1-osera-00001 | 2.7.18.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-bom | 5.7.14 | BOM | the anchor of spring-security-5.7.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.7.11 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.ws:spring-ws | 3.1.8 | parent | patch-spring-ws v3.1.8.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.1.8.1-osera-00001 | 3.1.8.1-osera-00001 | complete | OK | OK | OK | not applicable (no code: a pom-only component carries no vulnerability document) | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31, org.apache.logging.log4j:log4j@2.24.3 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 5.3.39.1-osera-00003 5.3.39.1-osera-00004 5.3.39.1-osera-00005 5.3.39.1-osera-00006 5.3.39.1-osera-00007 5.3.39.1-osera-00008 5.3.39.1-osera-00009 5.3.39.1-osera-00010 5.3.39.1-osera-00011 5.3.39.1-osera-00012 5.3.39.1-osera-00013 5.3.39.1-osera-00014 5.3.39.1-osera-00015 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
