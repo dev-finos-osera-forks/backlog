@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-04T21:21:17Z",
+ "as_of": "2026-11-05T08:26:17Z",
  "environment": "dev",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 145,
   "library_versions": 145,
-  "releases": 108,
+  "releases": 110,
   "forks": 26,
-  "artifacts": 615,
+  "artifacts": 617,
   "cves": 29,
   "cve_statements": 189,
-  "release_sets": 108,
+  "release_sets": 110,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -69,6 +69,10 @@
   {
    "date": "2026-11-02",
    "count": 1
+  },
+  {
+   "date": "2026-11-05",
+   "count": 2
   }
  ],
  "top_cves": [
@@ -853,8 +857,8 @@
   {
    "library": "org.springframework.data:spring-data-cassandra",
    "ecosystem": "Java",
-   "releases": 7,
-   "latest": "3.4.18.1-osera-00007",
+   "releases": 8,
+   "latest": "3.4.18.1-osera-00008",
    "fixed_entries": 0
   },
   {
@@ -909,8 +913,8 @@
   {
    "library": "org.springframework.data:spring-data-r2dbc",
    "ecosystem": "Java",
-   "releases": 7,
-   "latest": "1.5.18.1-osera-00007",
+   "releases": 8,
+   "latest": "1.5.18.1-osera-00008",
    "fixed_entries": 0
   },
   {
