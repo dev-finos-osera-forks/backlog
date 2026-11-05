@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.05.3",
-  "as_of": "2026-11-05T08:24:44Z",
+  "as_of": "2026-11-05T08:26:54Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 190,
@@ -902,5 +902,5 @@
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.2"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.3"
 }
