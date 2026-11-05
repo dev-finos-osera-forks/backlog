@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T18:17:07Z. Written by the line manager reconciler.
+Generated 2026-11-05T18:22:28Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 324 | 26 | 8% | 36 | 8 | 290 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 335 | 26 | 8% | 36 | 8 | 301 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 21 | 45% | 0 | 0 | 26 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 73 | 0 | 0% | 4 | 0 | 73 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
@@ -105,12 +105,12 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | io.netty:netty-transport-native-epoll | 4.1.101.Final | spring-boot-2.7.x | listed by the BOM at 4.1.101.Final (io.netty:netty-bom@4.1.101.Final) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.netty:netty-transport-native-kqueue | 4.1.101.Final | spring-boot-2.7.x | listed by the BOM at 4.1.101.Final (io.netty:netty-bom@4.1.101.Final) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.39 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| io.undertow:undertow-core | 2.2.28.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 13 | 0 | 0% | 0 | 0 | 13 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| io.undertow:undertow-core | 2.2.28.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 16 | 0 | 0% | 0 | 0 | 16 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | open | 6 | 0 | 0% | 0 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | net.minidev:json-smart | 2.4.8 | spring-security-5.7.x | pulled in by a dependency (com.nimbusds:oauth2-oidc-sdk@9.35) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ognl:ognl | 3.1.26 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.activemq:activemq-broker | 5.16.7 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 9 | 0 | 0% | 0 | 0 | 9 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.activemq:activemq-client | 5.16.7 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.activemq:activemq-broker | 5.16.7 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.activemq:activemq-client | 5.16.7 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-openwire-legacy | 5.16.7 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 0 | 0% | 2 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-compress | 1.21 | spring-boot-2.7.x | pulled in by a dependency (org.springframework.boot:spring-boot-buildpack-platform@2.7.18) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -134,7 +134,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.apache.santuario:xmlsec | 2.0.10 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.opensaml:opensaml-security-api@3.4.6) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | open | 1 | 0 | 0% | 3 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.struts:struts-tiles | 1.3.10 | struts-1.3.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.tomcat.embed:tomcat-embed-core | 9.0.83 | spring-boot-2.7.x | listed by the BOM at 9.0.83 | open | 36 | 0 | 0% | 0 | 0 | 36 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.tomcat.embed:tomcat-embed-core | 9.0.83 | spring-boot-2.7.x | listed by the BOM at 9.0.83 | open | 40 | 0 | 0% | 0 | 0 | 40 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.tomcat.embed:tomcat-embed-websocket | 9.0.83 | spring-boot-2.7.x | listed by the BOM at 9.0.83 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.velocity:velocity | 1.6.4 | velocity-1.6.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.velocity:velocity | 1.7 | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.7.x | own project on velocity-1.7.x (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
