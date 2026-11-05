@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-05T08:26:17Z",
+ "as_of": "2026-11-05T08:36:20Z",
  "environment": "dev",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 145,
   "library_versions": 145,
-  "releases": 110,
+  "releases": 113,
   "forks": 26,
-  "artifacts": 617,
+  "artifacts": 620,
   "cves": 29,
   "cve_statements": 189,
-  "release_sets": 110,
+  "release_sets": 113,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -72,7 +72,7 @@
   },
   {
    "date": "2026-11-05",
-   "count": 2
+   "count": 5
   }
  ],
  "top_cves": [
@@ -864,22 +864,22 @@
   {
    "library": "org.springframework.data:spring-data-couchbase",
    "ecosystem": "Java",
-   "releases": 7,
-   "latest": "4.4.18.1-osera-00007",
+   "releases": 8,
+   "latest": "4.4.18.1-osera-00008",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-elasticsearch",
    "ecosystem": "Java",
-   "releases": 7,
-   "latest": "4.4.18.1-osera-00007",
+   "releases": 8,
+   "latest": "4.4.18.1-osera-00008",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-envers",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "2.7.18.1-osera-00007",
+   "releases": 7,
+   "latest": "2.7.18.1-osera-00008",
    "fixed_entries": 0
   },
   {
