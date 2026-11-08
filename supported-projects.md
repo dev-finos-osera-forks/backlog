@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-08T17:36:38Z. Written by the line manager reconciler.
+Generated 2026-11-08T17:39:34Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -27,7 +27,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | in progress | 9 | 1 | 11% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | in progress | 9 | 1 | 11% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | in progress | 8 | 1 | 13% | 0 | 0 | 7 | 0 |
-| snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | in progress | 8 | 1 | 13% | 0 | 0 | 7 | 0 |
+| snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 8 | 1 | 13% | 0 | 0 | 7 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | in progress | 8 | 1 | 13% | 0 | 0 | 7 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | in progress | 4 | 1 | 25% | 0 | 0 | 3 | 0 |
