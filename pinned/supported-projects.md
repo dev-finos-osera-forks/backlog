@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-08T20:21:27Z. Written by the line manager reconciler.
+Generated 2026-11-08T20:24:27Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -28,7 +28,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
+| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
