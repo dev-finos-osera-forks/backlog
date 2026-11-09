@@ -1,5 +1,14 @@
 {
- "scores": {},
- "summaries": {},
- "checked": null
+ "scores": {
+  "CVE-2020-28469": {
+   "value": 7.5,
+   "version": "3.1"
+  }
+ },
+ "summaries": {
+  "CVE-2020-28469": "This affects the package glob-parent before 5.1.2."
+ },
+ "checked": [
+  "CVE-2020-28469"
+ ]
 }
