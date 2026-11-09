@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-05T08:36:20Z",
+ "as_of": "2026-11-09T15:15:15Z",
  "environment": "dev",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 145,
-  "library_versions": 145,
-  "releases": 113,
-  "forks": 26,
-  "artifacts": 620,
-  "cves": 29,
-  "cve_statements": 189,
-  "release_sets": 113,
+  "libraries": 146,
+  "library_versions": 146,
+  "releases": 114,
+  "forks": 27,
+  "artifacts": 621,
+  "cves": 30,
+  "cve_statements": 190,
+  "release_sets": 114,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -73,6 +73,10 @@
   {
    "date": "2026-11-05",
    "count": 5
+  },
+  {
+   "date": "2026-11-09",
+   "count": 1
   }
  ],
  "top_cves": [
@@ -257,6 +261,13 @@
    "ecosystem": "JavaScript",
    "releases": 1,
    "latest": "4.1.2-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "glob-parent",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "3.1.1-osera-00001",
    "fixed_entries": 1
   },
   {
