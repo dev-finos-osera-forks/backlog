@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:39:37Z",
+  "generated_at": "2026-11-10T13:49:40Z",
   "feed_version": 33,
   "sets": [
     {
@@ -73,6 +73,21 @@
         {
           "member": "intlify/core@11.3.3-osera-00001",
           "why": "evidence chain not complete: evidence: missing (no evidence file next to intlify/core-11.3.3-osera-00001); signatures: failed (no signature next to the tarball (core-11.3.3-osera-00001.tgz.asc)); document: missing (no vulnerability document next to the pom (core-11.3.3-osera-00001-cyclonedx.json)); producer: missing (the evidence names no producer); verdict: missing (no verdict for 11.3.3-osera-00001 in osera-releases-raw-01); fork: missing (the fork patch-intlify/core is missing); tag: not checked (the fork is missing); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-intlify/core@v11.3.3-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "intlify/core@11.3.3-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-11-10T13:49:40Z",
+      "reasons": [
+        {
+          "member": "intlify/core@11.3.3-osera-00002",
+          "why": "evidence chain not complete: evidence: missing (no evidence file next to intlify/core-11.3.3-osera-00002); signatures: failed (no signature next to the tarball (core-11.3.3-osera-00002.tgz.asc)); document: missing (no vulnerability document next to the pom (core-11.3.3-osera-00002-cyclonedx.json)); producer: missing (the evidence names no producer); verdict: missing (no verdict for 11.3.3-osera-00002 in osera-releases-raw-01); fork: missing (the fork patch-intlify/core is missing); tag: not checked (the fork is missing); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
         }
       ]
     },
@@ -178,6 +193,21 @@
         {
           "member": "intlify/vue-i18n-core@11.3.3-osera-00001",
           "why": "evidence chain not complete: evidence: missing (no evidence file next to intlify/vue-i18n-core-11.3.3-osera-00001); signatures: failed (no signature next to the tarball (vue-i18n-core-11.3.3-osera-00001.tgz.asc)); document: missing (no vulnerability document next to the pom (vue-i18n-core-11.3.3-osera-00001-cyclonedx.json)); producer: missing (the evidence names no producer); verdict: missing (no verdict for 11.3.3-osera-00001 in osera-releases-raw-01); fork: missing (the fork patch-intlify/vue-i18n-core is missing); tag: not checked (the fork is missing); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-intlify/vue-i18n-core@v11.3.3-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "intlify/vue-i18n-core@11.3.3-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-11-10T13:49:40Z",
+      "reasons": [
+        {
+          "member": "intlify/vue-i18n-core@11.3.3-osera-00002",
+          "why": "evidence chain not complete: evidence: not checked (no evidence file yet: the last file landed 1m52s ago and the gate writes it just before the verdict); signatures: failed (no signature next to the tarball (vue-i18n-core-11.3.3-osera-00002.tgz.asc)); document: missing (no vulnerability document next to the pom (vue-i18n-core-11.3.3-osera-00002-cyclonedx.json)); producer: not checked (no producer yet: the last file landed 1m52s ago and it is read from the evidence file, which the gate writes just before the verdict); verdict: not checked (no verdict yet: the last file landed 1m52s ago and the gate writes the verdict last); fork: missing (the fork patch-intlify/vue-i18n-core is missing); tag: not checked (the fork is missing); upload: not checked (the verdict could not be read); tagger: not checked (the verdict could not be read)"
         }
       ]
     },
