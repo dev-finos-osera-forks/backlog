@@ -2363,6 +2363,18 @@
       "first_seen": "2026-11-10T12:51:43Z"
     },
     {
+      "coordinate": "intlify/core@11.3.3-osera-00001",
+      "library": "intlify/core",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x"
+      ],
+      "words": "intlify/core@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, so the graph there may have a hole",
+      "first_seen": "2026-11-10T13:01:43Z"
+    },
+    {
       "coordinate": "intlify/devtools-types@11.3.3-osera-00001",
       "library": "intlify/devtools-types",
       "base": "11.3.2",
