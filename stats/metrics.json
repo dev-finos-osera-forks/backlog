@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-10T13:49:40Z",
+ "as_of": "2026-11-10T13:59:37Z",
  "environment": "dev",
  "ecosystems": [
   "Java",
@@ -11,9 +11,9 @@
   "library_versions": 148,
   "releases": 116,
   "forks": 28,
-  "artifacts": 624,
+  "artifacts": 625,
   "cves": 32,
-  "cve_statements": 194,
+  "cve_statements": 196,
   "release_sets": 116,
   "undated_artifacts": 0
  },
@@ -80,7 +80,7 @@
   },
   {
    "date": "2026-11-10",
-   "count": 3
+   "count": 4
   }
  ],
  "top_cves": [
@@ -205,6 +205,14 @@
    "cvss_version": "3.1"
   },
   {
+   "id": "CVE-2026-118257",
+   "summary": "Vue I18n is the internationalization plugin for Vue.js.",
+   "fixed_entries": 4,
+   "libraries": 2,
+   "cvss": 7.2,
+   "cvss_version": "3.1"
+  },
+  {
    "id": "CVE-2026-47838",
    "summary": "Spring Security Vulnerable to Unauthorized User Impersonation when Using X.509 Client Certificates",
    "fixed_entries": 4,
@@ -218,14 +226,6 @@
    "fixed_entries": 4,
    "libraries": 1,
    "cvss": 9.8,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-118257",
-   "summary": "Vue I18n is the internationalization plugin for Vue.js.",
-   "fixed_entries": 3,
-   "libraries": 2,
-   "cvss": 7.2,
    "cvss_version": "3.1"
   },
   {
@@ -1278,9 +1278,9 @@
   {
    "library": "vue-i18n",
    "ecosystem": "JavaScript",
-   "releases": 1,
-   "latest": "11.3.3-osera-00001",
-   "fixed_entries": 1
+   "releases": 2,
+   "latest": "11.3.3-osera-00002",
+   "fixed_entries": 3
   }
  ]
 }
