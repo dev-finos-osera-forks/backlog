@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T02:49:37Z",
+  "generated_at": "2026-11-10T12:39:37Z",
   "feed_version": 30,
   "sets": [
     {
@@ -30,6 +30,21 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-intlify/shared@v11.3.3-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "intlify/shared@11.3.3-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-11-10T12:39:37Z",
+      "reasons": [
+        {
+          "member": "intlify/shared@11.3.3-osera-00001",
+          "why": "evidence chain not complete: evidence: not checked (no evidence file yet: the last file landed 1m55s ago and the gate writes it just before the verdict); signatures: failed (no signature next to the tarball (shared-11.3.3-osera-00001.tgz.asc)); document: missing (no vulnerability document next to the pom (shared-11.3.3-osera-00001-cyclonedx.json)); producer: not checked (no producer yet: the last file landed 1m55s ago and it is read from the evidence file, which the gate writes just before the verdict); verdict: not checked (no verdict yet: the last file landed 1m55s ago and the gate writes the verdict last); fork: missing (the fork patch-intlify/shared is missing); tag: not checked (the fork is missing); upload: not checked (the verdict could not be read); tagger: not checked (the verdict could not be read)"
+        }
+      ]
     },
     {
       "set": "dev-finos-osera-forks/patch-jackson-annotations@v2.13.5.1-osera-00001",
