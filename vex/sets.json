@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-11-10T13:59:37Z",
+  "generated_at": "2026-11-10T16:09:38Z",
   "feed_version": 34,
   "sets": [
+    {
+      "set": "dev-finos-osera-forks/patch-angular.js@v1.8.4-osera-00001",
+      "members": 2,
+      "coordinates": [
+        "angular-animate@1.8.4-osera-00001",
+        "angular-aria@1.8.4-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-11-10T16:09:38Z",
+      "reasons": [
+        {
+          "member": "angular-animate@1.8.4-osera-00001",
+          "why": "evidence chain not complete: files: missing (angular-animate-1.8.4-osera-00001.tgz.asc could not be read from the release repository (HTTP 400)); signatures: failed (no signature next to the tarball (angular-animate-1.8.4-osera-00001.tgz.asc)); document: missing (the verdict records a vulnerability document, none is next to the pom (angular-animate-1.8.4-osera-00001-cyclonedx.json))"
+        }
+      ]
+    },
     {
       "set": "dev-finos-osera-forks/patch-crypto-js@v4.1.2-osera-00001",
       "members": 1,
