@@ -2573,6 +2573,18 @@
       ],
       "words": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00008: listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph",
       "first_seen": "2026-11-05T08:30:46Z"
+    },
+    {
+      "coordinate": "petite-vue-i18n@11.3.3-osera-00001",
+      "library": "petite-vue-i18n",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x"
+      ],
+      "words": "petite-vue-i18n@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, so the graph there may have a hole",
+      "first_seen": "2026-11-10T12:56:43Z"
     }
   ]
 }
