@@ -1,24 +1,30 @@
 {
-  "generated_at": "2026-11-10T16:29:38Z",
+  "generated_at": "2026-11-10T16:39:38Z",
   "feed_version": 34,
   "sets": [
     {
       "set": "dev-finos-osera-forks/patch-angular.js@v1.8.4-osera-00001",
-      "members": 6,
+      "members": 8,
       "coordinates": [
         "angular-animate@1.8.4-osera-00001",
         "angular-aria@1.8.4-osera-00001",
         "angular-cookies@1.8.4-osera-00001",
         "angular-i18n@1.8.4-osera-00001",
         "angular-loader@1.8.4-osera-00001",
-        "angular-message-format@1.8.4-osera-00001"
+        "angular-message-format@1.8.4-osera-00001",
+        "angular-messages@1.8.4-osera-00001",
+        "angular-mocks@1.8.4-osera-00001"
       ],
       "state": "held",
-      "held_since": "2026-11-10T16:09:38Z",
+      "held_since": "2026-11-10T16:39:38Z",
       "reasons": [
         {
           "member": "angular-animate@1.8.4-osera-00001",
           "why": "evidence chain not complete: files: missing (angular-animate-1.8.4-osera-00001.tgz.asc could not be read from the release repository (HTTP 400)); signatures: failed (no signature next to the tarball (angular-animate-1.8.4-osera-00001.tgz.asc)); document: missing (the verdict records a vulnerability document, none is next to the pom (angular-animate-1.8.4-osera-00001-cyclonedx.json))"
+        },
+        {
+          "member": "angular-mocks@1.8.4-osera-00001",
+          "why": "evidence chain not complete: files: missing (angular-mocks-1.8.4-osera-00001.tgz.asc could not be read from the release repository (HTTP 400)); signatures: failed (no signature next to the tarball (angular-mocks-1.8.4-osera-00001.tgz.asc)); document: missing (the verdict records a vulnerability document, none is next to the pom (angular-mocks-1.8.4-osera-00001-cyclonedx.json))"
         }
       ]
     },
