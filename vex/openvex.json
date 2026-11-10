@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-08T10:22:10Z",
-  "last_updated": "2026-11-10T12:59:37Z",
-  "version": 31,
+  "last_updated": "2026-11-10T13:19:37Z",
+  "version": 32,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -3014,6 +3014,22 @@
       "products": [
         {
           "@id": "pkg:npm/petite-vue-i18n@11.3.3-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-118257",
+        "aliases": [
+          "GHSA-83rm-6c8r-g728"
+        ]
+      },
+      "timestamp": "2026-11-10T13:10:57Z",
+      "products": [
+        {
+          "@id": "pkg:npm/vue-i18n@11.3.3-osera-00001"
         }
       ],
       "status": "fixed",

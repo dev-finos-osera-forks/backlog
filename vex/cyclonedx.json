@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:aade1e8b-3533-526b-9035-145fc3e17332",
-  "version": 17,
+  "version": 18,
   "metadata": {
-    "timestamp": "2026-11-10T12:59:37Z",
+    "timestamp": "2026-11-10T13:19:37Z",
     "tools": {
       "components": [
         {
@@ -1011,6 +1011,17 @@
       "name": "petite-vue-i18n",
       "version": "11.3.3-osera-00001",
       "purl": "pkg:npm/petite-vue-i18n@11.3.3-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/vue-i18n@11.3.3-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "",
+      "name": "vue-i18n",
+      "version": "11.3.3-osera-00001",
+      "purl": "pkg:npm/vue-i18n@11.3.3-osera-00001"
     }
   ],
   "vulnerabilities": [
@@ -5842,6 +5853,32 @@
       "affects": [
         {
           "ref": "pkg:npm/petite-vue-i18n@11.3.3-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-118257 on pkg:npm/vue-i18n@11.3.3-osera-00001",
+      "id": "CVE-2026-118257",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118257"
+      },
+      "references": [
+        {
+          "id": "GHSA-83rm-6c8r-g728",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-83rm-6c8r-g728"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-10T13:10:57Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:npm/vue-i18n@11.3.3-osera-00001"
         }
       ]
     }
