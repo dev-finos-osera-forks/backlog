@@ -2,15 +2,15 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:97ef97c5-4648-5a9e-911f-58cc7bb109dd",
-  "version": 14,
+  "version": 15,
   "metadata": {
-    "timestamp": "2026-11-09T15:15:15Z",
+    "timestamp": "2026-11-10T02:34:38Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "osera-feed",
-          "version": "5cdd45ce852293aa098b26e42f09913f1bf6c60c"
+          "version": "9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c"
         }
       ]
     },
@@ -2043,6 +2043,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
       },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-09-30T15:40:01Z"
@@ -2094,6 +2103,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
       },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-09-30T16:09:56Z"
@@ -2145,6 +2163,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
       },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-09-30T16:45:46Z"
@@ -2196,6 +2223,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
       },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-01T08:20:37Z"
@@ -2247,6 +2283,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
       },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-01T08:32:39Z"
@@ -2298,6 +2343,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
       },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-16T19:45:24Z"
@@ -2349,6 +2403,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
       },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-16T21:36:54Z"
@@ -2400,6 +2463,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
       },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-19T21:26:25Z"
@@ -2451,6 +2523,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
       },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-20T08:36:15Z"
@@ -2485,6 +2566,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41855"
       },
+      "references": [
+        {
+          "id": "GHSA-x863-p983-p4f7",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-x863-p983-p4f7"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-19T21:26:37Z"
@@ -2502,6 +2592,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41855"
       },
+      "references": [
+        {
+          "id": "GHSA-x863-p983-p4f7",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-x863-p983-p4f7"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-20T08:36:19Z"
@@ -2935,6 +3034,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
       },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-20T08:36:38Z"
@@ -2952,6 +3060,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41845"
       },
+      "references": [
+        {
+          "id": "GHSA-3chg-m5w7-qfv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-20T08:36:38Z"
@@ -2969,6 +3086,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
       },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-09-30T16:10:37Z"
@@ -2986,6 +3112,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
       },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-09-30T16:47:19Z"
@@ -3003,6 +3138,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
       },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-01T08:21:29Z"
@@ -3020,6 +3164,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
       },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-01T08:33:45Z"
@@ -3089,6 +3242,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
       },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-16T19:45:52Z"
@@ -3209,6 +3371,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
       },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-16T21:37:19Z"
@@ -3329,6 +3500,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
       },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-19T21:27:00Z"
@@ -3449,6 +3629,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
       },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-20T08:36:37Z"
@@ -4078,6 +4267,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41845"
       },
+      "references": [
+        {
+          "id": "GHSA-3chg-m5w7-qfv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-01T08:21:34Z"
@@ -4181,6 +4379,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41845"
       },
+      "references": [
+        {
+          "id": "GHSA-3chg-m5w7-qfv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-01T08:33:50Z"
@@ -4198,6 +4405,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41846"
       },
+      "references": [
+        {
+          "id": "GHSA-957g-f97v-vppc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-957g-f97v-vppc"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-01T08:33:50Z"
@@ -4301,6 +4517,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41845"
       },
+      "references": [
+        {
+          "id": "GHSA-3chg-m5w7-qfv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-16T19:46:02Z"
@@ -4318,6 +4543,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41846"
       },
+      "references": [
+        {
+          "id": "GHSA-957g-f97v-vppc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-957g-f97v-vppc"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-16T19:46:02Z"
@@ -4421,6 +4655,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41845"
       },
+      "references": [
+        {
+          "id": "GHSA-3chg-m5w7-qfv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-16T21:37:30Z"
@@ -4438,6 +4681,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41846"
       },
+      "references": [
+        {
+          "id": "GHSA-957g-f97v-vppc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-957g-f97v-vppc"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-16T21:37:30Z"
@@ -4567,6 +4819,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41845"
       },
+      "references": [
+        {
+          "id": "GHSA-3chg-m5w7-qfv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-19T21:27:00Z"
@@ -4584,6 +4845,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41846"
       },
+      "references": [
+        {
+          "id": "GHSA-957g-f97v-vppc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-957g-f97v-vppc"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-19T21:27:00Z"
@@ -4713,6 +4983,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41845"
       },
+      "references": [
+        {
+          "id": "GHSA-3chg-m5w7-qfv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-20T08:36:46Z"
@@ -4730,6 +5009,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41846"
       },
+      "references": [
+        {
+          "id": "GHSA-957g-f97v-vppc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-957g-f97v-vppc"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-20T08:36:46Z"
