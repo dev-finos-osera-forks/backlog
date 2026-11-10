@@ -73,6 +73,18 @@
       "first_seen": "2026-11-10T16:27:11Z"
     },
     {
+      "coordinate": "angular-messages@1.8.4-osera-00001",
+      "library": "angular-messages",
+      "base": "1.8.3",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x"
+      ],
+      "words": "angular-messages@1.8.4-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, so the graph there may have a hole",
+      "first_seen": "2026-11-10T16:31:43Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro",
       "base": "2.13.5",
