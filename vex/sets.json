@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:09:39Z",
+  "generated_at": "2026-11-10T17:39:38Z",
   "feed_version": 34,
   "sets": [
     {
@@ -22,7 +22,7 @@
         "angular@1.8.4-osera-00001"
       ],
       "state": "held",
-      "held_since": "2026-11-10T17:09:39Z",
+      "held_since": "2026-11-10T17:39:38Z",
       "reasons": [
         {
           "member": "angular-animate@1.8.4-osera-00001",
@@ -30,7 +30,7 @@
         },
         {
           "member": "angular-mocks@1.8.4-osera-00001",
-          "why": "evidence chain not complete: files: missing (angular-mocks-1.8.4-osera-00001.tgz.asc could not be read from the release repository (HTTP 400)); signatures: failed (no signature next to the tarball (angular-mocks-1.8.4-osera-00001.tgz.asc)); document: missing (the verdict records a vulnerability document, none is next to the pom (angular-mocks-1.8.4-osera-00001-cyclonedx.json))"
+          "why": "evidence chain not complete: signatures: failed (no signature next to the tarball (angular-mocks-1.8.4-osera-00001.tgz.asc))"
         }
       ]
     },
