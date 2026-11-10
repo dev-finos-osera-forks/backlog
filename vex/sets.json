@@ -1,14 +1,17 @@
 {
-  "generated_at": "2026-11-10T16:19:39Z",
+  "generated_at": "2026-11-10T16:29:38Z",
   "feed_version": 34,
   "sets": [
     {
       "set": "dev-finos-osera-forks/patch-angular.js@v1.8.4-osera-00001",
-      "members": 3,
+      "members": 6,
       "coordinates": [
         "angular-animate@1.8.4-osera-00001",
         "angular-aria@1.8.4-osera-00001",
-        "angular-cookies@1.8.4-osera-00001"
+        "angular-cookies@1.8.4-osera-00001",
+        "angular-i18n@1.8.4-osera-00001",
+        "angular-loader@1.8.4-osera-00001",
+        "angular-message-format@1.8.4-osera-00001"
       ],
       "state": "held",
       "held_since": "2026-11-10T16:09:38Z",
