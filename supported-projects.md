@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-10T17:07:17Z. Written by the line manager reconciler.
+Generated 2026-11-10T17:36:43Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -187,7 +187,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | angular-loader | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | angular-message-format | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | angular-messages | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| angular-mocks | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | not ready, artifact missing | broken | NOK (angular-mocks-1.8.4-osera-00001.tgz.asc could not be read from the release repository (HTTP 400)) | OK | NOK (no signature next to the tarball (angular-mocks-1.8.4-osera-00001.tgz.asc)) | NOK (the verdict records a vulnerability document, none is next to the pom (angular-mocks-1.8.4-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
+| angular-mocks | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | not ready, evidence chain incomplete: signatures | broken | OK | OK | NOK (no signature next to the tarball (angular-mocks-1.8.4-osera-00001.tgz.asc)) | OK | OK | OK | OK | OK | OK | OK |
 | angular-parse-ext | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | angular-resource | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | angular-route | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
