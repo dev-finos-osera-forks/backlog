@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-10T17:01:44Z. Written by the line manager reconciler.
+Generated 2026-11-10T17:07:17Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -175,10 +175,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-54 libraries, 213 patched version(s).
+55 libraries, 214 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| angular | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | angular-animate | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | not ready, evidence chain incomplete: signatures | broken | OK | OK | NOK (no signature next to the tarball (angular-animate-1.8.4-osera-00001.tgz.asc)) | OK | OK | OK | OK | OK | OK | OK |
 | angular-aria | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | angular-cookies | 1.8.3 | not listed by any line |  | crypto-js-4.1.x | 1.8.4-osera-00001 | 1.8.4-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
