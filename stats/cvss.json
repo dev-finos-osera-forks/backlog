@@ -3,12 +3,18 @@
   "CVE-2020-28469": {
    "value": 7.5,
    "version": "3.1"
+  },
+  "CVE-2026-118257": {
+   "value": 7.2,
+   "version": "3.1"
   }
  },
  "summaries": {
-  "CVE-2020-28469": "This affects the package glob-parent before 5.1.2."
+  "CVE-2020-28469": "This affects the package glob-parent before 5.1.2.",
+  "CVE-2026-118257": "Vue I18n is the internationalization plugin for Vue.js."
  },
  "checked": [
-  "CVE-2020-28469"
+  "CVE-2020-28469",
+  "CVE-2026-118257"
  ]
 }

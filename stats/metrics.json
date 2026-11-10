@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-10T12:49:38Z",
+ "as_of": "2026-11-10T13:19:37Z",
  "environment": "dev",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 146,
-  "library_versions": 146,
-  "releases": 114,
-  "forks": 27,
-  "artifacts": 621,
-  "cves": 30,
-  "cve_statements": 190,
-  "release_sets": 114,
+  "libraries": 148,
+  "library_versions": 148,
+  "releases": 115,
+  "forks": 28,
+  "artifacts": 623,
+  "cves": 31,
+  "cve_statements": 192,
+  "release_sets": 115,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -77,6 +77,10 @@
   {
    "date": "2026-11-09",
    "count": 1
+  },
+  {
+   "date": "2026-11-10",
+   "count": 2
   }
  ],
  "top_cves": [
@@ -233,11 +237,11 @@
    "cvss_version": "3.1"
   },
   {
-   "id": "CVE-2025-22228",
-   "summary": "Spring Security Does Not Enforce Password Length",
+   "id": "CVE-2026-118257",
+   "summary": "Vue I18n is the internationalization plugin for Vue.js.",
    "fixed_entries": 2,
-   "libraries": 1,
-   "cvss": 7.4,
+   "libraries": 2,
+   "cvss": 7.2,
    "cvss_version": "3.1"
   }
  ],
@@ -1262,6 +1266,20 @@
    "ecosystem": "Java",
    "releases": 1,
    "latest": "1.33.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "petite-vue-i18n",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "11.3.3-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "vue-i18n",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "11.3.3-osera-00001",
    "fixed_entries": 1
   }
  ]
