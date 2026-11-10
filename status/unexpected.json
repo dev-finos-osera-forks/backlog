@@ -2411,6 +2411,18 @@
       "first_seen": "2026-11-10T12:36:43Z"
     },
     {
+      "coordinate": "intlify/vue-i18n-core@11.3.3-osera-00001",
+      "library": "intlify/vue-i18n-core",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x"
+      ],
+      "words": "intlify/vue-i18n-core@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, so the graph there may have a hole",
+      "first_seen": "2026-11-10T13:06:43Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-adapter",
       "base": "3.4.11",
