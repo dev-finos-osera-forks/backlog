@@ -2705,6 +2705,18 @@
       ],
       "words": "vue-i18n@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, so the graph there may have a hole",
       "first_seen": "2026-11-10T13:11:43Z"
+    },
+    {
+      "coordinate": "vue-i18n@11.3.3-osera-00002",
+      "library": "vue-i18n",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x"
+      ],
+      "words": "vue-i18n@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, so the graph there may have a hole",
+      "first_seen": "2026-11-10T13:51:43Z"
     }
   ]
 }
