@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-11T09:45:43Z. Written by the line manager reconciler.
+Generated 2026-11-11T09:57:43Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -32,7 +32,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | in progress | 4 | 1 | 25% | 0 | 0 | 3 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
-| jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
+| jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | not fixed | 16 | 0 | 0% | 1 | 0 | 16 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 15 | 0 | 0% | 1 | 0 | 15 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | not fixed | 4 | 0 | 0% | 10 | 0 | 4 | 0 |
