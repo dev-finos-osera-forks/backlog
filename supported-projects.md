@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-11T22:49:43Z. Written by the line manager reconciler.
+Generated 2026-11-11T23:15:43Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -16,7 +16,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | not fixed | 3 | 0 | 0% | 2 | 0 | 3 | 0 |
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
+| commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
@@ -48,7 +48,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
-| crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
+| crypto-js-4.1.x | npm | `crypto-js@4.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
 ## Libraries
