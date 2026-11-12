@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-12T09:48:15Z. Written by the line manager reconciler.
+Generated 2026-11-12T09:49:27Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -26,11 +26,11 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
-| snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
+| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 15 | 0 | 0% | 1 | 0 | 15 | 0 |
