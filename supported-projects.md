@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-12T10:25:43Z. Written by the line manager reconciler.
+Generated 2026-11-12T10:26:43Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -35,7 +35,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 15 | 0 | 0% | 1 | 0 | 15 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
-| bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | - | 0 | 0 | - | 10 | 0 | 0 | 0 |
+| bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | not fixed | 4 | 0 | 0% | 10 | 0 | 4 | 0 |
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 8 | 0 | 0% | 1 | 0 | 8 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
