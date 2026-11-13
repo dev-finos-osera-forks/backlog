@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-13T04:52:43Z. Written by the line manager reconciler.
+Generated 2026-11-13T05:06:43Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -14,7 +14,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | not fixed | 3 | 0 | 0% | 2 | 0 | 3 | 0 |
-| commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
