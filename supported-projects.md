@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-16T19:26:08Z. Written by the line manager reconciler.
+Generated 2026-11-16T19:35:01Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -50,7 +50,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
 
 ## Libraries
 
@@ -150,7 +150,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 3.1.8.1-osera-00001 | 3.1.8.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-context | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-core-5.3.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 4 | 3 | 75% | 0 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
