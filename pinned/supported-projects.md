@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-16T19:37:24Z. Written by the line manager reconciler.
+Generated 2026-11-16T19:38:24Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -50,7 +50,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
 ## Libraries
 
