@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-17T17:36:27Z. Written by the line manager reconciler.
+Generated 2026-11-17T17:43:24Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -42,8 +42,8 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | - | 0 | 0 | - | 4 | 0 | 0 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | not fixed | 4 | 0 | 0% | 4 | 0 | 4 | 0 |
 | mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
-| lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | not fixed | 14 | 0 | 0% | 0 | 0 | 14 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
@@ -51,13 +51,14 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.13.x | maven | `org.apache.commons:commons-text@1.13.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lodash-4.18.x | npm | `lodash@4.18.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | requests-2.34.x | pypi | `requests==2.34.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
 
 ## Libraries
 
-152 libraries across 46 line(s).
+152 libraries across 47 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
