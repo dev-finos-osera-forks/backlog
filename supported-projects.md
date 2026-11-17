@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-17T17:30:07Z. Written by the line manager reconciler.
+Generated 2026-11-17T17:31:21Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -50,7 +50,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | commons-text-1.13.x | maven | `org.apache.commons:commons-text@1.13.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | requests-2.34.x | pypi | `requests==2.34.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
