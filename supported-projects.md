@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-17T07:04:01Z. Written by the line manager reconciler.
+Generated 2026-11-17T07:11:01Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -33,7 +33,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | in progress | 4 | 1 | 25% | 0 | 0 | 3 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
-| jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 15 | 0 | 0% | 1 | 0 | 15 | 0 |
+| jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | - | 0 | 0 | - | 10 | 0 | 0 | 0 |
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 8 | 0 | 0% | 1 | 0 | 8 | 0 |
@@ -45,7 +45,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | not fixed | 14 | 0 | 0% | 0 | 0 | 14 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
-| bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
