@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-17T17:11:01Z. Written by the line manager reconciler.
+Generated 2026-11-17T17:12:01Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -31,7 +31,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
-| snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 15 | 0 | 0% | 1 | 0 | 15 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
@@ -49,12 +49,13 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
 
 ## Libraries
 
-152 libraries across 43 line(s).
+152 libraries across 44 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
