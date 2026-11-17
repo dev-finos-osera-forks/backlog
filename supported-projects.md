@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-17T18:20:34Z. Written by the line manager reconciler.
+Generated 2026-11-17T18:36:25Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -51,7 +51,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | commons-text-1.13.x | maven | `org.apache.commons:commons-text@1.13.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
 | lodash-4.18.x | npm | `lodash@4.18.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pacote-11.2.x | npm | `pacote@11.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | requests-2.34.x | pypi | `requests==2.34.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -60,7 +60,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-115 libraries across 49 line(s).
+116 libraries across 49 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -94,6 +94,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | in progress | 1 | 0 | 0% | 0 | 1 | 0 | 0 |  |  | patch in progress |  |  |  |  |  |  |  |  |  |  |  |
 | io.undertow:undertow-core | 2.2.41.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| jsonwebtoken | 8.5.1 | jsonwebtoken-8.5.x | pulled in by a dependency (jsonwebtoken@8.5.1) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | open | 6 | 0 | 0% | 0 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ognl:ognl | 3.1.29 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-broker | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 12 | 0 | 0% | 0 | 0 | 12 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
