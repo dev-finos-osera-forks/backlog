@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T10:59:24Z. Written by the line manager reconciler.
+Generated 2026-11-18T12:20:16Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -53,6 +53,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-text-1.13.x | maven | `org.apache.commons:commons-text@1.13.1` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lodash-4.17.x | npm | `lodash@4.17.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lodash-4.18.x | npm | `lodash@4.18.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pacote-11.2.x | npm | `pacote@11.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | requests-2.34.x | pypi | `requests==2.34.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -61,7 +62,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 ## Libraries
 
-153 libraries across 50 line(s).
+153 libraries across 51 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
