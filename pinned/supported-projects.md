@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T12:20:16Z. Written by the line manager reconciler.
+Generated 2026-11-18T16:01:16Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -59,10 +59,11 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | requests-2.34.x | pypi | `requests==2.34.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
+| xstream-1.4.x | maven | `com.thoughtworks.xstream:xstream@1.4.21` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
 ## Libraries
 
-153 libraries across 51 line(s).
+153 libraries across 52 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
