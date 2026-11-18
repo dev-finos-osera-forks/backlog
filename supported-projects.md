@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T06:12:24Z. Written by the line manager reconciler.
+Generated 2026-11-18T06:13:24Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -43,7 +43,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | not fixed | 4 | 0 | 0% | 4 | 0 | 4 | 0 |
 | mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
-| lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | not fixed | 14 | 0 | 0% | 0 | 0 | 14 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
@@ -54,7 +54,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
 | lodash-4.18.x | npm | `lodash@4.18.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pacote-11.2.x | npm | `pacote@11.2.7` | not fixed | 21 | 0 | 0% | 0 | 0 | 21 | 0 |
-| requests-2.34.x | pypi | `requests==2.34.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| requests-2.34.x | pypi | `requests==2.34.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
 
