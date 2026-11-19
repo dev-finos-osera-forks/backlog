@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-19T18:02:54Z. Written by the line manager reconciler.
+Generated 2026-11-19T18:04:04Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -30,14 +30,14 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | not fixed | 7 | 0 | 0% | 0 | 0 | 7 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
+| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 15 | 0 | 0% | 1 | 0 | 15 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | - | 0 | 0 | - | 10 | 0 | 0 | 0 |
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 8 | 0 | 0% | 1 | 0 | 8 | 0 |
-| httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | - | 0 | 0 | - | 4 | 0 | 0 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | - | 0 | 0 | - | 4 | 0 | 0 | 0 |
