@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:36:49Z",
+  "generated_at": "2026-11-20T14:46:49Z",
   "feed_version": 34,
   "sets": [
     {
@@ -2112,22 +2112,22 @@
         "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001"
       ],
       "state": "held",
-      "held_since": "2026-11-20T14:36:49Z",
+      "held_since": "2026-11-20T14:46:49Z",
       "reasons": [
         {
           "member": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
-          "why": "not promoted"
+          "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
         },
         {
           "member": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00001",
-          "why": "not promoted"
+          "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
         },
         {
           "member": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001",
+          "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
+        },
+        {
+          "member": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00001",
           "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
         },
         {
