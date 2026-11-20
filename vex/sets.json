@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:39:38Z",
+  "generated_at": "2026-11-20T14:36:49Z",
   "feed_version": 34,
   "sets": [
     {
@@ -2098,6 +2098,41 @@
         {
           "member": "org.springframework:spring-instrument@5.3.39.1-osera-00007",
           "why": "evidence chain not complete: files: missing (spring-instrument-5.3.39.1-osera-00007.pom.sha1 missing in the release repository); evidence: missing (no evidence file next to spring-instrument-5.3.39.1-osera-00007); signatures: failed (no signature next to the pom (spring-instrument-5.3.39.1-osera-00007.pom.asc)); document: failed (the vulnerability document's signature: no registry entry to take the signing key from); producer: missing (the evidence names no producer); verdict: missing (no verdict for 5.3.39.1-osera-00007 in osera-releases-raw-01); fork: missing (the fork patch-spring-instrument is missing); tag: not checked (the fork is missing); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
+        }
+      ]
+    },
+    {
+      "set": "dev-finos-osera-forks/patch-spring-ldap@v2.4.4.1-osera-00001",
+      "members": 5,
+      "coordinates": [
+        "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
+        "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
+        "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001",
+        "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00001",
+        "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-11-20T14:36:49Z",
+      "reasons": [
+        {
+          "member": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00001",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001",
+          "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
+        },
+        {
+          "member": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001",
+          "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
         }
       ]
     },
