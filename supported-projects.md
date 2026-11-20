@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-20T23:29:47Z. Written by the line manager reconciler.
+Generated 2026-11-20T23:39:47Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -50,8 +50,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-collections-3.2.x | maven | `commons-collections:commons-collections@3.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| commons-text-1.13.x | maven | `org.apache.commons:commons-text@1.13.1` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
-| commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| commons-text-1.13.x | maven | `org.apache.commons:commons-text@1.13.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lodash-4.17.x | npm | `lodash@4.17.23` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | lodash-4.18.x | npm | `lodash@4.18.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
