@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:46:49Z",
+  "generated_at": "2026-11-20T14:56:48Z",
   "feed_version": 34,
   "sets": [
     {
@@ -2293,23 +2293,23 @@
         "org.springframework.ws:spring-xml@3.1.8.1-osera-00001"
       ],
       "state": "held",
-      "held_since": "2026-11-02T09:29:24Z",
+      "held_since": "2026-11-20T14:56:48Z",
       "reasons": [
         {
           "member": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
-          "why": "not promoted"
+          "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
         },
         {
           "member": "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00001",
-          "why": "not promoted"
+          "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
         },
         {
           "member": "org.springframework.ws:spring-ws-test@3.1.8.1-osera-00001",
-          "why": "not promoted"
+          "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
         },
         {
           "member": "org.springframework.ws:spring-xml@3.1.8.1-osera-00001",
-          "why": "not promoted"
+          "why": "evidence chain not complete: signatures: failed (the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); document: failed (the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity); upload: failed (uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev)"
         }
       ]
     },
