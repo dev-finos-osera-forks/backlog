@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-20T22:39:47Z. Written by the line manager reconciler.
+Generated 2026-11-20T22:48:47Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -36,7 +36,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | - | 0 | 0 | - | 10 | 0 | 0 | 0 |
-| jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
+| jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 8 | 0 | 0% | 1 | 0 | 8 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | - | 0 | 0 | - | 4 | 0 | 0 | 0 |
@@ -54,7 +54,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lodash-4.17.x | npm | `lodash@4.17.23` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| lodash-4.18.x | npm | `lodash@4.18.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lodash-4.18.x | npm | `lodash@4.18.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pacote-11.2.x | npm | `pacote@11.2.7` | not fixed | 21 | 0 | 0% | 0 | 0 | 21 | 0 |
 | requests-2.34.x | pypi | `requests==2.34.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
