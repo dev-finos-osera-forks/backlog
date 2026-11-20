@@ -2974,6 +2974,28 @@
       "first_seen": "2026-11-05T08:30:46Z"
     },
     {
+      "coordinate": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001",
+      "library": "org.springframework.ldap:spring-ldap-ldif-core",
+      "base": "2.4.4",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "first_seen": "2026-11-20T14:33:13Z"
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001",
+      "library": "org.springframework.ldap:spring-ldap-test",
+      "base": "2.4.4",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "first_seen": "2026-11-20T14:33:13Z"
+    },
+    {
       "coordinate": "petite-vue-i18n@11.3.3-osera-00001",
       "library": "petite-vue-i18n",
       "base": "11.3.2",
