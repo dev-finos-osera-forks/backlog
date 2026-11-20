@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-20T20:58:47Z. Written by the line manager reconciler.
+Generated 2026-11-20T21:05:47Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -54,7 +54,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
 | lodash-4.17.x | npm | `lodash@4.17.23` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| lodash-4.18.x | npm | `lodash@4.18.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lodash-4.18.x | npm | `lodash@4.18.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pacote-11.2.x | npm | `pacote@11.2.7` | not fixed | 21 | 0 | 0% | 0 | 0 | 21 | 0 |
 | requests-2.34.x | pypi | `requests==2.34.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
