@@ -3018,6 +3018,28 @@
       "first_seen": "2026-11-20T14:33:13Z"
     },
     {
+      "coordinate": "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00001",
+      "library": "org.springframework.ws:spring-ws-support",
+      "base": "3.1.8",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "first_seen": "2026-11-20T14:48:47Z"
+    },
+    {
+      "coordinate": "org.springframework.ws:spring-ws-test@3.1.8.1-osera-00001",
+      "library": "org.springframework.ws:spring-ws-test",
+      "base": "3.1.8",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws-test@3.1.8.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "first_seen": "2026-11-20T14:48:47Z"
+    },
+    {
       "coordinate": "petite-vue-i18n@11.3.3-osera-00001",
       "library": "petite-vue-i18n",
       "base": "11.3.2",
