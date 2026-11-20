@@ -3018,6 +3018,17 @@
       "first_seen": "2026-11-20T14:33:13Z"
     },
     {
+      "coordinate": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
+      "library": "org.springframework.ws:spring-ws-security",
+      "base": "3.1.8",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "first_seen": "2026-11-20T14:50:21Z"
+    },
+    {
       "coordinate": "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00001",
       "library": "org.springframework.ws:spring-ws-support",
       "base": "3.1.8",
