@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-20T21:49:47Z. Written by the line manager reconciler.
+Generated 2026-11-20T21:58:47Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -23,7 +23,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | in progress | 9 | 1 | 11% | 0 | 0 | 8 | 0 |
+| snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | in progress | 9 | 1 | 11% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | in progress | 9 | 1 | 11% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -47,12 +47,12 @@ The latest patch view: every library at the latest upstream patch release, the v
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
+| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | commons-collections-3.2.x | maven | `commons-collections:commons-collections@3.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.13.x | maven | `org.apache.commons:commons-text@1.13.1` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
+| jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lodash-4.17.x | npm | `lodash@4.17.23` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | lodash-4.18.x | npm | `lodash@4.18.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pacote-11.2.x | npm | `pacote@11.2.7` | not fixed | 21 | 0 | 0% | 0 | 0 | 21 | 0 |
