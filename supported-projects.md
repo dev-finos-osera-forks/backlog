@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-20T21:15:47Z. Written by the line manager reconciler.
+Generated 2026-11-20T21:16:47Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -13,7 +13,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 13 | 23% | 12 | 4 | 39 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
-| axis-1.4.x | maven | `org.apache.axis:axis@1.4` | - | 0 | 0 | - | 2 | 0 | 0 | 0 |
+| axis-1.4.x | maven | `org.apache.axis:axis@1.4` | not fixed | 3 | 0 | 0% | 2 | 0 | 3 | 0 |
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
@@ -55,7 +55,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
 | lodash-4.17.x | npm | `lodash@4.17.23` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | lodash-4.18.x | npm | `lodash@4.18.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pacote-11.2.x | npm | `pacote@11.2.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pacote-11.2.x | npm | `pacote@11.2.7` | not fixed | 21 | 0 | 0% | 0 | 0 | 21 | 0 |
 | requests-2.34.x | pypi | `requests==2.34.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-2.2.x | maven | `org.yaml:snakeyaml@2.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | spring-core-5.3.x | maven | `org.springframework:spring-core@5.3.39` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
