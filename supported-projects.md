@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-20T21:16:47Z. Written by the line manager reconciler.
+Generated 2026-11-20T21:18:47Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -41,13 +41,13 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | - | 0 | 0 | - | 4 | 0 | 0 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | - | 0 | 0 | - | 4 | 0 | 0 | 0 |
-| mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
+| mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
-| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
+| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | commons-collections-3.2.x | maven | `commons-collections:commons-collections@3.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.13.x | maven | `org.apache.commons:commons-text@1.13.1` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
