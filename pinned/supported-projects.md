@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-21T01:02:47Z. Written by the line manager reconciler.
+Generated 2026-11-21T01:10:47Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -20,11 +20,11 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | not fixed | 3 | 0 | 0% | 1 | 0 | 3 | 0 |
-| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | not fixed | 3 | 0 | 0% | 1 | 0 | 3 | 0 |
+| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -34,7 +34,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
-| c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
+| c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | - | 0 | 0 | - | 10 | 0 | 0 | 0 |
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 8 | 0 | 0% | 1 | 0 | 8 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
