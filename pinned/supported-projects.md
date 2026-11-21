@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-21T01:20:47Z. Written by the line manager reconciler.
+Generated 2026-11-21T01:21:47Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -49,7 +49,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| commons-collections-3.2.x | maven | `commons-collections:commons-collections@3.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| commons-collections-3.2.x | maven | `commons-collections:commons-collections@3.2.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.13.x | maven | `org.apache.commons:commons-text@1.13.1` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | commons-text-1.15.x | maven | `org.apache.commons:commons-text@1.15.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jsonwebtoken-8.5.x | npm | `jsonwebtoken@8.5.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
