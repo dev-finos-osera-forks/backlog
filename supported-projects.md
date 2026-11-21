@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-21T01:00:47Z. Written by the line manager reconciler.
+Generated 2026-11-21T01:01:47Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -17,7 +17,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
@@ -33,7 +33,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
-| jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 15 | 0 | 0% | 1 | 0 | 15 | 0 |
+| jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | - | 0 | 0 | - | 10 | 0 | 0 | 0 |
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
