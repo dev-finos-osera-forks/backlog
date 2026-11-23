@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T06:11:50Z",
-  "feed_version": 35,
+  "generated_at": "2026-11-23T06:16:48Z",
+  "feed_version": 36,
   "sets": [
     {
       "set": "dev-finos-osera-forks/patch-angular.js@v1.8.4-osera-00001",
@@ -60,13 +60,8 @@
         "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00001",
         "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-11-23T06:11:50Z",
-      "reasons": [
-        {
-          "why": "line declaration not read: reading .osera/line.yaml of dev-finos-osera-forks/patch-httpcomponents-core at v5.3.6.1-osera-00001: Get \"https://raw.githubusercontent.com/dev-finos-osera-forks/patch-httpcomponents-core/v5.3.6.1-osera-00001/.osera/line.yaml\": read tcp 10.0.21.111:57614-\u003e185.199.111.133:443: read: connection reset by peer"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "dev-finos-osera-forks/patch-intlify/core-base@v11.3.3-osera-00001",
@@ -494,10 +489,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00002"
       ],
       "state": "held",
-      "held_since": "2026-11-23T06:11:50Z",
+      "held_since": "2026-11-23T06:16:48Z",
       "reasons": [
         {
-          "why": "line declaration not read: reading .osera/line.yaml of dev-finos-osera-forks/patch-jackson-bom at v2.13.5.1-osera-00002: Get \"https://raw.githubusercontent.com/dev-finos-osera-forks/patch-jackson-bom/v2.13.5.1-osera-00002/.osera/line.yaml\": read tcp 10.0.21.111:38470-\u003e185.199.108.133:443: read: connection reset by peer"
+          "why": "line declaration not read: dev-finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.13.5.1-osera-00002, the release tag of the artifacts the gate placed with its declaration at patch/2.13.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -573,10 +568,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00004"
       ],
       "state": "held",
-      "held_since": "2026-11-23T06:11:50Z",
+      "held_since": "2026-11-23T06:16:48Z",
       "reasons": [
         {
-          "why": "line declaration not read: reading .osera/line.yaml of dev-finos-osera-forks/patch-jackson-bom at v2.13.5.1-osera-00004: Get \"https://raw.githubusercontent.com/dev-finos-osera-forks/patch-jackson-bom/v2.13.5.1-osera-00004/.osera/line.yaml\": read tcp 10.0.21.111:49496-\u003e185.199.109.133:443: read: connection reset by peer"
+          "why": "line declaration not read: dev-finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.13.5.1-osera-00004, the release tag of the artifacts the gate placed with its declaration at patch/2.13.x, so the release of the line they belong to is not known"
         }
       ]
     },
