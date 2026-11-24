@@ -1,6 +1,210 @@
 {
   "artifacts": [
     {
+      "coordinate": "@intlify/core-base@11.3.3-osera-00001",
+      "library": "@intlify/core-base",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/core-base@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/core-base@11.3.3-osera-00002",
+      "library": "@intlify/core-base",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/core-base@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/core@11.3.3-osera-00001",
+      "library": "@intlify/core",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/core@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/core@11.3.3-osera-00002",
+      "library": "@intlify/core",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/core@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/devtools-types@11.3.3-osera-00001",
+      "library": "@intlify/devtools-types",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/devtools-types@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/devtools-types@11.3.3-osera-00002",
+      "library": "@intlify/devtools-types",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/devtools-types@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/message-compiler@11.3.3-osera-00001",
+      "library": "@intlify/message-compiler",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/message-compiler@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/message-compiler@11.3.3-osera-00002",
+      "library": "@intlify/message-compiler",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/message-compiler@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/shared@11.3.3-osera-00001",
+      "library": "@intlify/shared",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/shared@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/shared@11.3.3-osera-00002",
+      "library": "@intlify/shared",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/shared@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/vue-i18n-core@11.3.3-osera-00001",
+      "library": "@intlify/vue-i18n-core",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/vue-i18n-core@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
+      "coordinate": "@intlify/vue-i18n-core@11.3.3-osera-00002",
+      "library": "@intlify/vue-i18n-core",
+      "base": "11.3.2",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "jsonwebtoken-8.5.x",
+        "lodash-4.17.x",
+        "lodash-4.18.x",
+        "pacote-11.2.x",
+        "requests-2.34.x"
+      ],
+      "words": "@intlify/vue-i18n-core@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
+      "first_seen": "2026-11-24T10:15:14Z"
+    },
+    {
       "coordinate": "angular-animate@1.8.4-osera-00001",
       "library": "angular-animate",
       "base": "1.8.3",
@@ -2592,210 +2796,6 @@
       ],
       "words": "glob-parent@3.1.1-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
       "first_seen": "2026-11-09T15:07:27Z"
-    },
-    {
-      "coordinate": "intlify/core-base@11.3.3-osera-00001",
-      "library": "intlify/core-base",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/core-base@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T12:51:43Z"
-    },
-    {
-      "coordinate": "intlify/core-base@11.3.3-osera-00002",
-      "library": "intlify/core-base",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/core-base@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T13:31:47Z"
-    },
-    {
-      "coordinate": "intlify/core@11.3.3-osera-00001",
-      "library": "intlify/core",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/core@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T13:01:43Z"
-    },
-    {
-      "coordinate": "intlify/core@11.3.3-osera-00002",
-      "library": "intlify/core",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/core@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T13:41:43Z"
-    },
-    {
-      "coordinate": "intlify/devtools-types@11.3.3-osera-00001",
-      "library": "intlify/devtools-types",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/devtools-types@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T12:46:43Z"
-    },
-    {
-      "coordinate": "intlify/devtools-types@11.3.3-osera-00002",
-      "library": "intlify/devtools-types",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/devtools-types@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T13:26:06Z"
-    },
-    {
-      "coordinate": "intlify/message-compiler@11.3.3-osera-00001",
-      "library": "intlify/message-compiler",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/message-compiler@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T12:41:43Z"
-    },
-    {
-      "coordinate": "intlify/message-compiler@11.3.3-osera-00002",
-      "library": "intlify/message-compiler",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/message-compiler@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T13:24:15Z"
-    },
-    {
-      "coordinate": "intlify/shared@11.3.3-osera-00001",
-      "library": "intlify/shared",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/shared@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T12:36:43Z"
-    },
-    {
-      "coordinate": "intlify/shared@11.3.3-osera-00002",
-      "library": "intlify/shared",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/shared@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T13:16:43Z"
-    },
-    {
-      "coordinate": "intlify/vue-i18n-core@11.3.3-osera-00001",
-      "library": "intlify/vue-i18n-core",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/vue-i18n-core@11.3.3-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T13:06:43Z"
-    },
-    {
-      "coordinate": "intlify/vue-i18n-core@11.3.3-osera-00002",
-      "library": "intlify/vue-i18n-core",
-      "base": "11.3.2",
-      "reason": "not listed by any line",
-      "lines": [],
-      "same_group_on": [
-        "crypto-js-4.1.x",
-        "jsonwebtoken-8.5.x",
-        "lodash-4.17.x",
-        "lodash-4.18.x",
-        "pacote-11.2.x",
-        "requests-2.34.x"
-      ],
-      "words": "intlify/vue-i18n-core@11.3.3-osera-00002: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, jsonwebtoken-8.5.x, lodash-4.17.x, lodash-4.18.x, pacote-11.2.x, requests-2.34.x, so the graph there may have a hole",
-      "first_seen": "2026-11-10T13:46:43Z"
     },
     {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
