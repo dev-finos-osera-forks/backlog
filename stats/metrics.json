@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-24T09:16:49Z",
+ "as_of": "2026-11-24T10:25:13Z",
  "environment": "dev",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 148,
-  "library_versions": 148,
-  "releases": 116,
+  "libraries": 160,
+  "library_versions": 160,
+  "releases": 115,
   "forks": 28,
-  "artifacts": 625,
-  "cves": 32,
-  "cve_statements": 196,
-  "release_sets": 116,
+  "artifacts": 635,
+  "cves": 31,
+  "cve_statements": 191,
+  "release_sets": 115,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -55,10 +55,6 @@
    "count": 3
   },
   {
-   "date": "2026-10-27",
-   "count": 1
-  },
-  {
    "date": "2026-10-29",
    "count": 5
   },
@@ -75,12 +71,8 @@
    "count": 5
   },
   {
-   "date": "2026-11-09",
-   "count": 1
-  },
-  {
-   "date": "2026-11-10",
-   "count": 4
+   "date": "2026-11-24",
+   "count": 16
   }
  ],
  "top_cves": [
@@ -205,14 +197,6 @@
    "cvss_version": "3.1"
   },
   {
-   "id": "CVE-2026-118257",
-   "summary": "Vue I18n is the internationalization plugin for Vue.js.",
-   "fixed_entries": 4,
-   "libraries": 2,
-   "cvss": 7.2,
-   "cvss_version": "3.1"
-  },
-  {
    "id": "CVE-2026-47838",
    "summary": "Spring Security Vulnerable to Unauthorized User Impersonation when Using X.509 Client Certificates",
    "fixed_entries": 4,
@@ -243,9 +227,115 @@
    "libraries": 1,
    "cvss": 9.8,
    "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2025-22228",
+   "summary": "Spring Security Does Not Enforce Password Length",
+   "fixed_entries": 2,
+   "libraries": 1,
+   "cvss": 7.4,
+   "cvss_version": "3.1"
   }
  ],
  "libraries": [
+  {
+   "library": "angular",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "angular-animate",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-aria",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-cookies",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-i18n",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-loader",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-message-format",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-messages",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-mocks",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-parse-ext",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-resource",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-route",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-sanitize",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "angular-touch",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "1.8.4-osera-00001",
+   "fixed_entries": 0
+  },
   {
    "library": "com.fasterxml.jackson.core:jackson-annotations",
    "ecosystem": "Java",
@@ -1267,20 +1357,6 @@
    "releases": 1,
    "latest": "1.33.1-osera-00001",
    "fixed_entries": 1
-  },
-  {
-   "library": "petite-vue-i18n",
-   "ecosystem": "JavaScript",
-   "releases": 2,
-   "latest": "11.3.3-osera-00002",
-   "fixed_entries": 3
-  },
-  {
-   "library": "vue-i18n",
-   "ecosystem": "JavaScript",
-   "releases": 2,
-   "latest": "11.3.3-osera-00002",
-   "fixed_entries": 3
   }
  ],
  "new_cves": [],

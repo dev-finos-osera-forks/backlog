@@ -11,16 +11,22 @@
   "CVE-2026-118257": {
    "value": 7.2,
    "version": "3.1"
+  },
+  "CVE-2026-11998": {
+   "value": 7.6,
+   "version": "3.1"
   }
  },
  "summaries": {
   "CVE-2020-28469": "This affects the package glob-parent before 5.1.2.",
   "CVE-2026-118256": "Vue I18n is the internationalization plugin for Vue.js.",
-  "CVE-2026-118257": "Vue I18n is the internationalization plugin for Vue.js."
+  "CVE-2026-118257": "Vue I18n is the internationalization plugin for Vue.js.",
+  "CVE-2026-11998": "A flaw in AngularJS' Strict Contextual Escaping (SCE) logic allows bypassing certain SCE policies for resource URLs and can lead to arbitrary JavaScript execution within the context of the victim's browser session."
  },
  "checked": [
   "CVE-2020-28469",
   "CVE-2026-118256",
-  "CVE-2026-118257"
+  "CVE-2026-118257",
+  "CVE-2026-11998"
  ]
 }
