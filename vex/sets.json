@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:25:13Z",
+  "generated_at": "2026-11-24T14:39:03Z",
   "feed_version": 37,
   "sets": [
     {
@@ -2142,31 +2142,11 @@
         "vue-i18n@11.3.3-osera-00001"
       ],
       "state": "held",
-      "held_since": "2026-11-24T10:25:13Z",
+      "held_since": "2026-11-24T14:39:03Z",
       "reasons": [
         {
           "member": "@intlify/core-base@11.3.3-osera-00001",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:core-base@11.3.3-osera-00001, not @intlify/core-base@11.3.3-osera-00001)"
-        },
-        {
-          "member": "@intlify/core@11.3.3-osera-00001",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:core@11.3.3-osera-00001, not @intlify/core@11.3.3-osera-00001)"
-        },
-        {
-          "member": "@intlify/devtools-types@11.3.3-osera-00001",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:devtools-types@11.3.3-osera-00001, not @intlify/devtools-types@11.3.3-osera-00001)"
-        },
-        {
-          "member": "@intlify/message-compiler@11.3.3-osera-00001",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:message-compiler@11.3.3-osera-00001, not @intlify/message-compiler@11.3.3-osera-00001)"
-        },
-        {
-          "member": "@intlify/shared@11.3.3-osera-00001",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:shared@11.3.3-osera-00001, not @intlify/shared@11.3.3-osera-00001)"
-        },
-        {
-          "member": "@intlify/vue-i18n-core@11.3.3-osera-00001",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:vue-i18n-core@11.3.3-osera-00001, not @intlify/vue-i18n-core@11.3.3-osera-00001)"
+          "why": "release record not read: the verdict of @intlify/core-base@11.3.3-osera-00001 speaks for npm/@intlify:core-base@11.3.3-osera-00001"
         }
       ]
     },
@@ -2184,31 +2164,11 @@
         "vue-i18n@11.3.3-osera-00002"
       ],
       "state": "held",
-      "held_since": "2026-11-24T10:25:13Z",
+      "held_since": "2026-11-24T14:39:03Z",
       "reasons": [
         {
           "member": "@intlify/core-base@11.3.3-osera-00002",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:core-base@11.3.3-osera-00002, not @intlify/core-base@11.3.3-osera-00002)"
-        },
-        {
-          "member": "@intlify/core@11.3.3-osera-00002",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:core@11.3.3-osera-00002, not @intlify/core@11.3.3-osera-00002)"
-        },
-        {
-          "member": "@intlify/devtools-types@11.3.3-osera-00002",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:devtools-types@11.3.3-osera-00002, not @intlify/devtools-types@11.3.3-osera-00002)"
-        },
-        {
-          "member": "@intlify/message-compiler@11.3.3-osera-00002",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:message-compiler@11.3.3-osera-00002, not @intlify/message-compiler@11.3.3-osera-00002)"
-        },
-        {
-          "member": "@intlify/shared@11.3.3-osera-00002",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:shared@11.3.3-osera-00002, not @intlify/shared@11.3.3-osera-00002)"
-        },
-        {
-          "member": "@intlify/vue-i18n-core@11.3.3-osera-00002",
-          "why": "evidence chain not complete: document: failed (the vulnerability document is about @intlify:vue-i18n-core@11.3.3-osera-00002, not @intlify/vue-i18n-core@11.3.3-osera-00002)"
+          "why": "release record not read: the verdict of @intlify/core-base@11.3.3-osera-00002 speaks for npm/@intlify:core-base@11.3.3-osera-00002"
         }
       ]
     }
