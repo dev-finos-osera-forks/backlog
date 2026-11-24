@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-08T10:22:10Z",
-  "last_updated": "2026-11-23T06:16:48Z",
-  "version": 36,
-  "tooling": "osera-feed a025c42305dc416f81035396d595af704e0d070f",
+  "last_updated": "2026-11-24T10:25:13Z",
+  "version": 37,
+  "tooling": "osera-feed 6b5c5a98bae51c1bb566baeac647ce7cdda0b664",
   "statements": [
     {
       "vulnerability": {
@@ -2973,6 +2973,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-11998",
+        "aliases": [
+          "GHSA-7x27-g8rg-x87w"
+        ]
+      },
+      "timestamp": "2026-11-10T17:06:31Z",
+      "products": [
+        {
+          "@id": "pkg:npm/angular@1.8.4-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2023-46233",
         "aliases": [
           "GHSA-xwcq-pm8m-c4vf"
@@ -2998,102 +3014,6 @@
       "products": [
         {
           "@id": "pkg:npm/glob-parent@3.1.1-osera-00001"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-118257",
-        "aliases": [
-          "GHSA-83rm-6c8r-g728"
-        ]
-      },
-      "timestamp": "2026-11-10T12:55:59Z",
-      "products": [
-        {
-          "@id": "pkg:npm/petite-vue-i18n@11.3.3-osera-00001"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-118256",
-        "aliases": [
-          "GHSA-8rc2-428q-7ww3"
-        ]
-      },
-      "timestamp": "2026-11-10T13:35:56Z",
-      "products": [
-        {
-          "@id": "pkg:npm/petite-vue-i18n@11.3.3-osera-00002"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-118257",
-        "aliases": [
-          "GHSA-83rm-6c8r-g728"
-        ]
-      },
-      "timestamp": "2026-11-10T13:35:56Z",
-      "products": [
-        {
-          "@id": "pkg:npm/petite-vue-i18n@11.3.3-osera-00002"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-118257",
-        "aliases": [
-          "GHSA-83rm-6c8r-g728"
-        ]
-      },
-      "timestamp": "2026-11-10T13:10:57Z",
-      "products": [
-        {
-          "@id": "pkg:npm/vue-i18n@11.3.3-osera-00001"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-118256",
-        "aliases": [
-          "GHSA-8rc2-428q-7ww3"
-        ]
-      },
-      "timestamp": "2026-11-10T13:51:01Z",
-      "products": [
-        {
-          "@id": "pkg:npm/vue-i18n@11.3.3-osera-00002"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-118257",
-        "aliases": [
-          "GHSA-83rm-6c8r-g728"
-        ]
-      },
-      "timestamp": "2026-11-10T13:51:01Z",
-      "products": [
-        {
-          "@id": "pkg:npm/vue-i18n@11.3.3-osera-00002"
         }
       ],
       "status": "fixed",
