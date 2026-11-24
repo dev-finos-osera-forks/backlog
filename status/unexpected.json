@@ -2974,6 +2974,17 @@
       "first_seen": "2026-11-05T08:30:46Z"
     },
     {
+      "coordinate": "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00001",
+      "library": "org.springframework.graphql:spring-graphql-test",
+      "base": "1.0.6",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.0.6, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.0.6, not in its dependency graph",
+      "first_seen": "2026-11-24T09:13:12Z"
+    },
+    {
       "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
       "library": "org.springframework.ldap:spring-ldap-core-tiger",
       "base": "2.4.4",
