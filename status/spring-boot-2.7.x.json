@@ -1,9 +1,9 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.20.11",
-  "as_of": "2026-11-20T14:48:47Z",
+  "as_of": "2026-11-26T16:41:40Z",
   "status": "in progress",
-  "chain": "broken: 1 artifact",
+  "chain": "broken: 2 artifacts",
   "in_scope": 195,
   "fixed": [
     {
@@ -125,6 +125,14 @@
       "patch": "00002",
       "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
       "at": "2026-10-08T17:11:40Z"
+    },
+    {
+      "cve": "CVE-2026-41700",
+      "library": "org.springframework.graphql:spring-graphql",
+      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00001",
+      "at": "2026-11-26T16:41:40Z"
     },
     {
       "cve": "CVE-2026-41706",
@@ -275,10 +283,6 @@
     {
       "cve": "CVE-2026-34480",
       "library": "org.apache.logging.log4j:log4j-core"
-    },
-    {
-      "cve": "CVE-2026-41700",
-      "library": "org.springframework.graphql:spring-graphql"
     },
     {
       "cve": "CVE-2026-41716",
@@ -925,6 +929,7 @@
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
+    "CVE-2026-41700 on spring-graphql 1.0.6 is patched, the evidence chain is broken: the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev",
     "CVE-2026-41720 on spring-ldap-core 2.4.4 is patched, the evidence chain is broken: the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev"
   ],
   "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.20.2"
