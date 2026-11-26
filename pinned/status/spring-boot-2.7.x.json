@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.26",
-  "as_of": "2026-11-26T16:42:51Z",
+  "book_version": "v2026.11.26.2",
+  "as_of": "2026-11-26T16:48:46Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 336,
@@ -1589,5 +1589,5 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "CVE-2026-41700 on spring-graphql 1.0.6 is patched, the evidence chain is broken: the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.20.2"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.26"
 }
