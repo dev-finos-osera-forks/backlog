@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.26",
-  "as_of": "2026-11-26T16:42:51Z",
+  "as_of": "2026-11-26T16:47:40Z",
   "status": "in progress",
   "chain": "broken: 2 artifacts",
-  "in_scope": 195,
+  "in_scope": 196,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -543,6 +543,10 @@
       "library": "ch.qos.logback:logback-core"
     },
     {
+      "cve": "CVE-2026-133325",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-19032",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
@@ -932,5 +936,5 @@
     "CVE-2026-41700 on spring-graphql 1.0.6 is patched, the evidence chain is broken: the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev",
     "CVE-2026-41720 on spring-ldap-core 2.4.4 is patched, the evidence chain is broken: the jar's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, the vulnerability document's .asc does not verify against key A0AB853A26E4B5EE8C2CAA1C670DB752F6C7F198 (producer cp-osera-dev): openpgp: signature made by unknown entity, uploaded by moderne-deploy, the registry says cp-osera-dev-deploy for producer cp-osera-dev"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.20.2"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.26"
 }
