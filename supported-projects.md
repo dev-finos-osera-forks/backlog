@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T14:33:01Z. Written by the line manager reconciler.
+Generated 2026-11-27T15:11:01Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -10,7 +10,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 |---|---|---|---|---|---|---|---|---|---|---|
 | spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 196 | 33 | 17% | 100 | 9 | 154 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 21 | 45% | 0 | 0 | 26 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | - | 0 | 0 | - | 12 | 0 | 0 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 13 | 23% | 12 | 4 | 39 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | not fixed | 3 | 0 | 0% | 2 | 0 | 3 | 0 |
@@ -39,7 +39,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 8 | 0 | 0% | 1 | 0 | 8 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | - | 0 | 0 | - | 4 | 0 | 0 | 0 |
+| commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | not fixed | 9 | 0 | 0% | 4 | 0 | 9 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | not fixed | 4 | 0 | 0% | 4 | 0 | 4 | 0 |
 | mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
