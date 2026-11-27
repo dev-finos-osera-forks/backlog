@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.27.28",
-  "as_of": "2026-11-27T10:58:36Z",
+  "as_of": "2026-11-27T11:07:36Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
-  "in_scope": 336,
+  "in_scope": 369,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -507,12 +507,20 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2024-52316",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2024-52979",
       "library": "org.elasticsearch:elasticsearch"
     },
     {
       "cve": "CVE-2024-52981",
       "library": "org.elasticsearch:elasticsearch"
+    },
+    {
+      "cve": "CVE-2024-54677",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2024-56337",
@@ -719,12 +727,20 @@
       "library": "org.eclipse.jetty:jetty-security"
     },
     {
+      "cve": "CVE-2026-101296",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-102554",
       "library": "com.google.guava:guava"
     },
     {
       "cve": "CVE-2026-10532",
       "library": "ch.qos.logback:logback-core"
+    },
+    {
+      "cve": "CVE-2026-106012",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-106121",
@@ -761,6 +777,26 @@
     {
       "cve": "CVE-2026-113730",
       "library": "ognl:ognl"
+    },
+    {
+      "cve": "CVE-2026-116561",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-116600",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
+    },
+    {
+      "cve": "CVE-2026-116830",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-118233",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-118436",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-1225",
@@ -831,6 +867,10 @@
       "library": "org.assertj:assertj-core"
     },
     {
+      "cve": "CVE-2026-24733",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-24734",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -859,8 +899,20 @@
       "library": "io.undertow:undertow-core"
     },
     {
+      "cve": "CVE-2026-29145",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-29146",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-3260",
       "library": "io.undertow:undertow-core"
+    },
+    {
+      "cve": "CVE-2026-32990",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-33227",
@@ -1087,6 +1139,10 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2026-42498",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
+    },
+    {
       "cve": "CVE-2026-42578",
       "library": "io.netty:netty-handler-proxy"
     },
@@ -1211,6 +1267,10 @@
       "library": "io.netty:netty-codec-http"
     },
     {
+      "cve": "CVE-2026-50229",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-50560",
       "library": "io.netty:netty-codec-http2"
     },
@@ -1220,6 +1280,10 @@
     },
     {
       "cve": "CVE-2026-53404",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-53434",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
@@ -1277,6 +1341,10 @@
     {
       "cve": "CVE-2026-5588",
       "library": "org.bouncycastle:bcpkix-jdk15on"
+    },
+    {
+      "cve": "CVE-2026-55955",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-55956",
@@ -1367,7 +1435,19 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2026-65183",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-65905",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-65927",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-66422",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
@@ -1391,6 +1471,14 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2026-68569",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-68763",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-69219",
       "library": "com.rabbitmq:amqp-client"
     },
@@ -1399,8 +1487,16 @@
       "library": "com.rabbitmq:amqp-client"
     },
     {
+      "cve": "CVE-2026-73180",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-73508",
       "library": "io.netty:netty-codec-dns"
+    },
+    {
+      "cve": "CVE-2026-73581",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-75516",
@@ -1415,12 +1511,44 @@
       "library": "io.netty:netty-handler"
     },
     {
+      "cve": "CVE-2026-75973",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-76183",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
+    },
+    {
       "cve": "CVE-2026-77310",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
       "cve": "CVE-2026-77310",
       "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-77756",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-77762",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-77791",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
+    },
+    {
+      "cve": "CVE-2026-78383",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-79677",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
+    },
+    {
+      "cve": "CVE-2026-80353",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-83557",
@@ -1433,6 +1561,10 @@
     {
       "cve": "CVE-2026-84939",
       "library": "org.freemarker:freemarker"
+    },
+    {
+      "cve": "CVE-2026-87022",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
     },
     {
       "cve": "CVE-2026-89425",
